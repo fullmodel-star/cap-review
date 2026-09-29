@@ -1,0 +1,4098 @@
+{
+  "subject": "math",
+  "total": 255,
+  "by_year": {
+    "105": 25,
+    "106": 26,
+    "107": 26,
+    "108": 26,
+    "109": 26,
+    "110": 26,
+    "111": 25,
+    "112": 25,
+    "113": 25,
+    "114": 25
+  },
+  "questions": [
+    {
+      "id": "105_math_1",
+      "year": "105",
+      "subject": "math",
+      "q_no": "1",
+      "question_text": "x=-3,y=1為下列哪一個二元一次方程式的解？",
+      "options": {
+        "A": "x+2y=-1",
+        "B": "x-2y=1",
+        "C": "2x+3y=6",
+        "D": "2x-3y=-6"
+      },
+      "answer": "A",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "105_math_2",
+      "year": "105",
+      "subject": "math",
+      "q_no": "2",
+      "question_text": "算式 [-5-(-11)]÷(3/2×4) 之值為何？",
+      "options": {
+        "A": "1",
+        "B": "16",
+        "C": "-8/3",
+        "D": "-128/3"
+      },
+      "answer": "A",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "105_math_3",
+      "year": "105",
+      "subject": "math",
+      "q_no": "3",
+      "question_text": "計算 (2x+1)(x-1)-(x^2+x-2) 的結果，與下列哪一個式子相同？",
+      "options": {
+        "A": "x^2-2x+1",
+        "B": "x^2-2x-3",
+        "C": "x^2+x-3",
+        "D": "x^2-3"
+      },
+      "answer": "A",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "105_math_4",
+      "year": "105",
+      "subject": "math",
+      "q_no": "4",
+      "question_text": "如圖（一），已知扇形AOB的半徑為10公分，圓心角為54°，則此扇形面積為多少平方公分？",
+      "options": {
+        "A": "100π",
+        "B": "20π",
+        "C": "15π",
+        "D": "5π"
+      },
+      "answer": "C",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "105_math_5",
+      "year": "105",
+      "subject": "math",
+      "q_no": "5",
+      "question_text": "圖（二）數線上的A、B、C三點所表示的數分別為a、b、c。若|a-b|=3，|b-c|=5，且原點O與A、B的距離分別為4、1，則關於O的位置，下列敘述何者正確？",
+      "options": {
+        "A": "在A的左邊",
+        "B": "介於A、B之間",
+        "C": "介於B、C之間",
+        "D": "在C的右邊"
+      },
+      "answer": "C",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "105_math_6",
+      "year": "105",
+      "subject": "math",
+      "q_no": "6",
+      "question_text": "多項式 77x^2-13x-30 可因式分解成 (7x+a)(bx+c)，其中a、b、c均為整數，求a+b+c之值為何？",
+      "options": {
+        "A": "0",
+        "B": "10",
+        "C": "12",
+        "D": "22"
+      },
+      "answer": "C",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "105_math_7",
+      "year": "105",
+      "subject": "math",
+      "q_no": "7",
+      "question_text": "圖（三）、圖（四）分別為甲、乙兩班學生參加投籃測驗的投進球數長條圖。若甲、乙兩班學生的投進球數的眾數分別為a、b；中位數分別為c、d，則下列關於a、b、c、d的大小關係，何者正確？",
+      "options": {
+        "A": "a>b，c>d",
+        "B": "a>b，c<d",
+        "C": "a<b，c>d",
+        "D": "a<b，c<d"
+      },
+      "answer": "A",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "105_math_8",
+      "year": "105",
+      "subject": "math",
+      "q_no": "8",
+      "question_text": "如圖（五），有一平行四邊形ABCD與一正方形CEFG，其中E點在AD上。若∠ECD=35°，∠AEF=15°，則∠B的度數為何？",
+      "options": {
+        "A": "50",
+        "B": "55",
+        "C": "70",
+        "D": "75"
+      },
+      "answer": "C",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "105_math_9",
+      "year": "105",
+      "subject": "math",
+      "q_no": "9",
+      "question_text": "小昱和阿帆均從同一本書的第1頁開始，逐頁依順序在每一頁上寫一個數。小昱在第1頁寫1，且之後每一頁寫的數均為他在前一頁寫的數加2；阿帆在第1頁寫1，且之後每一頁寫的數均為他在前一頁寫的數加7。若小昱在某頁寫的數為101，則阿帆在該頁寫的數為何？",
+      "options": {
+        "A": "350",
+        "B": "351",
+        "C": "356",
+        "D": "358"
+      },
+      "answer": "B",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "105_math_10",
+      "year": "105",
+      "subject": "math",
+      "q_no": "10",
+      "question_text": "甲箱內有4顆球，顏色分別為紅、黃、綠、藍；乙箱內有3顆球，顏色分別為紅、黃、黑。小賴打算同時從甲、乙兩個箱子中各抽出一顆球，若同一箱中每球被抽出的機會相等，則小賴抽出的兩顆球顏色相同的機率為何？",
+      "options": {
+        "A": "1/3",
+        "B": "1/6",
+        "C": "2/7",
+        "D": "7/12"
+      },
+      "answer": "B",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "105_math_11",
+      "year": "105",
+      "subject": "math",
+      "q_no": "11",
+      "question_text": "坐標平面上有一個二元一次方程式的圖形，此圖形通過(-3,0)、(0,-5)兩點。判斷此圖形與下列哪一個方程式的圖形的交點在第三象限？",
+      "options": {
+        "A": "x-4=0",
+        "B": "x+4=0",
+        "C": "y-4=0",
+        "D": "y+4=0"
+      },
+      "answer": "D",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "105_math_12",
+      "year": "105",
+      "subject": "math",
+      "q_no": "12",
+      "question_text": "如圖（六），△ABC中，D、E兩點分別在AC、BC上，DE為BC的中垂線，BD為∠ADE的角平分線。若∠A=58°，則∠ABD的度數為何？",
+      "options": {
+        "A": "58",
+        "B": "59",
+        "C": "61",
+        "D": "62"
+      },
+      "answer": "D",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "105_math_13",
+      "year": "105",
+      "subject": "math",
+      "q_no": "13",
+      "question_text": "若一正方形的面積為20平方公分，周長為x公分，則x的值介於下列哪兩個整數之間？",
+      "options": {
+        "A": "16，17",
+        "B": "17，18",
+        "C": "18，19",
+        "D": "19，20"
+      },
+      "answer": "B",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "105_math_14",
+      "year": "105",
+      "subject": "math",
+      "q_no": "14",
+      "question_text": "如圖（七），圓O通過五邊形OABCD的四個頂點。若弧ABD=150°，∠A=65°，∠D=60°，則弧BC的度數為何？",
+      "options": {
+        "A": "25",
+        "B": "40",
+        "C": "50",
+        "D": "55"
+      },
+      "answer": "B",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "105_math_15",
+      "year": "105",
+      "subject": "math",
+      "q_no": "15",
+      "question_text": "圖（八）的六邊形是由甲、乙兩個長方形和丙、丁兩個等腰直角三角形所組成，其中甲、乙的面積和等於丙、丁的面積和。若丙的一股長為2，且丁的面積比丙的面積小，則丁的一股長為何？",
+      "options": {
+        "A": "1/2",
+        "B": "3/5",
+        "C": "2-√3",
+        "D": "4-2√3"
+      },
+      "answer": "D",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "105_math_16",
+      "year": "105",
+      "subject": "math",
+      "q_no": "16",
+      "question_text": "圖（九）的矩形ABCD中，E點在CD上，且AE<AC。若P、Q兩點分別在AD、AE上，AP:PD=4:1，AQ:QE=4:1，直線PQ交AC於R點，且Q、R兩點到CD的距離分別為q、r，則下列關係何者正確？",
+      "options": {
+        "A": "q<r，QE=RC",
+        "B": "q<r，QE<RC",
+        "C": "q=r，QE=RC",
+        "D": "q=r，QE<RC"
+      },
+      "answer": "D",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "105_math_17",
+      "year": "105",
+      "subject": "math",
+      "q_no": "17",
+      "question_text": "已知a、b、c為三正整數，且a、b的最大公因數為12，a、c的最大公因數為18。若a介於50與100之間，則下列敘述何者正確？",
+      "options": {
+        "A": "8是a的因數，8是b的因數",
+        "B": "8是a的因數，8不是b的因數",
+        "C": "8不是a的因數，8是c的因數",
+        "D": "8不是a的因數，8不是c的因數"
+      },
+      "answer": "B",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "105_math_18",
+      "year": "105",
+      "subject": "math",
+      "q_no": "18",
+      "question_text": "如圖（十），有一內部裝有水的直圓柱形水桶，桶高20公分；另有一直圓柱形的實心鐵柱，柱高30公分，直立放置於水桶底面上，水桶內的水面高度為12公分，且水桶與鐵柱的底面半徑比為2:1。今小賢將鐵柱移至水桶外部，過程中水桶內的水量未改變，若不計水桶厚度，則水桶內的水面高度變為多少公分？",
+      "options": {
+        "A": "4.5",
+        "B": "6",
+        "C": "8",
+        "D": "9"
+      },
+      "answer": "D",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "105_math_19",
+      "year": "105",
+      "subject": "math",
+      "q_no": "19",
+      "question_text": "表（一）為小潔打算在某電信公司購買一支MAT手機與搭配一個門號的兩種方案。此公司每個月收取通話費與月租費的方式如下：若通話費超過月租費，只收通話費；若通話費不超過月租費，只收月租費。若小潔每個月的通話費均為x元，x為400到600之間的整數，則在不考慮其他費用並使用兩年的情況下，x至少為多少才會使得選擇乙方案的總花費比甲方案便宜？（表一：甲方案 門號月租費400元、MAT手機價格15000元；乙方案 門號月租費600元、MAT手機價格13000元；注意事項：以上方案兩年內不可變更月租費）",
+      "options": {
+        "A": "500",
+        "B": "516",
+        "C": "517",
+        "D": "600"
+      },
+      "answer": "C",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "105_math_20",
+      "year": "105",
+      "subject": "math",
+      "q_no": "20",
+      "question_text": "如圖（十一），以矩形ABCD的A為圓心，AD長為半徑畫弧，交AB於F點；再以C為圓心，CD長為半徑畫弧，交AB於E點。若AD=5，CD=17/3，則EF的長度為何？",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "2/3",
+        "D": "7/3"
+      },
+      "answer": "A",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "105_math_21",
+      "year": "105",
+      "subject": "math",
+      "q_no": "21",
+      "question_text": "坐標平面上，某二次函數圖形的頂點為(2,-1)，此函數圖形與x軸相交於P、Q兩點，且PQ=6。若此函數圖形通過(1,a)、(3,b)、(-1,c)、(-3,d)四點，則a、b、c、d之值何者為正？",
+      "options": {
+        "A": "a",
+        "B": "b",
+        "C": "c",
+        "D": "d"
+      },
+      "answer": "D",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "105_math_22",
+      "year": "105",
+      "subject": "math",
+      "q_no": "22",
+      "question_text": "圖（十二）的矩形ABCD中，E為AB的中點，有一圓過C、D、E三點，且此圓分別與AD、BC相交於P、Q兩點。甲、乙兩人想找到此圓的圓心O，其作法如下：（甲）作∠DEC的角平分線L，作DE的中垂線，交L於O點，則O即為所求（乙）連接PC、QD，兩線段交於一點O，則O即為所求。對於甲、乙兩人的作法，下列判斷何者正確？",
+      "options": {
+        "A": "兩人皆正確",
+        "B": "兩人皆錯誤",
+        "C": "甲正確，乙錯誤",
+        "D": "甲錯誤，乙正確"
+      },
+      "answer": "A",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "105_math_23",
+      "year": "105",
+      "subject": "math",
+      "q_no": "23",
+      "question_text": "如圖（十三），正六邊形ABCDEF中，P、Q兩點分別為△ACF、△CEF的內心。若AF=2，則PQ的長度為何？",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "2√3-2",
+        "D": "4-2√3"
+      },
+      "answer": "C",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "105_math_24",
+      "year": "105",
+      "subject": "math",
+      "q_no": "24",
+      "question_text": "如圖（十四），OP為一條拉直的細線，A、B兩點在OP上，且OA:AP=1:3，OB:BP=3:5。若先固定B點，將OB摺向BP，使得OB重疊在BP上，如圖（十五），再從圖（十五）的A點及與A點重疊處一起剪開，使得細線分成三段，則此三段細線由小到大的長度比為何？",
+      "options": {
+        "A": "1:1:1",
+        "B": "1:1:2",
+        "C": "1:2:2",
+        "D": "1:2:5"
+      },
+      "answer": "B",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "105_math_25",
+      "year": "105",
+      "subject": "math",
+      "q_no": "25",
+      "question_text": "如圖（十六），矩形ABCD中，M、E、F三點在AD上，N是矩形兩對角線的交點。若AB=24，AD=32，MD=16，ED=8，FD=7，則下列哪一條直線是A、C兩點的對稱軸？",
+      "options": {
+        "A": "直線MN",
+        "B": "直線EN",
+        "C": "直線FN",
+        "D": "直線DN"
+      },
+      "answer": "C",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "106_math_1",
+      "year": "106",
+      "subject": "math",
+      "q_no": "1",
+      "question_text": "算式(−2)×|−5|−|−3|之值為何？",
+      "options": {
+        "A": "13",
+        "B": "7",
+        "C": "−13",
+        "D": "−7"
+      },
+      "answer": "C",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "106_math_2",
+      "year": "106",
+      "subject": "math",
+      "q_no": "2",
+      "question_text": "下列哪一個選項中的等式成立？",
+      "options": {
+        "A": "√(2²) = 2",
+        "B": "√(3³) = 3",
+        "C": "√(4⁴) = 4",
+        "D": "√(5⁵) = 5"
+      },
+      "answer": "A",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "106_math_3",
+      "year": "106",
+      "subject": "math",
+      "q_no": "3",
+      "question_text": "計算 6x·(3−2x) 的結果，與下列哪一個式子相同？",
+      "options": {
+        "A": "−12x²+18x",
+        "B": "−12x²+3",
+        "C": "16x",
+        "D": "6x"
+      },
+      "answer": "A",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "106_math_4",
+      "year": "106",
+      "subject": "math",
+      "q_no": "4",
+      "question_text": "若阿光以四種不同的方式連接正六邊形ABCDEF的兩條對角線，連接後的情形如下列選項中的圖形所示，則下列哪一個圖形不是線對稱圖形？",
+      "options": {
+        "A": "(圖)",
+        "B": "(圖)",
+        "C": "(圖)",
+        "D": "(圖)"
+      },
+      "answer": "D",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "106_math_5",
+      "year": "106",
+      "subject": "math",
+      "q_no": "5",
+      "question_text": "已知坐標平面上有兩直線相交於一點(2,a)，且兩直線的方程式分別為2x+3y=7、3x−2y=b，其中a、b為兩數。求a+b之值為何？",
+      "options": {
+        "A": "1",
+        "B": "−1",
+        "C": "5",
+        "D": "−5"
+      },
+      "answer": "C",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "106_math_6",
+      "year": "106",
+      "subject": "math",
+      "q_no": "6",
+      "question_text": "阿信、小怡兩人打算搭乘同一班次電車上學。若此班次電車共有5節車廂，且阿信從任意一節車廂上車的機會相等，小怡從任意一節車廂上車的機會相等，則兩人從同一節車廂上車的機率為何？",
+      "options": {
+        "A": "1/2",
+        "B": "1/5",
+        "C": "1/10",
+        "D": "1/25"
+      },
+      "answer": "B",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "106_math_7",
+      "year": "106",
+      "subject": "math",
+      "q_no": "7",
+      "question_text": "平面上有A、B、C三點，其中AB=3，BC=4，AC=5。若分別以A、B、C為圓心，半徑長為2畫圓，畫出圓A、圓B、圓C，則下列敘述何者正確？",
+      "options": {
+        "A": "圓A與圓C外切，圓B與圓C外切",
+        "B": "圓A與圓C外切，圓B與圓C外離",
+        "C": "圓A與圓C外離，圓B與圓C外切",
+        "D": "圓A與圓C外離，圓B與圓C外離"
+      },
+      "answer": "C",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "106_math_8",
+      "year": "106",
+      "subject": "math",
+      "q_no": "8",
+      "question_text": "下列選項中所表示的數，哪一個與252的最大公因數為42？",
+      "options": {
+        "A": "2×3×5²×7²",
+        "B": "2×3²×5×7²",
+        "C": "2²×3×5²×7",
+        "D": "2²×3²×5×7"
+      },
+      "answer": "A",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "106_math_9",
+      "year": "106",
+      "subject": "math",
+      "q_no": "9",
+      "question_text": "某高中的籃球隊成員中，一、二年級的成員共有8人，三年級的成員有3人。一、二年級的成員身高（單位：公分）如下：172、172、174、174、176、176、178、178。若隊中所有成員的平均身高為178公分，則隊中三年級成員的平均身高為幾公分？",
+      "options": {
+        "A": "178",
+        "B": "181",
+        "C": "183",
+        "D": "186"
+      },
+      "answer": "D",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "106_math_10",
+      "year": "106",
+      "subject": "math",
+      "q_no": "10",
+      "question_text": "已知在卡樂芙超市內購物總金額超過190元時，購物總金額有打八折的優惠。安妮帶200元到卡樂芙超市買棒棒糖，若棒棒糖每根9元，則她最多可買多少根棒棒糖？",
+      "options": {
+        "A": "22",
+        "B": "23",
+        "C": "27",
+        "D": "28"
+      },
+      "answer": "C",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "106_math_11",
+      "year": "106",
+      "subject": "math",
+      "q_no": "11",
+      "question_text": "如圖（一），△ABC中，D、E兩點分別在AB、BC上。若AD:DB=CE:EB=2:3，則△DBE與△ADC的面積比為何？",
+      "options": {
+        "A": "3:5",
+        "B": "4:5",
+        "C": "9:10",
+        "D": "15:16"
+      },
+      "answer": "C",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "106_math_12",
+      "year": "106",
+      "subject": "math",
+      "q_no": "12",
+      "question_text": "一元二次方程式x²−8x=48可表示成(x−a)²=48+b的形式，其中a、b為整數。求a+b之值為何？",
+      "options": {
+        "A": "20",
+        "B": "12",
+        "C": "−12",
+        "D": "−20"
+      },
+      "answer": "A",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "106_math_13",
+      "year": "106",
+      "subject": "math",
+      "q_no": "13",
+      "question_text": "已知坐標平面上有一長方形ABCD，其坐標分別為A(0,0)、B(2,0)、C(2,1)、D(0,1)。今固定B點並將此長方形依順時針方向旋轉，如圖（二）所示。若旋轉後C點的坐標為(3,0)，則旋轉後D點的坐標為何？",
+      "options": {
+        "A": "(2,2)",
+        "B": "(2,3)",
+        "C": "(3,3)",
+        "D": "(3,2)"
+      },
+      "answer": "D",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "106_math_14",
+      "year": "106",
+      "subject": "math",
+      "q_no": "14",
+      "question_text": "圖（三）為平面上五條直線L1、L2、L3、L4、L5相交的情形。根據圖中標示的角度（92°、92°、88°、88°），判斷下列敘述何者正確？",
+      "options": {
+        "A": "L1和L3平行，L2和L3平行",
+        "B": "L1和L3平行，L2和L3不平行",
+        "C": "L1和L3不平行，L2和L3平行",
+        "D": "L1和L3不平行，L2和L3不平行"
+      },
+      "answer": "C",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "106_math_15",
+      "year": "106",
+      "subject": "math",
+      "q_no": "15",
+      "question_text": "威立到小吃店買水餃，他身上帶的錢恰好等於15粒蝦仁水餃或20粒韭菜水餃的價錢。若威立先買了9粒蝦仁水餃，則他身上剩下的錢恰好可買多少粒韭菜水餃？",
+      "options": {
+        "A": "6",
+        "B": "8",
+        "C": "9",
+        "D": "12"
+      },
+      "answer": "B",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "106_math_16",
+      "year": "106",
+      "subject": "math",
+      "q_no": "16",
+      "question_text": "將圖（四）中五邊形紙片ABCDE的A點以BE為摺線往下摺，A點恰好落在CD上，如圖（五）所示。再分別以圖（五）的AB、AE為摺線，將C、D兩點往上摺，使得A、B、C、D、E五點均在同一平面上，如圖（六）所示。若圖（四）中∠A=124°，則圖（六）中∠CAD的度數為何？",
+      "options": {
+        "A": "56",
+        "B": "60",
+        "C": "62",
+        "D": "68"
+      },
+      "answer": "D",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "106_math_17",
+      "year": "106",
+      "subject": "math",
+      "q_no": "17",
+      "question_text": "若a、b為兩質數且相差2，則ab+1之值可能為下列何者？",
+      "options": {
+        "A": "39²",
+        "B": "40²",
+        "C": "41²",
+        "D": "42²"
+      },
+      "answer": "D",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "106_math_18",
+      "year": "106",
+      "subject": "math",
+      "q_no": "18",
+      "question_text": "如圖（七），O為銳角三角形ABC的外心，四邊形OCDE為正方形，其中E點在△ABC的外部。判斷下列敘述何者正確？",
+      "options": {
+        "A": "O是△AEB的外心，O是△AED的外心",
+        "B": "O是△AEB的外心，O不是△AED的外心",
+        "C": "O不是△AEB的外心，O是△AED的外心",
+        "D": "O不是△AEB的外心，O不是△AED的外心"
+      },
+      "answer": "B",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "106_math_19",
+      "year": "106",
+      "subject": "math",
+      "q_no": "19",
+      "question_text": "圖（八）為互相垂直的兩直線將四邊形ABCD分成四個區域的情形。若∠A=100°，∠B=∠D=85°，∠C=90°，則根據圖中標示的角，判斷下列∠1、∠2、∠3的大小關係，何者正確？",
+      "options": {
+        "A": "∠1=∠2>∠3",
+        "B": "∠1=∠3>∠2",
+        "C": "∠2>∠1=∠3",
+        "D": "∠3>∠1=∠2"
+      },
+      "answer": "D",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "106_math_20",
+      "year": "106",
+      "subject": "math",
+      "q_no": "20",
+      "question_text": "圖（九）的數線上有O、A、B三點，其中O為原點，A點所表示的數為10⁶。根據圖中數線上這三點之間的實際距離進行估計，下列何者最接近B點所表示的數？",
+      "options": {
+        "A": "2×10⁶",
+        "B": "4×10⁶",
+        "C": "2×10⁷",
+        "D": "4×10⁸"
+      },
+      "answer": "C",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "106_math_21",
+      "year": "106",
+      "subject": "math",
+      "q_no": "21",
+      "question_text": "如圖（十），△ABC、△ADE中，C、E兩點分別在AD、AB上，且BC與DE相交於F點。若∠A=90°，∠B=∠D=30°，AC=AE=1，則四邊形AEFC的周長為何？",
+      "options": {
+        "A": "2√2",
+        "B": "2√3",
+        "C": "2+√2",
+        "D": "2+√3"
+      },
+      "answer": "B",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "106_math_22",
+      "year": "106",
+      "subject": "math",
+      "q_no": "22",
+      "question_text": "已知坐標平面上有兩個二次函數y=a(x+1)(x−7)、y=b(x+1)(x−15)的圖形，其中a、b為整數。判斷將二次函數y=b(x+1)(x−15)的圖形依下列哪一種方式平移後，會使得此兩圖形的對稱軸重疊？",
+      "options": {
+        "A": "向左平移4單位",
+        "B": "向右平移4單位",
+        "C": "向左平移8單位",
+        "D": "向右平移8單位"
+      },
+      "answer": "A",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "106_math_23",
+      "year": "106",
+      "subject": "math",
+      "q_no": "23",
+      "question_text": "圖（十一）為阿輝、小薰一起到商店分別買了數杯飲料與在家分飲料的經過。店員說：「這些飲料總共2000元。」小薰說：「我先付1000元，不夠的部分你幫我出，回家再還你錢。」阿輝說：「阿輝，我買的飲料比你買的多6杯，還你120元。」若每杯飲料的價格均相等，則根據圖中的對話，判斷阿輝買了多少杯飲料？",
+      "options": {
+        "A": "22",
+        "B": "25",
+        "C": "47",
+        "D": "50"
+      },
+      "answer": "A",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "106_math_24",
+      "year": "106",
+      "subject": "math",
+      "q_no": "24",
+      "question_text": "如圖（十二），水平桌面上有個內部裝水的長方體箱子，箱內有一個與底面垂直的隔板，且隔板左右兩側的水面高度分別為40公分、50公分。今將隔板抽出，若過程中箱內的水量未改變，且不計箱子及隔板厚度，則根據圖中的數據（130、70、90、50、40），求隔板抽出後水面靜止時，箱內的水面高度為多少公分？",
+      "options": {
+        "A": "43",
+        "B": "44",
+        "C": "45",
+        "D": "46"
+      },
+      "answer": "B",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "106_math_25",
+      "year": "106",
+      "subject": "math",
+      "q_no": "25",
+      "question_text": "如圖（十三），某計算機中有√、1/x、x²三個按鍵，功能如下：1.√：將螢幕顯示的數變成它的正平方根，例如：螢幕顯示的數為49時，按下√後會變成7。2.1/x：將螢幕顯示的數變成它的倒數，例如：螢幕顯示的數為25時，按下1/x後會變成0.04。3.x²：將螢幕顯示的數變成它的平方，例如：螢幕顯示的數為6時，按下x²後會變成36。若螢幕顯示的數為100時，小劉第一下按√，第二下按1/x，第三下按x²，之後以√、1/x、x²的順序輪流按，則當他按了第100下後螢幕顯示的數是多少？",
+      "options": {
+        "A": "0.01",
+        "B": "0.1",
+        "C": "10",
+        "D": "100"
+      },
+      "answer": "B",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "106_math_26",
+      "year": "106",
+      "subject": "math",
+      "q_no": "26",
+      "question_text": "圖（十四）為兩正方形ABCD、BPQR重疊的情形，其中R點在AD上，CD與QR相交於S點。若兩正方形ABCD、BPQR的面積分別為16、25，則四邊形RBCS的面積為何？",
+      "options": {
+        "A": "8",
+        "B": "17/2",
+        "C": "28/3",
+        "D": "77/8"
+      },
+      "answer": "D",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "107_math_1",
+      "year": "107",
+      "subject": "math",
+      "q_no": "1",
+      "question_text": "下列選項中的圖形有一個為線對稱圖形，判斷此圖形為何？",
+      "options": {
+        "A": "(圖)",
+        "B": "(圖)",
+        "C": "(圖)",
+        "D": "(圖)"
+      },
+      "answer": "D",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "107_math_2",
+      "year": "107",
+      "subject": "math",
+      "q_no": "2",
+      "question_text": "已知 a=(3/14-2/15)-1/16，b=3/14-(2/15-1/16)，c=3/14-2/15-1/16，判斷下列敘述何者正確？",
+      "options": {
+        "A": "a=c，b=c",
+        "B": "a=c，b≠c",
+        "C": "a≠c，b=c",
+        "D": "a≠c，b≠c"
+      },
+      "answer": "B",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "107_math_3",
+      "year": "107",
+      "subject": "math",
+      "q_no": "3",
+      "question_text": "已知坐標平面上，一次函數 y=3x+a 的圖形通過點 (0,-4)，其中 a 為一數，求 a 的值為何？",
+      "options": {
+        "A": "-12",
+        "B": "-4",
+        "C": "4",
+        "D": "12"
+      },
+      "answer": "B",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "107_math_4",
+      "year": "107",
+      "subject": "math",
+      "q_no": "4",
+      "question_text": "已知某文具店販售的筆記本每本售價均相等且超過10元，小錦和小勳在此文具店分別購買若干本筆記本。若小錦購買筆記本的花費為36元，則小勳購買筆記本的花費可能為下列何者？",
+      "options": {
+        "A": "16元",
+        "B": "27元",
+        "C": "30元",
+        "D": "48元"
+      },
+      "answer": "D",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "107_math_5",
+      "year": "107",
+      "subject": "math",
+      "q_no": "5",
+      "question_text": "若二元一次聯立方程式 {7x-3y=8, 3x-y=8} 的解為 x=a，y=b，則 a+b 之值為何？",
+      "options": {
+        "A": "24",
+        "B": "0",
+        "C": "-4",
+        "D": "-8"
+      },
+      "answer": "A",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "107_math_6",
+      "year": "107",
+      "subject": "math",
+      "q_no": "6",
+      "question_text": "已知甲、乙兩袋中各裝有若干顆球，其種類與數量如表(一)所示。今阿馮打算從甲袋中抽出一顆球，小潘打算從乙袋中抽出一顆球，若甲袋中每顆球被抽出的機會相等，且乙袋中每顆球被抽出的機會相等，則下列敘述何者正確？（表(一)：甲袋 紅球2顆、黃球2顆、綠球1顆，總計5顆；乙袋 紅球4顆、黃球2顆、綠球4顆，總計10顆）",
+      "options": {
+        "A": "阿馮抽出紅球的機率比小潘抽出紅球的機率大",
+        "B": "阿馮抽出紅球的機率比小潘抽出紅球的機率小",
+        "C": "阿馮抽出黃球的機率比小潘抽出黃球的機率大",
+        "D": "阿馮抽出黃球的機率比小潘抽出黃球的機率小"
+      },
+      "answer": "C",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "107_math_7",
+      "year": "107",
+      "subject": "math",
+      "q_no": "7",
+      "question_text": "算式 √6×(1/√3-1) 之值為何？",
+      "options": {
+        "A": "√2-√6",
+        "B": "√2-1",
+        "C": "2-√6",
+        "D": "1"
+      },
+      "answer": "A",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "107_math_8",
+      "year": "107",
+      "subject": "math",
+      "q_no": "8",
+      "question_text": "若一元二次方程式 x²-8x-3×11=0 的兩根為 a、b，且 a>b，則 a-2b 之值為何？",
+      "options": {
+        "A": "-25",
+        "B": "-19",
+        "C": "5",
+        "D": "17"
+      },
+      "answer": "D",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "107_math_9",
+      "year": "107",
+      "subject": "math",
+      "q_no": "9",
+      "question_text": "如圖(一)，△ABC中，D為BC的中點，以D為圓心，BD長為半徑畫一弧交AC於E點。若∠A=60°，∠B=100°，BC=4，則扇形BDE的面積為何？",
+      "options": {
+        "A": "1/3 π",
+        "B": "2/3 π",
+        "C": "4/9 π",
+        "D": "5/9 π"
+      },
+      "answer": "C",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "107_math_10",
+      "year": "107",
+      "subject": "math",
+      "q_no": "10",
+      "question_text": "圖(二)為大興電器行的促銷活動傳單，已知促銷第一天美食牌微波爐賣出10台，且其銷售額為61000元。若活動期間此款微波爐總共賣出50台，則其總銷售額為多少元？（傳單：原價7800元特價中，限量50台，前20台每台再折800元）",
+      "options": {
+        "A": "305000",
+        "B": "321000",
+        "C": "329000",
+        "D": "342000"
+      },
+      "answer": "C",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "107_math_11",
+      "year": "107",
+      "subject": "math",
+      "q_no": "11",
+      "question_text": "如圖(三)，五邊形ABCDE中有一正三角形ACD。若AB=DE，BC=AE，∠E=115°，則∠BAE的度數為何？",
+      "options": {
+        "A": "115",
+        "B": "120",
+        "C": "125",
+        "D": "130"
+      },
+      "answer": "C",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "107_math_12",
+      "year": "107",
+      "subject": "math",
+      "q_no": "12",
+      "question_text": "圖(四)為O、A、B、C四點在數線上的位置圖，其中O為原點，且AC=1，OA=OB。若C點所表示的數為x，則B點所表示的數與下列何者相等？",
+      "options": {
+        "A": "-(x+1)",
+        "B": "-(x-1)",
+        "C": "x+1",
+        "D": "x-1"
+      },
+      "answer": "B",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "107_math_13",
+      "year": "107",
+      "subject": "math",
+      "q_no": "13",
+      "question_text": "圖(五)的宣傳單為萊克印刷公司設計與印刷卡片計價方式的說明，妮娜打算請此印刷公司設計一款母親節卡片並印刷，她再將卡片以每張15元的價格販售。若利潤等於收入扣掉成本，且成本只考慮設計費與印刷費，則她至少需印多少張卡片，才可使得卡片全數售出後的利潤超過成本的2成？（設計費每款1000元，印刷費每張5元）",
+      "options": {
+        "A": "112",
+        "B": "121",
+        "C": "134",
+        "D": "143"
+      },
+      "answer": "C",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "107_math_14",
+      "year": "107",
+      "subject": "math",
+      "q_no": "14",
+      "question_text": "如圖(六)，I點為△ABC的內心，D點在BC上，且ID⊥BC。若∠B=44°，∠C=56°，則∠AID的度數為何？",
+      "options": {
+        "A": "174",
+        "B": "176",
+        "C": "178",
+        "D": "180"
+      },
+      "answer": "A",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "107_math_15",
+      "year": "107",
+      "subject": "math",
+      "q_no": "15",
+      "question_text": "圖(七)為一直角柱，其底面是三邊長為5、12、13的直角三角形。若下列選項中的圖形均由三個矩形與兩個直角三角形組合而成，且其中一個為圖(七)的直角柱的展開圖，則根據圖形中標示的邊長與直角記號判斷，此展開圖為何？",
+      "options": {
+        "A": "(圖)",
+        "B": "(圖)",
+        "C": "(圖)",
+        "D": "(圖)"
+      },
+      "answer": "D",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "107_math_16",
+      "year": "107",
+      "subject": "math",
+      "q_no": "16",
+      "question_text": "若小舒從1~50的整數中挑選4個數，使其由小到大排序後形成一等差數列，且4個數中最小的是7，則下列哪一個數不可能出現在小舒挑選的數之中？",
+      "options": {
+        "A": "20",
+        "B": "25",
+        "C": "30",
+        "D": "35"
+      },
+      "answer": "C",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "107_math_17",
+      "year": "107",
+      "subject": "math",
+      "q_no": "17",
+      "question_text": "已知 a=3.1×10⁻⁴，b=5.2×10⁻⁸，判斷下列關於 a-b 之值的敘述何者正確？",
+      "options": {
+        "A": "比1大",
+        "B": "介於0、1之間",
+        "C": "介於-1、0之間",
+        "D": "比-1小"
+      },
+      "answer": "B",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "107_math_18",
+      "year": "107",
+      "subject": "math",
+      "q_no": "18",
+      "question_text": "如圖(八)，銳角三角形ABC中，BC>AB>AC，甲、乙兩人想找一點P，使得∠BPC與∠A互補，其作法分別如下：(甲)以A為圓心，AC長為半徑畫弧交AB於P點，則P即為所求 (乙)作過B點且與AB垂直的直線L，作過C點且與AC垂直的直線，交L於P點，則P即為所求。對於甲、乙兩人的作法，下列敘述何者正確？",
+      "options": {
+        "A": "兩人皆正確",
+        "B": "兩人皆錯誤",
+        "C": "甲正確，乙錯誤",
+        "D": "甲錯誤，乙正確"
+      },
+      "answer": "D",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "107_math_19",
+      "year": "107",
+      "subject": "math",
+      "q_no": "19",
+      "question_text": "已知甲、乙兩班的學生人數相同，圖(九)為兩班某次數學小考成績的盒狀圖。若甲班、乙班學生小考成績的中位數分別為a、b；甲班、乙班中小考成績超過80分的學生人數分別為c、d，則下列a、b、c、d的大小關係，何者正確？",
+      "options": {
+        "A": "a>b，c>d",
+        "B": "a>b，c<d",
+        "C": "a<b，c>d",
+        "D": "a<b，c<d"
+      },
+      "answer": "A",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "107_math_20",
+      "year": "107",
+      "subject": "math",
+      "q_no": "20",
+      "question_text": "圖(十)的矩形ABCD中，有一點E在AD上，今以BE為摺線將A點往右摺，如圖(十一)所示。再作過A點且與CD垂直的直線，交CD於F點，如圖(十二)所示。若AB=6√3，BC=13，∠BEA=60°，則圖(十二)中AF的長度為何？",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "2√3",
+        "D": "4√3"
+      },
+      "answer": "B",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "107_math_21",
+      "year": "107",
+      "subject": "math",
+      "q_no": "21",
+      "question_text": "已知坐標平面上有一直線L，其方程式為y+2=0，且L與二次函數y=3x²+a的圖形相交於A、B兩點；與二次函數y=-2x²+b的圖形相交於C、D兩點，其中a、b為整數。若AB=2，CD=4，則a+b之值為何？",
+      "options": {
+        "A": "1",
+        "B": "9",
+        "C": "16",
+        "D": "24"
+      },
+      "answer": "A",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "107_math_22",
+      "year": "107",
+      "subject": "math",
+      "q_no": "22",
+      "question_text": "如圖(十三)，兩圓外切於P點，且通過P點的公切線為L。過P點作兩直線，兩直線與兩圓的交點為A、B、C、D，其位置如圖(十三)所示。若AP=10，CP=9，則下列角度關係何者正確？",
+      "options": {
+        "A": "∠PBD>∠PAC",
+        "B": "∠PBD<∠PAC",
+        "C": "∠PBD>∠PDB",
+        "D": "∠PBD<∠PDB"
+      },
+      "answer": "D",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "107_math_23",
+      "year": "107",
+      "subject": "math",
+      "q_no": "23",
+      "question_text": "小柔想要榨果汁，她有蘋果、芭樂、柳丁三種水果，且其顆數比為9:7:6。小柔榨完果汁後，蘋果、芭樂、柳丁的顆數比變為6:3:4。已知小柔榨果汁時沒有使用柳丁，關於她榨果汁時另外兩種水果的使用情形，下列敘述何者正確？",
+      "options": {
+        "A": "只使用蘋果",
+        "B": "只使用芭樂",
+        "C": "使用蘋果及芭樂，且使用的蘋果顆數比使用的芭樂顆數多",
+        "D": "使用蘋果及芭樂，且使用的芭樂顆數比使用的蘋果顆數多"
+      },
+      "answer": "B",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "107_math_24",
+      "year": "107",
+      "subject": "math",
+      "q_no": "24",
+      "question_text": "如圖(十四)，△ABC、△FGH中，D、E兩點分別在AB、AC上，F點在DE上，G、H兩點在BC上，且DE//BC，FG//AB，FH//AC。若BG:GH:HC=4:6:5，則△ADE與△FGH的面積比為何？",
+      "options": {
+        "A": "2:1",
+        "B": "3:2",
+        "C": "5:2",
+        "D": "9:4"
+      },
+      "answer": "D",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "107_math_25",
+      "year": "107",
+      "subject": "math",
+      "q_no": "25",
+      "question_text": "某商店將巧克力包裝成方形、圓形禮盒出售，且每盒方形禮盒的價錢相同，每盒圓形禮盒的價錢相同。阿郁原先想購買3盒方形禮盒和7盒圓形禮盒，但他身上的錢會不足240元，如果改成購買7盒方形禮盒和3盒圓形禮盒，他身上的錢會剩下240元。若阿郁最後購買10盒方形禮盒，則他身上的錢會剩下多少元？",
+      "options": {
+        "A": "360",
+        "B": "480",
+        "C": "600",
+        "D": "720"
+      },
+      "answer": "C",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "107_math_26",
+      "year": "107",
+      "subject": "math",
+      "q_no": "26",
+      "question_text": "如圖(十五)，坐標平面上，A、B兩點分別為圓P與x軸、y軸的交點，有一直線L通過P點且與AB垂直，C點為L與y軸的交點。若A、B、C的坐標分別為(a,0)、(0,4)、(0,-5)，其中a<0，則a的值為何？",
+      "options": {
+        "A": "-2√14",
+        "B": "-2√5",
+        "C": "-8",
+        "D": "-7"
+      },
+      "answer": "A",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "108_math_1",
+      "year": "108",
+      "subject": "math",
+      "q_no": "1",
+      "question_text": "算式 -5/3-(-1/6) 之值為何？",
+      "options": {
+        "A": "-3/2",
+        "B": "-4/3",
+        "C": "-11/6",
+        "D": "-4/9"
+      },
+      "answer": "A",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "108_math_2",
+      "year": "108",
+      "subject": "math",
+      "q_no": "2",
+      "question_text": "某城市分為南、北兩區，圖(一)為105年到107年該城市兩區的人口數量長條圖。根據圖(一)判斷該城市的總人口數量，從105年到107年的變化情形為下列何者？",
+      "options": {
+        "A": "逐年增加",
+        "B": "逐年減少",
+        "C": "先增加，再減少",
+        "D": "先減少，再增加"
+      },
+      "answer": "A",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "108_math_3",
+      "year": "108",
+      "subject": "math",
+      "q_no": "3",
+      "question_text": "計算(2x-3)(3x+4)的結果，與下列哪一個式子相同？",
+      "options": {
+        "A": "-7x+4",
+        "B": "-7x-12",
+        "C": "6x^2-12",
+        "D": "6x^2-x-12"
+      },
+      "answer": "D",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "108_math_4",
+      "year": "108",
+      "subject": "math",
+      "q_no": "4",
+      "question_text": "圖(二)的直角柱由2個正三角形底面和3個矩形側面組成，其中正三角形面積為a，矩形面積為b。若將4個圖(二)的直角柱緊密堆疊成圖(三)的直角柱，則圖(三)中直角柱的表面積為何？",
+      "options": {
+        "A": "4a+2b",
+        "B": "4a+4b",
+        "C": "8a+6b",
+        "D": "8a+12b"
+      },
+      "answer": "C",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "108_math_5",
+      "year": "108",
+      "subject": "math",
+      "q_no": "5",
+      "question_text": "若√44=2√a，√54=3√b，則a+b之值為何？",
+      "options": {
+        "A": "13",
+        "B": "17",
+        "C": "24",
+        "D": "40"
+      },
+      "answer": "B",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "108_math_6",
+      "year": "108",
+      "subject": "math",
+      "q_no": "6",
+      "question_text": "民國106年8月15日，大潭發電廠因跳電導致供電短少約430萬瓩，造成全臺灣多處地方停電。已知1瓩等於1千瓦，求430萬瓩等於多少瓦？",
+      "options": {
+        "A": "4.3×10^7",
+        "B": "4.3×10^8",
+        "C": "4.3×10^9",
+        "D": "4.3×10^10"
+      },
+      "answer": "C",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "108_math_7",
+      "year": "108",
+      "subject": "math",
+      "q_no": "7",
+      "question_text": "圖(四)的坐標平面上有原點O與A、B、C、D四點。若有一直線L通過點(-3,4)且與y軸垂直，則L也會通過下列哪一點？",
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D"
+      },
+      "answer": "D",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "108_math_8",
+      "year": "108",
+      "subject": "math",
+      "q_no": "8",
+      "question_text": "若多項式5x^2+17x-12可因式分解成(x+a)(bx+c)，其中a、b、c均為整數，則a+c之值為何？",
+      "options": {
+        "A": "1",
+        "B": "7",
+        "C": "11",
+        "D": "13"
+      },
+      "answer": "A",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "108_math_9",
+      "year": "108",
+      "subject": "math",
+      "q_no": "9",
+      "question_text": "公園內有一矩形步道，其地面使用相同的灰色正方形地磚與相同的白色等腰直角三角形地磚排列而成。圖(五)表示此步道的地磚排列方式，其中正方形地磚為連續排列且總共有40個。求步道上總共使用多少個三角形地磚？",
+      "options": {
+        "A": "84",
+        "B": "86",
+        "C": "160",
+        "D": "162"
+      },
+      "answer": "A",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "108_math_10",
+      "year": "108",
+      "subject": "math",
+      "q_no": "10",
+      "question_text": "數線上有O、A、B、C四點，各點位置與各點所表示的數如圖(六)所示。若數線上有一點D，D點所表示的數為d，且|d-5|=|d-c|，則關於D點的位置，下列敘述何者正確？",
+      "options": {
+        "A": "在A的左邊",
+        "B": "介於A、C之間",
+        "C": "介於C、O之間",
+        "D": "介於O、B之間"
+      },
+      "answer": "D",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "108_math_11",
+      "year": "108",
+      "subject": "math",
+      "q_no": "11",
+      "question_text": "如圖(七)，將一長方形紙片沿著虛線剪成兩個全等的梯形紙片。根據圖中標示的長度與角度，求梯形紙片中較短的底邊長度為何？（長方形長20，寬8，剪線與底邊夾角45°）",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "7"
+      },
+      "answer": "C",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "108_math_12",
+      "year": "108",
+      "subject": "math",
+      "q_no": "12",
+      "question_text": "阿慧在店內購買兩種蛋糕當伴手禮，圖(八)為蛋糕的價目表（桂圓蛋糕一盒12個售價350元；金棗蛋糕一盒6個售價200元）。已知阿慧購買10盒蛋糕，花費的金額不超過2500元。若他將蛋糕分給75位同事，每人至少能拿到一個蛋糕，則阿慧花多少元購買蛋糕？",
+      "options": {
+        "A": "2150",
+        "B": "2250",
+        "C": "2300",
+        "D": "2450"
+      },
+      "answer": "D",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "108_math_13",
+      "year": "108",
+      "subject": "math",
+      "q_no": "13",
+      "question_text": "如圖(九)，△ABC中，D點在BC上，將D點分別以AB、AC為對稱軸，畫出對稱點E、F，並連接AE、AF。根據圖中標示的角度（∠B=62°，∠C=51°），求∠EAF的度數為何？",
+      "options": {
+        "A": "113",
+        "B": "124",
+        "C": "129",
+        "D": "134"
+      },
+      "answer": "D",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "108_math_14",
+      "year": "108",
+      "subject": "math",
+      "q_no": "14",
+      "question_text": "箱子內裝有53顆白球及2顆紅球，小芬打算從箱子內抽球，以每次抽出一球後將球再放回的方式抽53次球。若箱子內每顆球被抽到的機會相等，且前52次中抽到白球51次及紅球1次，則第53次抽球時，小芬抽到紅球的機率為何？",
+      "options": {
+        "A": "1/2",
+        "B": "1/3",
+        "C": "2/53",
+        "D": "2/55"
+      },
+      "answer": "D",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "108_math_15",
+      "year": "108",
+      "subject": "math",
+      "q_no": "15",
+      "question_text": "如圖(十)，△ABC中，AC=BC<AB。若∠1、∠2分別為∠ABC、∠ACB的外角，則下列角度關係何者正確？",
+      "options": {
+        "A": "∠1<∠2",
+        "B": "∠1=∠2",
+        "C": "∠A+∠2<180°",
+        "D": "∠A+∠1>180°"
+      },
+      "answer": "C",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "108_math_16",
+      "year": "108",
+      "subject": "math",
+      "q_no": "16",
+      "question_text": "小涵與阿嘉一起去咖啡店購買同款咖啡豆，咖啡豆每公克的價錢固定，購買時自備容器則結帳金額再減5元。若小涵購買咖啡豆250公克且自備容器，需支付295元；阿嘉購買咖啡豆x公克但沒有自備容器，需支付y元，則y與x的關係式為下列何者？",
+      "options": {
+        "A": "y=295/250 x",
+        "B": "y=300/250 x",
+        "C": "y=295/250 x+5",
+        "D": "y=300/250 x+5"
+      },
+      "answer": "B",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "108_math_17",
+      "year": "108",
+      "subject": "math",
+      "q_no": "17",
+      "question_text": "如圖(十一)，將一張面積為14的大三角形紙片沿著虛線剪成三張小三角形紙片與一張平行四邊形紙片。根據圖中標示的長度（上底3，下底7），求平行四邊形紙片的面積為何？",
+      "options": {
+        "A": "21/5",
+        "B": "42/5",
+        "C": "24/7",
+        "D": "48/7"
+      },
+      "answer": "D",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "108_math_18",
+      "year": "108",
+      "subject": "math",
+      "q_no": "18",
+      "question_text": "圖(十二)的摩天輪上以等間隔的方式設置36個車廂，車廂依順時針方向分別編號為1號到36號，且摩天輪運行時以逆時針方向等速旋轉，旋轉一圈花費30分鐘。若圖(十三)表示21號車廂運行到最高點的情形，則此時經過多少分鐘後，9號車廂才會運行到最高點？",
+      "options": {
+        "A": "10",
+        "B": "20",
+        "C": "15/2",
+        "D": "45/2"
+      },
+      "answer": "B",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "108_math_19",
+      "year": "108",
+      "subject": "math",
+      "q_no": "19",
+      "question_text": "如圖(十四)，直角三角形ABC的內切圓分別與AB、BC相切於D點、E點。根據圖中標示的長度與角度（BE=1，EC=4，∠B為直角），求AD的長度為何？",
+      "options": {
+        "A": "3/2",
+        "B": "5/2",
+        "C": "4/3",
+        "D": "5/3"
+      },
+      "answer": "D",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "108_math_20",
+      "year": "108",
+      "subject": "math",
+      "q_no": "20",
+      "question_text": "某旅行團到森林遊樂區參觀，表(一)為兩種參觀方式與所需的纜車費用（去程及回程均搭乘纜車300元；單程搭乘纜車，單程步行200元）。已知旅行團的每個人皆從這兩種方式中選擇一種，且去程有15人搭乘纜車，回程有10人搭乘纜車。若他們纜車費用的總花費為4100元，則此旅行團共有多少人？",
+      "options": {
+        "A": "16",
+        "B": "19",
+        "C": "22",
+        "D": "25"
+      },
+      "answer": "A",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "108_math_21",
+      "year": "108",
+      "subject": "math",
+      "q_no": "21",
+      "question_text": "小宜跟同學在某餐廳吃飯，圖(十五)為此餐廳的菜單（A餐：一份義大利麵；B餐：一份義大利麵加一杯飲料；C餐：一份義大利麵加一杯飲料與一份沙拉）。若他們所點的餐點總共為10份義大利麵，x杯飲料，y份沙拉，則他們點了幾份A餐？",
+      "options": {
+        "A": "10-x",
+        "B": "10-y",
+        "C": "10-x+y",
+        "D": "10-x-y"
+      },
+      "answer": "A",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "108_math_22",
+      "year": "108",
+      "subject": "math",
+      "q_no": "22",
+      "question_text": "若正整數a和420的最大公因數為35，則下列敘述何者正確？",
+      "options": {
+        "A": "20可能是a的因數，25可能是a的因數",
+        "B": "20可能是a的因數，25不可能是a的因數",
+        "C": "20不可能是a的因數，25可能是a的因數",
+        "D": "20不可能是a的因數，25不可能是a的因數"
+      },
+      "answer": "C",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "108_math_23",
+      "year": "108",
+      "subject": "math",
+      "q_no": "23",
+      "question_text": "如圖(十六)，有一三角形ABC的頂點B、C皆在直線L上，且其內心為I。今固定C點，將此三角形依順時針方向旋轉，使得新三角形A'B'C的頂點A'落在L上，且其內心為I'。若∠A<∠B<∠C，則下列敘述何者正確？",
+      "options": {
+        "A": "IC和I'A'平行，II'和L平行",
+        "B": "IC和I'A'平行，II'和L不平行",
+        "C": "IC和I'A'不平行，II'和L平行",
+        "D": "IC和I'A'不平行，II'和L不平行"
+      },
+      "answer": "C",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "108_math_24",
+      "year": "108",
+      "subject": "math",
+      "q_no": "24",
+      "question_text": "圖(十七)表示A、B、C、D四點在圓O上的位置，其中弧AD=180°，且弧AB=弧BD，弧BC=弧CD。若阿超在弧AB上取一點P，在弧BD上取一點Q，使得∠APQ=130°，則下列敘述何者正確？",
+      "options": {
+        "A": "Q點在弧BC上，且弧BQ>弧QC",
+        "B": "Q點在弧BC上，且弧BQ<弧QC",
+        "C": "Q點在弧CD上，且弧CQ>弧QD",
+        "D": "Q點在弧CD上，且弧CQ<弧QD"
+      },
+      "answer": "B",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "108_math_25",
+      "year": "108",
+      "subject": "math",
+      "q_no": "25",
+      "question_text": "圖(十八)的△ABC中，AB>AC>BC，且D為BC上一點。今打算在AB上找一點P，在AC上找一點Q，使得△APQ與△PDQ全等，以下是甲、乙兩人的作法：（甲）連接AD，作AD的中垂線分別交AB、AC於P點、Q點，則P、Q兩點即為所求（乙）過D作與AC平行的直線交AB於P點，過D作與AB平行的直線交AC於Q點，則P、Q兩點即為所求。對於甲、乙兩人的作法，下列判斷何者正確？",
+      "options": {
+        "A": "兩人皆正確",
+        "B": "兩人皆錯誤",
+        "C": "甲正確，乙錯誤",
+        "D": "甲錯誤，乙正確"
+      },
+      "answer": "A",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "108_math_26",
+      "year": "108",
+      "subject": "math",
+      "q_no": "26",
+      "question_text": "如圖(十九)，坐標平面上有一頂點為A的拋物線，此拋物線與方程式y=2的圖形交於B、C兩點，且△ABC為正三角形。若A點坐標為(-3,0)，則此拋物線與y軸的交點坐標為何？",
+      "options": {
+        "A": "(0, 9/2)",
+        "B": "(0, 27/2)",
+        "C": "(0,9)",
+        "D": "(0,18)"
+      },
+      "answer": "B",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "109_math_1",
+      "year": "109",
+      "subject": "math",
+      "q_no": "1",
+      "question_text": "已知 a=(-12)×(-23)×(-34)×(-45)，b=(-123)×(-234)×(-345)，判斷下列敘述何者正確？",
+      "options": {
+        "A": "a、b 皆為正數",
+        "B": "a、b 皆為負數",
+        "C": "a 為正數，b 為負數",
+        "D": "a 為負數，b 為正數"
+      },
+      "answer": "C",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "109_math_2",
+      "year": "109",
+      "subject": "math",
+      "q_no": "2",
+      "question_text": "算式 2^3×5^3 之值為何？",
+      "options": {
+        "A": "30",
+        "B": "90",
+        "C": "1000",
+        "D": "1000000"
+      },
+      "answer": "C",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "109_math_3",
+      "year": "109",
+      "subject": "math",
+      "q_no": "3",
+      "question_text": "小真煮好了25顆湯圓，其中15顆為芝麻湯圓，10顆為花生湯圓。已知小真想從煮好的湯圓中撈一顆，若每顆湯圓被小真撈到的機會相等，則他撈到花生湯圓的機率為何？",
+      "options": {
+        "A": "1/2",
+        "B": "2/3",
+        "C": "2/5",
+        "D": "1/10"
+      },
+      "answer": "C",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "109_math_4",
+      "year": "109",
+      "subject": "math",
+      "q_no": "4",
+      "question_text": "算式 √2×(√48-√12) 之值為何？",
+      "options": {
+        "A": "6√2",
+        "B": "2√6",
+        "C": "2√21",
+        "D": "4√6-2√3"
+      },
+      "answer": "B",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "109_math_5",
+      "year": "109",
+      "subject": "math",
+      "q_no": "5",
+      "question_text": "如圖(一)，平行四邊形 ABCD 中，∠A=100°。若∠ABD：∠DBC=3：2，則∠DBC 的度數為何？",
+      "options": {
+        "A": "32",
+        "B": "40",
+        "C": "48",
+        "D": "60"
+      },
+      "answer": "A",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "109_math_6",
+      "year": "109",
+      "subject": "math",
+      "q_no": "6",
+      "question_text": "圖(二)數線上的 A、B、C 三點所表示的數分別為 a、b、c，且原點為 O。根據圖中各點位置，判斷下列四個式子的值何者最大？",
+      "options": {
+        "A": "|a|+|b|",
+        "B": "|a|+|c|",
+        "C": "|a-c|",
+        "D": "|b-c|"
+      },
+      "answer": "A",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "109_math_7",
+      "year": "109",
+      "subject": "math",
+      "q_no": "7",
+      "question_text": "計算 2x²-3 除以 x+1 後，得商式和餘式分別為何？",
+      "options": {
+        "A": "商式為2，餘式為-5",
+        "B": "商式為2x-5，餘式為5",
+        "C": "商式為2x+2，餘式為-1",
+        "D": "商式為2x-2，餘式為-1"
+      },
+      "answer": "D",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "109_math_8",
+      "year": "109",
+      "subject": "math",
+      "q_no": "8",
+      "question_text": "下列何者可表示成兩個質數的乘積？",
+      "options": {
+        "A": "81",
+        "B": "82",
+        "C": "83",
+        "D": "84"
+      },
+      "answer": "B",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "109_math_9",
+      "year": "109",
+      "subject": "math",
+      "q_no": "9",
+      "question_text": "已知小薇住家的西方100公尺處為車站，住家的北方200公尺處為學校，且從學校往東方走100公尺，再往南方走400公尺可到達公園。若小薇將住家、車站、學校分別標示在坐標平面上的(2,0)、(0,0)、(2,4)三點，則公園應標示在此坐標平面上的哪一點？",
+      "options": {
+        "A": "(4,-4)",
+        "B": "(4,12)",
+        "C": "(0,-4)",
+        "D": "(0,12)"
+      },
+      "answer": "A",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "109_math_10",
+      "year": "109",
+      "subject": "math",
+      "q_no": "10",
+      "question_text": "若一元二次方程式 5(x-4)²=125 的解為 a、b，且 a>b，則 2a+b 之值為何？",
+      "options": {
+        "A": "-7",
+        "B": "-1",
+        "C": "11",
+        "D": "17"
+      },
+      "answer": "D",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "109_math_11",
+      "year": "109",
+      "subject": "math",
+      "q_no": "11",
+      "question_text": "圖(三)的坐標平面上有 A、B、C、D 四點，其中恰有三點在函數 y=px+q 的圖形上，且 p、q 為兩數。根據圖中四點的位置，判斷下列哪一點不在函數 y=px+q 的圖形上？",
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D"
+      },
+      "answer": "B",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "109_math_12",
+      "year": "109",
+      "subject": "math",
+      "q_no": "12",
+      "question_text": "圖(四)表示平面上 A、B 兩點與直線 L 的位置關係，其中 B 點在 L 上。若有一動點 P 從 A 點開始移動，移動過程中與 B 點的距離保持不變，則下列關於 P 點移動路徑的敘述，何者正確？",
+      "options": {
+        "A": "在與直線L平行且通過A點的直線上",
+        "B": "在與直線L垂直且通過A點的直線上",
+        "C": "在以B點為圓心且通過A點的圓上",
+        "D": "在以AB為直徑的圓上"
+      },
+      "answer": "C",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "109_math_13",
+      "year": "109",
+      "subject": "math",
+      "q_no": "13",
+      "question_text": "圖(五)為甲班36名學生參加投籃測驗的投進球數長條圖。判斷甲班學生中，有多少人的投進球數小於該班學生投進球數的中位數？",
+      "options": {
+        "A": "10",
+        "B": "14",
+        "C": "17",
+        "D": "18"
+      },
+      "answer": "B",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "109_math_14",
+      "year": "109",
+      "subject": "math",
+      "q_no": "14",
+      "question_text": "圖(六)為朵朵披薩屋的公告。若一個夏威夷披薩調漲前的售價為x元，則會員購買一個夏威夷披薩的花費，公告前後相差多少元？（公告內容：因近期食材成本提高，故即日起1.披薩售價皆調漲10%。2.會員結帳優惠從打八五折調整為打九折。）",
+      "options": {
+        "A": "0.05x",
+        "B": "0.09x",
+        "C": "0.14x",
+        "D": "0.15x"
+      },
+      "answer": "C",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "109_math_15",
+      "year": "109",
+      "subject": "math",
+      "q_no": "15",
+      "question_text": "平行四邊形 ABCD 中，E 點在 BC 上，P、Q 兩點在 AD 上，其位置如圖(七)所示。若 PB 與 AE 相交於 R 點，QB 與 AE 相交於 S 點，則下列三角形面積的大小關係，何者正確？",
+      "options": {
+        "A": "△PBE>△QBE，△PRE>△QSE",
+        "B": "△PBE<△QBE，△PRE<△QSE",
+        "C": "△PBE=△QBE，△PRE>△QSE",
+        "D": "△PBE=△QBE，△PRE<△QSE"
+      },
+      "answer": "D",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "109_math_16",
+      "year": "109",
+      "subject": "math",
+      "q_no": "16",
+      "question_text": "中秋節時阿柚製作的廣式月餅、蛋黃酥、鳳梨酥的數量比為2：1：3，其中只有製作廣式月餅和蛋黃酥時使用鹹蛋黃。若阿柚製作每個廣式月餅時使用2顆鹹蛋黃，製作每個蛋黃酥時使用1顆鹹蛋黃，且總共使用120顆鹹蛋黃，則他製作了幾個鳳梨酥？",
+      "options": {
+        "A": "45",
+        "B": "60",
+        "C": "72",
+        "D": "120"
+      },
+      "answer": "C",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "109_math_17",
+      "year": "109",
+      "subject": "math",
+      "q_no": "17",
+      "question_text": "如圖(八)，P 點為矩形 ABCD 兩對角線的交點，將 P 點分別以 AD、BC 為對稱軸畫出對稱點 Q、R，形成六邊形 QABRCD。若 AB=2，AD=4，則六邊形 QABRCD 的周長為何？",
+      "options": {
+        "A": "12",
+        "B": "4+2√6",
+        "C": "4+4√3",
+        "D": "4+4√5"
+      },
+      "answer": "D",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "109_math_18",
+      "year": "109",
+      "subject": "math",
+      "q_no": "18",
+      "question_text": "圖(九)為小麗和小歐依序進入電梯時，電梯因超重而警示音響起的過程，且過程中沒有其他人進出。已知當電梯乘載的重量超過300公斤時警示音會響起，且小麗、小歐的重量分別為50公斤、70公斤。若小麗進入電梯前，電梯內已乘載的重量為x公斤，則所有滿足題意的x可用下列哪一個不等式表示？",
+      "options": {
+        "A": "180<x≤250",
+        "B": "180<x≤300",
+        "C": "230<x≤250",
+        "D": "230<x≤300"
+      },
+      "answer": "A",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "109_math_19",
+      "year": "109",
+      "subject": "math",
+      "q_no": "19",
+      "question_text": "圓上有 A、B、C、D 四點，其位置如圖(十)所示，其中 AC 與 BD 相交於 E 點，且 AB=BC。根據圖中標示的角度（∠ABD=44°，∠DBC=42°），判斷下列四條線段何者的長度最長？",
+      "options": {
+        "A": "AE",
+        "B": "BE",
+        "C": "CE",
+        "D": "DE"
+      },
+      "answer": "B",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "109_math_20",
+      "year": "109",
+      "subject": "math",
+      "q_no": "20",
+      "question_text": "圖(十一)的正三角形 ABC 與正方形 CDEF 中，B、C、D 三點共線，且 AC=10，CF=8。若有一動點 P 沿著 CA 由 C 往 A 移動，則 FP 的長度最小為多少？",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "4√3",
+        "D": "5√3"
+      },
+      "answer": "A",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "109_math_21",
+      "year": "109",
+      "subject": "math",
+      "q_no": "21",
+      "question_text": "坐標平面上有一水平線 L 與二次函數 y=a(x+7)²-10 的圖形，其中 a 為一正數，且 L 與二次函數圖形相交於 A、C 兩點，與 y 軸相交於 B 點，其位置如圖(十二)所示。若 AB：BC=5：1，則 AC 的長度為何？",
+      "options": {
+        "A": "17",
+        "B": "19",
+        "C": "21",
+        "D": "24"
+      },
+      "answer": "C",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "109_math_22",
+      "year": "109",
+      "subject": "math",
+      "q_no": "22",
+      "question_text": "如圖(十三)，直線 L 將正九邊形 ABCDEFGHI 分割成兩個區域，且分別與 AB、EF 相交於 P 點、Q 點。若∠APQ 的外角為75°，則∠PQE 的度數為何？",
+      "options": {
+        "A": "75",
+        "B": "85",
+        "C": "95",
+        "D": "105"
+      },
+      "answer": "B",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "109_math_23",
+      "year": "109",
+      "subject": "math",
+      "q_no": "23",
+      "question_text": "已知有若干片相同的拼圖，其形狀如圖(十四)所示，且拼圖依同方向排列時可緊密拼成一列，此時底部可與直線貼齊。當4片拼圖緊密拼成一列時長度為23公分，如圖(十五)所示。當10片拼圖緊密拼成一列時長度為56公分，如圖(十六)所示。求圖(十四)中的拼圖長度為多少公分？",
+      "options": {
+        "A": "5.5",
+        "B": "5.6",
+        "C": "5.75",
+        "D": "6.5"
+      },
+      "answer": "D",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "109_math_24",
+      "year": "109",
+      "subject": "math",
+      "q_no": "24",
+      "question_text": "圖(十七)為三角形紙片 ABC，其中 D 點和 E 點將 AB 分成三等分，F 點為 DE 中點。若小慕從 AB 上的一點 P，沿著與直線 BC 平行的方向將紙片剪開後，剪下的小三角形紙片面積為△ABC 的1/3，則下列關於 P 點位置的敘述，何者正確？",
+      "options": {
+        "A": "與D點重合",
+        "B": "與E點重合",
+        "C": "在DF上，但不與D點也不與F點重合",
+        "D": "在FE上，但不與F點也不與E點重合"
+      },
+      "answer": "D",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "109_math_25",
+      "year": "109",
+      "subject": "math",
+      "q_no": "25",
+      "question_text": "圖(十八)為有春蛋糕店的價目表，阿凱原本拿了4個蛋糕去結帳，結帳時發現該店正在舉辦優惠活動，優惠方式為每買5個蛋糕，其中1個價格最低的蛋糕免費，因此阿凱後來多買了1個黑櫻桃蛋糕。若阿凱原本的結帳金額為x元，後來的結帳金額為y元，則x與y的關係式不可能為下列何者？（價目表：伯爵茶蛋糕40元、鮮奶捲蛋糕45元、濃起司蛋糕45元、黑櫻桃蛋糕55元、水果派蛋糕60元、千層派蛋糕70元）",
+      "options": {
+        "A": "y=x",
+        "B": "y=x+5",
+        "C": "y=x+10",
+        "D": "y=x+15"
+      },
+      "answer": "B",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "109_math_26",
+      "year": "109",
+      "subject": "math",
+      "q_no": "26",
+      "question_text": "如圖(十九)，銳角三角形 ABC 中，O 點為 AB 中點。甲、乙兩人想在 AC 上找一點 P，使得△ABP 的外心為 O，其作法分別如下：（甲）作過B且與AC垂直的直線，交AC於P點，則P即為所求（乙）以O為圓心，OA長為半徑畫弧，交AC於P點，則P即為所求。對於甲、乙兩人的作法，下列判斷何者正確？",
+      "options": {
+        "A": "兩人皆正確",
+        "B": "兩人皆錯誤",
+        "C": "甲正確，乙錯誤",
+        "D": "甲錯誤，乙正確"
+      },
+      "answer": "A",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "110_math_1",
+      "year": "110",
+      "subject": "math",
+      "q_no": "1",
+      "question_text": "圖(一)的坐標平面上有A、B、C、D四點。根據圖(一)中各點位置判斷,哪一個點在第二象限?",
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D"
+      },
+      "answer": "A",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "110_math_2",
+      "year": "110",
+      "subject": "math",
+      "q_no": "2",
+      "question_text": "算式(-8)+(-2)×(-3)之值為何?",
+      "options": {
+        "A": "-14",
+        "B": "-2",
+        "C": "18",
+        "D": "30"
+      },
+      "answer": "B",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "110_math_3",
+      "year": "110",
+      "subject": "math",
+      "q_no": "3",
+      "question_text": "若二元一次聯立方程式{x=4y, 6y-x=10}的解為x=a,y=b,則a+b之值為何?",
+      "options": {
+        "A": "-15",
+        "B": "-3",
+        "C": "5",
+        "D": "25"
+      },
+      "answer": "D",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "110_math_4",
+      "year": "110",
+      "subject": "math",
+      "q_no": "4",
+      "question_text": "如圖(二),矩形ABCD、ΔBDE中,A點在BE上。若矩形ABCD的面積為20,ΔBDE的面積為24,則ΔADE的面積為何?",
+      "options": {
+        "A": "10",
+        "B": "12",
+        "C": "14",
+        "D": "16"
+      },
+      "answer": "C",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "110_math_5",
+      "year": "110",
+      "subject": "math",
+      "q_no": "5",
+      "question_text": "5^6是5^3的多少倍?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "25",
+        "D": "125"
+      },
+      "answer": "D",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "110_math_6",
+      "year": "110",
+      "subject": "math",
+      "q_no": "6",
+      "question_text": "下列等式何者不成立?",
+      "options": {
+        "A": "4√3+2√3=6√3",
+        "B": "4√3-2√3=2√3",
+        "C": "4√3×2√3=8√3",
+        "D": "4√3÷2√3=2"
+      },
+      "answer": "C",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "110_math_7",
+      "year": "110",
+      "subject": "math",
+      "q_no": "7",
+      "question_text": "已知纜車從起點行駛到終點需花費8分鐘,圖(三)表示行駛過程中纜車的海拔高度與行駛時間的關係。根據圖(三)判斷,下列敘述何者正確?",
+      "options": {
+        "A": "終點的海拔高度比起點高300公尺,行駛時間的前4分鐘都在上升",
+        "B": "終點的海拔高度比起點高300公尺,行駛時間的末4分鐘都在上升",
+        "C": "終點的海拔高度比起點高350公尺,行駛時間的前4分鐘都在上升",
+        "D": "終點的海拔高度比起點高350公尺,行駛時間的末4分鐘都在上升"
+      },
+      "answer": "B",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "110_math_8",
+      "year": "110",
+      "subject": "math",
+      "q_no": "8",
+      "question_text": "利用乘法公式判斷,下列等式何者成立?",
+      "options": {
+        "A": "248^2+248×52+52^2=300^2",
+        "B": "248^2-248×48-48^2=200^2",
+        "C": "248^2+2×248×52+52^2=300^2",
+        "D": "248^2-2×248×48-48^2=200^2"
+      },
+      "answer": "C",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "110_math_9",
+      "year": "110",
+      "subject": "math",
+      "q_no": "9",
+      "question_text": "圖(四)為甲城市6月到9月外國旅客人數的折線圖。根據圖(四)判斷,哪一個月到甲城市的外國旅客中,旅客人數最少的國家是美國?",
+      "options": {
+        "A": "6",
+        "B": "7",
+        "C": "8",
+        "D": "9"
+      },
+      "answer": "C",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "110_math_10",
+      "year": "110",
+      "subject": "math",
+      "q_no": "10",
+      "question_text": "將一半徑為6的圓形紙片,沿著兩條半徑剪開形成兩個扇形。若其中一個扇形的弧長為5π,則另一個扇形的圓心角度數是多少?",
+      "options": {
+        "A": "30",
+        "B": "60",
+        "C": "105",
+        "D": "210"
+      },
+      "answer": "D",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "110_math_11",
+      "year": "110",
+      "subject": "math",
+      "q_no": "11",
+      "question_text": "動物園準備了100張刮刮樂,打算送給開幕當日的前100位遊客每人一張,其中可刮中獎品的刮刮樂共有32張,表(一)為獎品的種類及數量。若小柏為開幕當日的第一位遊客,且每張刮刮樂被小柏拿到的機會相等,則小柏刮中玩偶的機率為何?(表(一):北極熊玩偶一個1、獅子玩偶一個1、造型馬克杯一個10、紀念鑰匙圈一個20)",
+      "options": {
+        "A": "1/2",
+        "B": "1/16",
+        "C": "8/25",
+        "D": "1/50"
+      },
+      "answer": "D",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "110_math_12",
+      "year": "110",
+      "subject": "math",
+      "q_no": "12",
+      "question_text": "美美和小儀到超市購物,且超市正在舉辦摸彩活動,單次消費金額每滿100元可以拿到1張摸彩券。已知美美一次購買5盒餅乾拿到3張摸彩券;小儀一次購買5盒餅乾與1個蛋糕拿到4張摸彩券。若每盒餅乾的售價為x元,每個蛋糕的售價為150元,則x的範圍為下列何者?",
+      "options": {
+        "A": "50≤x<60",
+        "B": "60≤x<70",
+        "C": "70≤x<80",
+        "D": "80≤x<90"
+      },
+      "answer": "B",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "110_math_13",
+      "year": "110",
+      "subject": "math",
+      "q_no": "13",
+      "question_text": "已知a1,a2,……,a40為一等差數列,其中a1為正數,且a20+a22=0。判斷下列敘述何者正確?",
+      "options": {
+        "A": "a21+a22>0",
+        "B": "a21+a22<0",
+        "C": "a21×a22>0",
+        "D": "a21×a22<0"
+      },
+      "answer": "B",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "110_math_14",
+      "year": "110",
+      "subject": "math",
+      "q_no": "14",
+      "question_text": "已知a=-5/223,b=6/263,c=-7/293,判斷下列各式之值何者最大?",
+      "options": {
+        "A": "|a+b+c|",
+        "B": "|a+b-c|",
+        "C": "|a-b+c|",
+        "D": "|a-b-c|"
+      },
+      "answer": "C",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "110_math_15",
+      "year": "110",
+      "subject": "math",
+      "q_no": "15",
+      "question_text": "已知ΔABC與ΔDEF全等,A、B、C的對應點分別為D、E、F,且E點在AC上,B、F、C、D四點共線,如圖(五)所示。若∠A=40°,∠CED=35°,則下列敘述何者正確?",
+      "options": {
+        "A": "EF=EC,AE=FC",
+        "B": "EF=EC,AE≠FC",
+        "C": "EF≠EC,AE=FC",
+        "D": "EF≠EC,AE≠FC"
+      },
+      "answer": "B",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "110_math_16",
+      "year": "110",
+      "subject": "math",
+      "q_no": "16",
+      "question_text": "圖(六)為某超商促銷活動的內容,今阿賢到該超商拿相差4元的2種飯糰各1個結帳時,店員說:「要不要多買2瓶指定飲料?搭配促銷活動後2組優惠價的金額,只比你買2個飯糰的金額多30元。」若阿賢只多買1瓶指定飲料,且店員會以對消費者最便宜的方式結帳,則與原本只買2個飯糰相比,他要多付多少元?(圖(六)促銷內容:任一個飯糰+一瓶指定飲料,每組優惠價只要39元!)",
+      "options": {
+        "A": "12",
+        "B": "13",
+        "C": "15",
+        "D": "16"
+      },
+      "answer": "B",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "110_math_17",
+      "year": "110",
+      "subject": "math",
+      "q_no": "17",
+      "question_text": "如圖(七),梯形ABCD中,AD//BC,有一圓O通過A、B、C三點,且AD與圓O相切於A點。若∠B=58°,則BC弧的度數為何?",
+      "options": {
+        "A": "116",
+        "B": "120",
+        "C": "122",
+        "D": "128"
+      },
+      "answer": "D",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "110_math_18",
+      "year": "110",
+      "subject": "math",
+      "q_no": "18",
+      "question_text": "若坐標平面上二次函數y=a(x+b)^2+c的圖形,經過平移後可與y=(x+3)^2的圖形完全疊合,則a、b、c的值可能為下列哪一組?",
+      "options": {
+        "A": "a=1,b=0,c=-2",
+        "B": "a=2,b=6,c=0",
+        "C": "a=-1,b=-3,c=0",
+        "D": "a=-2,b=3,c=-2"
+      },
+      "answer": "A",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "110_math_19",
+      "year": "110",
+      "subject": "math",
+      "q_no": "19",
+      "question_text": "如圖(八),ΔABC中,D、E、F三點分別在AB、BC、AC上,且四邊形BEFD是以DE為對稱軸的線對稱圖形,四邊形CFDE是以FE為對稱軸的線對稱圖形。若∠C=40°,則∠DFE的度數為何?",
+      "options": {
+        "A": "65",
+        "B": "70",
+        "C": "75",
+        "D": "80"
+      },
+      "answer": "D",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "110_math_20",
+      "year": "110",
+      "subject": "math",
+      "q_no": "20",
+      "question_text": "已知捷立租車行有甲、乙兩個營業據點,顧客租車後當日須於營業結束前在任意一個據點還車。某日營業結束清點車輛時,發現在甲歸還的自行車比從甲出租的多4輛。若當日從甲出租且在甲歸還的自行車為15輛,從乙出租且在乙歸還的自行車為13輛,則關於當日從甲、乙出租的自行車數量,下列比較何者正確?",
+      "options": {
+        "A": "從甲出租的比從乙出租的多2輛",
+        "B": "從甲出租的比從乙出租的少2輛",
+        "C": "從甲出租的比從乙出租的多6輛",
+        "D": "從甲出租的比從乙出租的少6輛"
+      },
+      "answer": "B",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "110_math_21",
+      "year": "110",
+      "subject": "math",
+      "q_no": "21",
+      "question_text": "如圖(九),四邊形ABCD中,∠1、∠2、∠3分別為∠A、∠B、∠C的外角。判斷下列大小關係何者正確?",
+      "options": {
+        "A": "∠1+∠3=∠ABC+∠D",
+        "B": "∠1+∠3<∠ABC+∠D",
+        "C": "∠1+∠2+∠3=360°",
+        "D": "∠1+∠2+∠3>360°"
+      },
+      "answer": "A",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "110_math_22",
+      "year": "110",
+      "subject": "math",
+      "q_no": "22",
+      "question_text": "若a、b為正整數,且a×b=2^5×3^2×5,則下列何者不可能為a、b的最大公因數?",
+      "options": {
+        "A": "1",
+        "B": "6",
+        "C": "8",
+        "D": "12"
+      },
+      "answer": "C",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "110_math_23",
+      "year": "110",
+      "subject": "math",
+      "q_no": "23",
+      "question_text": "如圖(十),菱形ABCD中,E點在BC上,F點在CD上,G點、H點在AD上,且AE//HC//GF。若AH=8,HG=5,GD=4,則下列選項中的線段,何者的長度最長?",
+      "options": {
+        "A": "CF",
+        "B": "FD",
+        "C": "BE",
+        "D": "EC"
+      },
+      "answer": "A",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "110_math_24",
+      "year": "110",
+      "subject": "math",
+      "q_no": "24",
+      "question_text": "小文原本計畫使用甲、乙兩臺影印機於10:00開始一起印製文件並持續到下午,但10:00時有人正在使用乙,於是他先使用甲印製,於10:05才開始使用乙一起印製,且到10:15時乙印製的總張數與甲相同,到10:45時甲、乙印製的總張數合計為2100張。若甲、乙的印製張數與印製時間皆成正比,則依照小文原本的計畫,甲、乙印製的總張數會在哪個時間達到2100張?",
+      "options": {
+        "A": "10:40",
+        "B": "10:41",
+        "C": "10:42",
+        "D": "10:43"
+      },
+      "answer": "C",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "110_math_25",
+      "year": "110",
+      "subject": "math",
+      "q_no": "25",
+      "question_text": "如圖(十一),銳角三角形ABC中,D點在BC上,∠B=∠BAD=∠CAD。今欲在AD上找一點P,使得∠APC=∠ADB,以下是甲、乙兩人的作法:(甲)作AC的中垂線交AD於P點,則P即為所求(乙)以C為圓心,CD長為半徑畫弧,交AD於異於D點的一點P,則P即為所求。對於甲、乙兩人的作法,下列判斷何者正確?",
+      "options": {
+        "A": "兩人皆正確",
+        "B": "兩人皆錯誤",
+        "C": "甲正確,乙錯誤",
+        "D": "甲錯誤,乙正確"
+      },
+      "answer": "A",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "110_math_26",
+      "year": "110",
+      "subject": "math",
+      "q_no": "26",
+      "question_text": "如圖(十二),I為ΔABC的內心,有一直線通過I點且分別與AB、AC相交於D點、E點。若AD=DE=5,AE=6,則I點到BC的距離為何?",
+      "options": {
+        "A": "24/11",
+        "B": "30/11",
+        "C": "2",
+        "D": "3"
+      },
+      "answer": "A",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "111_math_1",
+      "year": "111",
+      "subject": "math",
+      "q_no": "1",
+      "question_text": "圖(一)數線上的A、B、C、D四點所表示的數分別為a、b、c、d，且O為原點。根據圖中各點的位置判斷，下列何者的值最小？",
+      "options": {
+        "A": "|a|",
+        "B": "|b|",
+        "C": "|c|",
+        "D": "|d|"
+      },
+      "answer": "A",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "111_math_2",
+      "year": "111",
+      "subject": "math",
+      "q_no": "2",
+      "question_text": "計算多項式6x²+4x除以2x²後，得到的餘式為何？",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "2x",
+        "D": "4x"
+      },
+      "answer": "D",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "111_math_3",
+      "year": "111",
+      "subject": "math",
+      "q_no": "3",
+      "question_text": "下列何者為156的質因數？",
+      "options": {
+        "A": "11",
+        "B": "12",
+        "C": "13",
+        "D": "14"
+      },
+      "answer": "C",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "111_math_4",
+      "year": "111",
+      "subject": "math",
+      "q_no": "4",
+      "question_text": "圖(二)為一個長方體的展開圖，且長方體的底面為正方形。根據圖中標示的長度，求此長方體的體積為何？（圖中標示：正方形邊長對應處22，長方形長邊12）",
+      "options": {
+        "A": "144",
+        "B": "224",
+        "C": "264",
+        "D": "300"
+      },
+      "answer": "B",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "111_math_5",
+      "year": "111",
+      "subject": "math",
+      "q_no": "5",
+      "question_text": "算式 9/22 + 11/18 − (23/22 − 7/18) 之值為何？",
+      "options": {
+        "A": "4/11",
+        "B": "9/10",
+        "C": "1/9",
+        "D": "5/4"
+      },
+      "answer": "A",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "111_math_6",
+      "year": "111",
+      "subject": "math",
+      "q_no": "6",
+      "question_text": "√2022 的值介於下列哪兩個數之間？",
+      "options": {
+        "A": "25，30",
+        "B": "30，35",
+        "C": "35，40",
+        "D": "40，45"
+      },
+      "answer": "D",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "111_math_7",
+      "year": "111",
+      "subject": "math",
+      "q_no": "7",
+      "question_text": "已知坐標平面上有一直線L與一點A。若L的方程式為x=−2，A點坐標為(6,5)，則A點到直線L的距離為何？",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "7",
+        "D": "8"
+      },
+      "answer": "D",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "111_math_8",
+      "year": "111",
+      "subject": "math",
+      "q_no": "8",
+      "question_text": "多項式39x²+5x−14可因式分解成(3x+a)(bx+c)，其中a、b、c均為整數，求a+2c之值為何？",
+      "options": {
+        "A": "−12",
+        "B": "−3",
+        "C": "3",
+        "D": "12"
+      },
+      "answer": "A",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "111_math_9",
+      "year": "111",
+      "subject": "math",
+      "q_no": "9",
+      "question_text": "箱子內有分別標示號碼1~6的球，每個號碼各2顆，總共12顆。已知小茹先從箱內抽出5顆球且不將球放回箱內，這5顆球的號碼分別是1、2、2、3、5。今阿純打算從此箱內剩下的球中抽出1顆球，若箱內剩下的每顆球被他抽出的機會相等，則他抽出的球的號碼，與小茹已抽出的5顆球中任意一顆球的號碼相同的機率是多少？",
+      "options": {
+        "A": "3/6",
+        "B": "4/6",
+        "C": "3/7",
+        "D": "4/7"
+      },
+      "answer": "C",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "111_math_10",
+      "year": "111",
+      "subject": "math",
+      "q_no": "10",
+      "question_text": "已知一元二次方程式(x−2)²=3的兩根為a、b，且a>b，求2a+b之值為何？",
+      "options": {
+        "A": "9",
+        "B": "−3",
+        "C": "6+√3",
+        "D": "−6+√3"
+      },
+      "answer": "C",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "111_math_11",
+      "year": "111",
+      "subject": "math",
+      "q_no": "11",
+      "question_text": "根據圖(三)中兩人的對話紀錄，求出哥哥買遊戲機的預算為多少元？（對話內容：哥哥問你之前提到的遊戲機買了沒？弟弟回覆還沒，因為它的售價比我的預算還要多1200元；哥哥回覆這台遊戲機正在打8折促銷耶！弟弟回覆這樣比我的預算還要少200元耶！）",
+      "options": {
+        "A": "3800",
+        "B": "4800",
+        "C": "5800",
+        "D": "6800"
+      },
+      "answer": "C",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "111_math_12",
+      "year": "111",
+      "subject": "math",
+      "q_no": "12",
+      "question_text": "已知p=7.52×10⁻⁶，下列關於p值的敘述何者正確？",
+      "options": {
+        "A": "小於0",
+        "B": "介於0與1兩數之間，兩數中比較接近0",
+        "C": "介於0與1兩數之間，兩數中比較接近1",
+        "D": "大於1"
+      },
+      "answer": "B",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "111_math_13",
+      "year": "111",
+      "subject": "math",
+      "q_no": "13",
+      "question_text": "如圖(四)，AB為圓O的一弦，且C點在AB上。若AC=6，BC=2，AB的弦心距為3，則OC的長度為何？",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "√11",
+        "D": "√13"
+      },
+      "answer": "D",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "111_math_14",
+      "year": "111",
+      "subject": "math",
+      "q_no": "14",
+      "question_text": "某國主計處調查2017年該國所有受僱員工的年薪資料，並公布調查結果如圖(五)的直方圖所示（橫軸為年薪(萬元)：0,12,24,36,48,60,72,84,96,108,120,132,144，對應人數(萬人)依序為5,5,10,40,80,100,80,80,65,45,40,30,25,20,18,16,14,12,10,9,8,8,7,6，平均數為60萬元）。已知總調查人數為750萬人，根據圖中資訊計算，該國受僱員工年薪低於平均數的人數占總調查人數的百分率為下列何者？",
+      "options": {
+        "A": "6%",
+        "B": "50%",
+        "C": "68%",
+        "D": "73%"
+      },
+      "answer": "C",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "111_math_15",
+      "year": "111",
+      "subject": "math",
+      "q_no": "15",
+      "question_text": "如圖(六)，△ABC中，D點在AB上，E點在BC上，DE為AB的中垂線。若∠B=∠C，且∠EAC>90°，則根據圖中標示的角，判斷下列敘述何者正確？",
+      "options": {
+        "A": "∠1=∠2，∠1<∠3",
+        "B": "∠1=∠2，∠1>∠3",
+        "C": "∠1≠∠2，∠1<∠3",
+        "D": "∠1≠∠2，∠1>∠3"
+      },
+      "answer": "B",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "111_math_16",
+      "year": "111",
+      "subject": "math",
+      "q_no": "16",
+      "question_text": "緩降機是火災發生時避難的逃生設備，圖(七)是廠商提供的緩降機安裝示意圖，圖中呈現在三樓安裝緩降機時，使用此緩降機直接緩降到一樓地面的所需繩長(不計安全帶)。若某棟建築的每個樓層高度皆為3公尺，則根據圖(七)的安裝方式在該建築八樓安裝緩降機時，使用此緩降機直接緩降到一樓地面的所需繩長(不計安全帶)為多少公尺？（圖中標示：落地架處0.4，三樓到落地架的矮牆高1.6，一樓地面到安全帶處0.5）",
+      "options": {
+        "A": "21.7",
+        "B": "22.6",
+        "C": "24.7",
+        "D": "25.6"
+      },
+      "answer": "A",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "111_math_17",
+      "year": "111",
+      "subject": "math",
+      "q_no": "17",
+      "question_text": "圖(八)為兩直線L、M與△ABC相交的情形，其中L、M分別與BC、AB平行。根據圖中標示的角度（120°、115°），求∠B的度數為何？",
+      "options": {
+        "A": "55",
+        "B": "60",
+        "C": "65",
+        "D": "70"
+      },
+      "answer": "A",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "111_math_18",
+      "year": "111",
+      "subject": "math",
+      "q_no": "18",
+      "question_text": "某鞋店正舉辦開學特惠活動，圖(九)為活動說明（活動說明：任選兩雙鞋，第二雙打6折；兩雙鞋定價不同時以價低者折扣；此活動不得與折價券合併使用）。小徹打算在該店同時購買一雙球鞋及一雙皮鞋，且他有一張所有購買的商品定價皆打8折的折價券。若小徹計算後發現使用折價券與參加特惠活動兩者的花費相差50元，則下列敘述何者正確？",
+      "options": {
+        "A": "使用折價券的花費較少，且兩雙鞋的定價相差100元",
+        "B": "使用折價券的花費較少，且兩雙鞋的定價相差250元",
+        "C": "參加特惠活動的花費較少，且兩雙鞋的定價相差100元",
+        "D": "參加特惠活動的花費較少，且兩雙鞋的定價相差250元"
+      },
+      "answer": "B",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "111_math_19",
+      "year": "111",
+      "subject": "math",
+      "q_no": "19",
+      "question_text": "如圖(十)，△ABC的重心為G，BC的中點為D，今以G為圓心，GD長為半徑畫一圓，且作A點到圓G的兩切線段AE、AF，其中E、F均為切點。根據圖中標示的角與角度（∠B=40°，∠C=45°），求∠1與∠2的度數和為多少？",
+      "options": {
+        "A": "30",
+        "B": "35",
+        "C": "40",
+        "D": "45"
+      },
+      "answer": "B",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "111_math_20",
+      "year": "111",
+      "subject": "math",
+      "q_no": "20",
+      "question_text": "圖(十一)為一張正三角形紙片ABC，其中D點在AB上，E點在BC上。今以DE為摺線將B點往右摺後，BD、BE分別與AC相交於F點、G點，如圖(十二)所示。若AD=10，AF=16，DF=14，BF=8，則CG的長度為多少？",
+      "options": {
+        "A": "7",
+        "B": "8",
+        "C": "9",
+        "D": "10"
+      },
+      "answer": "C",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "111_math_21",
+      "year": "111",
+      "subject": "math",
+      "q_no": "21",
+      "question_text": "有一直徑為AB的圓，且圓上有C、D、E、F四點，其位置如圖(十三)所示。若AC=6，AD=8，AE=5，AF=9，AB=10，則下列弧長關係何者正確？",
+      "options": {
+        "A": "弧AC+弧AD=弧AB，弧AE+弧AF=弧AB",
+        "B": "弧AC+弧AD=弧AB，弧AE+弧AF≠弧AB",
+        "C": "弧AC+弧AD≠弧AB，弧AE+弧AF=弧AB",
+        "D": "弧AC+弧AD≠弧AB，弧AE+弧AF≠弧AB"
+      },
+      "answer": "B",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "111_math_22",
+      "year": "111",
+      "subject": "math",
+      "q_no": "22",
+      "question_text": "已知坐標平面上有二次函數y=−(x+6)²+5的圖形，函數圖形與x軸相交於(a,0)、(b,0)兩點，其中a<b。今將此函數圖形往上平移，平移後函數圖形與x軸相交於(c,0)、(d,0)兩點，其中c<d，判斷下列敘述何者正確？",
+      "options": {
+        "A": "(a+b)=(c+d)，(b−a)<(d−c)",
+        "B": "(a+b)=(c+d)，(b−a)>(d−c)",
+        "C": "(a+b)<(c+d)，(b−a)<(d−c)",
+        "D": "(a+b)<(c+d)，(b−a)>(d−c)"
+      },
+      "answer": "A",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "111_math_23",
+      "year": "111",
+      "subject": "math",
+      "q_no": "23",
+      "question_text": "△ABC的邊上有D、E、F三點，各點位置如圖(十四)所示。若∠B=∠FAC，BD=AC，∠BDE=∠C，則根據圖中標示的長度(BE=7，EF=4，FC=5)，求四邊形ADEF與△ABC的面積比為何？",
+      "options": {
+        "A": "1:3",
+        "B": "1:4",
+        "C": "2:5",
+        "D": "3:8"
+      },
+      "answer": "D",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "111_math_24",
+      "year": "111",
+      "subject": "math",
+      "q_no": "24",
+      "question_text": "已知日光燈管的發光效率為光通量與功率的比值，甲、乙兩人根據表(一)、表(二)的資訊提出以下看法：(甲)PA-20日光燈管的發光效率比PB-14日光燈管高；(乙)PA日光燈管中，功率較大的燈管其發光效率較高。關於甲、乙兩人的看法，下列敘述何者正確？（表(一) PA燈管：PA-20直徑25.4長度580功率20光通量1440；PA-30直徑25.4長度895功率30光通量2340；PA-40直徑25.4長度1198功率40光通量3360。表(二) PB燈管：PB-14直徑15.8長度549功率14光通量1200；PB-28直徑15.8長度1149功率28光通量2600）",
+      "options": {
+        "A": "甲、乙皆正確",
+        "B": "甲、乙皆錯誤",
+        "C": "甲正確，乙錯誤",
+        "D": "甲錯誤，乙正確"
+      },
+      "answer": "D",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "111_math_25",
+      "year": "111",
+      "subject": "math",
+      "q_no": "25",
+      "question_text": "有一間公司請水電工程廠商安裝日光燈管，廠商提供兩種方案如表(三)所示（基本方案：安裝90支PA-40日光燈管，施工費用45000元；省電方案：安裝120支PB-28日光燈管，施工費用60000元）。已知n支功率皆為w瓦的燈管都使用t小時後消耗的電能(度)=(n/1000)×w×t，若每支燈管使用時間皆相同，且只考慮燈管消耗的電能並以每度5元計算電費，則兩種方案相比，燈管使用時間至少要超過多少小時，採用省電方案所節省的電費才會高於兩者相差的施工費用？",
+      "options": {
+        "A": "12200",
+        "B": "12300",
+        "C": "12400",
+        "D": "12500"
+      },
+      "answer": "D",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "112_math_1",
+      "year": "112",
+      "subject": "math",
+      "q_no": "1",
+      "question_text": "(-3)^3 之值為何？",
+      "options": {
+        "A": "-27",
+        "B": "-9",
+        "C": "9",
+        "D": "27"
+      },
+      "answer": "A",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "112_math_2",
+      "year": "112",
+      "subject": "math",
+      "q_no": "2",
+      "question_text": "下列何者為多項式 x^2-36 的因式？",
+      "options": {
+        "A": "x-3",
+        "B": "x-4",
+        "C": "x-6",
+        "D": "x-9"
+      },
+      "answer": "C",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "112_math_3",
+      "year": "112",
+      "subject": "math",
+      "q_no": "3",
+      "question_text": "圖（一）的立體圖形由相同大小的正方體積木堆疊而成。判斷拿走圖（一）的哪一個積木後，此圖形前視圖的形狀會改變？（圖中標示甲、乙、丙、丁四個積木位置，並標示前面方向）",
+      "options": {
+        "A": "甲",
+        "B": "乙",
+        "C": "丙",
+        "D": "丁"
+      },
+      "answer": "B",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "112_math_4",
+      "year": "112",
+      "subject": "math",
+      "q_no": "4",
+      "question_text": "化簡 √135 的結果為下列何者？",
+      "options": {
+        "A": "3√5",
+        "B": "27√5",
+        "C": "3√15",
+        "D": "9√15"
+      },
+      "answer": "C",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "112_math_5",
+      "year": "112",
+      "subject": "math",
+      "q_no": "5",
+      "question_text": "坐標平面上，一次函數 y=-2x-6 的圖形通過下列哪一個點？",
+      "options": {
+        "A": "(-4,1)",
+        "B": "(-4,2)",
+        "C": "(-4,-1)",
+        "D": "(-4,-2)"
+      },
+      "answer": "B",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "112_math_6",
+      "year": "112",
+      "subject": "math",
+      "q_no": "6",
+      "question_text": "已知 a=-1，b=-1又3/4，c=-1又5/8，下列關於 a、b、c 三數的大小關係，何者正確？",
+      "options": {
+        "A": "a>c>b",
+        "B": "a>b>c",
+        "C": "b>c>a",
+        "D": "c>b>a"
+      },
+      "answer": "A",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "112_math_7",
+      "year": "112",
+      "subject": "math",
+      "q_no": "7",
+      "question_text": "如圖（二），坐標平面上直線 L 的方程式為 x=-5，直線 M 的方程式為 y=-3，P 點的坐標為 (a,b)。根據圖（二）中 P 點位置判斷，下列關係何者正確？（圖中 P 點位於直線 L 左側、直線 M 上方）",
+      "options": {
+        "A": "a<-5，b>-3",
+        "B": "a<-5，b<-3",
+        "C": "a>-5，b>-3",
+        "D": "a>-5，b<-3"
+      },
+      "answer": "A",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "112_math_8",
+      "year": "112",
+      "subject": "math",
+      "q_no": "8",
+      "question_text": "如圖（三），梯形 ABCD 中，AD // BC。若 ∠ADC=140°，且 BD⊥CD，則 ∠DBC 的度數為何？",
+      "options": {
+        "A": "30",
+        "B": "40",
+        "C": "50",
+        "D": "60"
+      },
+      "answer": "C",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "112_math_9",
+      "year": "112",
+      "subject": "math",
+      "q_no": "9",
+      "question_text": "有多少個正整數是 18 的倍數，同時也是 216 的因數？",
+      "options": {
+        "A": "2",
+        "B": "6",
+        "C": "10",
+        "D": "12"
+      },
+      "answer": "B",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "112_math_10",
+      "year": "112",
+      "subject": "math",
+      "q_no": "10",
+      "question_text": "利用公式解可得一元二次方程式 3x^2-11x-1=0 的兩解為 a、b，且 a>b，求 a 值為何？",
+      "options": {
+        "A": "(-11+√109)/6",
+        "B": "(-11+√133)/6",
+        "C": "(11+√109)/6",
+        "D": "(11+√133)/6"
+      },
+      "answer": "D",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "112_math_11",
+      "year": "112",
+      "subject": "math",
+      "q_no": "11",
+      "question_text": "業者販售含咖啡因飲料時通常會以紅、黃、綠三色來標示每杯飲料的咖啡因含量，各顏色的意義如表（一）所示。\n表（一）：咖啡因含量標示｜咖啡因含量：紅色｜超過200毫克；黃色｜超過100毫克，但不超過200毫克；綠色｜不超過100毫克。\n表（二）：美式咖啡容量及咖啡因含量標示：中杯360毫升｜黃色；大杯480毫升｜紅色。\n我國建議每位成人一日的咖啡因攝取量不超過 300 毫克，歐盟則建議一日不超過 400 毫克。表（二）為某商店美式咖啡的容量及咖啡因含量標示，已知該店美式咖啡每毫升的咖啡因含量相同，判斷一位成人一日喝 2 杯該店中杯的美式咖啡，其咖啡因攝取量是否符合我國或歐盟的建議？",
+      "options": {
+        "A": "符合我國也符合歐盟",
+        "B": "不符合我國也不符合歐盟",
+        "C": "符合我國，不符合歐盟",
+        "D": "不符合我國，符合歐盟"
+      },
+      "answer": "D",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "112_math_12",
+      "year": "112",
+      "subject": "math",
+      "q_no": "12",
+      "question_text": "盒玩的販售方式是將一款玩具裝在盒子中販賣，購買者只能從外盒知道購買的是哪一系列玩具，但無法知道是系列中的哪一款。圖（四）、圖（五）分別為動物系列、汽車系列盒玩中所有可能出現的款式。圖（四）動物系列有 A款(兔子)、B款(熊)、C款(獅子)、D款(小貓熊)、E款(海獅寶寶)、F款(企鵝) 共6款；圖（五）汽車系列有 A款(卡車)、B款(跑車)、C款(警車)、D款(復古車)、E款(吉普車) 共5款。已知小友喜歡圖（四）中的 A 款、C 款，喜歡圖（五）中的 B 款，若他打算購買圖（四）的盒玩一盒，且他買到圖（四）中每款玩具的機會相等；他也打算購買圖（五）的盒玩一盒，且他買到圖（五）中每款玩具的機會相等，則他買到的兩盒盒玩內的玩具都是他喜歡的款式的機率為何？",
+      "options": {
+        "A": "1/15",
+        "B": "1/10",
+        "C": "2/11",
+        "D": "3/11"
+      },
+      "answer": "A",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "112_math_13",
+      "year": "112",
+      "subject": "math",
+      "q_no": "13",
+      "question_text": "如圖（六），直角柱 ABCDEF 的底面為直角三角形。若 ∠ABC=∠DEF=90°，BC>AB>BE，則連接 AE 後，下列敘述何者正確？",
+      "options": {
+        "A": "∠ACB<∠FDE，∠AEB>∠ACB",
+        "B": "∠ACB<∠FDE，∠AEB<∠ACB",
+        "C": "∠ACB>∠FDE，∠AEB>∠ACB",
+        "D": "∠ACB>∠FDE，∠AEB<∠ACB"
+      },
+      "answer": "A",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "112_math_14",
+      "year": "112",
+      "subject": "math",
+      "q_no": "14",
+      "question_text": "坐標平面上有兩個二次函數的圖形，其頂點 P、Q 皆在 x 軸上，且有一水平線與兩圖形相交於 A、B、C、D 四點，各點位置如圖（七）所示。若 AB=10，BC=5，CD=6，則 PQ 的長度為何？",
+      "options": {
+        "A": "7",
+        "B": "8",
+        "C": "9",
+        "D": "10"
+      },
+      "answer": "B",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "112_math_15",
+      "year": "112",
+      "subject": "math",
+      "q_no": "15",
+      "question_text": "若想在等差數列 1,2,3,4,5 中插入一些數，使得新的數列也是等差數列，且新的數列的首項仍是 1，末項仍是 5，則新的數列的項數可能為下列何者？",
+      "options": {
+        "A": "11",
+        "B": "15",
+        "C": "30",
+        "D": "33"
+      },
+      "answer": "D",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "112_math_16",
+      "year": "112",
+      "subject": "math",
+      "q_no": "16",
+      "question_text": "已知某速食店販售的套餐內容為一片雞排和一杯可樂，且一份套餐的價錢比單點一片雞排再單點一杯可樂的總價錢便宜 40 元。阿俊打算到該速食店買兩份套餐，若他發現店內有單點一片雞排就再送一片雞排的促銷活動，且單點一片雞排再單點兩杯可樂的總價錢，比兩份套餐的總價錢便宜 10 元，則根據題意可得到下列哪一個結論？",
+      "options": {
+        "A": "一份套餐的價錢必為140元",
+        "B": "一份套餐的價錢必為120元",
+        "C": "單點一片雞排的價錢必為90元",
+        "D": "單點一片雞排的價錢必為70元"
+      },
+      "answer": "C",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "112_math_17",
+      "year": "112",
+      "subject": "math",
+      "q_no": "17",
+      "question_text": "圖（八）的方格紙中，每個方格的邊長為 1，A、O 兩點皆在格線的交點上。今在此方格紙格線的交點上另外找兩點 B、C，使得 △ABC 的外心為 O，求 BC 的長度為何？",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "√10",
+        "D": "√20"
+      },
+      "answer": "D",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "112_math_18",
+      "year": "112",
+      "subject": "math",
+      "q_no": "18",
+      "question_text": "樂樂停車場為 24 小時營業，其收費方式如表（三）所示。已知阿虹某日 10:00 進場停車，停了 x 小時後離場，x 為整數。若阿虹離場的時間介於當日的 20:00～24:00 間，則他此次停車的費用為多少元？\n表（三）：停車時段08:00~20:00，收費方式：20元/小時，該時段最多收100元；停車時段20:00~08:00，收費方式：5元/小時，該時段最多收30元；若進場與離場時間不在同一時段，則兩時段分別計費。",
+      "options": {
+        "A": "5x+30",
+        "B": "5x+50",
+        "C": "5x+150",
+        "D": "5x+200"
+      },
+      "answer": "B",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "112_math_19",
+      "year": "112",
+      "subject": "math",
+      "q_no": "19",
+      "question_text": "圖（九）為一圓形紙片，A、B、C 為圓周上三點，其中 AC 為直徑。今以 AB 為摺線將紙片向右摺後，紙片蓋住部分的 AC，而 AB 弧上與 AC 重疊的點為 D，如圖（十）所示。若弧BC=35°，則弧AD 的度數為何？",
+      "options": {
+        "A": "105",
+        "B": "110",
+        "C": "120",
+        "D": "145"
+      },
+      "answer": "B",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "112_math_20",
+      "year": "112",
+      "subject": "math",
+      "q_no": "20",
+      "question_text": "如圖（十一），△ABC 中，D 點在 BC 上，且 BD 的中垂線與 AB 相交於 E 點，CD 的中垂線與 AC 相交於 F 點。已知 △ABC 的三個內角皆不相等，根據圖（十一）中標示的角（∠1在E點、∠2在D點、∠3在F點、∠4在A點），判斷下列敘述何者正確？",
+      "options": {
+        "A": "∠1=∠3，∠2=∠4",
+        "B": "∠1=∠3，∠2≠∠4",
+        "C": "∠1≠∠3，∠2=∠4",
+        "D": "∠1≠∠3，∠2≠∠4"
+      },
+      "answer": "C",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "112_math_21",
+      "year": "112",
+      "subject": "math",
+      "q_no": "21",
+      "question_text": "有一東西向的直線吊橋橫跨溪谷，小維、阿良分別從西橋頭、東橋頭同時開始往吊橋的另一頭筆直地走過去，如圖（十二）所示。已知小維從西橋頭走了 84 步，阿良從東橋頭走了 60 步時，兩人在吊橋上的某點交會，且交會之後阿良再走 70 步恰好走到西橋頭。若小維每步的距離相等，阿良每步的距離相等，則交會之後小維再走多少步會恰好走到東橋頭？",
+      "options": {
+        "A": "46",
+        "B": "50",
+        "C": "60",
+        "D": "72"
+      },
+      "answer": "D",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "112_math_22",
+      "year": "112",
+      "subject": "math",
+      "q_no": "22",
+      "question_text": "如圖（十三），正方形 ABCD 與 △EBC 中，AD 分別與 EB、EC 相交於 F 點、G 點。若 △EBG 的面積為 6，正方形 ABCD 的面積為 16，則 FG 與 BC 的長度比為何？",
+      "options": {
+        "A": "3:5",
+        "B": "3:6",
+        "C": "3:7",
+        "D": "3:8"
+      },
+      "answer": "C",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "112_math_23",
+      "year": "112",
+      "subject": "math",
+      "q_no": "23",
+      "question_text": "如圖（十四），矩形 ABCD 中，AB=6，AD=8，且有一點 P 從 B 點沿著 BD 往 D 點移動。若過 P 點作 AB 的垂線交 AB 於 E 點，過 P 點作 AD 的垂線交 AD 於 F 點，則 EF 的長度最小為多少？",
+      "options": {
+        "A": "14/5",
+        "B": "24/5",
+        "C": "5",
+        "D": "7"
+      },
+      "answer": "B",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "112_math_24",
+      "year": "112",
+      "subject": "math",
+      "q_no": "24",
+      "question_text": "請閱讀下列敘述後回答本題：人口老化是國家人口分布向高年齡偏移的現象，許多國家已開始面臨此問題。依國際常用定義，一個國家中的 65 歲以上人口占總人口的百分比為 7% 以上(含)且未達 14% 時稱作「高齡化社會」，14% 以上(含)且未達 20% 時稱作「高齡社會」，20% 以上(含)時稱作「超高齡社會」。圖（十五）為某機構於 2020 年繪製的四個國家 65 歲以上人口占總人口百分比之折線圖（法國、義大利、美國、韓國，橫軸1970~2040年），其中 2020 年之後的數值為推估值。根據圖（十五）推測，下列哪一個國家從進入「高齡社會」到進入「超高齡社會」所花的時間最短？",
+      "options": {
+        "A": "法國",
+        "B": "義大利",
+        "C": "美國",
+        "D": "韓國"
+      },
+      "answer": "D",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "112_math_25",
+      "year": "112",
+      "subject": "math",
+      "q_no": "25",
+      "question_text": "已知 2019 年我國進入「高齡社會」，預測 2025 年會進入「超高齡社會」。假設我國 2019 年與 2025 年總人口數皆為 2300 萬人，且 2019 年我國 65 歲以上人口占總人口的百分比恰好達到「高齡社會」的最低標準，則根據上述預測，關於我國 65 歲以上人口數，2025 年與 2019 年相比至少增加了多少萬人？",
+      "options": {
+        "A": "138",
+        "B": "161",
+        "C": "322",
+        "D": "460"
+      },
+      "answer": "A",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "113_math_1",
+      "year": "113",
+      "subject": "math",
+      "q_no": "1",
+      "question_text": "算式 3/7-(-1/4) 之值為何？",
+      "options": {
+        "A": "19/28",
+        "B": "5/28",
+        "C": "4/11",
+        "D": "2/3"
+      },
+      "answer": "A",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "113_math_2",
+      "year": "113",
+      "subject": "math",
+      "q_no": "2",
+      "question_text": "圖（一）為一個直三角柱的展開圖，其中三個面被標示為甲、乙、丙。將此展開圖摺成直三角柱後，判斷下列敘述何者正確？",
+      "options": {
+        "A": "甲與乙平行，甲與丙垂直",
+        "B": "甲與乙平行，甲與丙平行",
+        "C": "甲與乙垂直，甲與丙垂直",
+        "D": "甲與乙垂直，甲與丙平行"
+      },
+      "answer": "A",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "113_math_3",
+      "year": "113",
+      "subject": "math",
+      "q_no": "3",
+      "question_text": "若二元一次聯立方程式 {5x-3y=28, y=-3x} 的解為 {x=a, y=b}，則 a+b 之值為何？",
+      "options": {
+        "A": "-28",
+        "B": "-14",
+        "C": "-4",
+        "D": "14"
+      },
+      "answer": "C",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "113_math_4",
+      "year": "113",
+      "subject": "math",
+      "q_no": "4",
+      "question_text": "若想在圖（二）的方格紙上沿著格線畫出坐標平面的x軸、y軸並標記原點，且以小方格邊長作為單位長，則下列哪一種畫法可在方格紙的範圍內標出(5,3)、(-4,-4)、(-3,4)、(3,-5)四點？",
+      "options": {
+        "A": "(圖)",
+        "B": "(圖)",
+        "C": "(圖)",
+        "D": "(圖)"
+      },
+      "answer": "D",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "113_math_5",
+      "year": "113",
+      "subject": "math",
+      "q_no": "5",
+      "question_text": "阿賢利用便利貼拼成一個聖誕樹圖案，聖誕樹圖案共有10層，每一層由三列的便利貼拼成，前3層如圖（三）所示。若同一層中每一列皆比前一列多2張，且每一層第一列皆比前一層第一列多2張，則此聖誕樹圖案由多少張便利貼拼成？",
+      "options": {
+        "A": "354",
+        "B": "360",
+        "C": "384",
+        "D": "390"
+      },
+      "answer": "B",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "113_math_6",
+      "year": "113",
+      "subject": "math",
+      "q_no": "6",
+      "question_text": "箱內有50顆白球和10顆紅球，小慧打算從箱內抽球31次，每次從箱內抽出一球，如果抽出白球則將白球放回箱內，如果抽出紅球則不將紅球放回箱內。已知小慧在前30次抽球中共抽出紅球4次，若她第31次抽球時箱內的每顆球被抽出的機會相等，則這次她抽出紅球的機率為何？",
+      "options": {
+        "A": "1/5",
+        "B": "1/6",
+        "C": "5/12",
+        "D": "3/28"
+      },
+      "answer": "D",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "113_math_7",
+      "year": "113",
+      "subject": "math",
+      "q_no": "7",
+      "question_text": "圖（四）有A、B兩種圖案，其中A經過上下翻轉後與B相同，且圖案的外圍是正方形，圖（五）是將四個A圖以緊密且不重疊的方式排列成大正方形，圖（六）是將兩個A圖與兩個B圖以緊密且不重疊的方式排列成大正方形。判斷圖（五）、圖（六）是否為線對稱圖形？",
+      "options": {
+        "A": "圖（五）、圖（六）皆是",
+        "B": "圖（五）、圖（六）皆不是",
+        "C": "圖（五）是，圖（六）不是",
+        "D": "圖（五）不是，圖（六）是"
+      },
+      "answer": "D",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "113_math_8",
+      "year": "113",
+      "subject": "math",
+      "q_no": "8",
+      "question_text": "若a=3.2×10^-5，b=7.5×10^-5，c=6.3×10^-6，則a、b、c三數的大小關係為何？",
+      "options": {
+        "A": "a<b<c",
+        "B": "a<c<b",
+        "C": "c<a<b",
+        "D": "c<b<a"
+      },
+      "answer": "C",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "113_math_9",
+      "year": "113",
+      "subject": "math",
+      "q_no": "9",
+      "question_text": "癌症分期是為了區別惡性腫瘤影響人體健康的程度，某國統計2011年確診四種癌症一到四期的患者在3年後存活的比率（3年存活率），並依據癌症類別與不同分期將資料整理成圖（七）。甲、乙兩人對該國2011年確診上述四種癌症的患者提出看法如下：（甲）一到四期的乳癌患者的3年存活率皆高於50%（乙）在這四種癌症中，三期與四期的3年存活率相差最多的是胃癌。對於甲、乙兩人的看法，下列判斷何者正確？",
+      "options": {
+        "A": "甲、乙皆正確",
+        "B": "甲、乙皆錯誤",
+        "C": "甲正確，乙錯誤",
+        "D": "甲錯誤，乙正確"
+      },
+      "answer": "C",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "113_math_10",
+      "year": "113",
+      "subject": "math",
+      "q_no": "10",
+      "question_text": "下列何者為多項式 5x(5x-2)-4(5x-2)^2 的因式分解？",
+      "options": {
+        "A": "(5x-2)(25x-8)",
+        "B": "(5x-2)(5x-4)",
+        "C": "(5x-2)(-15x+8)",
+        "D": "(5x-2)(-20x+4)"
+      },
+      "answer": "C",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "113_math_11",
+      "year": "113",
+      "subject": "math",
+      "q_no": "11",
+      "question_text": "將 9/(4-√7) 化簡為 a+b√7，其中a、b為整數，求a+b之值為何？",
+      "options": {
+        "A": "5",
+        "B": "3",
+        "C": "-9",
+        "D": "-15"
+      },
+      "answer": "A",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "113_math_12",
+      "year": "113",
+      "subject": "math",
+      "q_no": "12",
+      "question_text": "甲、乙兩個二次函數分別為 y=(x+20)^2+60、y=-(x-30)^2+60，判斷下列敘述何者正確？",
+      "options": {
+        "A": "甲有最大值，且其值為x=20時的y值",
+        "B": "甲有最小值，且其值為x=20時的y值",
+        "C": "乙有最大值，且其值為x=30時的y值",
+        "D": "乙有最小值，且其值為x=30時的y值"
+      },
+      "answer": "C",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "113_math_13",
+      "year": "113",
+      "subject": "math",
+      "q_no": "13",
+      "question_text": "圖（八）為阿成調整他的電腦畫面的解析度時看到的選項，當他從建議選項1920×1080調整成1400×1050時，由於比例改變（1920:1080≠1400:1050），畫面左右會出現黑色區域，當比例不變就不會有此問題。判斷阿成將他的電腦畫面解析度從1920×1080調整成下列哪一種時，畫面左右不會出現黑色區域？",
+      "options": {
+        "A": "1680×1050",
+        "B": "1600×900",
+        "C": "1440×900",
+        "D": "1280×1024"
+      },
+      "answer": "B",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "113_math_14",
+      "year": "113",
+      "subject": "math",
+      "q_no": "14",
+      "question_text": "小玲搭飛機出國旅遊，已知她搭飛機產生的碳排放量為800公斤，為了彌補這些碳排放量，她決定上下班時從駕駛汽車改成搭公車。依據圖（九）的資訊（自行車0公斤/公里、公車0.04公斤/公里、機車0.05公斤/公里、汽車0.17公斤/公里），假設小玲每日上下班駕駛汽車或搭公車的來回總距離皆為20公里，則與駕駛汽車相比，她至少要改搭公車上下班幾天，減少產生的碳排放量才會超過她搭飛機產生的碳排放量？",
+      "options": {
+        "A": "310天",
+        "B": "309天",
+        "C": "308天",
+        "D": "307天"
+      },
+      "answer": "C",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "113_math_15",
+      "year": "113",
+      "subject": "math",
+      "q_no": "15",
+      "question_text": "甲、乙兩個最簡分數分別為10/a、18/b，其中a、b為正整數。若將甲、乙通分化成相同的分母後，甲的分子變為50，乙的分子變為54，則下列關於a的敘述，何者正確？",
+      "options": {
+        "A": "a是3的倍數，也是5的倍數",
+        "B": "a是3的倍數，但不是5的倍數",
+        "C": "a是5的倍數，但不是3的倍數",
+        "D": "a不是3的倍數，也不是5的倍數"
+      },
+      "answer": "B",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "113_math_16",
+      "year": "113",
+      "subject": "math",
+      "q_no": "16",
+      "question_text": "有研究報告指出，1880年至2020年全球平均氣溫上升趨勢約為每十年上升0.08℃。已知2020年全球平均氣溫為14.88℃，假設未來的全球平均氣溫上升趨勢與上述趨勢相同，且每年上升的度數相同，則預估2020年之後第x年的全球平均氣溫為多少℃？（以x表示）",
+      "options": {
+        "A": "14.88+0.08x",
+        "B": "14.88+0.008x",
+        "C": "14.88+0.08[x+(2020-1880)]",
+        "D": "14.88+0.008[x+(2020-1880)]"
+      },
+      "answer": "B",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "113_math_17",
+      "year": "113",
+      "subject": "math",
+      "q_no": "17",
+      "question_text": "△ABC中，∠B=55°，∠C=65°。今分別以B、C為圓心，BC長為半徑畫圓B、圓C，關於A點位置，下列敘述何者正確？",
+      "options": {
+        "A": "在圓B外部，在圓C內部",
+        "B": "在圓B外部，在圓C外部",
+        "C": "在圓B內部，在圓C內部",
+        "D": "在圓B內部，在圓C外部"
+      },
+      "answer": "A",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "113_math_18",
+      "year": "113",
+      "subject": "math",
+      "q_no": "18",
+      "question_text": "如圖（十），平行四邊形ABCD與平行四邊形EFGH全等，且A、B、C、D的對應頂點分別是H、E、F、G，其中E在DC上，F在BC上，C在FG上。若AB=7，AD=5，FC=3，則四邊形ECGH的周長為何？",
+      "options": {
+        "A": "21",
+        "B": "20",
+        "C": "19",
+        "D": "18"
+      },
+      "answer": "A",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "113_math_19",
+      "year": "113",
+      "subject": "math",
+      "q_no": "19",
+      "question_text": "圖（十一）的數線上有A(-2)、O(0)、B(2)三點。今打算在此數線上標示P(p)、Q(q)兩點，且p、q互為倒數，若P在A的左側，則下列敘述何者正確？",
+      "options": {
+        "A": "Q在AO上，且AQ<QO",
+        "B": "Q在AO上，且AQ>QO",
+        "C": "Q在OB上，且OQ<QB",
+        "D": "Q在OB上，且OQ>QB"
+      },
+      "answer": "B",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "113_math_20",
+      "year": "113",
+      "subject": "math",
+      "q_no": "20",
+      "question_text": "四邊形ABCD中，E、F兩點在BC上，G點在AD上，各點位置如圖（十二）所示（∠B=85°，∠A=100°，∠D=105°，∠C=70°，∠1、∠2在E、F處，∠3、∠4在G處）。連接GE、GF後，根據圖（十二）中標示的角與角度，判斷下列關係何者正確？",
+      "options": {
+        "A": "∠1+∠2<∠3+∠4",
+        "B": "∠1+∠2>∠3+∠4",
+        "C": "∠1+∠4<∠2+∠3",
+        "D": "∠1+∠4>∠2+∠3"
+      },
+      "answer": "D",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "113_math_21",
+      "year": "113",
+      "subject": "math",
+      "q_no": "21",
+      "question_text": "如圖（十三），弧AC、弧BD皆為半圓，弧AC與弧BD相交於E點，其中A、B、C、D在同一直線上，且B為AC的中點。若弧CE=58°，則弧BE的度數為何？",
+      "options": {
+        "A": "58",
+        "B": "60",
+        "C": "62",
+        "D": "64"
+      },
+      "answer": "D",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "113_math_22",
+      "year": "113",
+      "subject": "math",
+      "q_no": "22",
+      "question_text": "如圖（十四），△ABC內部有一點D，且△DAB、△DBC、△DCA的面積分別為5、4、3。若△ABC的重心為G，則下列敘述何者正確？",
+      "options": {
+        "A": "△GBC與△DBC的面積相同，且DG與BC平行",
+        "B": "△GBC與△DBC的面積相同，且DG與BC不平行",
+        "C": "△GCA與△DCA的面積相同，且DG與AC平行",
+        "D": "△GCA與△DCA的面積相同，且DG與AC不平行"
+      },
+      "answer": "A",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "113_math_23",
+      "year": "113",
+      "subject": "math",
+      "q_no": "23",
+      "question_text": "如圖（十五），等腰梯形紙片ABCD中，AD//BC，AB=DC，∠B=∠C，且E點在BC上，DE//AB。今以DE為摺線將C點向左摺後，C點恰落在AB上，如圖（十六）所示。若CE=2，DE=4，則圖（十六）的BC與AC的長度比為何？",
+      "options": {
+        "A": "1:2",
+        "B": "1:3",
+        "C": "2:3",
+        "D": "3:5"
+      },
+      "answer": "B",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "113_math_24",
+      "year": "113",
+      "subject": "math",
+      "q_no": "24",
+      "question_text": "體重為衡量個人健康的重要指標之一，表（一）為成年人利用身高（公尺）計算理想體重（公斤）的三種方式：算法①身高×身高×22；算法②(100×身高-70)×0.6（女）或(100×身高-80)×0.7（男）；算法③(100×身高-158)×0.5+52（女）或(100×身高-170)×0.6+62（男）。由於這些計算方式沒有考慮脂肪及肌肉重量占體重的比例，因此結果僅供參考。以下為甲、乙兩個關於成年女性理想體重的敘述：（甲）有的女性使用算法①與算法②算出的理想體重會相同（乙）有的女性使用算法②與算法③算出的理想體重會相同。對於甲、乙兩個敘述，下列判斷何者正確？",
+      "options": {
+        "A": "甲、乙皆正確",
+        "B": "甲、乙皆錯誤",
+        "C": "甲正確，乙錯誤",
+        "D": "甲錯誤，乙正確"
+      },
+      "answer": "D",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "113_math_25",
+      "year": "113",
+      "subject": "math",
+      "q_no": "25",
+      "question_text": "無論我們使用哪一種算法計算理想體重，都可將個人的實際體重歸類為表（二）的其中一種類別（大於理想體重120%為肥胖；110%~120%為過重；90%~110%為正常；80%~90%為過輕；小於80%為消瘦）。當身高1.8公尺的成年男性使用算法②計算理想體重並根據表（二）歸類，實際體重介於70×90%公斤至70×110%公斤之間會被歸類為正常。若將上述身高1.8公尺且實際體重被歸類為正常的成年男性，重新以算法③計算理想體重並根據表（二）歸類，則所有可能被歸類的類別為何？",
+      "options": {
+        "A": "正常",
+        "B": "正常、過重",
+        "C": "正常、過輕",
+        "D": "正常、過重、過輕"
+      },
+      "answer": "B",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "114_math_1",
+      "year": "114",
+      "subject": "math",
+      "q_no": "1",
+      "question_text": "算式 7^10 × 7^2 ÷ 7^4 之值可用下列何者表示？",
+      "options": {
+        "A": "7^3",
+        "B": "7^5",
+        "C": "7^8",
+        "D": "7^16"
+      },
+      "answer": "C",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "114_math_2",
+      "year": "114",
+      "subject": "math",
+      "q_no": "2",
+      "question_text": "計算 (5x^2 - 2x) - (4 - 3x) 的結果，與下列何者相同？",
+      "options": {
+        "A": "5x^2 - 3x",
+        "B": "5x^2 + x - 4",
+        "C": "5x^2 - 5x + 4",
+        "D": "5x^2 - 5x - 4"
+      },
+      "answer": "B",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "114_math_3",
+      "year": "114",
+      "subject": "math",
+      "q_no": "3",
+      "question_text": "圖（一）方格紙格線上的八條等長線段形成一個線對稱圖形。圖中有四條線段標示上號碼，判斷擦去下列哪個選項中的兩條線段後，剩下的圖形不是線對稱圖形？（圖中線段①在上方、②在左側、③在下方、④在右側，構成一個十字形圖形）",
+      "options": {
+        "A": "①和②",
+        "B": "①和③",
+        "C": "②和③",
+        "D": "②和④"
+      },
+      "answer": "C",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "114_math_4",
+      "year": "114",
+      "subject": "math",
+      "q_no": "4",
+      "question_text": "若二元一次聯立方程式 {37x + 2y = 81, 23x - 2y = 39} 的解為 {x = a, y = b}，則 a + 2b 之值為何？",
+      "options": {
+        "A": "33",
+        "B": "9",
+        "C": "-3",
+        "D": "-27"
+      },
+      "answer": "B",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "114_math_5",
+      "year": "114",
+      "subject": "math",
+      "q_no": "5",
+      "question_text": "如圖（二），△ABC 中有 AD，D 點在 BC 上。根據圖中標示的度數（∠A 被 AD 分成 p° 與 30°，∠B = q°，D 點處 ∠ADC 外角為 r°，∠C 旁標示 70°），求 p + q + r 之值是多少？",
+      "options": {
+        "A": "140",
+        "B": "150",
+        "C": "160",
+        "D": "180"
+      },
+      "answer": "C",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "114_math_6",
+      "year": "114",
+      "subject": "math",
+      "q_no": "6",
+      "question_text": "圖（三）為一坐標平面，若從平面上的點 (-1, 2) 出發，向下移動再向右移動，則可能移動到下列哪一點？",
+      "options": {
+        "A": "(4, 1)",
+        "B": "(4, 3)",
+        "C": "(-4, 1)",
+        "D": "(-4, 3)"
+      },
+      "answer": "A",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "114_math_7",
+      "year": "114",
+      "subject": "math",
+      "q_no": "7",
+      "question_text": "圖（四）為某國預估 50 年後的人口變動數直方圖，各組的數值若為正數表示該組人口 50 年後會增加，若為負數表示該組人口 50 年後會減少。根據此圖預估該國 60 歲以上的人口，50 年後會增加或減少多少人？（圖中各年齡組數值：0-10: -109, 10-20: -108, 20-30: -186, 30-40: -202, 40-50: -215, 50-60: -162, 60-70: -109, 70-80: 112, 80-90+: 204）",
+      "options": {
+        "A": "增加207萬人",
+        "B": "增加425萬人",
+        "C": "減少109萬人",
+        "D": "減少271萬人"
+      },
+      "answer": "A",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "114_math_8",
+      "year": "114",
+      "subject": "math",
+      "q_no": "8",
+      "question_text": "計算 (2√3 + √6) × √2 的結果，與下列何者相同？",
+      "options": {
+        "A": "4√3",
+        "B": "6√3",
+        "C": "2√3 + 2√6",
+        "D": "4√3 + 2√6"
+      },
+      "answer": "C",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "114_math_9",
+      "year": "114",
+      "subject": "math",
+      "q_no": "9",
+      "question_text": "某園區想將20個無障礙停車位設置在出入口附近，為了符合規定，規劃每個停車位的長度為600公分，寬度為200公分，並且停車位旁需設置寬度為150公分的下車區，相鄰的停車位可以共用下車區。若以圖（五）的方式讓這些停車位相鄰，且兩個相鄰的停車位之間皆有下車區，則圖中的停車位及下車區的總寬度是多少公分？",
+      "options": {
+        "A": "6850",
+        "B": "7000",
+        "C": "7150",
+        "D": "7200"
+      },
+      "answer": "A",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "114_math_10",
+      "year": "114",
+      "subject": "math",
+      "q_no": "10",
+      "question_text": "利用乘法公式判斷，下列算式之值，何者與其他不相同？",
+      "options": {
+        "A": "(106^2 - 4^2) × (108^2 - 2^2)",
+        "B": "(107^2 - 3^2) × (107^2 - 1^2)",
+        "C": "(108^2 - 2^2) × (106^2 - 2^2)",
+        "D": "(109^2 - 1^2) × (105^2 - 1^2)"
+      },
+      "answer": "A",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "114_math_11",
+      "year": "114",
+      "subject": "math",
+      "q_no": "11",
+      "question_text": "阿嘉和小楊都有5張分別標示數字1、2、3、4、5的紙牌，圖（六）表示兩人的牌中皆有三張牌被自己蓋住的情形。今兩人打算從自己蓋住的紙牌中翻開一張牌，若阿嘉蓋住的牌中每張牌被翻開的機會相等，小楊蓋住的牌中每張牌被翻開的機會相等，則比較兩人翻開的那張牌上的數字，阿嘉比小楊大的機率為何？（圖中阿嘉的牌：1、蓋住、3、蓋住；小楊的牌：5、蓋住、蓋住、2）",
+      "options": {
+        "A": "1/3",
+        "B": "2/3",
+        "C": "1/9",
+        "D": "2/9"
+      },
+      "answer": "B",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "114_math_12",
+      "year": "114",
+      "subject": "math",
+      "q_no": "12",
+      "question_text": "有甲、乙、丙三種三角形木片，其邊長如圖（七）所示（甲：3、3、3；乙：3、2、3；丙：4、3、4），阿林、小博打算利用這三種木片各自組合成一個正三角錐。首先兩人皆選一片甲當作底面，接著阿林選三片乙當作側面，小博選三片丙當作側面，關於兩人選的木片能不能組合成一個正三角錐，下列判斷何者正確？",
+      "options": {
+        "A": "兩人皆能",
+        "B": "兩人皆不能",
+        "C": "阿林能，小博不能",
+        "D": "阿林不能，小博能"
+      },
+      "answer": "D",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "114_math_13",
+      "year": "114",
+      "subject": "math",
+      "q_no": "13",
+      "question_text": "已知甲方程式為 (x - 4)^2 = 9，乙方程式為 (x + 9)^2 = -4。關於甲、乙兩方程式的解的情形，下列敘述何者正確？",
+      "options": {
+        "A": "甲有兩個相異的解，乙無解",
+        "B": "甲有兩個相異的解，乙有兩個相異的解",
+        "C": "甲有兩個相同的解，乙無解",
+        "D": "甲有兩個相同的解，乙有兩個相異的解"
+      },
+      "answer": "A",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "114_math_14",
+      "year": "114",
+      "subject": "math",
+      "q_no": "14",
+      "question_text": "圖（八）為貝可咖啡店的菜單，店家今日準備了120杯咖啡和100個三明治販售。若今日準備的餐點全部售出且收入共為8700元，則售出早餐組合的收入在下列哪一個範圍？（菜單：咖啡50元/杯，三明治40元/個，早餐組合(一杯咖啡加一個三明治)70元/組）",
+      "options": {
+        "A": "4300~4399元",
+        "B": "4400~4499元",
+        "C": "4500~4599元",
+        "D": "4600~4699元"
+      },
+      "answer": "C",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "114_math_15",
+      "year": "114",
+      "subject": "math",
+      "q_no": "15",
+      "question_text": "如圖（九），數線上由左至右有 A(a)、B(b)、C(c)、D(d)、E(e) 五點，且 AB = BC = CD = DE。若原點在 AE 上，且 |a| + |b| = |e|，則下列關於原點位置的敘述，何者正確？",
+      "options": {
+        "A": "在 BC 上且較接近 B 點",
+        "B": "在 BC 上且較接近 C 點",
+        "C": "在 CD 上且較接近 C 點",
+        "D": "在 CD 上且較接近 D 點"
+      },
+      "answer": "B",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "114_math_16",
+      "year": "114",
+      "subject": "math",
+      "q_no": "16",
+      "question_text": "如圖（十），△ABC 中，D 點為 AB 的中點，E 點在 AB 上，F 點在 AC 上，且 EF // BC。若 AF = 7，FC = 3，則下列敘述何者正確？",
+      "options": {
+        "A": "DE > EB，DF 與 EC 平行",
+        "B": "DE > EB，DF 與 EC 不平行",
+        "C": "DE < EB，DF 與 EC 平行",
+        "D": "DE < EB，DF 與 EC 不平行"
+      },
+      "answer": "D",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "114_math_17",
+      "year": "114",
+      "subject": "math",
+      "q_no": "17",
+      "question_text": "圖（十一）是某種螺絲釘上螺紋的示意圖，圖中的虛線皆為水平線或鉛垂線，圖上標示出角度，也標示出水平線間或鉛垂線間的距離。根據圖中的標示，判斷此種螺絲釘的螺紋深度是螺紋間距的多少倍？（圖中標示角度30°、60°、30°，及高度H、H/8、H/4）",
+      "options": {
+        "A": "5/8",
+        "B": "5/16",
+        "C": "5√3/8",
+        "D": "5√3/16"
+      },
+      "answer": "D",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "114_math_18",
+      "year": "114",
+      "subject": "math",
+      "q_no": "18",
+      "question_text": "已知 a、b、c 皆為正整數，且 a、b 兩數的最大公因數與最小公倍數分別為11與88。關於 a、b、c 三數的最大公因數與最小公倍數，甲、乙兩人分別提出看法如下：\n甲：a、b、c 三數的最大公因數可能比11大\n乙：a、b、c 三數的最小公倍數可能比88小\n對於甲、乙兩人的看法，下列判斷何者正確？",
+      "options": {
+        "A": "甲、乙皆正確",
+        "B": "甲、乙皆錯誤",
+        "C": "甲正確，乙錯誤",
+        "D": "甲錯誤，乙正確"
+      },
+      "answer": "B",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "114_math_19",
+      "year": "114",
+      "subject": "math",
+      "q_no": "19",
+      "question_text": "圖（十二）為金銀河影城的價目表。某社團16人去此影城看電影，打算以比賽獎金6000元購買電影票、爆米花與飲料。若要讓每人拿到一張電影票和一杯飲料，則最多可買多少盒爆米花？（價目表：電影票320元/張，爆米花80元/盒，飲料50元/杯；每張電影票能使用優惠一：飲料一杯35元，或優惠二：爆米花一盒+飲料一杯90元）",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6"
+      },
+      "answer": "C",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "114_math_20",
+      "year": "114",
+      "subject": "math",
+      "q_no": "20",
+      "question_text": "圖（十三）為一張五邊形紙片 ABCDE，F 點在 CD 上，且以 BE、BF、FE 為摺線將紙片向內摺至同一平面後，A、C、D 恰重疊在同一點 P，如圖（十四）所示。若 BE > FE > BF，則根據圖（十四）中標示的角，判斷下列敘述何者正確？",
+      "options": {
+        "A": "∠3 + ∠4 = 90°，∠1 + ∠2 > ∠5 + ∠6",
+        "B": "∠3 + ∠4 = 90°，∠1 + ∠2 < ∠5 + ∠6",
+        "C": "∠3 + ∠4 ≠ 90°，∠1 + ∠2 > ∠5 + ∠6",
+        "D": "∠3 + ∠4 ≠ 90°，∠1 + ∠2 < ∠5 + ∠6"
+      },
+      "answer": "A",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "114_math_21",
+      "year": "114",
+      "subject": "math",
+      "q_no": "21",
+      "question_text": "坐標平面上有二次函數 y = -(x + 7)^2 + 12 的圖形，今將此圖形向右平移10單位，平移過程中此圖形與 y 軸的交點也會跟著變化。假設此圖形與 y 軸的交點為 P，判斷在平移過程中，P 點位置的變化情形為下列何者？",
+      "options": {
+        "A": "持續向下",
+        "B": "持續向上",
+        "C": "先向下再向上",
+        "D": "先向上再向下"
+      },
+      "answer": "D",
+      "has_diagram": false,
+      "concept_tag": null
+    },
+    {
+      "id": "114_math_22",
+      "year": "114",
+      "subject": "math",
+      "q_no": "22",
+      "question_text": "如圖（十五），△ADG 的頂點 G 為 △ABC 的重心，DG 與 AB 相交於 E 點。若 DE : EG = 3:2，AE : EB = 3:4，則 △ADG 面積為 △ABC 面積的多少倍？",
+      "options": {
+        "A": "5/12",
+        "B": "5/14",
+        "C": "5/15",
+        "D": "5/21"
+      },
+      "answer": "B",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "114_math_23",
+      "year": "114",
+      "subject": "math",
+      "q_no": "23",
+      "question_text": "如圖（十六），△ABC 的三個頂點都在一圓上，固定 A 點將 △ABC 依順時針方向旋轉，旋轉後的三角形為 △AB'C'，且 B' 會落在同一圓上，其中 AB 與 AC' 的夾角為 x°。若 弧BC = 54°，弧CA = 62°，則 x 值為何？",
+      "options": {
+        "A": "27",
+        "B": "31",
+        "C": "32",
+        "D": "37"
+      },
+      "answer": "D",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "114_math_24",
+      "year": "114",
+      "subject": "math",
+      "q_no": "24",
+      "question_text": "請閱讀選文後回答：小桃買了一輛變速自行車，在騎乘時可以切換不同的前齒輪齒數與後齒輪齒數的組合來適應各種坡度。已知這輛自行車的前齒輪有3種齒數（22齒、33齒、44齒），後齒輪有6種齒數（14齒、16齒、18齒、21齒、24齒、28齒），如表(一)所示，前齒輪齒數與後齒輪齒數的組合有3×6=18種，因此這輛自行車稱為18段變速自行車。已知，齒輪比＝前齒輪齒數/後齒輪齒數，它代表前齒輪轉動一圈會帶動後齒輪轉動多少圈，齒輪比越大，自行車踩起來越費力。小桃騎乘該自行車時，原本使用的前齒輪為33齒，後齒輪為21齒。根據上文，他從原本的前後齒輪組合切換成下列四種組合中的哪一種後，踩起來最費力？",
+      "options": {
+        "A": "前齒輪不變，後齒輪切換為18齒",
+        "B": "前齒輪不變，後齒輪切換為24齒",
+        "C": "前齒輪切換為22齒，後齒輪不變",
+        "D": "前齒輪切換為44齒，後齒輪不變"
+      },
+      "answer": "D",
+      "has_diagram": true,
+      "concept_tag": null
+    },
+    {
+      "id": "114_math_25",
+      "year": "114",
+      "subject": "math",
+      "q_no": "25",
+      "question_text": "承上題選文：即使是不同的前齒輪齒數與後齒輪齒數的組合，仍可能產生相同的齒輪比，因此小桃這輛18段變速自行車實際上只能夠產生14種不同的齒輪比。根據上文，判斷這輛自行車切換前齒輪齒數與後齒輪齒數的組合時，下列哪一個齒輪比有最多種組合？",
+      "options": {
+        "A": "11/6",
+        "B": "11/7",
+        "C": "11/8",
+        "D": "11/9"
+      },
+      "answer": "B",
+      "has_diagram": true,
+      "concept_tag": null
+    }
+  ]
+}

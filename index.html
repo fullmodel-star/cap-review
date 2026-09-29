@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#4E6A7C">
+<title>會考複習</title>
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="會考複習">
+<style>
+:root{
+  --bg:#F7F3EC; --bg2:#EFE9DD; --card:#FFFFFF; --card2:#F4EFE6;
+  --line:#E4DDCE; --txt:#141E2B; --dim:#6E8BA3;
+  --primary:#4E6A7C; --primary2:#6C8CA0;
+  --ok:#16a34a; --warn:#d97706; --bad:#dc2626; --accent:#ca8a04;
+  --radius:16px;
+  --s-chinese:#fb7185; --s-english_read:#38bdf8; --s-math:#c084fc; --s-science:#2dd4bf; --s-social:#fbbf24;
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#141E2B; --bg2:#1B2838; --card:#1B2838; --card2:#243447;
+  --line:#2A3A4E; --txt:#EEF3F6; --dim:#8b96a8;
+  --primary:#4E6A7C; --primary2:#8CA6B8;
+  --ok:#22c55e; --warn:#f59e0b; --bad:#ef4444; --accent:#eab308;
+}}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;padding:0}
+body{font-family:-apple-system,"Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;background:var(--bg);color:var(--txt);min-height:100vh;padding-bottom:78px;overscroll-behavior-y:none}
+.wrap{max-width:820px;margin:0 auto;padding:0 14px}
+header{position:sticky;top:0;z-index:40;background:var(--primary);color:#fff;padding:calc(14px + env(safe-area-inset-top,0)) 16px 14px}
+header h1{font-size:19px;margin:0}
+header .sub{font-size:11px;opacity:.85;margin-top:2px}
+nav.tabs{position:fixed;bottom:0;left:0;right:0;z-index:50;background:var(--card);border-top:1px solid var(--line);display:flex;padding:6px 4px calc(6px + env(safe-area-inset-bottom,0)) 4px}
+nav.tabs button{flex:1;background:none;border:none;color:var(--dim);font-size:11px;font-weight:600;display:flex;flex-direction:column;align-items:center;gap:3px;padding:6px 2px;cursor:pointer;border-radius:12px}
+nav.tabs button .i{font-size:20px}
+nav.tabs button.on{color:var(--primary2)}
+section.page{display:none;padding:16px 0 20px}
+section.page.on{display:block}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:14px;margin-bottom:12px}
+.card .card{background:var(--card2)}
+.btn{background:var(--primary);color:#fff;border:none;border-radius:12px;padding:12px 16px;font-size:15px;font-weight:700;cursor:pointer;display:inline-flex;align-items:center;gap:7px;justify-content:center}
+.btn:active{transform:scale(.97)}
+.btn.full{width:100%}
+.btn.ghost{background:var(--card2);color:var(--txt);border:1px solid var(--line)}
+.btn.sm{padding:8px 12px;font-size:13px;border-radius:10px}
+.btn.bad{background:var(--bad)} .btn.ok{background:var(--ok)}
+.btn:disabled{opacity:.5;cursor:not-allowed}
+.row{display:flex;gap:8px}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{padding:6px 12px;border-radius:20px;background:var(--card2);border:1px solid var(--line);font-size:13px;cursor:pointer;display:flex;align-items:center;gap:6px}
+.chip.on{background:var(--primary);color:#fff;border-color:var(--primary)}
+.dot{width:8px;height:8px;border-radius:50%;display:inline-block}
+.muted{color:var(--dim)}
+.opt{display:block;width:100%;text-align:left;background:var(--card2);border:1.5px solid var(--line);border-radius:12px;padding:12px 14px;margin-bottom:8px;font-size:15px;cursor:pointer;color:var(--txt)}
+.opt:active{transform:scale(.99)}
+.opt.correct{border-color:var(--ok);background:color-mix(in srgb,var(--ok) 14%,var(--card))}
+.opt.wrong{border-color:var(--bad);background:color-mix(in srgb,var(--bad) 14%,var(--card))}
+.opt.picked:not(.correct):not(.wrong){border-color:var(--primary2)}
+.empty{text-align:center;padding:40px 20px;color:var(--dim)}
+.empty .big{font-size:40px;margin-bottom:8px}
+.hr{height:1px;background:var(--line);margin:10px 0}
+.tag{display:inline-block;font-size:11px;padding:2px 8px;border-radius:8px;background:var(--card2);color:var(--dim);margin-right:4px}
+h2{font-size:16px;margin:0 0 10px}
+footer.foot{text-align:center;padding:24px 16px 8px;color:var(--dim);font-size:11px}
+</style>
+</head>
+<body>
+<header>
+  <h1>📘 會考複習</h1>
+  <div class="sub">歷屆試題練習與錯題複習</div>
+</header>
+
+<div class="wrap">
+  <section id="page-notes" class="page">
+    <div id="notesArea"></div>
+  </section>
+
+  <section id="page-practice" class="page">
+    <div id="practiceArea"></div>
+  </section>
+
+  <section id="page-review" class="page">
+    <div id="reviewArea"></div>
+  </section>
+  <footer class="foot">Ridgeline · by Lucas</footer>
+</div>
+
+<nav class="tabs">
+  <button data-tab="notes" class="on"><span class="i">📖</span>筆記</button>
+  <button data-tab="practice"><span class="i">✏️</span>練習</button>
+  <button data-tab="review"><span class="i">🔁</span>錯題複習</button>
+</nav>
+
+<script>
+/* ================= 資料載入 ================= */
+const SUBJECTS = [
+  {key:'chinese', name:'國文'}, {key:'english_read', name:'英語(閱讀)'},
+  {key:'math', name:'數學'}, {key:'social', name:'社會'}, {key:'science', name:'自然'},
+];
+let BANKS = {};      // key -> {questions:[...]}
+let NOTES = {};       // key -> [{concept,...}]
+let AVAILABLE = [];   // subject keys that actually loaded
+
+async function loadData(){
+  for (const s of SUBJECTS) {
+    try {
+      const r = await fetch(`data/questionbank_${s.key}.json`);
+      if (!r.ok) continue;
+      const bank = await r.json();
+      if (!bank.questions || !bank.questions.length) continue;
+      BANKS[s.key] = bank;
+      AVAILABLE.push(s.key);
+      try {
+        const rn = await fetch(`data/concept_notes_${s.key}.json`);
+        NOTES[s.key] = rn.ok ? await rn.json() : [];
+      } catch(e) { NOTES[s.key] = []; }
+    } catch(e) { /* subject not extracted yet — skip silently */ }
+  }
+}
+function allQuestions(){
+  const out=[];
+  for (const k of AVAILABLE) for (const q of BANKS[k].questions) out.push(q);
+  return out;
+}
+function subjName(key){ return (SUBJECTS.find(s=>s.key===key)||{}).name || key; }
+
+/* ================= IndexedDB：作答進度 ================= */
+let db;
+function openDB(){
+  return new Promise((resolve,reject)=>{
+    const req = indexedDB.open('capReviewDB', 1);
+    req.onupgradeneeded = e => {
+      const d = e.target.result;
+      if (!d.objectStoreNames.contains('progress')) d.createObjectStore('progress', {keyPath:'id'});
+    };
+    req.onsuccess = e => { db = e.target.result; resolve(db); };
+    req.onerror = e => reject(e);
+  });
+}
+function dbGet(id){
+  return new Promise((resolve)=>{
+    const tx = db.transaction('progress','readonly').objectStore('progress').get(id);
+    tx.onsuccess = () => resolve(tx.result || null);
+    tx.onerror = () => resolve(null);
+  });
+}
+function dbGetAll(){
+  return new Promise((resolve)=>{
+    const tx = db.transaction('progress','readonly').objectStore('progress').getAll();
+    tx.onsuccess = () => resolve(tx.result || []);
+    tx.onerror = () => resolve([]);
+  });
+}
+function dbPut(rec){
+  return new Promise((resolve,reject)=>{
+    const tx = db.transaction('progress','readwrite').objectStore('progress').put(rec);
+    tx.onsuccess = () => resolve();
+    tx.onerror = e => reject(e);
+  });
+}
+let PROGRESS = {}; // id -> record (in-memory mirror, kept in sync with IndexedDB)
+async function loadProgress(){
+  const all = await dbGetAll();
+  PROGRESS = {};
+  for (const r of all) PROGRESS[r.id] = r;
+}
+function prog(id){
+  return PROGRESS[id] || {id, streak:0, mastered:false, maint:null, nextReview:0, lapses:0, leech:false, retired:false, reviewCount:0};
+}
+
+/* ================= SRS / 連對畢業邏輯（改自 701_錯題管理器）================= */
+const INTERVALS=[1,3,7,14,30];
+const MAINT=[14,30,60];
+const GRAD_STREAK=3;
+function today(){ const d=new Date(); d.setHours(0,0,0,0); return d.getTime(); }
+function daysFromNow(n){ return today() + n*86400000; }
+function dueForReview(p){
+  if (p.retired) return false;
+  if ((p.nextReview||0) > today()) return false;
+  if (p.mastered) return p.maint!=null && p.maint < MAINT.length;
+  return true;
+}
+async function grade(qid, correct){
+  const p = prog(qid);
+  p.reviewCount = (p.reviewCount||0)+1;
+  if (p.mastered){
+    if (correct){
+      p.maint = (p.maint||0)+1;
+      if (p.maint >= MAINT.length){ p.retired = true; }
+      else { p.nextReview = daysFromNow(MAINT[p.maint]); }
+    } else {
+      p.mastered=false; p.maint=null; p.streak=0; p.lapses=(p.lapses||0)+1;
+      if (p.lapses>=3) p.leech=true;
+      p.nextReview = daysFromNow(INTERVALS[0]);
+    }
+  } else {
+    if (correct){
+      p.streak=(p.streak||0)+1;
+      if (p.streak>=GRAD_STREAK){ p.mastered=true; p.maint=0; p.nextReview=daysFromNow(MAINT[0]); }
+      else { p.nextReview = daysFromNow(INTERVALS[Math.min(p.streak, INTERVALS.length-1)]); }
+    } else {
+      if ((p.streak||0)>0){ p.lapses=(p.lapses||0)+1; if (p.lapses>=3) p.leech=true; }
+      p.streak=0;
+      p.nextReview = daysFromNow(INTERVALS[0]);
+    }
+  }
+  PROGRESS[qid] = p;
+  await dbPut(p);
+  return p;
+}
+
+/* ================= Tabs ================= */
+function go(tab){
+  document.querySelectorAll('section.page').forEach(s=>s.classList.remove('on'));
+  document.querySelectorAll('nav.tabs button').forEach(b=>b.classList.remove('on'));
+  document.getElementById('page-'+tab).classList.add('on');
+  document.querySelector(`nav.tabs button[data-tab="${tab}"]`).classList.add('on');
+  if (tab==='notes') renderNotes();
+  if (tab==='practice') renderPracticeHome();
+  if (tab==='review') { reviewScope=null; reviewSubj=''; buildReviewQueue(); }
+}
+document.querySelectorAll('nav.tabs button').forEach(b=>b.addEventListener('click', ()=>go(b.dataset.tab)));
+
+/* ================= 筆記分頁 ================= */
+function renderNotes(){
+  const el = document.getElementById('notesArea');
+  if (!AVAILABLE.length){ el.innerHTML = emptyState('筆記還沒抽好','正在整理歷屆常考觀念，稍後再回來看看'); return; }
+  let html = '<div class="chips" style="margin-bottom:12px">'+
+    AVAILABLE.map(k=>`<div class="chip" onclick="showSubjectNotes('${k}')"><span class="dot" style="background:var(--s-${k})"></span>${subjName(k)}（${(NOTES[k]||[]).length} 觀念）</div>`).join('')+
+    '</div><div id="notesDetail"></div>';
+  el.innerHTML = html;
+  if (AVAILABLE.length) showSubjectNotes(AVAILABLE[0]);
+}
+function showSubjectNotes(key){
+  const list = NOTES[key]||[];
+  const el = document.getElementById('notesDetail');
+  if (!list.length){ el.innerHTML = emptyState('尚無觀念筆記', subjName(key)+'的觀念歸納還沒做好'); return; }
+  el.innerHTML = list.map(n=>`
+    <div class="card">
+      <h2>${esc(n.concept)} <span class="tag">出現 ${n.frequency||0} 次</span></h2>
+      <div>${esc(n.summary||'')}</div>
+      ${n.tip?`<div class="hr"></div><div class="muted">💡 ${esc(n.tip)}</div>`:''}
+      <button class="btn ghost sm" style="margin-top:10px" onclick="practiceByConcept('${key}','${esc(n.concept)}')">依此觀念練習</button>
+    </div>`).join('');
+}
+
+/* ================= 練習分頁 ================= */
+let practiceQueue=[], practiceIdx=0, practiceRevealed=false, practicePicked=null;
+function renderPracticeHome(){
+  const el = document.getElementById('practiceArea');
+  if (!AVAILABLE.length){ el.innerHTML = emptyState('題庫還沒抽好','正在處理歷屆試題，稍後再回來看看'); return; }
+  el.innerHTML = '<div class="card"><h2>選科目開始練習</h2><div class="chips">'+
+    AVAILABLE.map(k=>{
+      const n = (BANKS[k].questions||[]).length;
+      return `<div class="chip" onclick="startPractice('${k}')"><span class="dot" style="background:var(--s-${k})"></span>${subjName(k)}（${n}題）</div>`;
+    }).join('')+
+    `<div class="chip" onclick="startPractice(null)">🎲 全科混合</div>`+
+    '</div></div>';
+}
+function startPractice(key){
+  const pool = key ? BANKS[key].questions.slice() : allQuestions();
+  practiceQueue = shuffle(pool.slice());
+  practiceIdx = 0; practiceRevealed=false; practicePicked=null;
+  showPracticeCard();
+}
+function practiceByConcept(key, concept){
+  const pool = (BANKS[key].questions||[]).filter(q=>q.concept_tag===concept);
+  if (!pool.length){ toast('這個觀念還沒有連結到題目'); return; }
+  practiceQueue = shuffle(pool.slice());
+  practiceIdx = 0; practiceRevealed=false; practicePicked=null;
+  go('practice');
+  showPracticeCard();
+}
+function qid(q){ return `${q.year}_${q.subject}_${q.q_no}`; }
+function showPracticeCard(){
+  const el = document.getElementById('practiceArea');
+  if (!practiceQueue.length || practiceIdx>=practiceQueue.length){
+    el.innerHTML = emptyState('這輪練習完成了 🎉','') + `<button class="btn full" onclick="renderPracticeHome()">回選科目</button>`;
+    return;
+  }
+  const q = practiceQueue[practiceIdx];
+  const id = qid(q);
+  const opts = ['A','B','C','D'];
+  el.innerHTML = `
+    <div class="card" style="text-align:center;padding:8px"><span class="muted">${q.year}年 · ${subjName(q.subject)} · 第${q.q_no}題　（第 ${practiceIdx+1}/${practiceQueue.length} 題）</span></div>
+    <div class="card"><div style="line-height:1.7;white-space:pre-wrap">${esc(q.question_text||'')}</div>
+      ${q.has_diagram?'<div class="muted" style="margin-top:6px;font-size:12px">⚠️ 此題含圖表，建議對照原始 PDF 作答</div>':''}
+    </div>
+    <div id="optsArea">${opts.map(o=>renderOpt(q,o,id)).join('')}</div>
+    ${practiceRevealed?`<button class="btn full" style="margin-top:6px" onclick="nextPractice()">下一題</button>`:''}
+  `;
+}
+function renderOpt(q,letter,id){
+  const val = (q.options||{})[letter];
+  if (val===undefined) return '';
+  let cls='opt';
+  if (practiceRevealed){
+    if (letter===q.answer) cls+=' correct';
+    else if (letter===practicePicked) cls+=' wrong';
+  } else if (letter===practicePicked) cls+=' picked';
+  return `<button class="${cls}" ${practiceRevealed?'disabled':''} onclick="pickOption('${id}','${letter}')">${letter}. ${esc(val)}</button>`;
+}
+async function pickOption(id, letter){
+  if (practiceRevealed) return;
+  practicePicked = letter;
+  practiceRevealed = true;
+  const q = practiceQueue[practiceIdx];
+  const correct = letter === q.answer;
+  await grade(id, correct);
+  showPracticeCard();
+}
+function nextPractice(){ practiceIdx++; practiceRevealed=false; practicePicked=null; showPracticeCard(); }
+
+/* ================= 錯題複習分頁（改自 701）================= */
+let reviewQueue=[], reviewIdx=0, reviewRevealed=false, reviewScope=null, reviewSubj='';
+function dueList(){
+  return allQuestions().filter(q=>{
+    const p = prog(qid(q));
+    if (reviewSubj && q.subject!==reviewSubj) return false;
+    return dueForReview(p);
+  });
+}
+function leechList(){
+  return allQuestions().filter(q=>{
+    const p = prog(qid(q));
+    return p.leech && !p.retired && (!reviewSubj || q.subject===reviewSubj);
+  });
+}
+function allUnmasteredList(){
+  return allQuestions().filter(q=>{
+    const p = prog(qid(q));
+    return !p.mastered && (!reviewSubj || q.subject===reviewSubj);
+  });
+}
+function buildReviewQueue(){
+  let list;
+  if (reviewScope==='all') list = shuffle(allUnmasteredList());
+  else if (reviewScope==='leech') list = shuffle(leechList());
+  else {
+    list = dueList();
+    list.sort((a,b)=>{
+      const pa=prog(qid(a)), pb=prog(qid(b));
+      return ((pb.leech?1:0)-(pa.leech?1:0)) || ((pa.nextReview||0)-(pb.nextReview||0));
+    });
+  }
+  reviewQueue = list; reviewIdx = 0; reviewRevealed=false;
+  showReviewCard();
+}
+function reviewHeader(){
+  const leechN = leechList().length;
+  const allN = allUnmasteredList().length;
+  const sc = v => reviewScope===v ? 'btn' : 'btn ghost';
+  const subs = [...new Set(allQuestions().map(q=>q.subject))];
+  const subjChips = subs.length>1 ? '<div class="chips" style="margin-top:8px">'+
+    `<div class="chip${reviewSubj?'':' on'}" onclick="setReviewSubj('')">全部</div>`+
+    subs.map(s=>`<div class="chip${reviewSubj===s?' on':''}" onclick="setReviewSubj('${s}')"><span class="dot" style="background:var(--s-${s})"></span>${subjName(s)}</div>`).join('')+'</div>' : '';
+  return `<div class="card" style="padding:9px 12px">
+    <div class="row" style="gap:6px;flex-wrap:wrap">
+      <button class="${sc(null)} sm" style="flex:1" onclick="setReviewScope(null)">📅 今日到期</button>
+      <button class="${sc('all')} sm" style="flex:1" onclick="setReviewScope('all')">🔁 全部未精熟 ${allN}</button>
+      ${leechN?`<button class="${sc('leech')} sm" style="flex:1" onclick="setReviewScope('leech')">🔴 頑固題 ${leechN}</button>`:''}
+    </div>${subjChips}
+  </div>`;
+}
+function setReviewScope(v){ reviewScope=v; buildReviewQueue(); }
+function setReviewSubj(s){ reviewSubj = (reviewSubj===s?'':s); buildReviewQueue(); }
+function showReviewCard(){
+  const el = document.getElementById('reviewArea');
+  if (!AVAILABLE.length){ el.innerHTML = emptyState('題庫還沒抽好',''); return; }
+  if (!reviewQueue.length){
+    el.innerHTML = reviewHeader() + emptyState('🎉 這個範圍複習完成了！','趕快去練習分頁累積更多題目吧');
+    return;
+  }
+  if (reviewIdx >= reviewQueue.length){ buildReviewQueue(); return; }
+  const q = reviewQueue[reviewIdx];
+  const id = qid(q);
+  const p = prog(id);
+  const opts = ['A','B','C','D'];
+  reviewOptsPicked = reviewOptsPicked===undefined ? null : reviewOptsPicked;
+  el.innerHTML = reviewHeader() + `
+    <div class="card" style="text-align:center;padding:8px;margin-top:10px"><span class="muted">第 ${reviewIdx+1}/${reviewQueue.length} 題 · ${q.year}年${subjName(q.subject)}第${q.q_no}題${p.leech?' · 🔴頑固':''}${p.mastered?' · 🎓維持複習':''}</span></div>
+    <div class="card"><div style="line-height:1.7;white-space:pre-wrap">${esc(q.question_text||'')}</div></div>
+    <div id="revOptsArea">${opts.map(o=>renderReviewOpt(q,o)).join('')}</div>
+    ${reviewRevealed?`<div class="notice" style="text-align:center;margin:8px 0">${p.mastered?('維持複習：再答對 '+(MAINT.length-(p.maint||0))+' 次徹底畢業'):('連對 '+GRAD_STREAK+' 次畢業 🎓（目前連對 '+(p.streak||0)+' 次）')}</div>
+    <button class="btn full" onclick="nextReview()">下一題</button>`:''}
+  `;
+}
+let reviewOptsPicked=null;
+function renderReviewOpt(q,letter){
+  const val = (q.options||{})[letter];
+  if (val===undefined) return '';
+  let cls='opt';
+  if (reviewRevealed){
+    if (letter===q.answer) cls+=' correct';
+    else if (letter===reviewOptsPicked) cls+=' wrong';
+  }
+  return `<button class="${cls}" ${reviewRevealed?'disabled':''} onclick="pickReviewOption('${letter}')">${letter}. ${esc(val)}</button>`;
+}
+async function pickReviewOption(letter){
+  if (reviewRevealed) return;
+  reviewOptsPicked = letter;
+  reviewRevealed = true;
+  const q = reviewQueue[reviewIdx];
+  const correct = letter === q.answer;
+  await grade(qid(q), correct);
+  showReviewCard();
+}
+function nextReview(){ reviewIdx++; reviewRevealed=false; reviewOptsPicked=null; showReviewCard(); }
+
+/* ================= utils ================= */
+function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+function shuffle(a){ for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
+function emptyState(title,sub){ return `<div class="empty"><div class="big">📭</div><div style="font-size:16px;font-weight:700;color:var(--txt)">${esc(title)}</div><div style="margin-top:6px">${esc(sub||'')}</div></div>`; }
+function toast(msg){
+  const t=document.createElement('div');
+  t.textContent=msg;
+  t.style.cssText='position:fixed;left:50%;bottom:100px;transform:translateX(-50%);background:#141E2Bdd;color:#fff;padding:10px 18px;border-radius:20px;font-size:13px;z-index:999';
+  document.body.appendChild(t);
+  setTimeout(()=>t.remove(),2000);
+}
+
+/* ================= boot ================= */
+(async function boot(){
+  await openDB();
+  await loadProgress();
+  await loadData();
+  go('notes');
+  if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(()=>{});
+})();
+</script>
+</body>
+</html>
