@@ -69,4 +69,6 @@ img/  _pipeline/extracted/                   ← 管線中間檔（gitignore）
 
 ## 部署
 
-規劃比照 700/701/702：`git push` → GitHub Pages（`fullmodel-star`）。上線前必跑 `04_管理工具\品牌檢核.py`。
+- 線上：https://fullmodel-star.github.io/cap-review/（repo `fullmodel-star/cap-review`，GitHub Pages 從 `main` 根目錄）
+- 流程：改完 → 升 `sw.js` 的 `CACHE` → `python 04_管理工具/品牌檢核.py 02_其他App/704_會考複習 --slug cap-review`（0 FAIL 才推）→ `git push`
+- 驗收：線上檔案要跟本機比內容（本機是 CRLF、線上是 LF，比對前先把換行正規化），並用真瀏覽器跑一輪
