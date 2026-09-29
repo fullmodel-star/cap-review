@@ -1,0 +1,673 @@
+[
+  {
+    "concept": "物質分類與有機化合物",
+    "summary": "元素、化合物、混合物的分類，有機化合物（烴類、醇類、酯類等）與聚合物性質。",
+    "frequency": 27,
+    "example_question_ids": [
+      "105_science_5",
+      "105_science_22",
+      "105_science_40"
+    ],
+    "tip": "有機化合物必含碳，但含碳不一定是有機物（如CO2、碳酸鹽是無機物），要特別注意。",
+    "discipline": "理化",
+    "grade": "八、九年級",
+    "curriculum": "Aa-Ⅳ-3、Ab-Ⅳ-4、Jf-Ⅳ-1"
+  },
+  {
+    "concept": "天氣系統與鋒面",
+    "summary": "高低氣壓系統特性、鋒面種類、季風與颱風的環流方向判讀。",
+    "frequency": 23,
+    "example_question_ids": [
+      "105_science_9",
+      "105_science_51",
+      "105_science_52"
+    ],
+    "tip": "北半球低氣壓中心氣流以逆時針方向輻合流入，高氣壓則以順時針方向輻散流出。",
+    "discipline": "地球科學",
+    "grade": "九年級",
+    "curriculum": "Ib-Ⅳ-3、Ib-Ⅳ-4、Ib-Ⅳ-6"
+  },
+  {
+    "concept": "板塊構造與地震",
+    "summary": "板塊邊界類型(張裂/聚合)、地震規模與震度的差異、地球內部構造分層。",
+    "frequency": 20,
+    "example_question_ids": [
+      "105_science_10",
+      "105_science_38",
+      "106_science_39"
+    ],
+    "tip": "地震規模只有一個值（能量大小），震度則各地不同（依距離遠近而異），兩者不要搞混。",
+    "discipline": "地球科學",
+    "grade": "九年級",
+    "curriculum": "Ia-Ⅳ-2、Ia-Ⅳ-3、Ia-Ⅳ-4"
+  },
+  {
+    "concept": "天文與太陽系",
+    "summary": "太陽系天體特性、地球公轉造成的季節與晝夜長短變化、太陽高度角計算。",
+    "frequency": 19,
+    "example_question_ids": [
+      "105_science_15",
+      "106_science_17",
+      "106_science_43"
+    ],
+    "tip": "正午太陽高度角、晝夜長短會隨季節（地球公轉位置）與緯度改變，直射點在南北迴歸線間移動。",
+    "discipline": "地球科學",
+    "grade": "九年級",
+    "curriculum": "Fb-Ⅳ-1、Id-Ⅳ-2、Id-Ⅳ-3"
+  },
+  {
+    "concept": "科學方法與實驗設計",
+    "summary": "控制變因、操縱變因與應變變因的設計原則、對照組安排與結論合理性判斷。",
+    "frequency": 19,
+    "example_question_ids": [
+      "105_science_21",
+      "106_science_47",
+      "106_science_48"
+    ],
+    "tip": "驗證某一個因素的影響時，其餘變因都要控制相同，只能改變欲探討的那一個變因。",
+    "discipline": "跨科",
+    "grade": "跨年級",
+    "curriculum": ""
+  },
+  {
+    "concept": "生態系與能量流動",
+    "summary": "食物鏈/食物網、能量塔(能量遞減)、生物間交互關係(競爭/掠食/寄生/共生)與族群數量變化。",
+    "frequency": 18,
+    "example_question_ids": [
+      "105_science_6",
+      "106_science_2",
+      "106_science_38"
+    ],
+    "tip": "能量塔中能量會逐階遞減，通常上一階層只有約10%的能量傳遞給下一階層。",
+    "discipline": "生物",
+    "grade": "七年級",
+    "curriculum": "Bd-Ⅳ-1、Bd-Ⅳ-3、Fc-Ⅳ-1"
+  },
+  {
+    "concept": "電路與歐姆定律",
+    "summary": "串聯、並聯電路中電流、電壓、電阻、電功率的計算與燈泡亮滅判斷。",
+    "frequency": 18,
+    "example_question_ids": [
+      "105_science_49",
+      "105_science_50",
+      "106_science_8"
+    ],
+    "tip": "先判斷元件是串聯還並聯，再套用電流電壓分配規則，最後才計算功率。",
+    "discipline": "理化",
+    "grade": "九年級",
+    "curriculum": "Kc-Ⅳ-7、Kc-Ⅳ-8、Mc-Ⅳ-7"
+  },
+  {
+    "concept": "地層與地質作用",
+    "summary": "地層沉積、風化侵蝕搬運沉積作用、地層對比(化石定律、疊置定律)、斷層與褶皺。",
+    "frequency": 17,
+    "example_question_ids": [
+      "105_science_2",
+      "105_science_18",
+      "106_science_11"
+    ],
+    "tip": "沒有地層倒轉時，下方地層較老、上方地層較新；被切過的地層或構造一定比切過它的構造更早形成。",
+    "discipline": "地球科學",
+    "grade": "九年級",
+    "curriculum": "Ia-Ⅳ-1、Hb-Ⅳ-1、Hb-Ⅳ-2"
+  },
+  {
+    "concept": "植物構造與生理",
+    "summary": "維管束（木質部運水、韌皮部運送醣類）、氣孔蒸散、開花結果構造與向性反應。",
+    "frequency": 16,
+    "example_question_ids": [
+      "105_science_13",
+      "105_science_17",
+      "105_science_36"
+    ],
+    "tip": "水分與礦物質由木質部由下往上運輸；光合作用產物（醣類）由韌皮部向上或向下雙向運輸。",
+    "discipline": "生物",
+    "grade": "七年級",
+    "curriculum": "Db-Ⅳ-6、Db-Ⅳ-7"
+  },
+  {
+    "concept": "牛頓運動定律與摩擦力",
+    "summary": "F=ma、慣性、作用力與反作用力，以及靜摩擦力／動摩擦力的判斷。",
+    "frequency": 16,
+    "example_question_ids": [
+      "105_science_26",
+      "105_science_46",
+      "106_science_19"
+    ],
+    "tip": "看到「靜止不動」先想合力是否為零，看到「加速度」再套F=ma。",
+    "discipline": "理化",
+    "grade": "八、九年級",
+    "curriculum": "Eb-Ⅳ-4、Eb-Ⅳ-11、Eb-Ⅳ-13"
+  },
+  {
+    "concept": "遺傳與基因",
+    "summary": "孟德爾遺傳法則、顯隱性、基因型與表現型、性聯遺傳與染色體。",
+    "frequency": 13,
+    "example_question_ids": [
+      "105_science_44",
+      "106_science_10",
+      "107_science_12"
+    ],
+    "tip": "分析親代基因型前，先確認該性狀顯性、隱性由誰決定，再用棋盤方格法列出子代比例。",
+    "discipline": "生物",
+    "grade": "七年級",
+    "curriculum": "Ga-Ⅳ-2、Ga-Ⅳ-3、Ga-Ⅳ-6"
+  },
+  {
+    "concept": "原子結構與元素週期表",
+    "summary": "原子的質子、中子、電子數，離子的形成，元素週期表的族與週期規律。",
+    "frequency": 12,
+    "example_question_ids": [
+      "105_science_37",
+      "106_science_40",
+      "107_science_10"
+    ],
+    "tip": "記住：質子數＝原子序＝電子數（中性原子）；離子則要看得失電子後的電子數變化。",
+    "discipline": "理化",
+    "grade": "八年級",
+    "curriculum": "Aa-Ⅳ-1、Aa-Ⅳ-4、Jb-Ⅳ-2"
+  },
+  {
+    "concept": "大氣結構與組成",
+    "summary": "大氣分層(對流層/平流層等)特性、空氣組成比例、溫室效應原理。",
+    "frequency": 12,
+    "example_question_ids": [
+      "106_science_25",
+      "106_science_31",
+      "106_science_34"
+    ],
+    "tip": "對流層是天氣現象發生的地方，氣溫隨高度增加而下降；平流層則因臭氧吸收紫外線而增溫。",
+    "discipline": "地球科學",
+    "grade": "九年級",
+    "curriculum": "Fa-Ⅳ-3、Fa-Ⅳ-4、INg-Ⅳ-2"
+  },
+  {
+    "concept": "溶液濃度與溶解度",
+    "summary": "重量百分濃度、體積莫耳濃度、溶解度曲線與析出沉澱的判斷。",
+    "frequency": 12,
+    "example_question_ids": [
+      "105_science_54",
+      "106_science_29",
+      "106_science_45"
+    ],
+    "tip": "看清題目給的是重量百分濃度還是莫耳濃度，公式不同、單位也不同，別搞混。",
+    "discipline": "理化",
+    "grade": "八年級",
+    "curriculum": "Jb-Ⅳ-4"
+  },
+  {
+    "concept": "生物分類",
+    "summary": "生物分類階層(界門綱目科屬種)、學名(屬名+種小名)的判讀與應用。",
+    "frequency": 12,
+    "example_question_ids": [
+      "105_science_16",
+      "105_science_47",
+      "106_science_44"
+    ],
+    "tip": "學名兩個字，前面是屬名、後面是種小名；屬名相同才是同屬，僅代表親緣關係較近。",
+    "discipline": "生物",
+    "grade": "七年級",
+    "curriculum": "Gc-Ⅳ-1"
+  },
+  {
+    "concept": "化學反應式與化學計量",
+    "summary": "化學反應式平衡（配平）、質量守恆定律、莫耳與化學計量計算。",
+    "frequency": 11,
+    "example_question_ids": [
+      "105_science_29",
+      "105_science_41",
+      "106_science_50"
+    ],
+    "tip": "先配平反應式係數，再用莫耳比對應質量或體積關係進行計算。",
+    "discipline": "理化",
+    "grade": "八年級",
+    "curriculum": "Ja-Ⅳ-1、Ja-Ⅳ-4、Aa-Ⅳ-2"
+  },
+  {
+    "concept": "月相與地月運動",
+    "summary": "月相變化週期、日食月食成因、月球運行方向與位置的判斷。",
+    "frequency": 11,
+    "example_question_ids": [
+      "105_science_19",
+      "105_science_39",
+      "107_science_25"
+    ],
+    "tip": "月相由新月到滿月再到新月約29.5天一個週期，農曆每月初一必為新月、十五前後為滿月。",
+    "discipline": "地球科學",
+    "grade": "九年級",
+    "curriculum": "Fb-Ⅳ-3、Fb-Ⅳ-4"
+  },
+  {
+    "concept": "浮力與密度",
+    "summary": "阿基米德原理、密度計算、物體在液體中浮沉的判斷。",
+    "frequency": 11,
+    "example_question_ids": [
+      "105_science_35",
+      "106_science_42",
+      "107_science_20"
+    ],
+    "tip": "浮力大小等於排開液體的重量，先判斷物體是完全沒入還是部分露出水面。",
+    "discipline": "理化",
+    "grade": "八、九年級",
+    "curriculum": "Eb-Ⅳ-6、Ea-Ⅳ-1"
+  },
+  {
+    "concept": "海水與潮汐",
+    "summary": "潮汐的滿潮乾潮週期、潮差計算、洋流與聖嬰現象對氣候的影響。",
+    "frequency": 11,
+    "example_question_ids": [
+      "105_science_25",
+      "105_science_45",
+      "106_science_16"
+    ],
+    "tip": "滿潮到乾潮大約相差6小時，同一天通常各有兩次滿潮、兩次乾潮。",
+    "discipline": "地球科學",
+    "grade": "九年級",
+    "curriculum": "Ic-Ⅳ-1、Ic-Ⅳ-2、Ic-Ⅳ-4"
+  },
+  {
+    "concept": "測量工具與單位換算",
+    "summary": "實驗器材(天平/量筒/滴定管等)的正確選用、單位換算與有效數字。",
+    "frequency": 11,
+    "example_question_ids": [
+      "105_science_34",
+      "106_science_6",
+      "106_science_33"
+    ],
+    "tip": "選擇器材前先確認要測量的物理量是什麼（質量、體積、長度…），並留意精密度需求。",
+    "discipline": "理化",
+    "grade": "八、九年級",
+    "curriculum": "Ea-Ⅳ-1、Ea-Ⅳ-2、Ea-Ⅳ-3"
+  },
+  {
+    "concept": "酸鹼反應與pH",
+    "summary": "酸鹼中和反應、pH值大小的比較、指示劑變色的判斷。",
+    "frequency": 11,
+    "example_question_ids": [
+      "105_science_20",
+      "106_science_13",
+      "107_science_31"
+    ],
+    "tip": "強酸強鹼的pH值變化幅度較弱酸弱鹼大，中和後溶液pH趨近7要看酸鹼相對強弱與量。",
+    "discipline": "理化",
+    "grade": "八年級",
+    "curriculum": "Jd-Ⅳ-2、Jd-Ⅳ-3、Jd-Ⅳ-6"
+  },
+  {
+    "concept": "光的反射折射與成像",
+    "summary": "光的反射、折射、色光三原色與互補色、透鏡成像（凸透鏡／凹透鏡）。",
+    "frequency": 10,
+    "example_question_ids": [
+      "105_science_43",
+      "106_science_21",
+      "107_science_43"
+    ],
+    "tip": "凸透鏡看物距與焦距的關係決定成像正倒立與放大縮小；凹透鏡恆成正立縮小虛像。",
+    "discipline": "理化",
+    "grade": "八年級",
+    "curriculum": "Ka-Ⅳ-8、Ka-Ⅳ-9、Ka-Ⅳ-11"
+  },
+  {
+    "concept": "直線運動與速度加速度",
+    "summary": "描述物體位置隨時間變化的運動學觀念，含位移、路徑長、平均速度／速率、v-t圖判讀。",
+    "frequency": 10,
+    "example_question_ids": [
+      "105_science_12",
+      "106_science_51",
+      "107_science_21"
+    ],
+    "tip": "v-t圖是常考重點：先分清「速度」與「速率」，斜率代表加速度，圖形面積代表位移。",
+    "discipline": "理化",
+    "grade": "九年級",
+    "curriculum": "Eb-Ⅳ-8"
+  },
+  {
+    "concept": "聲波與波動",
+    "summary": "聲波與繩波、水波的頻率、波長、振幅、波速關係，響度與音調的物理意義。",
+    "frequency": 10,
+    "example_question_ids": [
+      "105_science_24",
+      "106_science_35",
+      "107_science_32"
+    ],
+    "tip": "響度看振幅、音調看頻率；波速＝頻率×波長，記得套用不要混淆。",
+    "discipline": "理化",
+    "grade": "八年級",
+    "curriculum": "Ka-Ⅳ-1、Ka-Ⅳ-2、Ka-Ⅳ-5"
+  },
+  {
+    "concept": "光合作用與呼吸作用",
+    "summary": "光合作用與呼吸作用的反應式、進行場所(葉綠體/粒線體)與氣體交換方向。",
+    "frequency": 9,
+    "example_question_ids": [
+      "105_science_7",
+      "106_science_18",
+      "108_science_5"
+    ],
+    "tip": "光合作用消耗CO2、釋放O2；呼吸作用則相反，兩者可同時進行，日照充足時光合作用速率大於呼吸作用。",
+    "discipline": "生物",
+    "grade": "七年級",
+    "curriculum": "Bc-Ⅳ-2、Bc-Ⅳ-3、Bc-Ⅳ-4"
+  },
+  {
+    "concept": "反應速率影響因素",
+    "summary": "溫度、濃度、接觸面積、催化劑對反應速率的影響與實驗設計。",
+    "frequency": 9,
+    "example_question_ids": [
+      "106_science_14",
+      "107_science_42",
+      "108_science_1"
+    ],
+    "tip": "要驗證「某一個因素」對反應速率的影響，其餘變因都必須控制相同，只能改變該因素。",
+    "discipline": "理化",
+    "grade": "八年級",
+    "curriculum": "Je-Ⅳ-1"
+  },
+  {
+    "concept": "氧化還原反應",
+    "summary": "氧化劑／還原劑的判斷、氧化數變化、金屬活性大小的比較。",
+    "frequency": 9,
+    "example_question_ids": [
+      "105_science_33",
+      "106_science_22",
+      "107_science_13"
+    ],
+    "tip": "氧化數上升的物質被氧化（是還原劑），氧化數下降的物質被還原（是氧化劑）。",
+    "discipline": "理化",
+    "grade": "八年級",
+    "curriculum": "Jc-Ⅳ-1、Jc-Ⅳ-3、Jc-Ⅳ-4"
+  },
+  {
+    "concept": "熱平衡與比熱",
+    "summary": "比熱定義、熱平衡計算、熱量計算Q=mcΔT、熱的傳播方式（傳導對流輻射）。",
+    "frequency": 9,
+    "example_question_ids": [
+      "105_science_4",
+      "106_science_30",
+      "107_science_34"
+    ],
+    "tip": "兩物體達熱平衡時溫度相同，吸熱量等於放熱量，是常見的計算起點。",
+    "discipline": "理化",
+    "grade": "八年級",
+    "curriculum": "Bb-Ⅳ-2、Bb-Ⅳ-3、Bb-Ⅳ-4"
+  },
+  {
+    "concept": "電化學(電池與電鍍)",
+    "summary": "原電池（如鋅銅電池）的正負極、電鍍與電解的電極反應與計算。",
+    "frequency": 9,
+    "example_question_ids": [
+      "105_science_30",
+      "106_science_20",
+      "107_science_36"
+    ],
+    "tip": "電鍍時待鍍物接負極，鍍層金屬離子在負極被還原析出，正極則是鍍層金屬溶解。",
+    "discipline": "理化",
+    "grade": "八、九年級",
+    "curriculum": "Jc-Ⅳ-5、Jc-Ⅳ-6、Jc-Ⅳ-7"
+  },
+  {
+    "concept": "循環系統與血液",
+    "summary": "心臟腔室、血管(動脈/靜脈)、血液成分(紅血球/白血球/血小板)與物質運輸方向。",
+    "frequency": 9,
+    "example_question_ids": [
+      "105_science_32",
+      "107_science_37",
+      "108_science_37"
+    ],
+    "tip": "記住血液循環路徑：全身→大靜脈→右心房→右心室→肺動脈→肺→肺靜脈→左心房→左心室→大動脈→全身。",
+    "discipline": "生物",
+    "grade": "七年級",
+    "curriculum": "Db-Ⅳ-2"
+  },
+  {
+    "concept": "能源議題與碳排放",
+    "summary": "再生能源與化石燃料的比較、碳足跡計算、發電方式對環境的影響。",
+    "frequency": 8,
+    "example_question_ids": [
+      "105_science_23",
+      "107_science_51"
+    ],
+    "tip": "再生能源(太陽能/風力/水力)發電過程幾乎不排碳，是近年考題常結合能源轉型議題出題的重點。",
+    "discipline": "跨科",
+    "grade": "跨年級",
+    "curriculum": "Ma-Ⅳ-4、Nc-Ⅳ-4、INg-Ⅳ-7"
+  },
+  {
+    "concept": "功與能量守恆",
+    "summary": "動能、重力位能、彈力位能之間的轉換與守恆，常搭配自由落體、拋體、單擺情境。",
+    "frequency": 8,
+    "example_question_ids": [
+      "105_science_42",
+      "106_science_52",
+      "107_science_7"
+    ],
+    "tip": "忽略摩擦力時，總力學能守恆，位能減少量等於動能增加量。",
+    "discipline": "理化",
+    "grade": "九年級",
+    "curriculum": "Ba-Ⅳ-5、Ba-Ⅳ-7"
+  },
+  {
+    "concept": "壓力與流體",
+    "summary": "大氣壓力、液體壓力、連通管與壓力計原理的應用。",
+    "frequency": 8,
+    "example_question_ids": [
+      "105_science_27",
+      "107_science_29",
+      "108_science_39"
+    ],
+    "tip": "液體壓力只與深度、液體密度有關，與容器形狀、開口大小無關。",
+    "discipline": "理化",
+    "grade": "八、九年級",
+    "curriculum": "Eb-Ⅳ-5、Ec-Ⅳ-1、Ec-Ⅳ-2"
+  },
+  {
+    "concept": "天擇與演化",
+    "summary": "天擇說(族群中個體變異、環境篩選)、化石紀錄與生物演化證據。",
+    "frequency": 8,
+    "example_question_ids": [
+      "105_science_3",
+      "106_science_3",
+      "107_science_4"
+    ],
+    "tip": "天擇不是生物「主動變成」適應環境的樣子，而是環境「篩選」出原本就存在的有利變異個體。",
+    "discipline": "生物",
+    "grade": "七年級",
+    "curriculum": "Gb-Ⅳ-1、Ga-Ⅳ-4"
+  },
+  {
+    "concept": "消化排泄與呼吸系統",
+    "summary": "消化器官功能、含氮廢物代謝(蛋白質→尿素)、腎臟排泄與呼吸運動機制。",
+    "frequency": 8,
+    "example_question_ids": [
+      "106_science_27",
+      "106_science_36",
+      "108_science_19"
+    ],
+    "tip": "蛋白質代謝產生的含氮廢物在肝臟轉變成尿素，再由腎臟過濾排出，兩個器官分工不同。",
+    "discipline": "生物",
+    "grade": "七年級",
+    "curriculum": "Db-Ⅳ-1、Db-Ⅳ-3、Dc-Ⅳ-4"
+  },
+  {
+    "concept": "酵素與代謝作用",
+    "summary": "酵素的專一性、溫度與pH對酵素活性的影響、澱粉/醣類檢測方法。",
+    "frequency": 8,
+    "example_question_ids": [
+      "105_science_28",
+      "107_science_18",
+      "108_science_45"
+    ],
+    "tip": "酵素活性在最適溫度與pH下最高，但溫度過高會使酵素變性失去活性且無法恢復。",
+    "discipline": "生物",
+    "grade": "七年級",
+    "curriculum": "Bc-Ⅳ-1"
+  },
+  {
+    "concept": "電流磁效應與電磁感應",
+    "summary": "載流導線的磁場方向（右手定則）、電磁感應方向與大小、發電機原理。",
+    "frequency": 8,
+    "example_question_ids": [
+      "105_science_31",
+      "106_science_32",
+      "107_science_17"
+    ],
+    "tip": "善用右手定則判斷磁場或磁力方向，磁鐵越快通過線圈感應電流越大。",
+    "discipline": "理化",
+    "grade": "九年級",
+    "curriculum": "Kc-Ⅳ-4、Kc-Ⅳ-5、Kc-Ⅳ-6"
+  },
+  {
+    "concept": "恆定性與內分泌調節",
+    "summary": "體溫調節、血糖調節(胰島素/升糖素)等內分泌與恆定性機制。",
+    "frequency": 7,
+    "example_question_ids": [
+      "105_science_8",
+      "107_science_6",
+      "110_science_4"
+    ],
+    "tip": "血糖上升時胰島（胰臟）分泌胰島素使血糖下降；血糖過低時則分泌升糖素使血糖上升。",
+    "discipline": "生物",
+    "grade": "七年級",
+    "curriculum": "Dc-Ⅳ-2、Dc-Ⅳ-4、Dc-Ⅳ-5"
+  },
+  {
+    "concept": "物質的粒子模型與三態變化",
+    "summary": "物質三態變化(熔化、凝固、汽化、凝結)所需的熱量與粒子擴散運動的觀念。",
+    "frequency": 7,
+    "example_question_ids": [
+      "105_science_1",
+      "105_science_11",
+      "106_science_15"
+    ],
+    "tip": "三態變化過程中溫度不變（如熔點、沸點），是物質在吸收或釋放潛熱、改變粒子排列方式。",
+    "discipline": "理化",
+    "grade": "八年級",
+    "curriculum": "Ab-Ⅳ-1、Ab-Ⅳ-2、Bb-Ⅳ-5"
+  },
+  {
+    "concept": "生殖與細胞分裂",
+    "summary": "有性生殖與無性生殖的差異、有絲分裂與減數分裂的染色體變化。",
+    "frequency": 7,
+    "example_question_ids": [
+      "105_science_48",
+      "106_science_9",
+      "106_science_37"
+    ],
+    "tip": "生殖細胞（精子、卵）由減數分裂產生，染色體數目減半；一般體細胞分裂則是有絲分裂，數目不變。",
+    "discipline": "生物",
+    "grade": "七年級",
+    "curriculum": "Da-Ⅳ-4、Ga-Ⅳ-1、Db-Ⅳ-4"
+  },
+  {
+    "concept": "神經系統與感覺反應",
+    "summary": "反射作用路徑(受器→感覺神經→中樞→運動神經→動器)、大腦/小腦/腦幹/脊髓的功能。",
+    "frequency": 7,
+    "example_question_ids": [
+      "106_science_24",
+      "107_science_24",
+      "108_science_25"
+    ],
+    "tip": "單純反射（如縮手）中樞在脊髓，需要思考、平衡、感覺的反應則由大腦、小腦或腦幹處理。",
+    "discipline": "生物",
+    "grade": "七年級",
+    "curriculum": "Dc-Ⅳ-1"
+  },
+  {
+    "concept": "簡單機械與力矩",
+    "summary": "槓桿、輪軸、力矩平衡（力×力臂）的計算與應用。",
+    "frequency": 7,
+    "example_question_ids": [
+      "106_science_5",
+      "108_science_8",
+      "108_science_18"
+    ],
+    "tip": "力矩＝力×力臂，槓桿兩端力矩平衡時，順時針力矩總和等於逆時針力矩總和。",
+    "discipline": "理化",
+    "grade": "九年級",
+    "curriculum": "Eb-Ⅳ-2、Eb-Ⅳ-3、Eb-Ⅳ-7"
+  },
+  {
+    "concept": "細胞構造與滲透作用",
+    "summary": "動植物細胞構造(細胞壁、細胞膜、液胞等)的差異與滲透作用造成的細胞變化。",
+    "frequency": 7,
+    "example_question_ids": [
+      "107_science_19",
+      "107_science_48",
+      "108_science_4"
+    ],
+    "tip": "植物細胞有細胞壁保護不易脹破，動物細胞沒有細胞壁，放入清水中易吸水脹破。",
+    "discipline": "生物",
+    "grade": "七年級",
+    "curriculum": "Da-Ⅳ-1、Da-Ⅳ-2"
+  },
+  {
+    "concept": "顯微鏡使用與觀察",
+    "summary": "複式顯微鏡與解剖顯微鏡的差異、成像上下左右顛倒、倍率與視野關係。",
+    "frequency": 6,
+    "example_question_ids": [
+      "105_science_14",
+      "109_science_18",
+      "110_science_25"
+    ],
+    "tip": "複式顯微鏡成的像會上下左右顛倒，移動玻片時，視野中影像的移動方向和玻片移動方向相反。",
+    "discipline": "生物",
+    "grade": "七年級",
+    "curriculum": "Da-Ⅳ-1"
+  },
+  {
+    "concept": "萬有引力與圓周運動",
+    "summary": "萬有引力定律、等速率圓周運動的方向判斷與離心趨勢。",
+    "frequency": 5,
+    "example_question_ids": [
+      "107_science_11",
+      "108_science_26",
+      "109_science_45"
+    ],
+    "tip": "做圓周運動的物體，若外力消失會沿切線方向飛出，這是常考的方向判斷題。",
+    "discipline": "理化",
+    "grade": "九年級",
+    "curriculum": "Eb-Ⅳ-9、Kb-Ⅳ-2"
+  },
+  {
+    "concept": "反應熱(吸熱與放熱)",
+    "summary": "化學反應或物質溶解過程中吸熱或放熱的判斷，常搭配溫度變化情境題。",
+    "frequency": 4,
+    "example_question_ids": [
+      "105_science_53",
+      "108_science_24",
+      "109_science_25"
+    ],
+    "tip": "放熱反應會使周圍溫度上升，吸熱反應則使周圍溫度下降，用手摸容器或看溫度計判斷。",
+    "discipline": "理化",
+    "grade": "八、九年級",
+    "curriculum": "Ba-Ⅳ-3、Jd-Ⅳ-6"
+  },
+  {
+    "concept": "靜電現象",
+    "summary": "感應起電、接地、電荷分布與庫侖靜電力大小隨距離變化。",
+    "frequency": 4,
+    "example_question_ids": [
+      "108_science_13",
+      "110_science_29",
+      "113_science_26"
+    ],
+    "tip": "感應起電時，靠近的一端出現異性電荷，遠離的一端出現同性電荷。",
+    "discipline": "理化",
+    "grade": "九年級",
+    "curriculum": "Kc-Ⅳ-1、Kc-Ⅳ-2"
+  },
+  {
+    "concept": "有機反應(酯化與皂化)",
+    "summary": "酯化反應（酸＋醇生成酯與水）、皂化反應（油脂＋鹼生成皂與甘油）的辨認。",
+    "frequency": 3,
+    "example_question_ids": [
+      "106_science_7",
+      "110_science_41",
+      "112_science_11"
+    ],
+    "tip": "聞到水果香味的反應多為酯化；油脂加氫氧化鈉煮沸變成肥皂則是皂化反應。",
+    "discipline": "理化",
+    "grade": "八年級",
+    "curriculum": "Jf-Ⅳ-3"
+  }
+]

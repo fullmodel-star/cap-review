@@ -1,0 +1,2892 @@
+{
+ "105_english_read_1": {
+  "page": "assets/page/105_english_read_p1.jpg",
+  "img": "assets/q/105_english_read_1.jpg"
+ },
+ "105_english_read_2": {
+  "page": "assets/page/105_english_read_p1.jpg",
+  "img": "assets/q/105_english_read_2.jpg"
+ },
+ "105_english_read_3": {
+  "page": "assets/page/105_english_read_p1.jpg",
+  "img": "assets/q/105_english_read_3.jpg"
+ },
+ "105_english_read_4": {
+  "page": "assets/page/105_english_read_p1.jpg",
+  "img": "assets/q/105_english_read_4.jpg"
+ },
+ "105_english_read_5": {
+  "page": "assets/page/105_english_read_p1.jpg",
+  "img": "assets/q/105_english_read_5.jpg"
+ },
+ "105_english_read_6": {
+  "page": "assets/page/105_english_read_p1.jpg",
+  "img": "assets/q/105_english_read_6.jpg"
+ },
+ "105_english_read_7": {
+  "page": "assets/page/105_english_read_p1.jpg",
+  "img": "assets/q/105_english_read_7.jpg"
+ },
+ "105_english_read_8": {
+  "page": "assets/page/105_english_read_p1.jpg",
+  "img": "assets/q/105_english_read_8.jpg"
+ },
+ "105_english_read_9": {
+  "page": "assets/page/105_english_read_p1.jpg",
+  "img": "assets/q/105_english_read_9.jpg"
+ },
+ "105_english_read_10": {
+  "page": "assets/page/105_english_read_p1.jpg",
+  "img": "assets/q/105_english_read_10.jpg"
+ },
+ "105_english_read_11": {
+  "page": "assets/page/105_english_read_p1.jpg",
+  "img": "assets/q/105_english_read_11.jpg"
+ },
+ "105_english_read_12": {
+  "page": "assets/page/105_english_read_p2.jpg",
+  "img": "assets/q/105_english_read_12.jpg"
+ },
+ "105_english_read_13": {
+  "page": "assets/page/105_english_read_p2.jpg",
+  "img": "assets/q/105_english_read_13.jpg"
+ },
+ "105_english_read_14": {
+  "page": "assets/page/105_english_read_p2.jpg",
+  "img": "assets/q/105_english_read_14.jpg"
+ },
+ "105_english_read_15": {
+  "page": "assets/page/105_english_read_p2.jpg",
+  "img": "assets/q/105_english_read_15.jpg"
+ },
+ "105_english_read_16": {
+  "page": "assets/page/105_english_read_p2.jpg",
+  "img": "assets/q/105_english_read_16.jpg",
+  "group_img": "assets/g/105_english_read_16.jpg",
+  "group": [
+   16,
+   17
+  ]
+ },
+ "105_english_read_17": {
+  "page": "assets/page/105_english_read_p2.jpg",
+  "img": "assets/q/105_english_read_17.jpg",
+  "group_img": "assets/g/105_english_read_16.jpg",
+  "group": [
+   16,
+   17
+  ]
+ },
+ "105_english_read_18": {
+  "page": "assets/page/105_english_read_p3.jpg",
+  "img": "assets/q/105_english_read_18.jpg",
+  "group_img": "assets/g/105_english_read_18.jpg",
+  "group": [
+   18,
+   20
+  ]
+ },
+ "105_english_read_19": {
+  "page": "assets/page/105_english_read_p3.jpg",
+  "img": "assets/q/105_english_read_19.jpg",
+  "group_img": "assets/g/105_english_read_18.jpg",
+  "group": [
+   18,
+   20
+  ]
+ },
+ "105_english_read_20": {
+  "page": "assets/page/105_english_read_p3.jpg",
+  "img": "assets/q/105_english_read_20.jpg",
+  "group_img": "assets/g/105_english_read_18.jpg",
+  "group": [
+   18,
+   20
+  ]
+ },
+ "105_english_read_21": {
+  "page": "assets/page/105_english_read_p4.jpg",
+  "img": "assets/q/105_english_read_21.jpg",
+  "group_img": "assets/g/105_english_read_21.jpg",
+  "group": [
+   21,
+   22
+  ]
+ },
+ "105_english_read_22": {
+  "page": "assets/page/105_english_read_p4.jpg",
+  "img": "assets/q/105_english_read_22.jpg",
+  "group_img": "assets/g/105_english_read_21.jpg",
+  "group": [
+   21,
+   22
+  ]
+ },
+ "105_english_read_23": {
+  "page": "assets/page/105_english_read_p5.jpg",
+  "img": "assets/q/105_english_read_23.jpg",
+  "group_img": "assets/g/105_english_read_23.jpg",
+  "group": [
+   23,
+   24
+  ]
+ },
+ "105_english_read_24": {
+  "page": "assets/page/105_english_read_p5.jpg",
+  "img": "assets/q/105_english_read_24.jpg",
+  "group_img": "assets/g/105_english_read_23.jpg",
+  "group": [
+   23,
+   24
+  ]
+ },
+ "105_english_read_25": {
+  "page": "assets/page/105_english_read_p7.jpg",
+  "img": "assets/q/105_english_read_25.jpg",
+  "group_img": "assets/g/105_english_read_25.jpg",
+  "group": [
+   25,
+   27
+  ]
+ },
+ "105_english_read_26": {
+  "page": "assets/page/105_english_read_p7.jpg",
+  "img": "assets/q/105_english_read_26.jpg",
+  "group_img": "assets/g/105_english_read_25.jpg",
+  "group": [
+   25,
+   27
+  ]
+ },
+ "105_english_read_27": {
+  "page": "assets/page/105_english_read_p7.jpg",
+  "img": "assets/q/105_english_read_27.jpg",
+  "group_img": "assets/g/105_english_read_25.jpg",
+  "group": [
+   25,
+   27
+  ]
+ },
+ "105_english_read_28": {
+  "page": "assets/page/105_english_read_p8.jpg",
+  "img": "assets/q/105_english_read_28.jpg",
+  "group_img": "assets/g/105_english_read_28.jpg",
+  "group": [
+   28,
+   31
+  ]
+ },
+ "105_english_read_29": {
+  "page": "assets/page/105_english_read_p9.jpg",
+  "img": "assets/q/105_english_read_29.jpg",
+  "group_img": "assets/g/105_english_read_28.jpg",
+  "group": [
+   28,
+   31
+  ]
+ },
+ "105_english_read_30": {
+  "page": "assets/page/105_english_read_p9.jpg",
+  "img": "assets/q/105_english_read_30.jpg",
+  "group_img": "assets/g/105_english_read_28.jpg",
+  "group": [
+   28,
+   31
+  ]
+ },
+ "105_english_read_31": {
+  "page": "assets/page/105_english_read_p9.jpg",
+  "img": "assets/q/105_english_read_31.jpg",
+  "group_img": "assets/g/105_english_read_28.jpg",
+  "group": [
+   28,
+   31
+  ]
+ },
+ "105_english_read_32": {
+  "page": "assets/page/105_english_read_p10.jpg",
+  "img": "assets/q/105_english_read_32.jpg",
+  "group_img": "assets/g/105_english_read_32.jpg",
+  "group": [
+   32,
+   34
+  ]
+ },
+ "105_english_read_33": {
+  "page": "assets/page/105_english_read_p10.jpg",
+  "img": "assets/q/105_english_read_33.jpg",
+  "group_img": "assets/g/105_english_read_32.jpg",
+  "group": [
+   32,
+   34
+  ]
+ },
+ "105_english_read_34": {
+  "page": "assets/page/105_english_read_p11.jpg",
+  "img": "assets/q/105_english_read_34.jpg",
+  "group_img": "assets/g/105_english_read_32.jpg",
+  "group": [
+   32,
+   34
+  ]
+ },
+ "105_english_read_35": {
+  "page": "assets/page/105_english_read_p12.jpg",
+  "img": "assets/q/105_english_read_35.jpg",
+  "group_img": "assets/g/105_english_read_35.jpg",
+  "group": [
+   35,
+   38
+  ]
+ },
+ "105_english_read_36": {
+  "page": "assets/page/105_english_read_p12.jpg",
+  "img": "assets/q/105_english_read_36.jpg",
+  "group_img": "assets/g/105_english_read_35.jpg",
+  "group": [
+   35,
+   38
+  ]
+ },
+ "105_english_read_37": {
+  "page": "assets/page/105_english_read_p12.jpg",
+  "img": "assets/q/105_english_read_37.jpg",
+  "group_img": "assets/g/105_english_read_35.jpg",
+  "group": [
+   35,
+   38
+  ]
+ },
+ "105_english_read_38": {
+  "page": "assets/page/105_english_read_p12.jpg",
+  "img": "assets/q/105_english_read_38.jpg",
+  "group_img": "assets/g/105_english_read_35.jpg",
+  "group": [
+   35,
+   38
+  ]
+ },
+ "105_english_read_39": {
+  "page": "assets/page/105_english_read_p13.jpg",
+  "img": "assets/q/105_english_read_39.jpg",
+  "group_img": "assets/g/105_english_read_39.jpg",
+  "group": [
+   39,
+   41
+  ]
+ },
+ "105_english_read_40": {
+  "page": "assets/page/105_english_read_p13.jpg",
+  "img": "assets/q/105_english_read_40.jpg",
+  "group_img": "assets/g/105_english_read_39.jpg",
+  "group": [
+   39,
+   41
+  ]
+ },
+ "105_english_read_41": {
+  "page": "assets/page/105_english_read_p13.jpg",
+  "img": "assets/q/105_english_read_41.jpg",
+  "group_img": "assets/g/105_english_read_39.jpg",
+  "group": [
+   39,
+   41
+  ]
+ },
+ "106_english_read_1": {
+  "page": "assets/page/106_english_read_p1.jpg",
+  "img": "assets/q/106_english_read_1.jpg"
+ },
+ "106_english_read_2": {
+  "page": "assets/page/106_english_read_p1.jpg",
+  "img": "assets/q/106_english_read_2.jpg"
+ },
+ "106_english_read_3": {
+  "page": "assets/page/106_english_read_p1.jpg",
+  "img": "assets/q/106_english_read_3.jpg"
+ },
+ "106_english_read_4": {
+  "page": "assets/page/106_english_read_p1.jpg",
+  "img": "assets/q/106_english_read_4.jpg"
+ },
+ "106_english_read_5": {
+  "page": "assets/page/106_english_read_p1.jpg",
+  "img": "assets/q/106_english_read_5.jpg"
+ },
+ "106_english_read_6": {
+  "page": "assets/page/106_english_read_p1.jpg",
+  "img": "assets/q/106_english_read_6.jpg"
+ },
+ "106_english_read_7": {
+  "page": "assets/page/106_english_read_p1.jpg",
+  "img": "assets/q/106_english_read_7.jpg"
+ },
+ "106_english_read_8": {
+  "page": "assets/page/106_english_read_p1.jpg",
+  "img": "assets/q/106_english_read_8.jpg"
+ },
+ "106_english_read_9": {
+  "page": "assets/page/106_english_read_p1.jpg",
+  "img": "assets/q/106_english_read_9.jpg"
+ },
+ "106_english_read_10": {
+  "page": "assets/page/106_english_read_p2.jpg",
+  "img": "assets/q/106_english_read_10.jpg"
+ },
+ "106_english_read_11": {
+  "page": "assets/page/106_english_read_p2.jpg",
+  "img": "assets/q/106_english_read_11.jpg"
+ },
+ "106_english_read_12": {
+  "page": "assets/page/106_english_read_p2.jpg",
+  "img": "assets/q/106_english_read_12.jpg"
+ },
+ "106_english_read_13": {
+  "page": "assets/page/106_english_read_p2.jpg",
+  "img": "assets/q/106_english_read_13.jpg"
+ },
+ "106_english_read_14": {
+  "page": "assets/page/106_english_read_p2.jpg",
+  "img": "assets/q/106_english_read_14.jpg"
+ },
+ "106_english_read_15": {
+  "page": "assets/page/106_english_read_p2.jpg",
+  "img": "assets/q/106_english_read_15.jpg"
+ },
+ "106_english_read_16": {
+  "page": "assets/page/106_english_read_p3.jpg",
+  "img": "assets/q/106_english_read_16.jpg",
+  "group_img": "assets/g/106_english_read_16.jpg",
+  "group": [
+   16,
+   18
+  ]
+ },
+ "106_english_read_17": {
+  "page": "assets/page/106_english_read_p3.jpg",
+  "img": "assets/q/106_english_read_17.jpg",
+  "group_img": "assets/g/106_english_read_16.jpg",
+  "group": [
+   16,
+   18
+  ]
+ },
+ "106_english_read_18": {
+  "page": "assets/page/106_english_read_p3.jpg",
+  "img": "assets/q/106_english_read_18.jpg",
+  "group_img": "assets/g/106_english_read_16.jpg",
+  "group": [
+   16,
+   18
+  ]
+ },
+ "106_english_read_19": {
+  "page": "assets/page/106_english_read_p4.jpg",
+  "img": "assets/q/106_english_read_19.jpg",
+  "group_img": "assets/g/106_english_read_19.jpg",
+  "group": [
+   19,
+   21
+  ]
+ },
+ "106_english_read_20": {
+  "page": "assets/page/106_english_read_p4.jpg",
+  "img": "assets/q/106_english_read_20.jpg",
+  "group_img": "assets/g/106_english_read_19.jpg",
+  "group": [
+   19,
+   21
+  ]
+ },
+ "106_english_read_21": {
+  "page": "assets/page/106_english_read_p4.jpg",
+  "img": "assets/q/106_english_read_21.jpg",
+  "group_img": "assets/g/106_english_read_19.jpg",
+  "group": [
+   19,
+   21
+  ]
+ },
+ "106_english_read_22": {
+  "page": "assets/page/106_english_read_p5.jpg",
+  "img": "assets/q/106_english_read_22.jpg",
+  "group_img": "assets/g/106_english_read_22.jpg",
+  "group": [
+   22,
+   24
+  ]
+ },
+ "106_english_read_23": {
+  "page": "assets/page/106_english_read_p5.jpg",
+  "img": "assets/q/106_english_read_23.jpg",
+  "group_img": "assets/g/106_english_read_22.jpg",
+  "group": [
+   22,
+   24
+  ]
+ },
+ "106_english_read_24": {
+  "page": "assets/page/106_english_read_p5.jpg",
+  "img": "assets/q/106_english_read_24.jpg",
+  "group_img": "assets/g/106_english_read_22.jpg",
+  "group": [
+   22,
+   24
+  ]
+ },
+ "106_english_read_25": {
+  "page": "assets/page/106_english_read_p6.jpg",
+  "img": "assets/q/106_english_read_25.jpg",
+  "group_img": "assets/g/106_english_read_25.jpg",
+  "group": [
+   25,
+   26
+  ]
+ },
+ "106_english_read_26": {
+  "page": "assets/page/106_english_read_p6.jpg",
+  "img": "assets/q/106_english_read_26.jpg",
+  "group_img": "assets/g/106_english_read_25.jpg",
+  "group": [
+   25,
+   26
+  ]
+ },
+ "106_english_read_27": {
+  "page": "assets/page/106_english_read_p7.jpg",
+  "img": "assets/q/106_english_read_27.jpg",
+  "group_img": "assets/g/106_english_read_27.jpg",
+  "group": [
+   27,
+   28
+  ]
+ },
+ "106_english_read_28": {
+  "page": "assets/page/106_english_read_p7.jpg",
+  "img": "assets/q/106_english_read_28.jpg",
+  "group_img": "assets/g/106_english_read_27.jpg",
+  "group": [
+   27,
+   28
+  ]
+ },
+ "106_english_read_29": {
+  "page": "assets/page/106_english_read_p8.jpg",
+  "img": "assets/q/106_english_read_29.jpg",
+  "group_img": "assets/g/106_english_read_29.jpg",
+  "group": [
+   29,
+   30
+  ]
+ },
+ "106_english_read_30": {
+  "page": "assets/page/106_english_read_p9.jpg",
+  "img": "assets/q/106_english_read_30.jpg",
+  "group_img": "assets/g/106_english_read_29.jpg",
+  "group": [
+   29,
+   30
+  ]
+ },
+ "106_english_read_31": {
+  "page": "assets/page/106_english_read_p11.jpg",
+  "img": "assets/q/106_english_read_31.jpg",
+  "group_img": "assets/g/106_english_read_31.jpg",
+  "group": [
+   31,
+   33
+  ]
+ },
+ "106_english_read_32": {
+  "page": "assets/page/106_english_read_p11.jpg",
+  "img": "assets/q/106_english_read_32.jpg",
+  "group_img": "assets/g/106_english_read_31.jpg",
+  "group": [
+   31,
+   33
+  ]
+ },
+ "106_english_read_33": {
+  "page": "assets/page/106_english_read_p11.jpg",
+  "img": "assets/q/106_english_read_33.jpg",
+  "group_img": "assets/g/106_english_read_31.jpg",
+  "group": [
+   31,
+   33
+  ]
+ },
+ "106_english_read_34": {
+  "page": "assets/page/106_english_read_p12.jpg",
+  "img": "assets/q/106_english_read_34.jpg",
+  "group_img": "assets/g/106_english_read_34.jpg",
+  "group": [
+   34,
+   37
+  ]
+ },
+ "106_english_read_35": {
+  "page": "assets/page/106_english_read_p12.jpg",
+  "img": "assets/q/106_english_read_35.jpg",
+  "group_img": "assets/g/106_english_read_34.jpg",
+  "group": [
+   34,
+   37
+  ]
+ },
+ "106_english_read_36": {
+  "page": "assets/page/106_english_read_p12.jpg",
+  "img": "assets/q/106_english_read_36.jpg",
+  "group_img": "assets/g/106_english_read_34.jpg",
+  "group": [
+   34,
+   37
+  ]
+ },
+ "106_english_read_37": {
+  "page": "assets/page/106_english_read_p12.jpg",
+  "img": "assets/q/106_english_read_37.jpg",
+  "group_img": "assets/g/106_english_read_34.jpg",
+  "group": [
+   34,
+   37
+  ]
+ },
+ "106_english_read_38": {
+  "page": "assets/page/106_english_read_p13.jpg",
+  "img": "assets/q/106_english_read_38.jpg",
+  "group_img": "assets/g/106_english_read_38.jpg",
+  "group": [
+   38,
+   41
+  ]
+ },
+ "106_english_read_39": {
+  "page": "assets/page/106_english_read_p13.jpg",
+  "img": "assets/q/106_english_read_39.jpg",
+  "group_img": "assets/g/106_english_read_38.jpg",
+  "group": [
+   38,
+   41
+  ]
+ },
+ "106_english_read_40": {
+  "page": "assets/page/106_english_read_p13.jpg",
+  "img": "assets/q/106_english_read_40.jpg",
+  "group_img": "assets/g/106_english_read_38.jpg",
+  "group": [
+   38,
+   41
+  ]
+ },
+ "106_english_read_41": {
+  "page": "assets/page/106_english_read_p13.jpg",
+  "img": "assets/q/106_english_read_41.jpg",
+  "group_img": "assets/g/106_english_read_38.jpg",
+  "group": [
+   38,
+   41
+  ]
+ },
+ "107_english_read_1": {
+  "page": "assets/page/107_english_read_p1.jpg",
+  "img": "assets/q/107_english_read_1.jpg"
+ },
+ "107_english_read_2": {
+  "page": "assets/page/107_english_read_p1.jpg",
+  "img": "assets/q/107_english_read_2.jpg"
+ },
+ "107_english_read_3": {
+  "page": "assets/page/107_english_read_p1.jpg",
+  "img": "assets/q/107_english_read_3.jpg"
+ },
+ "107_english_read_4": {
+  "page": "assets/page/107_english_read_p1.jpg",
+  "img": "assets/q/107_english_read_4.jpg"
+ },
+ "107_english_read_5": {
+  "page": "assets/page/107_english_read_p1.jpg",
+  "img": "assets/q/107_english_read_5.jpg"
+ },
+ "107_english_read_6": {
+  "page": "assets/page/107_english_read_p1.jpg",
+  "img": "assets/q/107_english_read_6.jpg"
+ },
+ "107_english_read_7": {
+  "page": "assets/page/107_english_read_p1.jpg",
+  "img": "assets/q/107_english_read_7.jpg"
+ },
+ "107_english_read_8": {
+  "page": "assets/page/107_english_read_p1.jpg",
+  "img": "assets/q/107_english_read_8.jpg"
+ },
+ "107_english_read_9": {
+  "page": "assets/page/107_english_read_p1.jpg",
+  "img": "assets/q/107_english_read_9.jpg"
+ },
+ "107_english_read_10": {
+  "page": "assets/page/107_english_read_p2.jpg",
+  "img": "assets/q/107_english_read_10.jpg"
+ },
+ "107_english_read_11": {
+  "page": "assets/page/107_english_read_p2.jpg",
+  "img": "assets/q/107_english_read_11.jpg"
+ },
+ "107_english_read_12": {
+  "page": "assets/page/107_english_read_p2.jpg",
+  "img": "assets/q/107_english_read_12.jpg"
+ },
+ "107_english_read_13": {
+  "page": "assets/page/107_english_read_p2.jpg",
+  "img": "assets/q/107_english_read_13.jpg"
+ },
+ "107_english_read_14": {
+  "page": "assets/page/107_english_read_p2.jpg",
+  "img": "assets/q/107_english_read_14.jpg"
+ },
+ "107_english_read_15": {
+  "page": "assets/page/107_english_read_p2.jpg",
+  "img": "assets/q/107_english_read_15.jpg"
+ },
+ "107_english_read_16": {
+  "page": "assets/page/107_english_read_p3.jpg",
+  "img": "assets/q/107_english_read_16.jpg",
+  "group_img": "assets/g/107_english_read_16.jpg",
+  "group": [
+   16,
+   18
+  ]
+ },
+ "107_english_read_17": {
+  "page": "assets/page/107_english_read_p3.jpg",
+  "img": "assets/q/107_english_read_17.jpg",
+  "group_img": "assets/g/107_english_read_16.jpg",
+  "group": [
+   16,
+   18
+  ]
+ },
+ "107_english_read_18": {
+  "page": "assets/page/107_english_read_p3.jpg",
+  "img": "assets/q/107_english_read_18.jpg",
+  "group_img": "assets/g/107_english_read_16.jpg",
+  "group": [
+   16,
+   18
+  ]
+ },
+ "107_english_read_19": {
+  "page": "assets/page/107_english_read_p4.jpg",
+  "img": "assets/q/107_english_read_19.jpg",
+  "group_img": "assets/g/107_english_read_19.jpg",
+  "group": [
+   19,
+   21
+  ]
+ },
+ "107_english_read_20": {
+  "page": "assets/page/107_english_read_p4.jpg",
+  "img": "assets/q/107_english_read_20.jpg",
+  "group_img": "assets/g/107_english_read_19.jpg",
+  "group": [
+   19,
+   21
+  ]
+ },
+ "107_english_read_21": {
+  "page": "assets/page/107_english_read_p4.jpg",
+  "img": "assets/q/107_english_read_21.jpg",
+  "group_img": "assets/g/107_english_read_19.jpg",
+  "group": [
+   19,
+   21
+  ]
+ },
+ "107_english_read_22": {
+  "page": "assets/page/107_english_read_p5.jpg",
+  "img": "assets/q/107_english_read_22.jpg",
+  "group_img": "assets/g/107_english_read_22.jpg",
+  "group": [
+   22,
+   24
+  ]
+ },
+ "107_english_read_23": {
+  "page": "assets/page/107_english_read_p5.jpg",
+  "img": "assets/q/107_english_read_23.jpg",
+  "group_img": "assets/g/107_english_read_22.jpg",
+  "group": [
+   22,
+   24
+  ]
+ },
+ "107_english_read_24": {
+  "page": "assets/page/107_english_read_p5.jpg",
+  "img": "assets/q/107_english_read_24.jpg",
+  "group_img": "assets/g/107_english_read_22.jpg",
+  "group": [
+   22,
+   24
+  ]
+ },
+ "107_english_read_25": {
+  "page": "assets/page/107_english_read_p7.jpg",
+  "img": "assets/q/107_english_read_25.jpg",
+  "group_img": "assets/g/107_english_read_25.jpg",
+  "group": [
+   25,
+   26
+  ]
+ },
+ "107_english_read_26": {
+  "page": "assets/page/107_english_read_p7.jpg",
+  "img": "assets/q/107_english_read_26.jpg",
+  "group_img": "assets/g/107_english_read_25.jpg",
+  "group": [
+   25,
+   26
+  ]
+ },
+ "107_english_read_27": {
+  "page": "assets/page/107_english_read_p7.jpg",
+  "img": "assets/q/107_english_read_27.jpg",
+  "group_img": "assets/g/107_english_read_27.jpg",
+  "group": [
+   27,
+   28
+  ]
+ },
+ "107_english_read_28": {
+  "page": "assets/page/107_english_read_p7.jpg",
+  "img": "assets/q/107_english_read_28.jpg",
+  "group_img": "assets/g/107_english_read_27.jpg",
+  "group": [
+   27,
+   28
+  ]
+ },
+ "107_english_read_29": {
+  "page": "assets/page/107_english_read_p8.jpg",
+  "img": "assets/q/107_english_read_29.jpg",
+  "group_img": "assets/g/107_english_read_29.jpg",
+  "group": [
+   29,
+   31
+  ]
+ },
+ "107_english_read_30": {
+  "page": "assets/page/107_english_read_p8.jpg",
+  "img": "assets/q/107_english_read_30.jpg",
+  "group_img": "assets/g/107_english_read_29.jpg",
+  "group": [
+   29,
+   31
+  ]
+ },
+ "107_english_read_31": {
+  "page": "assets/page/107_english_read_p9.jpg",
+  "img": "assets/q/107_english_read_31.jpg",
+  "group_img": "assets/g/107_english_read_29.jpg",
+  "group": [
+   29,
+   31
+  ]
+ },
+ "107_english_read_32": {
+  "page": "assets/page/107_english_read_p10.jpg",
+  "img": "assets/q/107_english_read_32.jpg",
+  "group_img": "assets/g/107_english_read_32.jpg",
+  "group": [
+   32,
+   34
+  ]
+ },
+ "107_english_read_33": {
+  "page": "assets/page/107_english_read_p10.jpg",
+  "img": "assets/q/107_english_read_33.jpg",
+  "group_img": "assets/g/107_english_read_32.jpg",
+  "group": [
+   32,
+   34
+  ]
+ },
+ "107_english_read_34": {
+  "page": "assets/page/107_english_read_p10.jpg",
+  "img": "assets/q/107_english_read_34.jpg",
+  "group_img": "assets/g/107_english_read_32.jpg",
+  "group": [
+   32,
+   34
+  ]
+ },
+ "107_english_read_35": {
+  "page": "assets/page/107_english_read_p11.jpg",
+  "img": "assets/q/107_english_read_35.jpg",
+  "group_img": "assets/g/107_english_read_35.jpg",
+  "group": [
+   35,
+   37
+  ]
+ },
+ "107_english_read_36": {
+  "page": "assets/page/107_english_read_p11.jpg",
+  "img": "assets/q/107_english_read_36.jpg",
+  "group_img": "assets/g/107_english_read_35.jpg",
+  "group": [
+   35,
+   37
+  ]
+ },
+ "107_english_read_37": {
+  "page": "assets/page/107_english_read_p11.jpg",
+  "img": "assets/q/107_english_read_37.jpg",
+  "group_img": "assets/g/107_english_read_35.jpg",
+  "group": [
+   35,
+   37
+  ]
+ },
+ "107_english_read_38": {
+  "page": "assets/page/107_english_read_p12.jpg",
+  "img": "assets/q/107_english_read_38.jpg",
+  "group_img": "assets/g/107_english_read_38.jpg",
+  "group": [
+   38,
+   41
+  ]
+ },
+ "107_english_read_39": {
+  "page": "assets/page/107_english_read_p12.jpg",
+  "img": "assets/q/107_english_read_39.jpg",
+  "group_img": "assets/g/107_english_read_38.jpg",
+  "group": [
+   38,
+   41
+  ]
+ },
+ "107_english_read_40": {
+  "page": "assets/page/107_english_read_p13.jpg",
+  "img": "assets/q/107_english_read_40.jpg",
+  "group_img": "assets/g/107_english_read_38.jpg",
+  "group": [
+   38,
+   41
+  ]
+ },
+ "107_english_read_41": {
+  "page": "assets/page/107_english_read_p13.jpg",
+  "img": "assets/q/107_english_read_41.jpg",
+  "group_img": "assets/g/107_english_read_38.jpg",
+  "group": [
+   38,
+   41
+  ]
+ },
+ "108_english_read_1": {
+  "page": "assets/page/108_english_read_p1.jpg",
+  "img": "assets/q/108_english_read_1.jpg"
+ },
+ "108_english_read_2": {
+  "page": "assets/page/108_english_read_p1.jpg",
+  "img": "assets/q/108_english_read_2.jpg"
+ },
+ "108_english_read_3": {
+  "page": "assets/page/108_english_read_p1.jpg",
+  "img": "assets/q/108_english_read_3.jpg"
+ },
+ "108_english_read_4": {
+  "page": "assets/page/108_english_read_p1.jpg",
+  "img": "assets/q/108_english_read_4.jpg"
+ },
+ "108_english_read_5": {
+  "page": "assets/page/108_english_read_p1.jpg",
+  "img": "assets/q/108_english_read_5.jpg"
+ },
+ "108_english_read_6": {
+  "page": "assets/page/108_english_read_p1.jpg",
+  "img": "assets/q/108_english_read_6.jpg"
+ },
+ "108_english_read_7": {
+  "page": "assets/page/108_english_read_p1.jpg",
+  "img": "assets/q/108_english_read_7.jpg"
+ },
+ "108_english_read_8": {
+  "page": "assets/page/108_english_read_p1.jpg",
+  "img": "assets/q/108_english_read_8.jpg"
+ },
+ "108_english_read_9": {
+  "page": "assets/page/108_english_read_p1.jpg",
+  "img": "assets/q/108_english_read_9.jpg"
+ },
+ "108_english_read_10": {
+  "page": "assets/page/108_english_read_p2.jpg",
+  "img": "assets/q/108_english_read_10.jpg"
+ },
+ "108_english_read_11": {
+  "page": "assets/page/108_english_read_p2.jpg",
+  "img": "assets/q/108_english_read_11.jpg"
+ },
+ "108_english_read_12": {
+  "page": "assets/page/108_english_read_p2.jpg",
+  "img": "assets/q/108_english_read_12.jpg"
+ },
+ "108_english_read_13": {
+  "page": "assets/page/108_english_read_p2.jpg",
+  "img": "assets/q/108_english_read_13.jpg"
+ },
+ "108_english_read_14": {
+  "page": "assets/page/108_english_read_p2.jpg",
+  "img": "assets/q/108_english_read_14.jpg"
+ },
+ "108_english_read_15": {
+  "page": "assets/page/108_english_read_p2.jpg",
+  "img": "assets/q/108_english_read_15.jpg"
+ },
+ "108_english_read_18": {
+  "page": "assets/page/108_english_read_p4.jpg",
+  "img": "assets/q/108_english_read_18.jpg",
+  "group_img": "assets/g/108_english_read_18.jpg",
+  "group": [
+   18,
+   19
+  ]
+ },
+ "108_english_read_19": {
+  "page": "assets/page/108_english_read_p5.jpg",
+  "img": "assets/q/108_english_read_19.jpg",
+  "group_img": "assets/g/108_english_read_18.jpg",
+  "group": [
+   18,
+   19
+  ]
+ },
+ "108_english_read_20": {
+  "page": "assets/page/108_english_read_p5.jpg",
+  "img": "assets/q/108_english_read_20.jpg",
+  "group_img": "assets/g/108_english_read_20.jpg",
+  "group": [
+   20,
+   22
+  ]
+ },
+ "108_english_read_21": {
+  "page": "assets/page/108_english_read_p5.jpg",
+  "img": "assets/q/108_english_read_21.jpg",
+  "group_img": "assets/g/108_english_read_20.jpg",
+  "group": [
+   20,
+   22
+  ]
+ },
+ "108_english_read_22": {
+  "page": "assets/page/108_english_read_p5.jpg",
+  "img": "assets/q/108_english_read_22.jpg",
+  "group_img": "assets/g/108_english_read_20.jpg",
+  "group": [
+   20,
+   22
+  ]
+ },
+ "108_english_read_23": {
+  "page": "assets/page/108_english_read_p6.jpg",
+  "img": "assets/q/108_english_read_23.jpg",
+  "group_img": "assets/g/108_english_read_23.jpg",
+  "group": [
+   23,
+   25
+  ]
+ },
+ "108_english_read_24": {
+  "page": "assets/page/108_english_read_p6.jpg",
+  "img": "assets/q/108_english_read_24.jpg",
+  "group_img": "assets/g/108_english_read_23.jpg",
+  "group": [
+   23,
+   25
+  ]
+ },
+ "108_english_read_25": {
+  "page": "assets/page/108_english_read_p6.jpg",
+  "img": "assets/q/108_english_read_25.jpg",
+  "group_img": "assets/g/108_english_read_23.jpg",
+  "group": [
+   23,
+   25
+  ]
+ },
+ "108_english_read_26": {
+  "page": "assets/page/108_english_read_p7.jpg",
+  "img": "assets/q/108_english_read_26.jpg",
+  "group_img": "assets/g/108_english_read_26.jpg",
+  "group": [
+   26,
+   28
+  ]
+ },
+ "108_english_read_27": {
+  "page": "assets/page/108_english_read_p7.jpg",
+  "img": "assets/q/108_english_read_27.jpg",
+  "group_img": "assets/g/108_english_read_26.jpg",
+  "group": [
+   26,
+   28
+  ]
+ },
+ "108_english_read_28": {
+  "page": "assets/page/108_english_read_p7.jpg",
+  "img": "assets/q/108_english_read_28.jpg",
+  "group_img": "assets/g/108_english_read_26.jpg",
+  "group": [
+   26,
+   28
+  ]
+ },
+ "108_english_read_29": {
+  "page": "assets/page/108_english_read_p8.jpg",
+  "img": "assets/q/108_english_read_29.jpg",
+  "group_img": "assets/g/108_english_read_29.jpg",
+  "group": [
+   29,
+   32
+  ]
+ },
+ "108_english_read_30": {
+  "page": "assets/page/108_english_read_p8.jpg",
+  "img": "assets/q/108_english_read_30.jpg",
+  "group_img": "assets/g/108_english_read_29.jpg",
+  "group": [
+   29,
+   32
+  ]
+ },
+ "108_english_read_31": {
+  "page": "assets/page/108_english_read_p9.jpg",
+  "img": "assets/q/108_english_read_31.jpg",
+  "group_img": "assets/g/108_english_read_29.jpg",
+  "group": [
+   29,
+   32
+  ]
+ },
+ "108_english_read_32": {
+  "page": "assets/page/108_english_read_p9.jpg",
+  "img": "assets/q/108_english_read_32.jpg",
+  "group_img": "assets/g/108_english_read_29.jpg",
+  "group": [
+   29,
+   32
+  ]
+ },
+ "108_english_read_33": {
+  "page": "assets/page/108_english_read_p10.jpg",
+  "img": "assets/q/108_english_read_33.jpg",
+  "group_img": "assets/g/108_english_read_33.jpg",
+  "group": [
+   33,
+   35
+  ]
+ },
+ "108_english_read_34": {
+  "page": "assets/page/108_english_read_p10.jpg",
+  "img": "assets/q/108_english_read_34.jpg",
+  "group_img": "assets/g/108_english_read_33.jpg",
+  "group": [
+   33,
+   35
+  ]
+ },
+ "108_english_read_35": {
+  "page": "assets/page/108_english_read_p11.jpg",
+  "img": "assets/q/108_english_read_35.jpg",
+  "group_img": "assets/g/108_english_read_33.jpg",
+  "group": [
+   33,
+   35
+  ]
+ },
+ "108_english_read_36": {
+  "page": "assets/page/108_english_read_p12.jpg",
+  "img": "assets/q/108_english_read_36.jpg",
+  "group_img": "assets/g/108_english_read_36.jpg",
+  "group": [
+   36,
+   37
+  ]
+ },
+ "108_english_read_37": {
+  "page": "assets/page/108_english_read_p12.jpg",
+  "img": "assets/q/108_english_read_37.jpg",
+  "group_img": "assets/g/108_english_read_36.jpg",
+  "group": [
+   36,
+   37
+  ]
+ },
+ "108_english_read_38": {
+  "page": "assets/page/108_english_read_p13.jpg",
+  "img": "assets/q/108_english_read_38.jpg",
+  "group_img": "assets/g/108_english_read_38.jpg",
+  "group": [
+   38,
+   41
+  ]
+ },
+ "108_english_read_39": {
+  "page": "assets/page/108_english_read_p13.jpg",
+  "img": "assets/q/108_english_read_39.jpg",
+  "group_img": "assets/g/108_english_read_38.jpg",
+  "group": [
+   38,
+   41
+  ]
+ },
+ "108_english_read_40": {
+  "page": "assets/page/108_english_read_p13.jpg",
+  "img": "assets/q/108_english_read_40.jpg",
+  "group_img": "assets/g/108_english_read_38.jpg",
+  "group": [
+   38,
+   41
+  ]
+ },
+ "108_english_read_41": {
+  "page": "assets/page/108_english_read_p13.jpg",
+  "img": "assets/q/108_english_read_41.jpg",
+  "group_img": "assets/g/108_english_read_38.jpg",
+  "group": [
+   38,
+   41
+  ]
+ },
+ "108_english_read_16": {
+  "page": "assets/page/108_english_read_p3.jpg"
+ },
+ "108_english_read_17": {
+  "page": "assets/page/108_english_read_p3.jpg"
+ },
+ "109_english_read_1": {
+  "page": "assets/page/109_english_read_p1.jpg",
+  "img": "assets/q/109_english_read_1.jpg"
+ },
+ "109_english_read_2": {
+  "page": "assets/page/109_english_read_p1.jpg",
+  "img": "assets/q/109_english_read_2.jpg"
+ },
+ "109_english_read_3": {
+  "page": "assets/page/109_english_read_p1.jpg",
+  "img": "assets/q/109_english_read_3.jpg"
+ },
+ "109_english_read_4": {
+  "page": "assets/page/109_english_read_p1.jpg",
+  "img": "assets/q/109_english_read_4.jpg"
+ },
+ "109_english_read_5": {
+  "page": "assets/page/109_english_read_p1.jpg",
+  "img": "assets/q/109_english_read_5.jpg"
+ },
+ "109_english_read_6": {
+  "page": "assets/page/109_english_read_p1.jpg",
+  "img": "assets/q/109_english_read_6.jpg"
+ },
+ "109_english_read_7": {
+  "page": "assets/page/109_english_read_p1.jpg",
+  "img": "assets/q/109_english_read_7.jpg"
+ },
+ "109_english_read_8": {
+  "page": "assets/page/109_english_read_p1.jpg",
+  "img": "assets/q/109_english_read_8.jpg"
+ },
+ "109_english_read_9": {
+  "page": "assets/page/109_english_read_p1.jpg",
+  "img": "assets/q/109_english_read_9.jpg"
+ },
+ "109_english_read_10": {
+  "page": "assets/page/109_english_read_p2.jpg",
+  "img": "assets/q/109_english_read_10.jpg"
+ },
+ "109_english_read_11": {
+  "page": "assets/page/109_english_read_p2.jpg",
+  "img": "assets/q/109_english_read_11.jpg"
+ },
+ "109_english_read_12": {
+  "page": "assets/page/109_english_read_p2.jpg",
+  "img": "assets/q/109_english_read_12.jpg"
+ },
+ "109_english_read_13": {
+  "page": "assets/page/109_english_read_p2.jpg",
+  "img": "assets/q/109_english_read_13.jpg"
+ },
+ "109_english_read_14": {
+  "page": "assets/page/109_english_read_p2.jpg",
+  "img": "assets/q/109_english_read_14.jpg"
+ },
+ "109_english_read_15": {
+  "page": "assets/page/109_english_read_p2.jpg",
+  "img": "assets/q/109_english_read_15.jpg"
+ },
+ "109_english_read_16": {
+  "page": "assets/page/109_english_read_p3.jpg",
+  "img": "assets/q/109_english_read_16.jpg",
+  "group_img": "assets/g/109_english_read_16.jpg",
+  "group": [
+   16,
+   17
+  ]
+ },
+ "109_english_read_17": {
+  "page": "assets/page/109_english_read_p3.jpg",
+  "img": "assets/q/109_english_read_17.jpg",
+  "group_img": "assets/g/109_english_read_16.jpg",
+  "group": [
+   16,
+   17
+  ]
+ },
+ "109_english_read_18": {
+  "page": "assets/page/109_english_read_p4.jpg",
+  "img": "assets/q/109_english_read_18.jpg",
+  "group_img": "assets/g/109_english_read_18.jpg",
+  "group": [
+   18,
+   19
+  ]
+ },
+ "109_english_read_19": {
+  "page": "assets/page/109_english_read_p4.jpg",
+  "img": "assets/q/109_english_read_19.jpg",
+  "group_img": "assets/g/109_english_read_18.jpg",
+  "group": [
+   18,
+   19
+  ]
+ },
+ "109_english_read_20": {
+  "page": "assets/page/109_english_read_p5.jpg",
+  "img": "assets/q/109_english_read_20.jpg",
+  "group_img": "assets/g/109_english_read_20.jpg",
+  "group": [
+   20,
+   21
+  ]
+ },
+ "109_english_read_21": {
+  "page": "assets/page/109_english_read_p5.jpg",
+  "img": "assets/q/109_english_read_21.jpg",
+  "group_img": "assets/g/109_english_read_20.jpg",
+  "group": [
+   20,
+   21
+  ]
+ },
+ "109_english_read_22": {
+  "page": "assets/page/109_english_read_p6.jpg",
+  "img": "assets/q/109_english_read_22.jpg",
+  "group_img": "assets/g/109_english_read_22.jpg",
+  "group": [
+   22,
+   24
+  ]
+ },
+ "109_english_read_23": {
+  "page": "assets/page/109_english_read_p6.jpg",
+  "img": "assets/q/109_english_read_23.jpg",
+  "group_img": "assets/g/109_english_read_22.jpg",
+  "group": [
+   22,
+   24
+  ]
+ },
+ "109_english_read_24": {
+  "page": "assets/page/109_english_read_p6.jpg",
+  "img": "assets/q/109_english_read_24.jpg",
+  "group_img": "assets/g/109_english_read_22.jpg",
+  "group": [
+   22,
+   24
+  ]
+ },
+ "109_english_read_25": {
+  "page": "assets/page/109_english_read_p7.jpg",
+  "img": "assets/q/109_english_read_25.jpg",
+  "group_img": "assets/g/109_english_read_25.jpg",
+  "group": [
+   25,
+   27
+  ]
+ },
+ "109_english_read_26": {
+  "page": "assets/page/109_english_read_p7.jpg",
+  "img": "assets/q/109_english_read_26.jpg",
+  "group_img": "assets/g/109_english_read_25.jpg",
+  "group": [
+   25,
+   27
+  ]
+ },
+ "109_english_read_27": {
+  "page": "assets/page/109_english_read_p7.jpg",
+  "img": "assets/q/109_english_read_27.jpg",
+  "group_img": "assets/g/109_english_read_25.jpg",
+  "group": [
+   25,
+   27
+  ]
+ },
+ "109_english_read_28": {
+  "page": "assets/page/109_english_read_p8.jpg",
+  "img": "assets/q/109_english_read_28.jpg",
+  "group_img": "assets/g/109_english_read_28.jpg",
+  "group": [
+   28,
+   30
+  ]
+ },
+ "109_english_read_29": {
+  "page": "assets/page/109_english_read_p8.jpg",
+  "img": "assets/q/109_english_read_29.jpg",
+  "group_img": "assets/g/109_english_read_28.jpg",
+  "group": [
+   28,
+   30
+  ]
+ },
+ "109_english_read_30": {
+  "page": "assets/page/109_english_read_p9.jpg",
+  "img": "assets/q/109_english_read_30.jpg",
+  "group_img": "assets/g/109_english_read_28.jpg",
+  "group": [
+   28,
+   30
+  ]
+ },
+ "109_english_read_31": {
+  "page": "assets/page/109_english_read_p10.jpg",
+  "img": "assets/q/109_english_read_31.jpg",
+  "group_img": "assets/g/109_english_read_31.jpg",
+  "group": [
+   31,
+   34
+  ]
+ },
+ "109_english_read_32": {
+  "page": "assets/page/109_english_read_p11.jpg",
+  "img": "assets/q/109_english_read_32.jpg",
+  "group_img": "assets/g/109_english_read_31.jpg",
+  "group": [
+   31,
+   34
+  ]
+ },
+ "109_english_read_33": {
+  "page": "assets/page/109_english_read_p11.jpg",
+  "img": "assets/q/109_english_read_33.jpg",
+  "group_img": "assets/g/109_english_read_31.jpg",
+  "group": [
+   31,
+   34
+  ]
+ },
+ "109_english_read_34": {
+  "page": "assets/page/109_english_read_p11.jpg",
+  "img": "assets/q/109_english_read_34.jpg",
+  "group_img": "assets/g/109_english_read_31.jpg",
+  "group": [
+   31,
+   34
+  ]
+ },
+ "109_english_read_35": {
+  "page": "assets/page/109_english_read_p12.jpg",
+  "img": "assets/q/109_english_read_35.jpg",
+  "group_img": "assets/g/109_english_read_35.jpg",
+  "group": [
+   35,
+   37
+  ]
+ },
+ "109_english_read_36": {
+  "page": "assets/page/109_english_read_p12.jpg",
+  "img": "assets/q/109_english_read_36.jpg",
+  "group_img": "assets/g/109_english_read_35.jpg",
+  "group": [
+   35,
+   37
+  ]
+ },
+ "109_english_read_37": {
+  "page": "assets/page/109_english_read_p12.jpg",
+  "img": "assets/q/109_english_read_37.jpg",
+  "group_img": "assets/g/109_english_read_35.jpg",
+  "group": [
+   35,
+   37
+  ]
+ },
+ "109_english_read_38": {
+  "page": "assets/page/109_english_read_p13.jpg",
+  "img": "assets/q/109_english_read_38.jpg",
+  "group_img": "assets/g/109_english_read_38.jpg",
+  "group": [
+   38,
+   41
+  ]
+ },
+ "109_english_read_39": {
+  "page": "assets/page/109_english_read_p13.jpg",
+  "img": "assets/q/109_english_read_39.jpg",
+  "group_img": "assets/g/109_english_read_38.jpg",
+  "group": [
+   38,
+   41
+  ]
+ },
+ "109_english_read_40": {
+  "page": "assets/page/109_english_read_p13.jpg",
+  "img": "assets/q/109_english_read_40.jpg",
+  "group_img": "assets/g/109_english_read_38.jpg",
+  "group": [
+   38,
+   41
+  ]
+ },
+ "109_english_read_41": {
+  "page": "assets/page/109_english_read_p13.jpg",
+  "img": "assets/q/109_english_read_41.jpg",
+  "group_img": "assets/g/109_english_read_38.jpg",
+  "group": [
+   38,
+   41
+  ]
+ },
+ "110_english_read_1": {
+  "page": "assets/page/110_english_read_p1.jpg",
+  "img": "assets/q/110_english_read_1.jpg"
+ },
+ "110_english_read_2": {
+  "page": "assets/page/110_english_read_p1.jpg",
+  "img": "assets/q/110_english_read_2.jpg"
+ },
+ "110_english_read_3": {
+  "page": "assets/page/110_english_read_p1.jpg",
+  "img": "assets/q/110_english_read_3.jpg"
+ },
+ "110_english_read_4": {
+  "page": "assets/page/110_english_read_p1.jpg",
+  "img": "assets/q/110_english_read_4.jpg"
+ },
+ "110_english_read_5": {
+  "page": "assets/page/110_english_read_p1.jpg",
+  "img": "assets/q/110_english_read_5.jpg"
+ },
+ "110_english_read_6": {
+  "page": "assets/page/110_english_read_p1.jpg",
+  "img": "assets/q/110_english_read_6.jpg"
+ },
+ "110_english_read_7": {
+  "page": "assets/page/110_english_read_p1.jpg",
+  "img": "assets/q/110_english_read_7.jpg"
+ },
+ "110_english_read_8": {
+  "page": "assets/page/110_english_read_p1.jpg",
+  "img": "assets/q/110_english_read_8.jpg"
+ },
+ "110_english_read_9": {
+  "page": "assets/page/110_english_read_p1.jpg",
+  "img": "assets/q/110_english_read_9.jpg"
+ },
+ "110_english_read_10": {
+  "page": "assets/page/110_english_read_p2.jpg",
+  "img": "assets/q/110_english_read_10.jpg"
+ },
+ "110_english_read_11": {
+  "page": "assets/page/110_english_read_p2.jpg",
+  "img": "assets/q/110_english_read_11.jpg"
+ },
+ "110_english_read_12": {
+  "page": "assets/page/110_english_read_p2.jpg",
+  "img": "assets/q/110_english_read_12.jpg"
+ },
+ "110_english_read_13": {
+  "page": "assets/page/110_english_read_p2.jpg",
+  "img": "assets/q/110_english_read_13.jpg"
+ },
+ "110_english_read_14": {
+  "page": "assets/page/110_english_read_p2.jpg",
+  "img": "assets/q/110_english_read_14.jpg"
+ },
+ "110_english_read_15": {
+  "page": "assets/page/110_english_read_p3.jpg",
+  "img": "assets/q/110_english_read_15.jpg",
+  "group_img": "assets/g/110_english_read_15.jpg",
+  "group": [
+   15,
+   16
+  ]
+ },
+ "110_english_read_16": {
+  "page": "assets/page/110_english_read_p3.jpg",
+  "img": "assets/q/110_english_read_16.jpg",
+  "group_img": "assets/g/110_english_read_15.jpg",
+  "group": [
+   15,
+   16
+  ]
+ },
+ "110_english_read_17": {
+  "page": "assets/page/110_english_read_p4.jpg",
+  "img": "assets/q/110_english_read_17.jpg",
+  "group_img": "assets/g/110_english_read_17.jpg",
+  "group": [
+   17,
+   18
+  ]
+ },
+ "110_english_read_18": {
+  "page": "assets/page/110_english_read_p4.jpg",
+  "img": "assets/q/110_english_read_18.jpg",
+  "group_img": "assets/g/110_english_read_17.jpg",
+  "group": [
+   17,
+   18
+  ]
+ },
+ "110_english_read_19": {
+  "page": "assets/page/110_english_read_p5.jpg",
+  "img": "assets/q/110_english_read_19.jpg",
+  "group_img": "assets/g/110_english_read_19.jpg",
+  "group": [
+   19,
+   21
+  ]
+ },
+ "110_english_read_20": {
+  "page": "assets/page/110_english_read_p5.jpg",
+  "img": "assets/q/110_english_read_20.jpg",
+  "group_img": "assets/g/110_english_read_19.jpg",
+  "group": [
+   19,
+   21
+  ]
+ },
+ "110_english_read_21": {
+  "page": "assets/page/110_english_read_p5.jpg",
+  "img": "assets/q/110_english_read_21.jpg",
+  "group_img": "assets/g/110_english_read_19.jpg",
+  "group": [
+   19,
+   21
+  ]
+ },
+ "110_english_read_22": {
+  "page": "assets/page/110_english_read_p6.jpg",
+  "img": "assets/q/110_english_read_22.jpg",
+  "group_img": "assets/g/110_english_read_22.jpg",
+  "group": [
+   22,
+   24
+  ]
+ },
+ "110_english_read_23": {
+  "page": "assets/page/110_english_read_p6.jpg",
+  "img": "assets/q/110_english_read_23.jpg",
+  "group_img": "assets/g/110_english_read_22.jpg",
+  "group": [
+   22,
+   24
+  ]
+ },
+ "110_english_read_24": {
+  "page": "assets/page/110_english_read_p6.jpg",
+  "img": "assets/q/110_english_read_24.jpg",
+  "group_img": "assets/g/110_english_read_22.jpg",
+  "group": [
+   22,
+   24
+  ]
+ },
+ "110_english_read_25": {
+  "page": "assets/page/110_english_read_p7.jpg",
+  "img": "assets/q/110_english_read_25.jpg",
+  "group_img": "assets/g/110_english_read_25.jpg",
+  "group": [
+   25,
+   28
+  ]
+ },
+ "110_english_read_26": {
+  "page": "assets/page/110_english_read_p7.jpg",
+  "img": "assets/q/110_english_read_26.jpg",
+  "group_img": "assets/g/110_english_read_25.jpg",
+  "group": [
+   25,
+   28
+  ]
+ },
+ "110_english_read_27": {
+  "page": "assets/page/110_english_read_p7.jpg",
+  "img": "assets/q/110_english_read_27.jpg",
+  "group_img": "assets/g/110_english_read_25.jpg",
+  "group": [
+   25,
+   28
+  ]
+ },
+ "110_english_read_28": {
+  "page": "assets/page/110_english_read_p7.jpg",
+  "img": "assets/q/110_english_read_28.jpg",
+  "group_img": "assets/g/110_english_read_25.jpg",
+  "group": [
+   25,
+   28
+  ]
+ },
+ "110_english_read_29": {
+  "page": "assets/page/110_english_read_p9.jpg",
+  "img": "assets/q/110_english_read_29.jpg",
+  "group_img": "assets/g/110_english_read_29.jpg",
+  "group": [
+   29,
+   31
+  ]
+ },
+ "110_english_read_30": {
+  "page": "assets/page/110_english_read_p9.jpg",
+  "img": "assets/q/110_english_read_30.jpg",
+  "group_img": "assets/g/110_english_read_29.jpg",
+  "group": [
+   29,
+   31
+  ]
+ },
+ "110_english_read_31": {
+  "page": "assets/page/110_english_read_p9.jpg",
+  "img": "assets/q/110_english_read_31.jpg",
+  "group_img": "assets/g/110_english_read_29.jpg",
+  "group": [
+   29,
+   31
+  ]
+ },
+ "110_english_read_32": {
+  "page": "assets/page/110_english_read_p10.jpg",
+  "img": "assets/q/110_english_read_32.jpg",
+  "group_img": "assets/g/110_english_read_32.jpg",
+  "group": [
+   32,
+   34
+  ]
+ },
+ "110_english_read_33": {
+  "page": "assets/page/110_english_read_p10.jpg",
+  "img": "assets/q/110_english_read_33.jpg",
+  "group_img": "assets/g/110_english_read_32.jpg",
+  "group": [
+   32,
+   34
+  ]
+ },
+ "110_english_read_34": {
+  "page": "assets/page/110_english_read_p10.jpg",
+  "img": "assets/q/110_english_read_34.jpg",
+  "group_img": "assets/g/110_english_read_32.jpg",
+  "group": [
+   32,
+   34
+  ]
+ },
+ "110_english_read_35": {
+  "page": "assets/page/110_english_read_p11.jpg",
+  "img": "assets/q/110_english_read_35.jpg",
+  "group_img": "assets/g/110_english_read_35.jpg",
+  "group": [
+   35,
+   37
+  ]
+ },
+ "110_english_read_36": {
+  "page": "assets/page/110_english_read_p11.jpg",
+  "img": "assets/q/110_english_read_36.jpg",
+  "group_img": "assets/g/110_english_read_35.jpg",
+  "group": [
+   35,
+   37
+  ]
+ },
+ "110_english_read_37": {
+  "page": "assets/page/110_english_read_p11.jpg",
+  "img": "assets/q/110_english_read_37.jpg",
+  "group_img": "assets/g/110_english_read_35.jpg",
+  "group": [
+   35,
+   37
+  ]
+ },
+ "110_english_read_38": {
+  "page": "assets/page/110_english_read_p12.jpg",
+  "img": "assets/q/110_english_read_38.jpg",
+  "group_img": "assets/g/110_english_read_38.jpg",
+  "group": [
+   38,
+   41
+  ]
+ },
+ "110_english_read_39": {
+  "page": "assets/page/110_english_read_p12.jpg",
+  "img": "assets/q/110_english_read_39.jpg",
+  "group_img": "assets/g/110_english_read_38.jpg",
+  "group": [
+   38,
+   41
+  ]
+ },
+ "110_english_read_40": {
+  "page": "assets/page/110_english_read_p12.jpg",
+  "img": "assets/q/110_english_read_40.jpg",
+  "group_img": "assets/g/110_english_read_38.jpg",
+  "group": [
+   38,
+   41
+  ]
+ },
+ "110_english_read_41": {
+  "page": "assets/page/110_english_read_p12.jpg",
+  "img": "assets/q/110_english_read_41.jpg",
+  "group_img": "assets/g/110_english_read_38.jpg",
+  "group": [
+   38,
+   41
+  ]
+ },
+ "111_english_read_1": {
+  "page": "assets/page/111_english_read_p1.jpg",
+  "img": "assets/q/111_english_read_1.jpg"
+ },
+ "111_english_read_2": {
+  "page": "assets/page/111_english_read_p1.jpg",
+  "img": "assets/q/111_english_read_2.jpg"
+ },
+ "111_english_read_3": {
+  "page": "assets/page/111_english_read_p1.jpg",
+  "img": "assets/q/111_english_read_3.jpg"
+ },
+ "111_english_read_4": {
+  "page": "assets/page/111_english_read_p1.jpg",
+  "img": "assets/q/111_english_read_4.jpg"
+ },
+ "111_english_read_5": {
+  "page": "assets/page/111_english_read_p1.jpg",
+  "img": "assets/q/111_english_read_5.jpg"
+ },
+ "111_english_read_6": {
+  "page": "assets/page/111_english_read_p1.jpg",
+  "img": "assets/q/111_english_read_6.jpg"
+ },
+ "111_english_read_7": {
+  "page": "assets/page/111_english_read_p1.jpg",
+  "img": "assets/q/111_english_read_7.jpg"
+ },
+ "111_english_read_8": {
+  "page": "assets/page/111_english_read_p1.jpg",
+  "img": "assets/q/111_english_read_8.jpg"
+ },
+ "111_english_read_9": {
+  "page": "assets/page/111_english_read_p1.jpg",
+  "img": "assets/q/111_english_read_9.jpg"
+ },
+ "111_english_read_10": {
+  "page": "assets/page/111_english_read_p1.jpg",
+  "img": "assets/q/111_english_read_10.jpg"
+ },
+ "111_english_read_11": {
+  "page": "assets/page/111_english_read_p1.jpg",
+  "img": "assets/q/111_english_read_11.jpg"
+ },
+ "111_english_read_12": {
+  "page": "assets/page/111_english_read_p2.jpg",
+  "img": "assets/q/111_english_read_12.jpg"
+ },
+ "111_english_read_13": {
+  "page": "assets/page/111_english_read_p2.jpg",
+  "img": "assets/q/111_english_read_13.jpg"
+ },
+ "111_english_read_14": {
+  "page": "assets/page/111_english_read_p2.jpg",
+  "img": "assets/q/111_english_read_14.jpg"
+ },
+ "111_english_read_15": {
+  "page": "assets/page/111_english_read_p2.jpg",
+  "img": "assets/q/111_english_read_15.jpg"
+ },
+ "111_english_read_16": {
+  "page": "assets/page/111_english_read_p2.jpg",
+  "img": "assets/q/111_english_read_16.jpg"
+ },
+ "111_english_read_17": {
+  "page": "assets/page/111_english_read_p2.jpg",
+  "img": "assets/q/111_english_read_17.jpg"
+ },
+ "111_english_read_18": {
+  "page": "assets/page/111_english_read_p2.jpg",
+  "img": "assets/q/111_english_read_18.jpg"
+ },
+ "111_english_read_19": {
+  "page": "assets/page/111_english_read_p2.jpg",
+  "img": "assets/q/111_english_read_19.jpg"
+ },
+ "111_english_read_20": {
+  "page": "assets/page/111_english_read_p2.jpg",
+  "img": "assets/q/111_english_read_20.jpg"
+ },
+ "111_english_read_21": {
+  "page": "assets/page/111_english_read_p3.jpg",
+  "img": "assets/q/111_english_read_21.jpg",
+  "group_img": "assets/g/111_english_read_21.jpg",
+  "group": [
+   21,
+   22
+  ]
+ },
+ "111_english_read_22": {
+  "page": "assets/page/111_english_read_p3.jpg",
+  "img": "assets/q/111_english_read_22.jpg",
+  "group_img": "assets/g/111_english_read_21.jpg",
+  "group": [
+   21,
+   22
+  ]
+ },
+ "111_english_read_23": {
+  "page": "assets/page/111_english_read_p5.jpg",
+  "img": "assets/q/111_english_read_23.jpg",
+  "group_img": "assets/g/111_english_read_23.jpg",
+  "group": [
+   23,
+   24
+  ]
+ },
+ "111_english_read_24": {
+  "page": "assets/page/111_english_read_p5.jpg",
+  "img": "assets/q/111_english_read_24.jpg",
+  "group_img": "assets/g/111_english_read_23.jpg",
+  "group": [
+   23,
+   24
+  ]
+ },
+ "111_english_read_25": {
+  "page": "assets/page/111_english_read_p6.jpg",
+  "img": "assets/q/111_english_read_25.jpg",
+  "group_img": "assets/g/111_english_read_25.jpg",
+  "group": [
+   25,
+   26
+  ]
+ },
+ "111_english_read_26": {
+  "page": "assets/page/111_english_read_p6.jpg",
+  "img": "assets/q/111_english_read_26.jpg",
+  "group_img": "assets/g/111_english_read_25.jpg",
+  "group": [
+   25,
+   26
+  ]
+ },
+ "111_english_read_27": {
+  "page": "assets/page/111_english_read_p7.jpg",
+  "img": "assets/q/111_english_read_27.jpg",
+  "group_img": "assets/g/111_english_read_27.jpg",
+  "group": [
+   27,
+   29
+  ]
+ },
+ "111_english_read_28": {
+  "page": "assets/page/111_english_read_p7.jpg",
+  "img": "assets/q/111_english_read_28.jpg",
+  "group_img": "assets/g/111_english_read_27.jpg",
+  "group": [
+   27,
+   29
+  ]
+ },
+ "111_english_read_29": {
+  "page": "assets/page/111_english_read_p7.jpg",
+  "img": "assets/q/111_english_read_29.jpg",
+  "group_img": "assets/g/111_english_read_27.jpg",
+  "group": [
+   27,
+   29
+  ]
+ },
+ "111_english_read_30": {
+  "page": "assets/page/111_english_read_p9.jpg",
+  "img": "assets/q/111_english_read_30.jpg",
+  "group_img": "assets/g/111_english_read_30.jpg",
+  "group": [
+   30,
+   32
+  ]
+ },
+ "111_english_read_31": {
+  "page": "assets/page/111_english_read_p9.jpg",
+  "img": "assets/q/111_english_read_31.jpg",
+  "group_img": "assets/g/111_english_read_30.jpg",
+  "group": [
+   30,
+   32
+  ]
+ },
+ "111_english_read_32": {
+  "page": "assets/page/111_english_read_p9.jpg",
+  "img": "assets/q/111_english_read_32.jpg",
+  "group_img": "assets/g/111_english_read_30.jpg",
+  "group": [
+   30,
+   32
+  ]
+ },
+ "111_english_read_33": {
+  "page": "assets/page/111_english_read_p11.jpg",
+  "img": "assets/q/111_english_read_33.jpg",
+  "group_img": "assets/g/111_english_read_33.jpg",
+  "group": [
+   33,
+   36
+  ]
+ },
+ "111_english_read_34": {
+  "page": "assets/page/111_english_read_p11.jpg",
+  "img": "assets/q/111_english_read_34.jpg",
+  "group_img": "assets/g/111_english_read_33.jpg",
+  "group": [
+   33,
+   36
+  ]
+ },
+ "111_english_read_35": {
+  "page": "assets/page/111_english_read_p11.jpg",
+  "img": "assets/q/111_english_read_35.jpg",
+  "group_img": "assets/g/111_english_read_33.jpg",
+  "group": [
+   33,
+   36
+  ]
+ },
+ "111_english_read_36": {
+  "page": "assets/page/111_english_read_p11.jpg",
+  "img": "assets/q/111_english_read_36.jpg",
+  "group_img": "assets/g/111_english_read_33.jpg",
+  "group": [
+   33,
+   36
+  ]
+ },
+ "111_english_read_37": {
+  "page": "assets/page/111_english_read_p12.jpg",
+  "img": "assets/q/111_english_read_37.jpg",
+  "group_img": "assets/g/111_english_read_37.jpg",
+  "group": [
+   37,
+   39
+  ]
+ },
+ "111_english_read_38": {
+  "page": "assets/page/111_english_read_p12.jpg",
+  "img": "assets/q/111_english_read_38.jpg",
+  "group_img": "assets/g/111_english_read_37.jpg",
+  "group": [
+   37,
+   39
+  ]
+ },
+ "111_english_read_39": {
+  "page": "assets/page/111_english_read_p12.jpg",
+  "img": "assets/q/111_english_read_39.jpg",
+  "group_img": "assets/g/111_english_read_37.jpg",
+  "group": [
+   37,
+   39
+  ]
+ },
+ "111_english_read_40": {
+  "page": "assets/page/111_english_read_p13.jpg",
+  "img": "assets/q/111_english_read_40.jpg",
+  "group_img": "assets/g/111_english_read_40.jpg",
+  "group": [
+   40,
+   43
+  ]
+ },
+ "111_english_read_41": {
+  "page": "assets/page/111_english_read_p13.jpg",
+  "img": "assets/q/111_english_read_41.jpg",
+  "group_img": "assets/g/111_english_read_40.jpg",
+  "group": [
+   40,
+   43
+  ]
+ },
+ "111_english_read_42": {
+  "page": "assets/page/111_english_read_p13.jpg",
+  "img": "assets/q/111_english_read_42.jpg",
+  "group_img": "assets/g/111_english_read_40.jpg",
+  "group": [
+   40,
+   43
+  ]
+ },
+ "111_english_read_43": {
+  "page": "assets/page/111_english_read_p13.jpg",
+  "img": "assets/q/111_english_read_43.jpg",
+  "group_img": "assets/g/111_english_read_40.jpg",
+  "group": [
+   40,
+   43
+  ]
+ },
+ "112_english_read_1": {
+  "page": "assets/page/112_english_read_p1.jpg",
+  "img": "assets/q/112_english_read_1.jpg"
+ },
+ "112_english_read_2": {
+  "page": "assets/page/112_english_read_p1.jpg",
+  "img": "assets/q/112_english_read_2.jpg"
+ },
+ "112_english_read_3": {
+  "page": "assets/page/112_english_read_p1.jpg",
+  "img": "assets/q/112_english_read_3.jpg"
+ },
+ "112_english_read_4": {
+  "page": "assets/page/112_english_read_p1.jpg",
+  "img": "assets/q/112_english_read_4.jpg"
+ },
+ "112_english_read_5": {
+  "page": "assets/page/112_english_read_p1.jpg",
+  "img": "assets/q/112_english_read_5.jpg"
+ },
+ "112_english_read_6": {
+  "page": "assets/page/112_english_read_p1.jpg",
+  "img": "assets/q/112_english_read_6.jpg"
+ },
+ "112_english_read_7": {
+  "page": "assets/page/112_english_read_p1.jpg",
+  "img": "assets/q/112_english_read_7.jpg"
+ },
+ "112_english_read_8": {
+  "page": "assets/page/112_english_read_p1.jpg",
+  "img": "assets/q/112_english_read_8.jpg"
+ },
+ "112_english_read_9": {
+  "page": "assets/page/112_english_read_p1.jpg",
+  "img": "assets/q/112_english_read_9.jpg"
+ },
+ "112_english_read_10": {
+  "page": "assets/page/112_english_read_p1.jpg",
+  "img": "assets/q/112_english_read_10.jpg"
+ },
+ "112_english_read_11": {
+  "page": "assets/page/112_english_read_p1.jpg",
+  "img": "assets/q/112_english_read_11.jpg"
+ },
+ "112_english_read_12": {
+  "page": "assets/page/112_english_read_p2.jpg",
+  "img": "assets/q/112_english_read_12.jpg"
+ },
+ "112_english_read_13": {
+  "page": "assets/page/112_english_read_p2.jpg",
+  "img": "assets/q/112_english_read_13.jpg"
+ },
+ "112_english_read_14": {
+  "page": "assets/page/112_english_read_p2.jpg",
+  "img": "assets/q/112_english_read_14.jpg"
+ },
+ "112_english_read_15": {
+  "page": "assets/page/112_english_read_p2.jpg",
+  "img": "assets/q/112_english_read_15.jpg"
+ },
+ "112_english_read_16": {
+  "page": "assets/page/112_english_read_p2.jpg",
+  "img": "assets/q/112_english_read_16.jpg"
+ },
+ "112_english_read_17": {
+  "page": "assets/page/112_english_read_p2.jpg",
+  "img": "assets/q/112_english_read_17.jpg"
+ },
+ "112_english_read_18": {
+  "page": "assets/page/112_english_read_p2.jpg",
+  "img": "assets/q/112_english_read_18.jpg"
+ },
+ "112_english_read_19": {
+  "page": "assets/page/112_english_read_p2.jpg",
+  "img": "assets/q/112_english_read_19.jpg"
+ },
+ "112_english_read_20": {
+  "page": "assets/page/112_english_read_p2.jpg",
+  "img": "assets/q/112_english_read_20.jpg"
+ },
+ "112_english_read_21": {
+  "page": "assets/page/112_english_read_p2.jpg",
+  "img": "assets/q/112_english_read_21.jpg"
+ },
+ "112_english_read_22": {
+  "page": "assets/page/112_english_read_p2.jpg",
+  "img": "assets/q/112_english_read_22.jpg"
+ },
+ "112_english_read_23": {
+  "page": "assets/page/112_english_read_p2.jpg",
+  "img": "assets/q/112_english_read_23.jpg"
+ },
+ "112_english_read_24": {
+  "page": "assets/page/112_english_read_p3.jpg",
+  "img": "assets/q/112_english_read_24.jpg",
+  "group_img": "assets/g/112_english_read_24.jpg",
+  "group": [
+   24,
+   25
+  ]
+ },
+ "112_english_read_25": {
+  "page": "assets/page/112_english_read_p3.jpg",
+  "img": "assets/q/112_english_read_25.jpg",
+  "group_img": "assets/g/112_english_read_24.jpg",
+  "group": [
+   24,
+   25
+  ]
+ },
+ "112_english_read_26": {
+  "page": "assets/page/112_english_read_p4.jpg",
+  "img": "assets/q/112_english_read_26.jpg",
+  "group_img": "assets/g/112_english_read_26.jpg",
+  "group": [
+   26,
+   27
+  ]
+ },
+ "112_english_read_27": {
+  "page": "assets/page/112_english_read_p4.jpg",
+  "img": "assets/q/112_english_read_27.jpg",
+  "group_img": "assets/g/112_english_read_26.jpg",
+  "group": [
+   26,
+   27
+  ]
+ },
+ "112_english_read_28": {
+  "page": "assets/page/112_english_read_p6.jpg",
+  "img": "assets/q/112_english_read_28.jpg",
+  "group_img": "assets/g/112_english_read_28.jpg",
+  "group": [
+   28,
+   29
+  ]
+ },
+ "112_english_read_29": {
+  "page": "assets/page/112_english_read_p6.jpg",
+  "img": "assets/q/112_english_read_29.jpg",
+  "group_img": "assets/g/112_english_read_28.jpg",
+  "group": [
+   28,
+   29
+  ]
+ },
+ "112_english_read_30": {
+  "page": "assets/page/112_english_read_p7.jpg",
+  "img": "assets/q/112_english_read_30.jpg",
+  "group_img": "assets/g/112_english_read_30.jpg",
+  "group": [
+   30,
+   32
+  ]
+ },
+ "112_english_read_31": {
+  "page": "assets/page/112_english_read_p7.jpg",
+  "img": "assets/q/112_english_read_31.jpg",
+  "group_img": "assets/g/112_english_read_30.jpg",
+  "group": [
+   30,
+   32
+  ]
+ },
+ "112_english_read_32": {
+  "page": "assets/page/112_english_read_p7.jpg",
+  "img": "assets/q/112_english_read_32.jpg",
+  "group_img": "assets/g/112_english_read_30.jpg",
+  "group": [
+   30,
+   32
+  ]
+ },
+ "112_english_read_33": {
+  "page": "assets/page/112_english_read_p8.jpg",
+  "img": "assets/q/112_english_read_33.jpg",
+  "group_img": "assets/g/112_english_read_33.jpg",
+  "group": [
+   33,
+   35
+  ]
+ },
+ "112_english_read_34": {
+  "page": "assets/page/112_english_read_p8.jpg",
+  "img": "assets/q/112_english_read_34.jpg",
+  "group_img": "assets/g/112_english_read_33.jpg",
+  "group": [
+   33,
+   35
+  ]
+ },
+ "112_english_read_35": {
+  "page": "assets/page/112_english_read_p8.jpg",
+  "img": "assets/q/112_english_read_35.jpg",
+  "group_img": "assets/g/112_english_read_33.jpg",
+  "group": [
+   33,
+   35
+  ]
+ },
+ "112_english_read_36": {
+  "page": "assets/page/112_english_read_p9.jpg",
+  "img": "assets/q/112_english_read_36.jpg",
+  "group_img": "assets/g/112_english_read_36.jpg",
+  "group": [
+   36,
+   38
+  ]
+ },
+ "112_english_read_37": {
+  "page": "assets/page/112_english_read_p10.jpg",
+  "img": "assets/q/112_english_read_37.jpg",
+  "group_img": "assets/g/112_english_read_36.jpg",
+  "group": [
+   36,
+   38
+  ]
+ },
+ "112_english_read_38": {
+  "page": "assets/page/112_english_read_p10.jpg",
+  "img": "assets/q/112_english_read_38.jpg",
+  "group_img": "assets/g/112_english_read_36.jpg",
+  "group": [
+   36,
+   38
+  ]
+ },
+ "112_english_read_39": {
+  "page": "assets/page/112_english_read_p11.jpg",
+  "img": "assets/q/112_english_read_39.jpg",
+  "group_img": "assets/g/112_english_read_39.jpg",
+  "group": [
+   39,
+   41
+  ]
+ },
+ "112_english_read_40": {
+  "page": "assets/page/112_english_read_p11.jpg",
+  "img": "assets/q/112_english_read_40.jpg",
+  "group_img": "assets/g/112_english_read_39.jpg",
+  "group": [
+   39,
+   41
+  ]
+ },
+ "112_english_read_41": {
+  "page": "assets/page/112_english_read_p11.jpg",
+  "img": "assets/q/112_english_read_41.jpg",
+  "group_img": "assets/g/112_english_read_39.jpg",
+  "group": [
+   39,
+   41
+  ]
+ },
+ "112_english_read_42": {
+  "page": "assets/page/112_english_read_p12.jpg",
+  "img": "assets/q/112_english_read_42.jpg",
+  "group_img": "assets/g/112_english_read_42.jpg",
+  "group": [
+   42,
+   43
+  ]
+ },
+ "112_english_read_43": {
+  "page": "assets/page/112_english_read_p12.jpg",
+  "img": "assets/q/112_english_read_43.jpg",
+  "group_img": "assets/g/112_english_read_42.jpg",
+  "group": [
+   42,
+   43
+  ]
+ },
+ "113_english_read_1": {
+  "page": "assets/page/113_english_read_p1.jpg",
+  "img": "assets/q/113_english_read_1.jpg"
+ },
+ "113_english_read_2": {
+  "page": "assets/page/113_english_read_p1.jpg",
+  "img": "assets/q/113_english_read_2.jpg"
+ },
+ "113_english_read_3": {
+  "page": "assets/page/113_english_read_p1.jpg",
+  "img": "assets/q/113_english_read_3.jpg"
+ },
+ "113_english_read_4": {
+  "page": "assets/page/113_english_read_p1.jpg",
+  "img": "assets/q/113_english_read_4.jpg"
+ },
+ "113_english_read_5": {
+  "page": "assets/page/113_english_read_p1.jpg",
+  "img": "assets/q/113_english_read_5.jpg"
+ },
+ "113_english_read_6": {
+  "page": "assets/page/113_english_read_p1.jpg",
+  "img": "assets/q/113_english_read_6.jpg"
+ },
+ "113_english_read_7": {
+  "page": "assets/page/113_english_read_p1.jpg",
+  "img": "assets/q/113_english_read_7.jpg"
+ },
+ "113_english_read_8": {
+  "page": "assets/page/113_english_read_p1.jpg",
+  "img": "assets/q/113_english_read_8.jpg"
+ },
+ "113_english_read_9": {
+  "page": "assets/page/113_english_read_p1.jpg",
+  "img": "assets/q/113_english_read_9.jpg"
+ },
+ "113_english_read_10": {
+  "page": "assets/page/113_english_read_p2.jpg",
+  "img": "assets/q/113_english_read_10.jpg"
+ },
+ "113_english_read_11": {
+  "page": "assets/page/113_english_read_p2.jpg",
+  "img": "assets/q/113_english_read_11.jpg"
+ },
+ "113_english_read_12": {
+  "page": "assets/page/113_english_read_p2.jpg",
+  "img": "assets/q/113_english_read_12.jpg"
+ },
+ "113_english_read_13": {
+  "page": "assets/page/113_english_read_p2.jpg",
+  "img": "assets/q/113_english_read_13.jpg"
+ },
+ "113_english_read_14": {
+  "page": "assets/page/113_english_read_p2.jpg",
+  "img": "assets/q/113_english_read_14.jpg"
+ },
+ "113_english_read_15": {
+  "page": "assets/page/113_english_read_p2.jpg",
+  "img": "assets/q/113_english_read_15.jpg"
+ },
+ "113_english_read_16": {
+  "page": "assets/page/113_english_read_p2.jpg",
+  "img": "assets/q/113_english_read_16.jpg"
+ },
+ "113_english_read_17": {
+  "page": "assets/page/113_english_read_p2.jpg",
+  "img": "assets/q/113_english_read_17.jpg"
+ },
+ "113_english_read_18": {
+  "page": "assets/page/113_english_read_p2.jpg",
+  "img": "assets/q/113_english_read_18.jpg"
+ },
+ "113_english_read_19": {
+  "page": "assets/page/113_english_read_p2.jpg",
+  "img": "assets/q/113_english_read_19.jpg"
+ },
+ "113_english_read_20": {
+  "page": "assets/page/113_english_read_p2.jpg",
+  "img": "assets/q/113_english_read_20.jpg"
+ },
+ "113_english_read_21": {
+  "page": "assets/page/113_english_read_p3.jpg",
+  "img": "assets/q/113_english_read_21.jpg"
+ },
+ "113_english_read_22": {
+  "page": "assets/page/113_english_read_p3.jpg",
+  "img": "assets/q/113_english_read_22.jpg",
+  "group_img": "assets/g/113_english_read_22.jpg",
+  "group": [
+   22,
+   23
+  ]
+ },
+ "113_english_read_23": {
+  "page": "assets/page/113_english_read_p3.jpg",
+  "img": "assets/q/113_english_read_23.jpg",
+  "group_img": "assets/g/113_english_read_22.jpg",
+  "group": [
+   22,
+   23
+  ]
+ },
+ "113_english_read_24": {
+  "page": "assets/page/113_english_read_p4.jpg",
+  "img": "assets/q/113_english_read_24.jpg",
+  "group_img": "assets/g/113_english_read_24.jpg",
+  "group": [
+   24,
+   25
+  ]
+ },
+ "113_english_read_25": {
+  "page": "assets/page/113_english_read_p4.jpg",
+  "img": "assets/q/113_english_read_25.jpg",
+  "group_img": "assets/g/113_english_read_24.jpg",
+  "group": [
+   24,
+   25
+  ]
+ },
+ "113_english_read_26": {
+  "page": "assets/page/113_english_read_p5.jpg",
+  "img": "assets/q/113_english_read_26.jpg",
+  "group_img": "assets/g/113_english_read_26.jpg",
+  "group": [
+   26,
+   27
+  ]
+ },
+ "113_english_read_27": {
+  "page": "assets/page/113_english_read_p5.jpg",
+  "img": "assets/q/113_english_read_27.jpg",
+  "group_img": "assets/g/113_english_read_26.jpg",
+  "group": [
+   26,
+   27
+  ]
+ },
+ "113_english_read_28": {
+  "page": "assets/page/113_english_read_p6.jpg",
+  "img": "assets/q/113_english_read_28.jpg",
+  "group_img": "assets/g/113_english_read_28.jpg",
+  "group": [
+   28,
+   29
+  ]
+ },
+ "113_english_read_29": {
+  "page": "assets/page/113_english_read_p6.jpg",
+  "img": "assets/q/113_english_read_29.jpg",
+  "group_img": "assets/g/113_english_read_28.jpg",
+  "group": [
+   28,
+   29
+  ]
+ },
+ "113_english_read_30": {
+  "page": "assets/page/113_english_read_p8.jpg",
+  "img": "assets/q/113_english_read_30.jpg",
+  "group_img": "assets/g/113_english_read_30.jpg",
+  "group": [
+   30,
+   32
+  ]
+ },
+ "113_english_read_31": {
+  "page": "assets/page/113_english_read_p8.jpg",
+  "img": "assets/q/113_english_read_31.jpg",
+  "group_img": "assets/g/113_english_read_30.jpg",
+  "group": [
+   30,
+   32
+  ]
+ },
+ "113_english_read_32": {
+  "page": "assets/page/113_english_read_p8.jpg",
+  "img": "assets/q/113_english_read_32.jpg",
+  "group_img": "assets/g/113_english_read_30.jpg",
+  "group": [
+   30,
+   32
+  ]
+ },
+ "113_english_read_33": {
+  "page": "assets/page/113_english_read_p9.jpg",
+  "img": "assets/q/113_english_read_33.jpg",
+  "group_img": "assets/g/113_english_read_33.jpg",
+  "group": [
+   33,
+   35
+  ]
+ },
+ "113_english_read_34": {
+  "page": "assets/page/113_english_read_p10.jpg",
+  "img": "assets/q/113_english_read_34.jpg",
+  "group_img": "assets/g/113_english_read_33.jpg",
+  "group": [
+   33,
+   35
+  ]
+ },
+ "113_english_read_35": {
+  "page": "assets/page/113_english_read_p10.jpg",
+  "img": "assets/q/113_english_read_35.jpg",
+  "group_img": "assets/g/113_english_read_33.jpg",
+  "group": [
+   33,
+   35
+  ]
+ },
+ "113_english_read_36": {
+  "page": "assets/page/113_english_read_p12.jpg",
+  "img": "assets/q/113_english_read_36.jpg",
+  "group_img": "assets/g/113_english_read_36.jpg",
+  "group": [
+   36,
+   39
+  ]
+ },
+ "113_english_read_37": {
+  "page": "assets/page/113_english_read_p12.jpg",
+  "img": "assets/q/113_english_read_37.jpg",
+  "group_img": "assets/g/113_english_read_36.jpg",
+  "group": [
+   36,
+   39
+  ]
+ },
+ "113_english_read_38": {
+  "page": "assets/page/113_english_read_p12.jpg",
+  "img": "assets/q/113_english_read_38.jpg",
+  "group_img": "assets/g/113_english_read_36.jpg",
+  "group": [
+   36,
+   39
+  ]
+ },
+ "113_english_read_39": {
+  "page": "assets/page/113_english_read_p12.jpg",
+  "img": "assets/q/113_english_read_39.jpg",
+  "group_img": "assets/g/113_english_read_36.jpg",
+  "group": [
+   36,
+   39
+  ]
+ },
+ "113_english_read_40": {
+  "page": "assets/page/113_english_read_p14.jpg",
+  "img": "assets/q/113_english_read_40.jpg",
+  "group_img": "assets/g/113_english_read_40.jpg",
+  "group": [
+   40,
+   43
+  ]
+ },
+ "113_english_read_41": {
+  "page": "assets/page/113_english_read_p14.jpg",
+  "img": "assets/q/113_english_read_41.jpg",
+  "group_img": "assets/g/113_english_read_40.jpg",
+  "group": [
+   40,
+   43
+  ]
+ },
+ "113_english_read_42": {
+  "page": "assets/page/113_english_read_p14.jpg",
+  "img": "assets/q/113_english_read_42.jpg",
+  "group_img": "assets/g/113_english_read_40.jpg",
+  "group": [
+   40,
+   43
+  ]
+ },
+ "113_english_read_43": {
+  "page": "assets/page/113_english_read_p14.jpg",
+  "img": "assets/q/113_english_read_43.jpg",
+  "group_img": "assets/g/113_english_read_40.jpg",
+  "group": [
+   40,
+   43
+  ]
+ },
+ "114_english_read_1": {
+  "page": "assets/page/114_english_read_p1.jpg",
+  "img": "assets/q/114_english_read_1.jpg"
+ },
+ "114_english_read_2": {
+  "page": "assets/page/114_english_read_p1.jpg",
+  "img": "assets/q/114_english_read_2.jpg"
+ },
+ "114_english_read_3": {
+  "page": "assets/page/114_english_read_p1.jpg",
+  "img": "assets/q/114_english_read_3.jpg"
+ },
+ "114_english_read_4": {
+  "page": "assets/page/114_english_read_p1.jpg",
+  "img": "assets/q/114_english_read_4.jpg"
+ },
+ "114_english_read_5": {
+  "page": "assets/page/114_english_read_p1.jpg",
+  "img": "assets/q/114_english_read_5.jpg"
+ },
+ "114_english_read_6": {
+  "page": "assets/page/114_english_read_p1.jpg",
+  "img": "assets/q/114_english_read_6.jpg"
+ },
+ "114_english_read_7": {
+  "page": "assets/page/114_english_read_p1.jpg",
+  "img": "assets/q/114_english_read_7.jpg"
+ },
+ "114_english_read_8": {
+  "page": "assets/page/114_english_read_p1.jpg",
+  "img": "assets/q/114_english_read_8.jpg"
+ },
+ "114_english_read_9": {
+  "page": "assets/page/114_english_read_p1.jpg",
+  "img": "assets/q/114_english_read_9.jpg"
+ },
+ "114_english_read_10": {
+  "page": "assets/page/114_english_read_p2.jpg",
+  "img": "assets/q/114_english_read_10.jpg"
+ },
+ "114_english_read_11": {
+  "page": "assets/page/114_english_read_p2.jpg",
+  "img": "assets/q/114_english_read_11.jpg"
+ },
+ "114_english_read_12": {
+  "page": "assets/page/114_english_read_p2.jpg",
+  "img": "assets/q/114_english_read_12.jpg"
+ },
+ "114_english_read_13": {
+  "page": "assets/page/114_english_read_p2.jpg",
+  "img": "assets/q/114_english_read_13.jpg"
+ },
+ "114_english_read_14": {
+  "page": "assets/page/114_english_read_p2.jpg",
+  "img": "assets/q/114_english_read_14.jpg"
+ },
+ "114_english_read_15": {
+  "page": "assets/page/114_english_read_p2.jpg",
+  "img": "assets/q/114_english_read_15.jpg"
+ },
+ "114_english_read_16": {
+  "page": "assets/page/114_english_read_p2.jpg",
+  "img": "assets/q/114_english_read_16.jpg"
+ },
+ "114_english_read_17": {
+  "page": "assets/page/114_english_read_p2.jpg",
+  "img": "assets/q/114_english_read_17.jpg"
+ },
+ "114_english_read_18": {
+  "page": "assets/page/114_english_read_p2.jpg",
+  "img": "assets/q/114_english_read_18.jpg"
+ },
+ "114_english_read_19": {
+  "page": "assets/page/114_english_read_p2.jpg",
+  "img": "assets/q/114_english_read_19.jpg"
+ },
+ "114_english_read_20": {
+  "page": "assets/page/114_english_read_p3.jpg",
+  "img": "assets/q/114_english_read_20.jpg",
+  "group_img": "assets/g/114_english_read_20.jpg",
+  "group": [
+   20,
+   21
+  ]
+ },
+ "114_english_read_21": {
+  "page": "assets/page/114_english_read_p3.jpg",
+  "img": "assets/q/114_english_read_21.jpg",
+  "group_img": "assets/g/114_english_read_20.jpg",
+  "group": [
+   20,
+   21
+  ]
+ },
+ "114_english_read_22": {
+  "page": "assets/page/114_english_read_p4.jpg",
+  "img": "assets/q/114_english_read_22.jpg",
+  "group_img": "assets/g/114_english_read_22.jpg",
+  "group": [
+   22,
+   23
+  ]
+ },
+ "114_english_read_23": {
+  "page": "assets/page/114_english_read_p4.jpg",
+  "img": "assets/q/114_english_read_23.jpg",
+  "group_img": "assets/g/114_english_read_22.jpg",
+  "group": [
+   22,
+   23
+  ]
+ },
+ "114_english_read_24": {
+  "page": "assets/page/114_english_read_p5.jpg",
+  "img": "assets/q/114_english_read_24.jpg",
+  "group_img": "assets/g/114_english_read_24.jpg",
+  "group": [
+   24,
+   25
+  ]
+ },
+ "114_english_read_25": {
+  "page": "assets/page/114_english_read_p5.jpg",
+  "img": "assets/q/114_english_read_25.jpg",
+  "group_img": "assets/g/114_english_read_24.jpg",
+  "group": [
+   24,
+   25
+  ]
+ },
+ "114_english_read_26": {
+  "page": "assets/page/114_english_read_p6.jpg",
+  "img": "assets/q/114_english_read_26.jpg",
+  "group_img": "assets/g/114_english_read_26.jpg",
+  "group": [
+   26,
+   28
+  ]
+ },
+ "114_english_read_27": {
+  "page": "assets/page/114_english_read_p6.jpg",
+  "img": "assets/q/114_english_read_27.jpg",
+  "group_img": "assets/g/114_english_read_26.jpg",
+  "group": [
+   26,
+   28
+  ]
+ },
+ "114_english_read_28": {
+  "page": "assets/page/114_english_read_p6.jpg",
+  "img": "assets/q/114_english_read_28.jpg",
+  "group_img": "assets/g/114_english_read_26.jpg",
+  "group": [
+   26,
+   28
+  ]
+ },
+ "114_english_read_29": {
+  "page": "assets/page/114_english_read_p8.jpg",
+  "img": "assets/q/114_english_read_29.jpg",
+  "group_img": "assets/g/114_english_read_29.jpg",
+  "group": [
+   29,
+   31
+  ]
+ },
+ "114_english_read_30": {
+  "page": "assets/page/114_english_read_p8.jpg",
+  "img": "assets/q/114_english_read_30.jpg",
+  "group_img": "assets/g/114_english_read_29.jpg",
+  "group": [
+   29,
+   31
+  ]
+ },
+ "114_english_read_31": {
+  "page": "assets/page/114_english_read_p8.jpg",
+  "img": "assets/q/114_english_read_31.jpg",
+  "group_img": "assets/g/114_english_read_29.jpg",
+  "group": [
+   29,
+   31
+  ]
+ },
+ "114_english_read_32": {
+  "page": "assets/page/114_english_read_p9.jpg",
+  "img": "assets/q/114_english_read_32.jpg",
+  "group_img": "assets/g/114_english_read_32.jpg",
+  "group": [
+   32,
+   34
+  ]
+ },
+ "114_english_read_33": {
+  "page": "assets/page/114_english_read_p9.jpg",
+  "img": "assets/q/114_english_read_33.jpg",
+  "group_img": "assets/g/114_english_read_32.jpg",
+  "group": [
+   32,
+   34
+  ]
+ },
+ "114_english_read_34": {
+  "page": "assets/page/114_english_read_p10.jpg",
+  "img": "assets/q/114_english_read_34.jpg",
+  "group_img": "assets/g/114_english_read_32.jpg",
+  "group": [
+   32,
+   34
+  ]
+ },
+ "114_english_read_35": {
+  "page": "assets/page/114_english_read_p11.jpg",
+  "img": "assets/q/114_english_read_35.jpg",
+  "group_img": "assets/g/114_english_read_35.jpg",
+  "group": [
+   35,
+   37
+  ]
+ },
+ "114_english_read_36": {
+  "page": "assets/page/114_english_read_p12.jpg",
+  "img": "assets/q/114_english_read_36.jpg",
+  "group_img": "assets/g/114_english_read_35.jpg",
+  "group": [
+   35,
+   37
+  ]
+ },
+ "114_english_read_37": {
+  "page": "assets/page/114_english_read_p12.jpg",
+  "img": "assets/q/114_english_read_37.jpg",
+  "group_img": "assets/g/114_english_read_35.jpg",
+  "group": [
+   35,
+   37
+  ]
+ },
+ "114_english_read_38": {
+  "page": "assets/page/114_english_read_p13.jpg",
+  "img": "assets/q/114_english_read_38.jpg",
+  "group_img": "assets/g/114_english_read_38.jpg",
+  "group": [
+   38,
+   43
+  ]
+ },
+ "114_english_read_39": {
+  "page": "assets/page/114_english_read_p13.jpg",
+  "img": "assets/q/114_english_read_39.jpg",
+  "group_img": "assets/g/114_english_read_38.jpg",
+  "group": [
+   38,
+   43
+  ]
+ },
+ "114_english_read_40": {
+  "page": "assets/page/114_english_read_p13.jpg",
+  "img": "assets/q/114_english_read_40.jpg",
+  "group_img": "assets/g/114_english_read_38.jpg",
+  "group": [
+   38,
+   43
+  ]
+ },
+ "114_english_read_41": {
+  "page": "assets/page/114_english_read_p13.jpg",
+  "img": "assets/q/114_english_read_41.jpg",
+  "group_img": "assets/g/114_english_read_38.jpg",
+  "group": [
+   38,
+   43
+  ]
+ },
+ "114_english_read_42": {
+  "page": "assets/page/114_english_read_p13.jpg",
+  "img": "assets/q/114_english_read_42.jpg",
+  "group_img": "assets/g/114_english_read_38.jpg",
+  "group": [
+   38,
+   43
+  ]
+ },
+ "114_english_read_43": {
+  "page": "assets/page/114_english_read_p13.jpg",
+  "img": "assets/q/114_english_read_43.jpg",
+  "group_img": "assets/g/114_english_read_38.jpg",
+  "group": [
+   38,
+   43
+  ]
+ }
+}

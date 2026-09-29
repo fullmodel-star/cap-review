@@ -5,86 +5,118 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <meta name="theme-color" content="#4E6A7C">
 <title>會考複習</title>
-<link rel="manifest" href="manifest.webmanifest">
+<meta name="description" content="國中教育會考 105–114 年五科歷屆試題：原題練習、常考觀念筆記、錯題間隔複習。">
+<link rel="canonical" href="https://fullmodel-star.github.io/cap-review/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Ridgeline">
+<meta property="og:title" content="會考複習">
+<meta property="og:description" content="國中教育會考 105–114 年五科歷屆試題：原題練習、常考觀念筆記、錯題間隔複習。">
+<meta property="og:url" content="https://fullmodel-star.github.io/cap-review/">
+<meta property="og:image" content="https://fullmodel-star.github.io/cap-review/og-cap-review.png?v=1">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="會考複習：十年歷屆試題・錯題間隔複習">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://fullmodel-star.github.io/cap-review/og-cap-review.png?v=1">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="stylesheet" href="ridgeline-ui.css">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="會考複習">
 <style>
 :root{
-  --bg:#F7F3EC; --bg2:#EFE9DD; --card:#FFFFFF; --card2:#F4EFE6;
+  --bg:#F7F3EC; --bg2:#ECEBE4; --card:#FFFFFF; --card2:#F3E7DD;
   --line:#E4DDCE; --txt:#141E2B; --dim:#6E8BA3;
-  --primary:#4E6A7C; --primary2:#6C8CA0;
-  --ok:#16a34a; --warn:#d97706; --bad:#dc2626; --accent:#ca8a04;
+  --primary:#4E6A7C; --primary2:#6688A2;
+  --ok:#3F6B4F; --warn:#DE9A45; --bad:#9E2A18;
   --radius:16px;
-  --s-chinese:#fb7185; --s-english_read:#38bdf8; --s-math:#c084fc; --s-science:#2dd4bf; --s-social:#fbbf24;
+  --s-chinese:#9E2A18; --s-english_read:#3F6C85; --s-math:#6E6480; --s-science:#4D7C5E; --s-social:#DE9A45;
+  --img-filter:none;
 }
 @media (prefers-color-scheme:dark){:root{
-  --bg:#141E2B; --bg2:#1B2838; --card:#1B2838; --card2:#243447;
-  --line:#2A3A4E; --txt:#EEF3F6; --dim:#8b96a8;
-  --primary:#4E6A7C; --primary2:#8CA6B8;
-  --ok:#22c55e; --warn:#f59e0b; --bad:#ef4444; --accent:#eab308;
+  --bg:#141E2B; --bg2:#1B2838; --card:#1B2838; --card2:#2C4459;
+  --line:#2A3A4E; --txt:#EEF3F6; --dim:#92A9BA;
+  --primary:#4E6A7C; --primary2:#92A9BA;
+  --ok:#3EA47E; --warn:#DE9A45; --bad:#C77E4E;
+  --img-filter:invert(.88) hue-rotate(180deg);
 }}
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 html,body{margin:0;padding:0}
-body{font-family:-apple-system,"Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;background:var(--bg);color:var(--txt);min-height:100vh;padding-bottom:78px;overscroll-behavior-y:none}
+body{font-family:-apple-system,"Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;background:var(--bg);color:var(--txt);min-height:100vh;padding-bottom:84px;font-size:16px;line-height:1.6}
 .wrap{max-width:820px;margin:0 auto;padding:0 14px}
-header{position:sticky;top:0;z-index:40;background:var(--primary);color:#fff;padding:calc(14px + env(safe-area-inset-top,0)) 16px 14px}
-header h1{font-size:19px;margin:0}
-header .sub{font-size:11px;opacity:.85;margin-top:2px}
+body.theme-denali{--hdr:#4E6A7C;--on:#EEF3F6;--ink:var(--txt);--muted:var(--dim)}
+header.rl-appbar{position:sticky;top:0;z-index:40;padding:calc(12px + env(safe-area-inset-top,0)) 16px 12px;gap:12px}
+header.rl-appbar .rl-glyph{width:30px;height:30px;object-fit:contain}
+header.rl-appbar .rl-title{font-size:20px}
+header.rl-appbar .rl-sub{font-size:12px;letter-spacing:0}
 nav.tabs{position:fixed;bottom:0;left:0;right:0;z-index:50;background:var(--card);border-top:1px solid var(--line);display:flex;padding:6px 4px calc(6px + env(safe-area-inset-bottom,0)) 4px}
-nav.tabs button{flex:1;background:none;border:none;color:var(--dim);font-size:11px;font-weight:600;display:flex;flex-direction:column;align-items:center;gap:3px;padding:6px 2px;cursor:pointer;border-radius:12px}
-nav.tabs button .i{font-size:20px}
+nav.tabs button{flex:1;background:none;border:none;color:var(--dim);font-size:12px;font-weight:600;display:flex;flex-direction:column;align-items:center;gap:2px;padding:6px 2px;cursor:pointer}
+nav.tabs button .i{font-size:22px}
 nav.tabs button.on{color:var(--primary2)}
-section.page{display:none;padding:16px 0 20px}
+section.page{display:none;padding:14px 0 20px}
 section.page.on{display:block}
 .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:14px;margin-bottom:12px}
-.card .card{background:var(--card2)}
-.btn{background:var(--primary);color:#fff;border:none;border-radius:12px;padding:12px 16px;font-size:15px;font-weight:700;cursor:pointer;display:inline-flex;align-items:center;gap:7px;justify-content:center}
+h2{font-size:17px;margin:0 0 8px}
+.btn{background:var(--primary);color:#fff;border:none;border-radius:12px;padding:12px 16px;font-size:16px;font-weight:700;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:6px}
 .btn:active{transform:scale(.97)}
 .btn.full{width:100%}
 .btn.ghost{background:var(--card2);color:var(--txt);border:1px solid var(--line)}
-.btn.sm{padding:8px 12px;font-size:13px;border-radius:10px}
-.btn.bad{background:var(--bad)} .btn.ok{background:var(--ok)}
-.btn:disabled{opacity:.5;cursor:not-allowed}
-.row{display:flex;gap:8px}
+.btn.sm{padding:8px 12px;font-size:14px;border-radius:10px}
+.row{display:flex;gap:8px;flex-wrap:wrap}
 .chips{display:flex;gap:6px;flex-wrap:wrap}
-.chip{padding:6px 12px;border-radius:20px;background:var(--card2);border:1px solid var(--line);font-size:13px;cursor:pointer;display:flex;align-items:center;gap:6px}
+.chip{padding:7px 12px;border-radius:20px;background:var(--card2);border:1px solid var(--line);font-size:14px;cursor:pointer;display:inline-flex;align-items:center;gap:6px;color:var(--txt)}
 .chip.on{background:var(--primary);color:#fff;border-color:var(--primary)}
-.dot{width:8px;height:8px;border-radius:50%;display:inline-block}
+.dot{width:9px;height:9px;border-radius:50%;display:inline-block}
 .muted{color:var(--dim)}
-.opt{display:block;width:100%;text-align:left;background:var(--card2);border:1.5px solid var(--line);border-radius:12px;padding:12px 14px;margin-bottom:8px;font-size:15px;cursor:pointer;color:var(--txt)}
-.opt:active{transform:scale(.99)}
-.opt.correct{border-color:var(--ok);background:color-mix(in srgb,var(--ok) 14%,var(--card))}
-.opt.wrong{border-color:var(--bad);background:color-mix(in srgb,var(--bad) 14%,var(--card))}
-.opt.picked:not(.correct):not(.wrong){border-color:var(--primary2)}
-.empty{text-align:center;padding:40px 20px;color:var(--dim)}
-.empty .big{font-size:40px;margin-bottom:8px}
-.hr{height:1px;background:var(--line);margin:10px 0}
-.tag{display:inline-block;font-size:11px;padding:2px 8px;border-radius:8px;background:var(--card2);color:var(--dim);margin-right:4px}
-h2{font-size:16px;margin:0 0 10px}
-footer.foot{text-align:center;padding:24px 16px 8px;color:var(--dim);font-size:11px}
+.small{font-size:13px}
+.tag{display:inline-block;font-size:12px;padding:2px 8px;border-radius:8px;background:var(--card2);color:var(--dim);margin-right:4px;border:1px solid var(--line)}
+label.fld{display:block;font-size:13px;color:var(--dim);margin:10px 0 4px}
+select{width:100%;padding:10px 12px;font-size:16px;border-radius:10px;border:1px solid var(--line);background:var(--bg2);color:var(--txt)}
+.qimg{display:block;width:100%;height:auto;border-radius:8px;background:#fff;filter:var(--img-filter);cursor:zoom-in}
+details.passage{margin-bottom:12px}
+details.passage summary{cursor:pointer;font-weight:700;padding:4px 0;color:var(--primary2)}
+details.passage .qimg{margin-top:8px}
+.ansgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:4px 0 12px}
+.ans{font-size:22px;font-weight:800;padding:14px 0;border-radius:12px;border:2px solid var(--line);background:var(--card);color:var(--txt);cursor:pointer}
+.ans:active{transform:scale(.96)}
+.ans.correct{border-color:var(--ok);background:color-mix(in srgb,var(--ok) 18%,var(--card));color:var(--ok)}
+.ans.wrong{border-color:var(--bad);background:color-mix(in srgb,var(--bad) 18%,var(--card));color:var(--bad)}
+.ans:disabled{cursor:default}
+.opts-text .o{padding:6px 0;border-bottom:1px dashed var(--line)}
+.result{border-radius:12px;padding:10px 14px;margin-bottom:10px;font-weight:700}
+.result.ok{background:color-mix(in srgb,var(--ok) 15%,var(--card));color:var(--ok)}
+.result.bad{background:color-mix(in srgb,var(--bad) 15%,var(--card));color:var(--bad)}
+.explain{white-space:pre-wrap}
+.warnbox{background:color-mix(in srgb,var(--warn) 14%,var(--card));border-radius:10px;padding:8px 12px;font-size:14px;margin-top:8px}
+.bar{height:6px;border-radius:3px;background:var(--card2);overflow:hidden;margin:6px 0}
+.bar > i{display:block;height:100%;background:var(--primary2)}
+.empty{text-align:center;padding:36px 16px;color:var(--dim)}
+.empty .big{font-size:40px;margin-bottom:6px}
+.zoom{position:fixed;inset:0;z-index:100;background:rgba(0,0,0,.85);overflow:auto;display:none}
+.zoom.on{display:block}
+.zoom img{display:block;width:180%;max-width:none;margin:0 auto;background:#fff}
+.zoom .close{position:fixed;top:calc(10px + env(safe-area-inset-top,0));right:12px;z-index:101}
+footer.foot{text-align:center;padding:24px 16px 8px;color:var(--dim);font-size:12px}
 </style>
 </head>
-<body>
-<header>
-  <h1>📘 會考複習</h1>
-  <div class="sub">歷屆試題練習與錯題複習</div>
+<body class="theme-denali">
+<header class="rl-appbar">
+  <span class="rl-mark"><img class="rl-glyph" src="rl-mark-denali-white.png" width="30" height="30" alt=""></span>
+  <div>
+    <div class="rl-title">會考複習</div>
+    <div class="rl-sub" id="hdrSub">105–114 年五科歷屆試題</div>
+  </div>
 </header>
 
 <div class="wrap">
-  <section id="page-notes" class="page">
-    <div id="notesArea"></div>
-  </section>
-
-  <section id="page-practice" class="page">
-    <div id="practiceArea"></div>
-  </section>
-
-  <section id="page-review" class="page">
-    <div id="reviewArea"></div>
-  </section>
-  <footer class="foot">Ridgeline · by Lucas</footer>
+  <section id="page-notes" class="page"><div id="notesArea"></div></section>
+  <section id="page-practice" class="page"><div id="practiceArea"></div></section>
+  <section id="page-review" class="page"><div id="reviewArea"></div></section>
+  <footer class="foot">試題與答案來源：國中教育會考官方公告歷屆試題（國立臺灣師範大學心理與教育測驗研究發展中心）<br>觀念分類與解析為本 App 整理撰寫，僅供參考</footer>
 </div>
 
 <nav class="tabs">
@@ -93,91 +125,56 @@ footer.foot{text-align:center;padding:24px 16px 8px;color:var(--dim);font-size:1
   <button data-tab="review"><span class="i">🔁</span>錯題複習</button>
 </nav>
 
+<div class="zoom" id="zoom" onclick="closeZoom()">
+  <button class="btn sm close" onclick="closeZoom()">✕ 關閉</button>
+  <img id="zoomImg" alt="">
+</div>
+
 <script>
-/* ================= 資料載入 ================= */
 const SUBJECTS = [
-  {key:'chinese', name:'國文'}, {key:'english_read', name:'英語(閱讀)'},
+  {key:'chinese', name:'國文'}, {key:'english_read', name:'英語閱讀'},
   {key:'math', name:'數學'}, {key:'social', name:'社會'}, {key:'science', name:'自然'},
 ];
-let BANKS = {};      // key -> {questions:[...]}
-let NOTES = {};       // key -> [{concept,...}]
-let AVAILABLE = [];   // subject keys that actually loaded
+const YEARS = ['105','106','107','108','109','110','111','112','113','114'];
+let BANKS = {}, NOTES = {}, AVAILABLE = [], WRITING = [];
 
+async function getJSON(url){ try{ const r = await fetch(url); return r.ok ? await r.json() : null; }catch(e){ return null; } }
 async function loadData(){
-  for (const s of SUBJECTS) {
-    try {
-      const r = await fetch(`data/questionbank_${s.key}.json`);
-      if (!r.ok) continue;
-      const bank = await r.json();
-      if (!bank.questions || !bank.questions.length) continue;
-      BANKS[s.key] = bank;
-      AVAILABLE.push(s.key);
-      try {
-        const rn = await fetch(`data/concept_notes_${s.key}.json`);
-        NOTES[s.key] = rn.ok ? await rn.json() : [];
-      } catch(e) { NOTES[s.key] = []; }
-    } catch(e) { /* subject not extracted yet — skip silently */ }
-  }
+  await Promise.all(SUBJECTS.map(async s => {
+    const bank = await getJSON(`data/questionbank_${s.key}.json`);
+    if (!bank || !bank.questions || !bank.questions.length) return;
+    BANKS[s.key] = bank;
+    NOTES[s.key] = await getJSON(`data/concept_notes_${s.key}.json`) || [];
+  }));
+  AVAILABLE = SUBJECTS.map(s=>s.key).filter(k=>BANKS[k]);
+  WRITING = await getJSON('data/writing.json') || [];
 }
-function allQuestions(){
-  const out=[];
-  for (const k of AVAILABLE) for (const q of BANKS[k].questions) out.push(q);
-  return out;
-}
+function allQuestions(){ return AVAILABLE.flatMap(k => BANKS[k].questions); }
 function subjName(key){ return (SUBJECTS.find(s=>s.key===key)||{}).name || key; }
+function byId(id){ const s = AVAILABLE.find(k => id.includes('_'+k+'_')); return s && BANKS[s].questions.find(q=>q.id===id); }
 
-/* ================= IndexedDB：作答進度 ================= */
-let db;
+/* ===== IndexedDB 作答進度 ===== */
+let db, PROGRESS = {};
 function openDB(){
   return new Promise((resolve,reject)=>{
     const req = indexedDB.open('capReviewDB', 1);
-    req.onupgradeneeded = e => {
-      const d = e.target.result;
-      if (!d.objectStoreNames.contains('progress')) d.createObjectStore('progress', {keyPath:'id'});
-    };
-    req.onsuccess = e => { db = e.target.result; resolve(db); };
-    req.onerror = e => reject(e);
+    req.onupgradeneeded = e => { const d = e.target.result; if (!d.objectStoreNames.contains('progress')) d.createObjectStore('progress',{keyPath:'id'}); };
+    req.onsuccess = e => { db = e.target.result; resolve(); };
+    req.onerror = reject;
   });
 }
-function dbGet(id){
-  return new Promise((resolve)=>{
-    const tx = db.transaction('progress','readonly').objectStore('progress').get(id);
-    tx.onsuccess = () => resolve(tx.result || null);
-    tx.onerror = () => resolve(null);
-  });
-}
-function dbGetAll(){
-  return new Promise((resolve)=>{
-    const tx = db.transaction('progress','readonly').objectStore('progress').getAll();
-    tx.onsuccess = () => resolve(tx.result || []);
-    tx.onerror = () => resolve([]);
-  });
-}
-function dbPut(rec){
-  return new Promise((resolve,reject)=>{
-    const tx = db.transaction('progress','readwrite').objectStore('progress').put(rec);
-    tx.onsuccess = () => resolve();
-    tx.onerror = e => reject(e);
-  });
-}
-let PROGRESS = {}; // id -> record (in-memory mirror, kept in sync with IndexedDB)
-async function loadProgress(){
-  const all = await dbGetAll();
-  PROGRESS = {};
-  for (const r of all) PROGRESS[r.id] = r;
-}
-function prog(id){
-  return PROGRESS[id] || {id, streak:0, mastered:false, maint:null, nextReview:0, lapses:0, leech:false, retired:false, reviewCount:0};
-}
+function dbAll(){ return new Promise(res=>{ const r = db.transaction('progress','readonly').objectStore('progress').getAll(); r.onsuccess=()=>res(r.result||[]); r.onerror=()=>res([]); }); }
+function dbPut(rec){ return new Promise((res,rej)=>{ const r = db.transaction('progress','readwrite').objectStore('progress').put(rec); r.onsuccess=res; r.onerror=rej; }); }
+async function loadProgress(){ PROGRESS = {}; for (const r of await dbAll()) PROGRESS[r.id] = r; }
+function prog(id){ return PROGRESS[id] || {id, streak:0, mastered:false, maint:null, nextReview:0, lapses:0, leech:false, retired:false, reviewCount:0, wrongCount:0}; }
 
-/* ================= SRS / 連對畢業邏輯（改自 701_錯題管理器）================= */
-const INTERVALS=[1,3,7,14,30];
-const MAINT=[14,30,60];
-const GRAD_STREAK=3;
+/* ===== 間隔重現＋連對3次畢業（沿用 701 錯題管理器）===== */
+const INTERVALS=[1,3,7,14,30], MAINT=[14,30,60], GRAD_STREAK=3;
 function today(){ const d=new Date(); d.setHours(0,0,0,0); return d.getTime(); }
 function daysFromNow(n){ return today() + n*86400000; }
+function attempted(p){ return (p.reviewCount||0) > 0; }
 function dueForReview(p){
-  if (p.retired) return false;
+  if (!attempted(p) || p.retired) return false;
   if ((p.nextReview||0) > today()) return false;
   if (p.mastered) return p.maint!=null && p.maint < MAINT.length;
   return true;
@@ -185,250 +182,351 @@ function dueForReview(p){
 async function grade(qid, correct){
   const p = prog(qid);
   p.reviewCount = (p.reviewCount||0)+1;
+  if (!correct) p.wrongCount = (p.wrongCount||0)+1;
   if (p.mastered){
-    if (correct){
-      p.maint = (p.maint||0)+1;
-      if (p.maint >= MAINT.length){ p.retired = true; }
-      else { p.nextReview = daysFromNow(MAINT[p.maint]); }
-    } else {
-      p.mastered=false; p.maint=null; p.streak=0; p.lapses=(p.lapses||0)+1;
-      if (p.lapses>=3) p.leech=true;
-      p.nextReview = daysFromNow(INTERVALS[0]);
-    }
+    if (correct){ p.maint=(p.maint||0)+1; if (p.maint>=MAINT.length) p.retired=true; else p.nextReview=daysFromNow(MAINT[p.maint]); }
+    else { p.mastered=false; p.maint=null; p.streak=0; p.lapses=(p.lapses||0)+1; if (p.lapses>=3) p.leech=true; p.nextReview=daysFromNow(INTERVALS[0]); }
+  } else if (correct){
+    p.streak=(p.streak||0)+1;
+    if (p.streak>=GRAD_STREAK){ p.mastered=true; p.maint=0; p.nextReview=daysFromNow(MAINT[0]); }
+    else p.nextReview = daysFromNow(INTERVALS[Math.min(p.streak, INTERVALS.length-1)]);
   } else {
-    if (correct){
-      p.streak=(p.streak||0)+1;
-      if (p.streak>=GRAD_STREAK){ p.mastered=true; p.maint=0; p.nextReview=daysFromNow(MAINT[0]); }
-      else { p.nextReview = daysFromNow(INTERVALS[Math.min(p.streak, INTERVALS.length-1)]); }
-    } else {
-      if ((p.streak||0)>0){ p.lapses=(p.lapses||0)+1; if (p.lapses>=3) p.leech=true; }
-      p.streak=0;
-      p.nextReview = daysFromNow(INTERVALS[0]);
-    }
+    // 從沒答對過的錯題不算「忘記」；答對過又錯才累計 lapses
+    if ((p.streak||0)>0){ p.lapses=(p.lapses||0)+1; if (p.lapses>=3) p.leech=true; }
+    p.streak=0; p.nextReview=daysFromNow(INTERVALS[0]);
   }
   PROGRESS[qid] = p;
   await dbPut(p);
   return p;
 }
 
-/* ================= Tabs ================= */
+/* ===== 分頁 ===== */
 function go(tab){
-  document.querySelectorAll('section.page').forEach(s=>s.classList.remove('on'));
-  document.querySelectorAll('nav.tabs button').forEach(b=>b.classList.remove('on'));
-  document.getElementById('page-'+tab).classList.add('on');
-  document.querySelector(`nav.tabs button[data-tab="${tab}"]`).classList.add('on');
+  document.querySelectorAll('section.page').forEach(s=>s.classList.toggle('on', s.id==='page-'+tab));
+  document.querySelectorAll('nav.tabs button').forEach(b=>b.classList.toggle('on', b.dataset.tab===tab));
+  window.scrollTo(0,0);
   if (tab==='notes') renderNotes();
   if (tab==='practice') renderPracticeHome();
-  if (tab==='review') { reviewScope=null; reviewSubj=''; buildReviewQueue(); }
+  if (tab==='review') startReview(null);
 }
 document.querySelectorAll('nav.tabs button').forEach(b=>b.addEventListener('click', ()=>go(b.dataset.tab)));
 
-/* ================= 筆記分頁 ================= */
+/* ===== 筆記 ===== */
+let notesSubj = null;
 function renderNotes(){
   const el = document.getElementById('notesArea');
-  if (!AVAILABLE.length){ el.innerHTML = emptyState('筆記還沒抽好','正在整理歷屆常考觀念，稍後再回來看看'); return; }
-  let html = '<div class="chips" style="margin-bottom:12px">'+
-    AVAILABLE.map(k=>`<div class="chip" onclick="showSubjectNotes('${k}')"><span class="dot" style="background:var(--s-${k})"></span>${subjName(k)}（${(NOTES[k]||[]).length} 觀念）</div>`).join('')+
-    '</div><div id="notesDetail"></div>';
-  el.innerHTML = html;
-  if (AVAILABLE.length) showSubjectNotes(AVAILABLE[0]);
+  if (!AVAILABLE.length){ el.innerHTML = emptyState('題庫載入失敗','請檢查網路後重新整理'); return; }
+  if (!notesSubj) notesSubj = AVAILABLE[0];
+  el.innerHTML = `<div class="chips" style="margin-bottom:12px">`+
+    AVAILABLE.map(k=>`<div class="chip${notesSubj===k?' on':''}" onclick="setNotesSubj('${k}')"><span class="dot" style="background:var(--s-${k})"></span>${subjName(k)}</div>`).join('')+
+    (WRITING.length?`<div class="chip${notesSubj==='writing'?' on':''}" onclick="setNotesSubj('writing')">✍️ 作文題目</div>`:'')+
+    `</div><div id="notesDetail"></div>`;
+  notesSubj==='writing' ? renderWriting() : renderConcepts(notesSubj);
 }
-function showSubjectNotes(key){
-  const list = NOTES[key]||[];
+function setNotesSubj(k){ notesSubj = k; renderNotes(); }
+function renderConcepts(key){
+  const list = NOTES[key] || [];
   const el = document.getElementById('notesDetail');
-  if (!list.length){ el.innerHTML = emptyState('尚無觀念筆記', subjName(key)+'的觀念歸納還沒做好'); return; }
-  el.innerHTML = list.map(n=>`
+  if (!list.length){ el.innerHTML = emptyState('尚無觀念筆記',''); return; }
+  const max = Math.max(...list.map(n=>n.frequency||0), 1);
+  const total = BANKS[key].questions.length;
+  const gradeNote = {
+    math: '年級依 108 課綱「學習內容」代碼（代碼中間的數字就是年級）。',
+    science: '課綱本身只標「國中階段」；年級依國中自然分科編排：生物七年級、理化八九年級、地科九年級，理化部分細分到八或九年級是依常見教材順序。',
+  }[key];
+  el.innerHTML = `<div class="muted small" style="margin-bottom:8px">依 10 年考題出現次數排序，越上面越常考（共 ${total} 題、${list.length} 個觀念）${gradeNote?'<br>'+gradeNote:''}</div>` +
+    list.map((n,i)=>`
     <div class="card">
-      <h2>${esc(n.concept)} <span class="tag">出現 ${n.frequency||0} 次</span></h2>
+      <h2>${i+1}. ${esc(n.concept)}</h2>
+      <div class="row small muted" style="align-items:center">
+        <span>出現 ${n.frequency||0} 次</span>${n.grade?`<span class="tag">${esc(n.grade)}</span>`:''}${n.curriculum?`<span class="tag">課綱 ${esc(n.curriculum)}</span>`:''}
+      </div>
+      <div class="bar"><i style="width:${Math.round((n.frequency||0)/max*100)}%"></i></div>
       <div>${esc(n.summary||'')}</div>
-      ${n.tip?`<div class="hr"></div><div class="muted">💡 ${esc(n.tip)}</div>`:''}
-      <button class="btn ghost sm" style="margin-top:10px" onclick="practiceByConcept('${key}','${esc(n.concept)}')">依此觀念練習</button>
+      ${n.tip?`<div class="muted small" style="margin-top:6px">💡 ${esc(n.tip)}</div>`:''}
+      <button class="btn ghost sm" style="margin-top:10px" onclick="practiceConcept('${key}',${i})">✏️ 練這個觀念（${n.frequency||0} 題）</button>
+    </div>`).join('');
+}
+function renderWriting(){
+  document.getElementById('notesDetail').innerHTML =
+    `<div class="muted small" style="margin-bottom:8px">歷年寫作測驗題目（不做成測驗，供構思練習參考）</div>` +
+    WRITING.slice().reverse().map(w=>`
+    <div class="card">
+      <h2>${w.year} 年：${esc(w.title)}</h2>
+      <div class="explain small">${esc(w.text)}</div>
+      <details class="passage" style="margin-top:8px"><summary>看原題本頁面</summary>
+        ${w.imgs.map(src=>`<img class="qimg" loading="lazy" src="${src}" alt="${w.year} 寫作題目" onclick="openZoom(this.src)">`).join('')}
+      </details>
     </div>`).join('');
 }
 
-/* ================= 練習分頁 ================= */
-let practiceQueue=[], practiceIdx=0, practiceRevealed=false, practicePicked=null;
-function renderPracticeHome(){
-  const el = document.getElementById('practiceArea');
-  if (!AVAILABLE.length){ el.innerHTML = emptyState('題庫還沒抽好','正在處理歷屆試題，稍後再回來看看'); return; }
-  el.innerHTML = '<div class="card"><h2>選科目開始練習</h2><div class="chips">'+
-    AVAILABLE.map(k=>{
-      const n = (BANKS[k].questions||[]).length;
-      return `<div class="chip" onclick="startPractice('${k}')"><span class="dot" style="background:var(--s-${k})"></span>${subjName(k)}（${n}題）</div>`;
-    }).join('')+
-    `<div class="chip" onclick="startPractice(null)">🎲 全科混合</div>`+
-    '</div></div>';
+/* ===== 出題卡（練習、複習共用）===== */
+let session = null;   // {mode, title, queue, idx, picked}
+function startSession(mode, title, queue){
+  session = {mode, title, queue, idx:0, picked:null};
+  renderCard();
 }
-function startPractice(key){
-  const pool = key ? BANKS[key].questions.slice() : allQuestions();
-  practiceQueue = shuffle(pool.slice());
-  practiceIdx = 0; practiceRevealed=false; practicePicked=null;
-  showPracticeCard();
-}
-function practiceByConcept(key, concept){
-  const pool = (BANKS[key].questions||[]).filter(q=>q.concept_tag===concept);
-  if (!pool.length){ toast('這個觀念還沒有連結到題目'); return; }
-  practiceQueue = shuffle(pool.slice());
-  practiceIdx = 0; practiceRevealed=false; practicePicked=null;
-  go('practice');
-  showPracticeCard();
-}
-function qid(q){ return `${q.year}_${q.subject}_${q.q_no}`; }
-function showPracticeCard(){
-  const el = document.getElementById('practiceArea');
-  if (!practiceQueue.length || practiceIdx>=practiceQueue.length){
-    el.innerHTML = emptyState('這輪練習完成了 🎉','') + `<button class="btn full" onclick="renderPracticeHome()">回選科目</button>`;
+function areaEl(){ return document.getElementById(session.mode==='review' ? 'reviewArea' : 'practiceArea'); }
+function renderCard(){
+  const el = areaEl();
+  const s = session;
+  if (s.idx >= s.queue.length){
+    el.innerHTML = (s.mode==='review' ? reviewHeader() : '') +
+      emptyState(s.queue.length ? '這一輪完成了 🎉' : (s.mode==='review' ? '目前沒有到期的錯題 🎉' : '沒有符合條件的題目'),
+                 s.mode==='review' ? '答錯的題目會依間隔自動回來' : '') +
+      (s.mode==='practice' ? `<button class="btn full" onclick="renderPracticeHome()">回練習首頁</button>` : '');
     return;
   }
-  const q = practiceQueue[practiceIdx];
-  const id = qid(q);
-  const opts = ['A','B','C','D'];
-  el.innerHTML = `
-    <div class="card" style="text-align:center;padding:8px"><span class="muted">${q.year}年 · ${subjName(q.subject)} · 第${q.q_no}題　（第 ${practiceIdx+1}/${practiceQueue.length} 題）</span></div>
-    <div class="card"><div style="line-height:1.7;white-space:pre-wrap">${esc(q.question_text||'')}</div>
-      ${q.has_diagram?'<div class="muted" style="margin-top:6px;font-size:12px">⚠️ 此題含圖表，建議對照原始 PDF 作答</div>':''}
+  const q = s.queue[s.idx];
+  const p = prog(q.id);
+  const revealed = s.picked !== null;
+  const correct = revealed && s.picked === q.answer;
+  const letters = ['A','B','C','D'].filter(l => q.options && l in q.options);
+  const group = q.group_img ? `<details class="passage" ${revealed?'':'open'}><summary>📄 題組文章（第 ${q.group[0]}–${q.group[1]} 題共用）</summary><img class="qimg" loading="lazy" src="${q.group_img}" alt="題組文章" onclick="event.preventDefault();openZoom(this.src)"></details>` : '';
+  const body = q.img
+    ? `<img class="qimg" src="${q.img}" alt="${q.year}年${subjName(q.subject)}第${q.q_no}題" onclick="openZoom(this.src)">`
+    : `<div class="explain">${esc(q.question_text)}</div><div class="opts-text" style="margin-top:8px">${letters.map(l=>`<div class="o">(${l}) ${esc(q.options[l])}</div>`).join('')}</div>`;
+  el.innerHTML = (s.mode==='review' ? reviewHeader() : '') + `
+    <div class="row small muted" style="justify-content:space-between;margin-bottom:8px">
+      <span>${esc(s.title)}　${s.idx+1} / ${s.queue.length}</span>
+      <span>${q.year}年 ${subjName(q.subject)} 第${q.q_no}題${p.leech?' · 🔴頑固':''}${p.mastered?' · 🎓':''}</span>
     </div>
-    <div id="optsArea">${opts.map(o=>renderOpt(q,o,id)).join('')}</div>
-    ${practiceRevealed?`<button class="btn full" style="margin-top:6px" onclick="nextPractice()">下一題</button>`:''}
+    ${group}
+    <div class="card">${body}</div>
+    <div class="ansgrid">${letters.map(l=>{
+      let cls='ans';
+      if (revealed){ if (l===q.answer) cls+=' correct'; else if (l===s.picked) cls+=' wrong'; }
+      return `<button class="${cls}" ${revealed?'disabled':''} onclick="pick('${l}')">${l}</button>`;
+    }).join('')}</div>
+    ${revealed ? `
+      <div class="result ${correct?'ok':'bad'}">${correct?'✓ 答對了':`✗ 你選 ${s.picked}，正解是 ${q.answer}`}
+        <div class="small" style="font-weight:400;margin-top:2px">${progressLine(prog(q.id))}</div></div>
+      <div class="card">
+        <h2>💡 解析</h2>
+        <div class="explain">${q.explanation ? fmt(q.explanation) : '<span class="muted">這題的解析還在整理中</span>'}</div>
+        ${q.flag ? `<div class="warnbox">⚠️ 這題的官方答案有待確認：${esc(q.flag)}</div>` : ''}
+        ${q.concept_tag ? `<div class="muted small" style="margin-top:8px">觀念：${esc(q.concept_tag)}</div>` : ''}
+        <div class="row" style="margin-top:10px">
+          ${q.page ? `<button class="btn ghost sm" onclick="openZoom('${q.page}')">📄 看原頁</button>` : ''}
+        </div>
+        ${q.img && !q.text_issue ? `<details class="passage" style="margin-top:8px"><summary>文字版</summary><div class="muted small">自動轉寫，可能有誤，以原題圖為準</div><div class="explain small">${esc(q.question_text)}</div><div class="opts-text small">${letters.map(l=>`<div class="o">(${l}) ${esc(q.options[l])}</div>`).join('')}</div></details>` : ''}
+      </div>
+      <button class="btn full" onclick="nextCard()">下一題 →</button>` : ''}
   `;
 }
-function renderOpt(q,letter,id){
-  const val = (q.options||{})[letter];
-  if (val===undefined) return '';
-  let cls='opt';
-  if (practiceRevealed){
-    if (letter===q.answer) cls+=' correct';
-    else if (letter===practicePicked) cls+=' wrong';
-  } else if (letter===practicePicked) cls+=' picked';
-  return `<button class="${cls}" ${practiceRevealed?'disabled':''} onclick="pickOption('${id}','${letter}')">${letter}. ${esc(val)}</button>`;
+function progressLine(p){
+  if (p.retired) return '🏆 已徹底精熟';
+  if (p.mastered) return `🎓 已畢業，${MAINT.length-(p.maint||0)} 次回訪後徹底精熟`;
+  if (p.streak>0) return `連對 ${p.streak} / ${GRAD_STREAK} 次，再答對 ${GRAD_STREAK-p.streak} 次畢業`;
+  return '已加入錯題複習，明天會再出現';
 }
-async function pickOption(id, letter){
-  if (practiceRevealed) return;
-  practicePicked = letter;
-  practiceRevealed = true;
-  const q = practiceQueue[practiceIdx];
-  const correct = letter === q.answer;
-  await grade(id, correct);
-  showPracticeCard();
+async function pick(letter){
+  if (!session || session.picked !== null) return;
+  session.picked = letter;
+  const q = session.queue[session.idx];
+  await grade(q.id, letter === q.answer);
+  renderCard();
+  updateHeader();
 }
-function nextPractice(){ practiceIdx++; practiceRevealed=false; practicePicked=null; showPracticeCard(); }
+function nextCard(){ session.idx++; session.picked = null; renderCard(); window.scrollTo(0,0); }
 
-/* ================= 錯題複習分頁（改自 701）================= */
-let reviewQueue=[], reviewIdx=0, reviewRevealed=false, reviewScope=null, reviewSubj='';
-function dueList(){
-  return allQuestions().filter(q=>{
-    const p = prog(qid(q));
-    if (reviewSubj && q.subject!==reviewSubj) return false;
-    return dueForReview(p);
-  });
+/* ===== 練習 ===== */
+let pf = {subject:'all', year:'all', concept:'all'};
+function renderPracticeHome(){
+  session = null;
+  const el = document.getElementById('practiceArea');
+  if (!AVAILABLE.length){ el.innerHTML = emptyState('題庫載入失敗','請檢查網路後重新整理'); return; }
+  const concepts = pf.subject==='all' ? [] : (NOTES[pf.subject]||[]);
+  const pool = practicePool();
+  const done = pool.filter(q=>attempted(prog(q.id))).length;
+  el.innerHTML = `
+    <div class="card">
+      <h2>選範圍開始練習</h2>
+      <label class="fld">科目</label>
+      <div class="chips">
+        <div class="chip${pf.subject==='all'?' on':''}" onclick="setPf('subject','all')">🎲 全科</div>
+        ${AVAILABLE.map(k=>`<div class="chip${pf.subject===k?' on':''}" onclick="setPf('subject','${k}')"><span class="dot" style="background:var(--s-${k})"></span>${subjName(k)}</div>`).join('')}
+      </div>
+      <label class="fld">年份</label>
+      <select onchange="setPf('year',this.value)">
+        <option value="all">全部年份（隨機出題）</option>
+        ${YEARS.slice().reverse().map(y=>`<option value="${y}" ${pf.year===y?'selected':''}>${y} 年（照題號順序，像寫一份考卷）</option>`).join('')}
+      </select>
+      ${concepts.length ? `<label class="fld">觀念</label>
+      <select onchange="setPf('concept',this.value)">
+        <option value="all">全部觀念</option>
+        ${concepts.map((n,i)=>`<option value="${i}" ${String(pf.concept)===String(i)?'selected':''}>${esc(n.concept)}（${n.frequency}）</option>`).join('')}
+      </select>` : ''}
+      <div class="muted small" style="margin:12px 0 8px">符合 ${pool.length} 題，已練過 ${done} 題</div>
+      <div class="row">
+        <button class="btn" style="flex:2" onclick="startPractice(false)">開始練習</button>
+        <button class="btn ghost" style="flex:1" onclick="startPractice(true)">只練沒做過的</button>
+      </div>
+    </div>`;
 }
-function leechList(){
-  return allQuestions().filter(q=>{
-    const p = prog(qid(q));
-    return p.leech && !p.retired && (!reviewSubj || q.subject===reviewSubj);
-  });
-}
-function allUnmasteredList(){
-  return allQuestions().filter(q=>{
-    const p = prog(qid(q));
-    return !p.mastered && (!reviewSubj || q.subject===reviewSubj);
-  });
-}
-function buildReviewQueue(){
-  let list;
-  if (reviewScope==='all') list = shuffle(allUnmasteredList());
-  else if (reviewScope==='leech') list = shuffle(leechList());
-  else {
-    list = dueList();
-    list.sort((a,b)=>{
-      const pa=prog(qid(a)), pb=prog(qid(b));
-      return ((pb.leech?1:0)-(pa.leech?1:0)) || ((pa.nextReview||0)-(pb.nextReview||0));
-    });
+function setPf(k,v){ pf[k]=v; if (k==='subject') pf.concept='all'; renderPracticeHome(); }
+function practicePool(){
+  let pool = pf.subject==='all' ? allQuestions() : BANKS[pf.subject].questions;
+  if (pf.year!=='all') pool = pool.filter(q=>q.year===pf.year);
+  if (pf.subject!=='all' && pf.concept!=='all'){
+    const c = (NOTES[pf.subject]||[])[+pf.concept];
+    if (c) pool = pool.filter(q=>q.concept_tag===c.concept);
   }
-  reviewQueue = list; reviewIdx = 0; reviewRevealed=false;
-  showReviewCard();
+  return pool;
+}
+function startPractice(onlyNew){
+  let pool = practicePool();
+  if (onlyNew) pool = pool.filter(q=>!attempted(prog(q.id)));
+  const ordered = pf.year!=='all' && pf.subject!=='all' && pf.concept==='all';
+  const queue = ordered ? pool.slice().sort((a,b)=>+a.q_no - +b.q_no) : shuffle(pool.slice());
+  const label = [pf.subject==='all'?'全科':subjName(pf.subject), pf.year==='all'?'':pf.year+'年'].filter(Boolean).join(' ');
+  startSession('practice', label, queue);
+}
+function practiceConcept(key, idx){
+  pf = {subject:key, year:'all', concept:String(idx)};
+  go('practice');
+  startPractice(false);
+}
+
+/* ===== 錯題複習 ===== */
+let rv = {scope:null, subj:''};
+function reviewLists(){
+  const all = allQuestions().filter(q=>!rv.subj || q.subject===rv.subj);
+  return {
+    due: all.filter(q=>dueForReview(prog(q.id))),
+    wrong: all.filter(q=>{ const p=prog(q.id); return attempted(p) && !p.mastered && (p.wrongCount||0)>0; }),
+    leech: all.filter(q=>{ const p=prog(q.id); return p.leech && !p.retired; }),
+  };
 }
 function reviewHeader(){
-  const leechN = leechList().length;
-  const allN = allUnmasteredList().length;
-  const sc = v => reviewScope===v ? 'btn' : 'btn ghost';
-  const subs = [...new Set(allQuestions().map(q=>q.subject))];
-  const subjChips = subs.length>1 ? '<div class="chips" style="margin-top:8px">'+
-    `<div class="chip${reviewSubj?'':' on'}" onclick="setReviewSubj('')">全部</div>`+
-    subs.map(s=>`<div class="chip${reviewSubj===s?' on':''}" onclick="setReviewSubj('${s}')"><span class="dot" style="background:var(--s-${s})"></span>${subjName(s)}</div>`).join('')+'</div>' : '';
-  return `<div class="card" style="padding:9px 12px">
-    <div class="row" style="gap:6px;flex-wrap:wrap">
-      <button class="${sc(null)} sm" style="flex:1" onclick="setReviewScope(null)">📅 今日到期</button>
-      <button class="${sc('all')} sm" style="flex:1" onclick="setReviewScope('all')">🔁 全部未精熟 ${allN}</button>
-      ${leechN?`<button class="${sc('leech')} sm" style="flex:1" onclick="setReviewScope('leech')">🔴 頑固題 ${leechN}</button>`:''}
-    </div>${subjChips}
+  const L = reviewLists();
+  const sc = v => rv.scope===v ? 'btn sm' : 'btn ghost sm';
+  const subs = AVAILABLE.filter(k=>allQuestions().some(q=>q.subject===k && attempted(prog(q.id))));
+  return `<div class="card" style="padding:10px 12px">
+    <div class="row">
+      <button class="${sc(null)}" style="flex:1" onclick="startReview(null)">📅 今日到期 ${L.due.length}</button>
+      <button class="${sc('wrong')}" style="flex:1" onclick="startReview('wrong')">❌ 所有錯題 ${L.wrong.length}</button>
+      ${L.leech.length?`<button class="${sc('leech')}" style="flex:1" onclick="startReview('leech')">🔴 頑固 ${L.leech.length}</button>`:''}
+    </div>
+    ${subs.length>1?`<div class="chips" style="margin-top:8px"><div class="chip${rv.subj?'':' on'}" onclick="setRvSubj('')">全部</div>${subs.map(k=>`<div class="chip${rv.subj===k?' on':''}" onclick="setRvSubj('${k}')"><span class="dot" style="background:var(--s-${k})"></span>${subjName(k)}</div>`).join('')}</div>`:''}
   </div>`;
 }
-function setReviewScope(v){ reviewScope=v; buildReviewQueue(); }
-function setReviewSubj(s){ reviewSubj = (reviewSubj===s?'':s); buildReviewQueue(); }
-function showReviewCard(){
-  const el = document.getElementById('reviewArea');
-  if (!AVAILABLE.length){ el.innerHTML = emptyState('題庫還沒抽好',''); return; }
-  if (!reviewQueue.length){
-    el.innerHTML = reviewHeader() + emptyState('🎉 這個範圍複習完成了！','趕快去練習分頁累積更多題目吧');
-    return;
-  }
-  if (reviewIdx >= reviewQueue.length){ buildReviewQueue(); return; }
-  const q = reviewQueue[reviewIdx];
-  const id = qid(q);
-  const p = prog(id);
-  const opts = ['A','B','C','D'];
-  reviewOptsPicked = reviewOptsPicked===undefined ? null : reviewOptsPicked;
-  el.innerHTML = reviewHeader() + `
-    <div class="card" style="text-align:center;padding:8px;margin-top:10px"><span class="muted">第 ${reviewIdx+1}/${reviewQueue.length} 題 · ${q.year}年${subjName(q.subject)}第${q.q_no}題${p.leech?' · 🔴頑固':''}${p.mastered?' · 🎓維持複習':''}</span></div>
-    <div class="card"><div style="line-height:1.7;white-space:pre-wrap">${esc(q.question_text||'')}</div></div>
-    <div id="revOptsArea">${opts.map(o=>renderReviewOpt(q,o)).join('')}</div>
-    ${reviewRevealed?`<div class="notice" style="text-align:center;margin:8px 0">${p.mastered?('維持複習：再答對 '+(MAINT.length-(p.maint||0))+' 次徹底畢業'):('連對 '+GRAD_STREAK+' 次畢業 🎓（目前連對 '+(p.streak||0)+' 次）')}</div>
-    <button class="btn full" onclick="nextReview()">下一題</button>`:''}
-  `;
+function setRvSubj(k){ rv.subj = rv.subj===k ? '' : k; startReview(rv.scope); }
+function startReview(scope){
+  rv.scope = scope;
+  const L = reviewLists();
+  let queue;
+  if (scope==='wrong') queue = shuffle(L.wrong);
+  else if (scope==='leech') queue = shuffle(L.leech);
+  else queue = L.due.sort((a,b)=>{ const pa=prog(a.id), pb=prog(b.id); return ((pb.leech?1:0)-(pa.leech?1:0)) || ((pa.nextReview||0)-(pb.nextReview||0)); });
+  const title = scope==='wrong' ? '所有錯題' : scope==='leech' ? '頑固題' : '今日到期';
+  startSession('review', title, queue);
 }
-let reviewOptsPicked=null;
-function renderReviewOpt(q,letter){
-  const val = (q.options||{})[letter];
-  if (val===undefined) return '';
-  let cls='opt';
-  if (reviewRevealed){
-    if (letter===q.answer) cls+=' correct';
-    else if (letter===reviewOptsPicked) cls+=' wrong';
-  }
-  return `<button class="${cls}" ${reviewRevealed?'disabled':''} onclick="pickReviewOption('${letter}')">${letter}. ${esc(val)}</button>`;
-}
-async function pickReviewOption(letter){
-  if (reviewRevealed) return;
-  reviewOptsPicked = letter;
-  reviewRevealed = true;
-  const q = reviewQueue[reviewIdx];
-  const correct = letter === q.answer;
-  await grade(qid(q), correct);
-  showReviewCard();
-}
-function nextReview(){ reviewIdx++; reviewRevealed=false; reviewOptsPicked=null; showReviewCard(); }
 
-/* ================= utils ================= */
-function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+/* ===== 工具 ===== */
+function updateHeader(){
+  const all = allQuestions();
+  const done = all.filter(q=>attempted(prog(q.id))).length;
+  const due = all.filter(q=>dueForReview(prog(q.id))).length;
+  document.getElementById('hdrSub').textContent = `已練 ${done} / ${all.length} 題${due?`　今日待複習 ${due} 題`:''}`;
+}
+function openZoom(src){ document.getElementById('zoomImg').src = src; document.getElementById('zoom').classList.add('on'); }
+function closeZoom(){ document.getElementById('zoom').classList.remove('on'); }
+// 解析裡的 7^10、x^(n+1) 顯示成上標
+function fmt(s){ return esc(s).replace(/\^(\([^)]{1,12}\)|-?[0-9a-zA-Z]{1,4})/g, (m,p)=>'<sup>'+p.replace(/^\((.*)\)$/,'$1')+'</sup>'); }
+function esc(s){ return String(s==null?'':s).replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
 function shuffle(a){ for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
-function emptyState(title,sub){ return `<div class="empty"><div class="big">📭</div><div style="font-size:16px;font-weight:700;color:var(--txt)">${esc(title)}</div><div style="margin-top:6px">${esc(sub||'')}</div></div>`; }
-function toast(msg){
-  const t=document.createElement('div');
-  t.textContent=msg;
-  t.style.cssText='position:fixed;left:50%;bottom:100px;transform:translateX(-50%);background:#141E2Bdd;color:#fff;padding:10px 18px;border-radius:20px;font-size:13px;z-index:999';
-  document.body.appendChild(t);
-  setTimeout(()=>t.remove(),2000);
-}
+function emptyState(title,sub){ return `<div class="empty"><div class="big">📭</div><div style="font-size:17px;font-weight:700;color:var(--txt)">${esc(title)}</div><div style="margin-top:6px">${esc(sub||'')}</div></div>`; }
 
-/* ================= boot ================= */
 (async function boot(){
   await openDB();
   await loadProgress();
   await loadData();
+  updateHeader();
   go('notes');
-  if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(()=>{});
+})();
+
+/* ===== Service Worker＋新版提示（偵測新版 → 跳提示 → 按了才更新）===== */
+(function(){
+  if (!('serviceWorker' in navigator)) return;
+  let reg = null, shown = false, refreshing = false;
+  function banner(){
+    if (shown || document.getElementById('updBanner')) return;
+    shown = true;
+    const b = document.createElement('div');
+    b.id = 'updBanner';
+    b.style.cssText = 'position:fixed;left:12px;right:12px;bottom:calc(86px + env(safe-area-inset-bottom,0px));z-index:200;max-width:520px;margin:0 auto;background:var(--card);color:var(--txt);border:1px solid var(--line);border-radius:14px;padding:12px 14px;display:flex;align-items:center;gap:10px;box-shadow:0 4px 16px rgba(0,0,0,.15)';
+    b.innerHTML = '<div style="flex:1"><b>🔄 有新版本</b><div class="muted small">題目或解析有更新</div></div><button class="btn sm" id="updGo">立即更新</button><button class="btn ghost sm" id="updX" aria-label="關閉">✕</button>';
+    document.body.appendChild(b);
+    document.getElementById('updX').onclick = () => b.remove();
+    document.getElementById('updGo').onclick = () => {
+      const w = reg && reg.waiting;
+      if (w) { w.postMessage('SKIP_WAITING'); b.remove(); setTimeout(()=>{ if(!refreshing){ refreshing=true; location.reload(); } }, 1800); }
+      else location.reload();
+    };
+  }
+  navigator.serviceWorker.register('sw.js').then(r => {
+    reg = r;
+    if (r.waiting && navigator.serviceWorker.controller) banner();
+    r.addEventListener('updatefound', () => {
+      const nw = r.installing; if (!nw) return;
+      nw.addEventListener('statechange', () => { if (nw.state==='installed' && navigator.serviceWorker.controller) banner(); });
+    });
+    setInterval(() => r.update().catch(()=>{}), 30*60*1000);
+  }).catch(()=>{});
+  navigator.serviceWorker.addEventListener('controllerchange', () => { if (refreshing) return; refreshing = true; location.reload(); });
 })();
 </script>
+<!--RIDGELINE_BRAND_START-->
+<footer id="rdgFoot" class="rdg-foot" style="display:none">
+  <div class="rdg-lock"><img class="rdg-mk" width="34" height="34" src="data:image/png;base64,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" alt="" aria-hidden="true" style="object-fit:contain"><span class="rdg-slg">今天的試煉，<br>是明天的高度。</span></div>
+  <div class="rdg-by">Ridgeline · by Lucas</div>
+  <div class="rdg-lic">© 2026 Lucas　本 App 免費提供學習使用；程式、觀念整理與解析著作權屬作者，未經同意請勿重製、散布或作商業用途。歷屆試題著作權屬原出題單位。</div>
+  <div class="rdg-l3">⚠️ 免責聲明：試題與官方答案取自國中教育會考公告之歷屆試題；觀念分類與解析為本 App 整理撰寫，力求正確但仍可能有誤，僅供學習參考，不代表任何官方立場。正式考試資訊請以國中教育會考官方網站公告為準。本 App 與心測中心及各官方機構均無隸屬或合作關係。</div>
+  <div class="rdg-fb">發現問題？<a href="mailto:weiwynn8899@gmail.com?subject=App%E5%95%8F%E9%A1%8C%E5%9B%9E%E5%A0%B1%EF%BC%8D704_%E6%9C%83%E8%80%83%E8%A4%87%E7%BF%92">回報給開發者</a></div>
+</footer>
+<style>
+.rdg-foot{display:block;box-sizing:border-box;width:100%;clear:both;text-align:center;color:inherit;
+  margin-top:30px;padding:22px 18px calc(env(safe-area-inset-bottom,0px) + 74px);
+  border-top:1px solid rgba(130,130,130,.22);line-height:1.7;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif}
+.rdg-foot .rdg-lock{display:inline-flex;align-items:center;justify-content:center;gap:14px;margin-bottom:13px}
+.rdg-foot .rdg-mk{flex-shrink:0;display:block;width:54px;height:auto}
+.rdg-foot .rdg-slg{border-left:1px solid rgba(130,130,130,.35);padding-left:14px;text-align:left;
+  font-size:15px;letter-spacing:2px;line-height:1.5;opacity:.82}
+.rdg-foot .rdg-by{font-size:12.5px;letter-spacing:2px;opacity:.6;margin-bottom:6px}
+.rdg-foot .rdg-lic{font-size:11px;opacity:.5;max-width:640px;margin:0 auto 10px;line-height:1.7}
+.rdg-foot .rdg-l3{font-size:11px;opacity:.52;max-width:640px;margin:0 auto;text-align:justify}
+.rdg-foot .rdg-fb{font-size:11.5px;opacity:.6;margin-top:10px}
+.rdg-foot .rdg-fb a{color:inherit;text-decoration:underline}
+</style>
+<script>
+(function(){
+  function mount(){
+    var f=document.getElementById('rdgFoot'); if(!f) return;
+    var app=document.getElementById('app'); var target=null;
+    if(app){ var s=getComputedStyle(app); if(s.overflowY==='visible'||s.overflowY==='') target=app; }
+    if(!target){
+      var best=null,area=0,els=document.body.getElementsByTagName('*');
+      for(var i=0;i<els.length;i++){ var el=els[i];
+        if(el===f||el.contains(f)) continue;
+        var st=getComputedStyle(el);
+        if(st.overflowY==='auto'||st.overflowY==='scroll'){
+          var r=el.getBoundingClientRect();
+          if(r.height>200&&r.width>140&&r.top<innerHeight&&r.bottom>0){
+            var a=r.width*r.height; if(a>area){area=a;best=el;}
+          }
+        }
+      }
+      target=best||app||document.body;
+    }
+    try{ target.appendChild(f); }catch(e){ document.body.appendChild(f); }
+    f.style.display='block';
+  }
+  if(document.readyState==='complete') setTimeout(mount,300);
+  else window.addEventListener('load',function(){setTimeout(mount,300);});
+})();
+</script>
+<!--RIDGELINE_BRAND_END-->
 </body>
 </html>

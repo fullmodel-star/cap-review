@@ -1,0 +1,217 @@
+{
+ "114_english_read_1": {
+  "explanation": "題目問「飛在房子上方」的東西。圖中飛機在屋頂上方的天空飛，所以選 plane。鳥是停在屋頂上，並沒有在飛；風箏和蝴蝶都在低處的路邊與花叢旁，不在房子上方。",
+  "flag": null,
+  "text_issue": null
+ },
+ "114_english_read_2": {
+  "explanation": "關鍵在 But now, it's easier for me to talk to people（但現在我比較容易跟人說話了），用 But 表示和以前相反，可推知以前「不太敢跟人說話」，也就是 shy（害羞的）。happy、lazy、popular 都和「不敢跟人說話」對不起來。",
+  "flag": null,
+  "text_issue": null
+ },
+ "114_english_read_3": {
+  "explanation": "Lena 不想去是因為 she is afraid of water（她怕水），所以空格應是和水有關的活動 sailing（駕帆船、航行）。go + V-ing 表示去從事某活動；跳舞、健行、購物都和水無關。",
+  "flag": null,
+  "text_issue": null
+ },
+ "114_english_read_4": {
+  "explanation": "enjoy 後面要接動名詞（enjoy + V-ing），所以選 listening to。「listen to + 人 + 原形動詞」表示聽某人做某事，所以後面是 her dad read stories。to listen to、listen to、listens to 都不能直接放在 enjoy 後面。",
+  "flag": null,
+  "text_issue": null
+ },
+ "114_english_read_5": {
+  "explanation": "爸爸正在廚房忙著煮飯，所以晚餐「再十分鐘就好了」，be ready 表示準備好。free（免費的／有空的）、full（飽的；滿的）、medium（中等的）放進句子都不合語意。",
+  "flag": null,
+  "text_issue": null
+ },
+ "114_english_read_6": {
+  "explanation": "後句說「我要花一些時間才能記得誰是誰」，表示辦公室裡有很多新的人。new faces 是「新面孔」的意思，指新來的人，所以選 faces。ideas、rules、tools 都不會讓人需要記「誰是誰」。",
+  "flag": null,
+  "text_issue": null
+ },
+ "114_english_read_7": {
+  "explanation": "我找鑰匙找了好幾個小時，結果鑰匙一直都在自己口袋裡，這種情況會覺得自己像個「傻瓜」，feel like a fool 就是覺得自己很蠢。ghost（鬼）、king（國王）、stranger（陌生人）都和這個情境不符。",
+  "flag": null,
+  "text_issue": null
+ },
+ "114_english_read_8": {
+  "explanation": "三個女兒中兩個唸高中，剩下的「最後那一個」唸小學。在限定範圍內說完一部分後，指剩下的最後一個要用 the other。each 表示「每一個」、the one 和 the next 都不能表示「剩下的那個」。",
+  "flag": null,
+  "text_issue": null
+ },
+ "114_english_read_9": {
+  "explanation": "因為海邊的強風，樹木很難在這片海灘「生長」，所以選 grow。最容易誤選 blow（吹），但吹的是風，不是樹；build（建造）、follow（跟隨）語意也不通。",
+  "flag": null,
+  "text_issue": null
+ },
+ "114_english_read_10": {
+  "explanation": "後面問「你有任何計畫了嗎？」，可知聖誕節是「即將到來」的事，用現在進行式 is coming 表示即將發生的事。came 和 was coming 是過去式，與後面的 want、Do you have 時態不合；comes 單純陳述事實，不如 is coming 能表達「快到了」的語感。",
+  "flag": null,
+  "text_issue": null
+ },
+ "114_english_read_11": {
+  "explanation": "so 後面是一個對聽者下指令的祈使句，祈使句用原形動詞開頭，所以選 make（make sure 確定、務必）。makes、to make、is making 都不能當祈使句的開頭，而且空格前面沒有主詞。",
+  "flag": null,
+  "text_issue": null
+ },
+ "114_english_read_12": {
+  "explanation": "後句說這段時間通常有很多汽車和公車，可知路上會塞車，terrible traffic 指「糟糕的交通狀況」，所以會開很久。experience（經驗）、machine（機器）、service（服務）都無法和「車很多」的線索連結。",
+  "flag": null,
+  "text_issue": null
+ },
+ "114_english_read_13": {
+  "explanation": "後面用 but now we believe he is the best（但現在我們相信他是最好的），前半句是對未來不確定的推測：將來「或許」會有更偉大的球員，所以選 perhaps。never 會變成「將來絕不會有」，和 but 的轉折語氣矛盾；again、already 語意不通。",
+  "flag": null,
+  "text_issue": null
+ },
+ "114_english_read_14": {
+  "explanation": "說話者推測雨水是從廚房進來的，證據是「除了廚房那扇以外，所有的窗戶都關著」，所以選 All。except 常和 all、every 搭配表示「除了…之外全部」。Both 只能指兩個；Most、Some 則不能證明只有廚房那扇開著。",
+  "flag": null,
+  "text_issue": null
+ },
+ "114_english_read_15": {
+  "explanation": "前半句說機器用來採水果已經很久了，後半句說直到幾年前才用在草莓園，兩句語意相反，要用表示讓步的 Although（雖然）。注意英文用了 although 就不能再加 but。Because、Before、If 都無法表達這種轉折。",
+  "flag": null,
+  "text_issue": null
+ },
+ "114_english_read_16": {
+  "explanation": "在家看線上影片運動，就不用跑一趟健身房，也能省錢。save + 人 + 事物 表示「替某人省下…」，所以選 save。最容易誤選 cost（花費），但 cost 表示要付出代價，意思正好相反；give、keep 語意不通。",
+  "flag": null,
+  "text_issue": null
+ },
+ "114_english_read_17": {
+  "explanation": "mine 在這裡指 my parents（我的父母），是複數，所以 be 動詞用 are。less so 是代替前面的 happy，意思是「我的父母就沒那麼開心」，前面對應的是 be 動詞（are happy），所以不用助動詞 do／does。",
+  "flag": null,
+  "text_issue": null
+ },
+ "114_english_read_18": {
+  "explanation": "Before 引導的是時間副詞子句，主要子句是未來的建議（you should tell…），時間子句要用現在式代替未來式，所以用 asks。will ask 是常見陷阱，時間子句中不能用 will；asked、was asking 是過去時態，不合語意。",
+  "flag": null,
+  "text_issue": null
+ },
+ "114_english_read_19": {
+  "explanation": "襯衫「被吹走，然後掉進池塘」，兩個動作都是過去發生的，用 and 連接兩個對等的過去式動詞 were blown away and fell。fall 的過去式是 fell，fallen 是過去分詞；沒有 and 的 fell 會讓一句出現兩個動詞而不通。",
+  "flag": null,
+  "text_issue": null
+ },
+ "114_english_read_20": {
+  "explanation": "同學說 Rex 住院了，因為 He was hit by a car last night（昨晚被車撞），可知 Rex 受傷了，got hurt 就是「受傷」。文中沒有提到走失、咬人或吃太多。",
+  "flag": null,
+  "text_issue": null
+ },
+ "114_english_read_21": {
+  "explanation": "文中說兩週後 Rex 好多了，作者和同學決定每天傍晚帶牠去散步，Because of the exercise（因為運動）Rex 變得更健康強壯，所以作者是靠「讓牠運動」幫助牠。最容易誤選 C：作者只是放學後去醫院「探望」Rex，並不是帶牠去看醫生；報警、幫牠找新家文中都沒提。",
+  "flag": null,
+  "text_issue": null
+ },
+ "114_english_read_22": {
+  "explanation": "Jenny 正在宣布婚訊時，Mark 插話講自己找到新工作，Linda 立刻說 Come on, Mark. Don't start again. 並責怪他，最後還大喊 MARK!!，可見 Mark 讓 Linda 不高興。B 錯在 Mark 已經找到工作；C 錯在 Mark 是講自己做的蛋糕，沒說不喜歡 Linda 的蛋糕；D 要結婚的是 Jenny，文中沒說對象是 Mark。",
+  "flag": null,
+  "text_issue": null
+ },
+ "114_english_read_23": {
+  "explanation": "從 Linda 的解釋可知，stealing someone's thunder 是指「別人正在分享自己的重要消息時，你搶著講自己的事，把大家的注意力搶走」，也就是搶了別人的風頭。C 選項中 Ivy 還在說她寶寶的事，Jeff 就宣布自己要出國，正是這種情形。A、B、D 分別在說聽老婆的話、說話前後不一、嘴上說不在意卻又挑剔，都不是搶風頭。",
+  "flag": null,
+  "text_issue": null
+ },
+ "114_english_read_24": {
+  "explanation": "告示第①點寫著，持卡可以 visit the city by metro, bus, or train as many times as you want，也就是可以無限次搭乘地鐵在城裡移動，所以選 D。A 錯：是可免費帶一名 12 歲以下兒童，打八折的是公立博物館門票；B 錯：博物館是打八折不是免費；C 錯：星號註明卡片只能用於三個區域內。",
+  "flag": null,
+  "text_issue": null
+ },
+ "114_english_read_25": {
+  "explanation": "從地圖看，飯店旁的主車站 ⓐ 和歷史博物館 ⓑ 都在 Zone 1，白湖 ⓓ 在 Zone 2。星期五（平日）只需 Zone 1 的 1-day Card（$20），星期六（週末）要用 Zones 1-2 的 Weekend Card（$50），合計 $70，最便宜又夠用。A 的 3-day Card 只能用在週一到週五，週六不能用；B 的 Weekend Card 週五不能用；D 要 $40＋$50＝$90，比 C 貴。",
+  "flag": null,
+  "text_issue": "題目文字對地圖的描述有誤：原圖 ⓒ Museum of Modern Art 位於 Zone 2（不是 Zone 1），ⓔ White Lake Castle 位於 Zone 3（不是 Zone 2）；ⓕ 機場也在 Zone 3 灰色區域內。本題用到的 ⓐⓑ（Zone 1）、ⓓ（Zone 2）描述正確，不影響答案。"
+ },
+ "114_english_read_26": {
+  "explanation": "文中說 Rolling Acres 以前只是養羊的農場，現在有果樹、菜園和很多動物，成為 a popular place for families to go on vacation（家庭度假的熱門地點），遊客可以採水果、撿蛋、餵動物，所以它是「度假農場」。雖然有很多動物，但它不是動物園；Libby 想去夏令營（summer camp）是另一件事，不是指這裡。",
+  "flag": null,
+  "text_issue": null
+ },
+ "114_english_read_27": {
+  "explanation": "第一段描述 Libby 每天清晨五點就起床拖地、拿信件和報紙、準備迎接遊客，還要教小朋友餵小羊，主要在說她在 Rolling Acres 做什麼工作，所以選 A。文中只說祖父母 1970 年創立了農場，沒說「為什麼」創立；遊客的看法和家族的未來計畫也都沒有提到。",
+  "flag": null,
+  "text_issue": null
+ },
+ "114_english_read_28": {
+  "explanation": "緊接在 making sacrifices 後面，Libby 說她很想睡到中午、像別的孩子一樣去夏令營，但朋友都不再約她出去玩，因為她夏天總是在忙。可見她為了在家族事業工作，放棄了自己很想要的東西，making sacrifices 就是「犧牲、放棄重要的事物去做另一件事」，選 D。",
+  "flag": null,
+  "text_issue": null
+ },
+ "114_english_read_29": {
+  "explanation": "漫畫描述復活節島上的人把樹砍光，導致土地乾旱、缺水缺糧、互相爭鬥而衰亡；最後一格畫出現代城市並說 Let's not make Earth, our only home, another Easter Island（別讓地球這個唯一的家變成另一個復活節島）。主旨是提醒我們趁還來得及時保護地球，所以選 C。",
+  "flag": null,
+  "text_issue": null
+ },
+ "114_english_read_30": {
+  "explanation": "第 6 格說 The statues were moved to fighting grounds to show their power（把石像搬到戰場上展示力量），也就是用石像來顯示自己有多強大，所以選 D。A 生火是在第 2 格日常生活中，和打架無關；B 他們爭的是水和食物，而且不是一直在打；C 文中沒提到向石像祈禱。",
+  "flag": null,
+  "text_issue": null
+ },
+ "114_english_read_31": {
+  "explanation": "第 7 格說砍下最後幾棵樹的人一定明白樹對他們有多重要，but still, they did it（但他們還是做了）。did it 指的就是前面主詞在做的事：cut down the last trees（砍掉最後的樹），所以選 B。D 是他們「明白」的內容，but still 表示明白了卻「仍然做了」，所以 did it 不是指明白。",
+  "flag": null,
+  "text_issue": null
+ },
+ "114_english_read_32": {
+  "explanation": "第二段開頭說 Ariely wanted to know if anyone shared his feelings, so he did a fun origami study，他做摺紙實驗是想知道別人是否也有他組裝 IKEA 櫃子後的那種感受，所以選 D。他並不是想阻止 IKEA 效應，也不是研究大家為何愛摺紙或 IKEA 為何有名。",
+  "flag": null,
+  "text_issue": null
+ },
+ "114_english_read_33": {
+  "explanation": "文中說 buyers would pay only five cents，而 builders would spend 25 cents，買家願意出的錢比製作者少，所以 A 正確。B 錯：只有 builders 自己做摺紙，buyers 只是看成品出價；C 錯：文中說製作者「以為」別人也會覺得作品值那麼多錢；D 文中沒有提到買家知道製作過程後會出更多錢。",
+  "flag": null,
+  "text_issue": null
+ },
+ "114_english_read_34": {
+  "explanation": "IKEA 效應是指「人會更喜愛自己親手做出來的東西」。所以要讓 Mia 多吃蔬菜，就讓她親手參與煮蔬菜，她會更喜歡、更願意吃，選 B。A 是爸爸煮、C 是用糖果當獎勵、D 是問喜好再由爸爸煮，都沒有讓 Mia 自己動手做，和 IKEA 效應無關。",
+  "flag": null,
+  "text_issue": null
+ },
+ "114_english_read_35": {
+  "explanation": "文章從圖中這位 1970 年代的英國電力工人講起，接著說明 1972 年與隔年工人兩次要求加薪、政府限電、人民生活大受影響的經過，最後說這張圖代表當時人們對電力工人的看法。整篇是在說「這張圖背後的歷史」，所以選 C。圖中人物代表一群工人，不是某位有名的工人（D）；B 只是文中的部分細節。",
+  "flag": null,
+  "text_issue": null
+ },
+ "114_english_read_36": {
+  "explanation": "工人第一次要求加薪已經得到了，隔年又要求第二次加薪，還讓全國人民為此受苦好幾個月。圖中標示嘴巴 OPEN ALL THE TIME（一直在要求）、手 ALWAYS OUT（手一直伸出來要錢）、心臟 NOTHING HERE（沒良心），都表示人們覺得他們要求太多、不知節制，所以選 C。",
+  "flag": null,
+  "text_issue": null
+ },
+ "114_english_read_37": {
+  "explanation": "文中提到限電期間醫院只能點蠟燭、電視 10:30 就停播，是真的「沒有燈光的黑暗日子」；同時人們挨冷、工廠停工、很多人失業，也是「生活艱困的黑暗時期」。作者加上引號，是讓 dark 同時有這兩層意思，所以選 C。這個字不是政府說的，也不是表示其實不黑暗。",
+  "flag": null,
+  "text_issue": null
+ },
+ "114_english_read_38": {
+  "explanation": "空格後面的 in his first year of junior high school 是過去的明確時間點，而且後文用 That year, he watched…，所以用過去簡單式 started。現在完成式 has started 不能和過去的明確時間連用；starts、will start 時態也不合。",
+  "flag": null,
+  "text_issue": null
+ },
+ "114_english_read_39": {
+  "explanation": "空格後面接著兩句：How brave a woman is to have a baby!（女人生小孩真勇敢）和 Thank God I'll never have to do that!（還好我永遠不必經歷），正是他下課後「一直忍不住在想的兩件事」，所以選 C。這兩句是他的感想，不是他害怕的事（A）、不懂的事（B）或他做了的事（D）。",
+  "flag": null,
+  "text_issue": null
+ },
+ "114_english_read_40": {
+  "explanation": "後文說在媽媽肚子裡九個月，他只是吃和睡，辛苦的都是媽媽，為什麼他什麼都沒做還要收禮物？如果有人該在他生日收到禮物，應該是媽媽。所以他決定生日「不該是關於他，而是關於媽媽」，選 C。D 的「慶祝九個月」和後文無關；A、B 也不符合送禮給媽媽的重點。",
+  "flag": null,
+  "text_issue": null
+ },
+ "114_english_read_41": {
+  "explanation": "Cameron 是從國一那年開始送媽媽生日禮物，而他準備的「第一份」生日禮物是自己烤的餅乾，後文才說之後每年都做禮物、今年做洋裝，所以選 first。last（最後一個）和後面還有今年的禮物矛盾；only、other 也不合文意。",
+  "flag": null,
+  "text_issue": null
+ },
+ "114_english_read_42": {
+  "explanation": "餅乾很難吃，媽媽卻說那是她收過最好的東西，Cameron 聽了非常開心，後句還說 It was so much better than getting a gift（這比收到禮物還棒）。made his heart sing 表示「讓他心花怒放」，所以選 B。他之後每年都繼續做禮物，所以不是放棄烘焙或改變心意；也不會讓他頭痛。",
+  "flag": null,
+  "text_issue": null
+ },
+ "114_english_read_43": {
+  "explanation": "後文說洋裝已經做好，還掛在 Cameron 的房門後面，而且 He believes the gift will tell his mother…（他相信這份禮物「將會」讓媽媽知道…），可見禮物還沒送出，是即將要做的事，所以用 is going to give。gave、has given 表示已經送了，和洋裝還掛在房間裡矛盾；gives 則只表示習慣或事實。",
+  "flag": null,
+  "text_issue": null
+ }
+}

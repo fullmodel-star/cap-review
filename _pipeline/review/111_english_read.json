@@ -1,0 +1,217 @@
+{
+ "111_english_read_1": {
+  "explanation": "圖中女子兩手都拿著蠟燭，正要插到蛋糕上，所以答案是 candles（蠟燭）。桌上雖然有盤子和叉子、蛋糕上也有草莓，但她「正在放上蛋糕」的是蠟燭，要看清楚人物手上的動作。",
+  "flag": null,
+  "text_issue": "question_text 的圖片描述寫「用叉子裝飾蛋糕」，原圖中女子手上拿的其實是蠟燭（叉子放在桌上盤子旁），描述可能誤導學生選 forks。"
+ },
+ "111_english_read_2": {
+  "explanation": "前句「電影兩點開始」是原因，後句「我們一點四十五分在戲院碰面」是結果，表示「所以」要用 so。because 後面應接原因，放在這裡因果顛倒；or、if 語意都不通。",
+  "flag": null,
+  "text_issue": null
+ },
+ "111_english_read_3": {
+  "explanation": "Peter 怕黑，所以睡覺時會把燈開著，leave the lights on 就是「讓燈一直開著」。電腦、電風扇、音樂都和「怕黑」沒有關係。",
+  "flag": null,
+  "text_issue": null
+ },
+ "111_english_read_4": {
+  "explanation": "後半句說她的粉絲比隊上任何球員都多，可見她很受歡迎，popular 是「受歡迎的」。boring（無聊的）、heavy（重的）、rich（有錢的）都無法從「粉絲多」推出。",
+  "flag": null,
+  "text_issue": null
+ },
+ "111_english_read_5": {
+  "explanation": "因為沒寫作業，老師說我「必須」留下來寫完，had to 表示「不得不、必須」（have to 的過去式）。used to 是「過去習慣」、hoped to 是「希望」、failed to 是「沒能」，都不符合老師要求的語氣。",
+  "flag": null,
+  "text_issue": null
+ },
+ "111_english_read_6": {
+  "explanation": "Kevin 的錢只夠買包包或鞋子其中一樣，而且兩樣都喜歡，所以很難選擇。make a choice 是固定搭配「做選擇」，a hard choice 就是「艱難的抉擇」。",
+  "flag": null,
+  "text_issue": null
+ },
+ "111_english_read_7": {
+  "explanation": "因為同一類題目已經做過很多次，所以回答這題數學題很「容易」，選 easy。句型 It is + 形容詞 + for 人 + to V；common（常見的）、special（特別的）與「做過很多次所以會」的因果不合。",
+  "flag": null,
+  "text_issue": null
+ },
+ "111_english_read_8": {
+  "explanation": "固定句型「It takes + 人 + 時間 + to V」表示「某人花多少時間做某事」，所以要用不定詞 to prepare。preparing、prepared、原形 prepare 都不符合這個句型。",
+  "flag": null,
+  "text_issue": null
+ },
+ "111_english_read_9": {
+  "explanation": "不讓孩子在河裡游泳，是因為不知道河水有多「深」，how deep 問深度。far 問距離、long 問長度、thick 問厚度，都和游泳的危險無關。",
+  "flag": null,
+  "text_issue": null
+ },
+ "111_english_read_10": {
+  "explanation": "空格後有 of the boys in the family（家中所有男孩當中），是三者以上的比較，要用最高級 the laziest。後文也說他從不做家事、兄弟們至少還會倒垃圾，可見他是最懶的。",
+  "flag": null,
+  "text_issue": null
+ },
+ "111_english_read_11": {
+  "explanation": "她在這個鎮上住了六十多年（現在完成式，到現在仍住著），所以「現在」很了解這個鎮，用現在簡單式 knows 表示現在的狀態。knew 是過去，will know 是未來，都不合語意。",
+  "flag": null,
+  "text_issue": null
+ },
+ "111_english_read_12": {
+  "explanation": "颱風離開後仍看不到太陽，因為新聞說更大的雨很快就會「接著來」，follow 是「隨後而來」。若選 stop（停止）就和「看不到太陽」互相矛盾。",
+  "flag": null,
+  "text_issue": null
+ },
+ "111_english_read_13": {
+  "explanation": "「我昨天回到家時」哥哥「正要出去吃晚餐」，所以才邀我一起去；過去某時間點正在進行或即將進行的動作用過去進行式 was going out。went out 會變成他已經出門了，就不可能邀我同行。",
+  "flag": null,
+  "text_issue": null
+ },
+ "111_english_read_14": {
+  "explanation": "Amy 借東西從來不還，所以你不借她錢是「明智的」，wise 符合。句型 You were + 形容詞 + not to V 表示「你沒做某事是……的」；crazy、wrong 是負面評價，與後句的理由相反。",
+  "flag": null,
+  "text_issue": null
+ },
+ "111_english_read_15": {
+  "explanation": "Firth 先生「目前正在找」暑假照顧小孩的人，所以才建議你去跟他談，用現在進行式 is looking for。was looking for 是過去，可能已經找到了，就不必建議你去談。",
+  "flag": null,
+  "text_issue": null
+ },
+ "111_english_read_16": {
+  "explanation": "感官動詞 see + 受詞 + 原形動詞：saw a woman get in his car and drive away，get 和 drive 是對等的兩個動作，用 and 連接且都要用原形。drove 會和前面的原形 get 形式不一致，所以不選 and drove。",
+  "flag": null,
+  "text_issue": null
+ },
+ "111_english_read_17": {
+  "explanation": "小女孩是「被帶走」的，要用被動語態，且事情發生在過去（在超市時），所以用 was taken away。took away 是主動，意思變成她帶走別人；taken away 缺少 be 動詞。",
+  "flag": null,
+  "text_issue": null
+ },
+ "111_english_read_18": {
+  "explanation": "我們剛錯過的是「一班」公車，不特定的單數可數名詞用 one 代替（one = a bus）。it 指特定那一個，前面說的是 buses 泛指，不適合；them 指全部公車也不對；another 是「另一個」。",
+  "flag": null,
+  "text_issue": null
+ },
+ "111_english_read_19": {
+  "explanation": "考前讀了一週書並拿到好成績，都是過去發生的事，後面 got 也是過去式，所以用過去式 studied。has studied 是現在完成式，不能與過去已結束的事件搭配。",
+  "flag": null,
+  "text_issue": null
+ },
+ "111_english_read_20": {
+  "explanation": "Josh 關掉螢幕，他在網路上分享對節目的看法後，別人卻回應讓他難過，而對方只想聽好話，可見 trolling 是指「在網路上寫東西讓人受傷或生氣」。其他選項如唱歌慶祝、拉釣魚線都跟這段情境無關。",
+  "flag": null,
+  "text_issue": null
+ },
+ "111_english_read_21": {
+  "explanation": "傳單副標題寫 Thank You for Being with Us for Twenty Summers & Winters（謝謝你陪我們走過二十個夏天與冬天），活動名稱也叫 Tea-Rock 20，表示公司營業滿二十年。傳單沒有提到 20 個國家、第 20 款茶或美國第 20 家店，送美國機票只是獎品。",
+  "flag": null,
+  "text_issue": null
+ },
+ "111_english_read_22": {
+  "explanation": "傳單規定明信片上要寫姓名、生日、電話、e-mail 和最喜歡的茶。Jason 已寫了姓名、電話、e-mail 和最愛的紅茶，也貼了兩張茶杯圖，唯獨少了生日。傳單沒有要求寫年齡或自己的地址，茶杯圖也只要兩張，所以不選 A、B、D。",
+  "flag": null,
+  "text_issue": "question_text 在明信片描述中加了「傳單上有 address 方框、但 Jason 沒寫自己的地址」這種說明，原圖的 address 方框只是生字註解（address 地址），這段描述會誤導學生選 (B)。"
+ },
+ "111_english_read_23": {
+  "explanation": "圖表中 400 ml 米漿（rice milk）的湯匙比 400 ml 葡萄汁（grape juice）少，所以含糖較少，D 正確。A 錯：66 g 冰淇淋有 4 匙糖，約 16 g，4 g 只是一匙；B 錯：女性每天 6 匙、男性 9 匙；C 錯：台灣每人 17.75 匙，比美國 18.75 匙少。",
+  "flag": null,
+  "text_issue": null
+ },
+ "111_english_read_24": {
+  "explanation": "「藏在食物和飲料裡的糖」這一欄列出冰淇淋、果汁、可樂等常見食品的含糖量，很多都超過一天建議的量（例如女性 6 匙），目的是提醒我們常在不知不覺中吃進過多的糖，選 C。說明糖怎麼傷身的是左下「What does sugar do to our body?」那一區，不是這份清單，所以不選 A。",
+  "flag": null,
+  "text_issue": null
+ },
+ "111_english_read_25": {
+  "explanation": "Marina 要為美術課畫「未來的房子」卻沒有靈感，Darrell 說很多人在 Pinterest 分享作品和做法，她可以在那裡得到點子，也就是去找作業的參考範例，選 A。Darrell 特別說 Pinterest 不是購物 app，所以 B 錯；分享作品是別人在做的事，不是叫 Marina 去分享，所以 D 錯。",
+  "flag": null,
+  "text_issue": null
+ },
+ "111_english_read_26": {
+  "explanation": "Darrell 說找到做巧克力蛋糕的 A to Z，後面接著解釋「從挑選巧克力、烤蛋糕到做上面的糖花」，也就是從頭到尾、每個步驟都有。所以 learn something from A to Z 指「學到關於它的全部」，選 C。",
+  "flag": null,
+  "text_issue": null
+ },
+ "111_english_read_27": {
+  "explanation": "第一段說明 Tabata 的做法：運動 20 秒、休息 10 秒、至少重複八次，並介紹常見動作、可自己決定做哪些動作，都是在講「怎麼做 Tabata 訓練」，選 A。文中沒提最佳時段、發明者，也沒說一週該做幾次。",
+  "flag": null,
+  "text_issue": null
+ },
+ "111_english_read_28": {
+  "explanation": "文章最後說：很少運動或有心臟問題的人可能不適合，但喜歡運動卻忙到沒空上健身房的人，Tabata 可能正是解答，所以適合已有運動習慣的人，選 D。B「想開始運動的人」正是很少運動的人，C 有心臟問題的人也被點名不適合。",
+  "flag": null,
+  "text_issue": null
+ },
+ "111_english_read_29": {
+  "explanation": "文中說 You can decide yourself what moves to do（可以自己決定要做什麼動作），所以 B 正確。A 錯，文中說動作 not difficult to learn；C 錯，它 doesn't take much space；D 錯，每 20 秒運動後本來就有 10 秒休息，要有後燃效果只需在那 20 秒內全力運動。",
+  "flag": null,
+  "text_issue": null
+ },
+ "111_english_read_30": {
+  "explanation": "第一段先說長工時每年害死很多人，公司想改變（c 為何有「不加班日」），接著介紹「不加班日」的做法（a）；第二段說員工離開辦公室後又回去或換地方繼續工作（d 員工如何應對）；第三段分析大家為何還要繼續工作（b 為何失敗）。順序是 c→a→d→b，選 D。",
+  "flag": null,
+  "text_issue": null
+ },
+ "111_english_read_31": {
+  "explanation": "this 指的是前一句：Working long hours has become a way to show that people are hard-working（長時間工作變成展現自己很努力的方式），作者認為這種觀念必須改變，選 A。D 是研究結果中的「加薪升遷機會」，不是作者要改變的對象。",
+  "flag": null,
+  "text_issue": null
+ },
+ "111_english_read_32": {
+  "explanation": "從圖 2 可見，工時 2,200 小時時，男女兩條線幾乎重疊（約 13～14%），機會差不多，選 D。A 錯，圖 1 沒有分男女；B 錯，死亡人數有升有降（例如 2014 年 220 人、2015 年降為 189 人）；C 錯，多數工時下女性的線反而比男性高。",
+  "flag": null,
+  "text_issue": null
+ },
+ "111_english_read_33": {
+  "explanation": "文章說英國管轄的部分在 1961 年併入 Republic of Cameroun，新國家隨即改名為 Federal Republic of Cameroon；到了 1962 年已是統一的一個國家，選 D。A 是 1919 年以前的 Kamerun，B 是 1919～1960 年英法分治，C 是 1960～1961 年兩部分尚未合併的情形。",
+  "flag": null,
+  "text_issue": null
+ },
+ "111_english_read_34": {
+  "explanation": "英語使用者在政府難找工作、常被要求說法語，覺得在自己國家不受歡迎，後文又說他們決定為自己抗爭、甚至宣布建立新國家，可見 resentful 是「憤恨不平、生氣的」，選 B。sad、worried 雖是負面情緒，但接不上後面「起來抗爭」的行動。",
+  "flag": null,
+  "text_issue": null
+ },
+ "111_english_read_35": {
+  "explanation": "英語使用者宣布成立新國家 Ambazonia 時，警察出面阻止集會，甚至造成至少八人死亡，可見喀麥隆政府不承認 Ambazonia 是一個國家，選 D。C 說反了，是 Ambazonia 不想再屬於喀麥隆；文中也沒有提到與它做生意或需要它幫助。",
+  "flag": null,
+  "text_issue": null
+ },
+ "111_english_read_36": {
+  "explanation": "作者開頭說：在現代世界會說英語常能取得權力，但在喀麥隆不是這樣，要了解原因得回顧百年歷史；接著說明英語人口只佔約 20%，政府一直掌握在說法語的人手中。所以談歷史是為了解釋喀麥隆說英語的人為何權力較小，選 B。D 的 20% 只是歷史敘述中的一個細節，不是作者的目的。",
+  "flag": null,
+  "text_issue": null
+ },
+ "111_english_read_37": {
+  "explanation": "文中建議 It's best to plan one day for one part of the trail，因為每一段至少要走七小時，所以推薦一天走一段，選 C。A 錯，露營只能在指定營地；B 錯，側步道太窄不能騎車；D 錯，文中說的是「早上出發健行」，不是早上去博物館。",
+  "flag": null,
+  "text_issue": "question_text 的地圖描述寫 Part 2a 通往 Sloan Castle，但原圖中 Sloan Castle 位於主步道 Part 2 外側，Part 2a 是環內的側步道（不影響本題答案）。"
+ },
+ "111_english_read_38": {
+  "explanation": "文中說 lodging 有兩種：露營，以及更舒適的「住在鎮上的旅館」，兩者都是過夜的地方，所以 lodging 指「住宿的地方」，選 B。提到旅館附早餐只是補充，lodging 本身不是一餐。",
+  "flag": null,
+  "text_issue": null
+ },
+ "111_english_read_39": {
+  "explanation": "看地圖：從 Cove 出發走 Part 1（Cove－Dova），在快到 Dova 時會跨過河流，可以在河邊賞鳥；接著走 Part 2（Dova－Kint），主步道旁就是 Sloan Castle，所以選 A。Part 4、4a 雖經過 Edward Castle 但沒有經過河流；Part 2a 是環內側步道，不經過城堡；C 的 Part 2、3 也不是從 Cove 出發。",
+  "flag": null,
+  "text_issue": "question_text 的地圖描述有誤：寫 Part 2a 通往 Sloan Castle（原圖城堡在主步道 Part 2 旁），並寫河流從 Cove/Berk 附近的 Part 1/Part 4 區流向 Dova、Kint（原圖河流是從 Dova 北邊斜穿中央到 Berk 南邊，跨過 Part 1 與 Part 3，不經過 Part 4），會誤導本題判斷。"
+ },
+ "111_english_read_40": {
+  "explanation": "空格前定義什麼是 palindrome（迴文），空格後列出 eye、Bob、my gym 等實際例子，所以用 for example（例如）。in fact 是「事實上」、at first 是「起初」、of course 是「當然」，都不能用來引出例子。",
+  "flag": null,
+  "text_issue": null
+ },
+ "111_english_read_41": {
+  "explanation": "anagram 必須用完全相同的字母重新排列。mistake 的字母是 m、i、s、t、a、k、e，it makes 正好是這七個字母各用一次，選 C。take sit 多了一個 t；Ms Easy 有 y；me steak 有兩個 e 且沒有 i。",
+  "flag": null,
+  "text_issue": null
+ },
+ "111_english_read_42": {
+  "explanation": "restaurant 重組成 Eat rats, run!（吃老鼠，快跑！），意思很古怪好笑，所以說 anagram 有時甚至會變成「奇怪的」意思，選 A strange。這句話和好吃（delicious）、重要（important）都沾不上邊。",
+  "flag": null,
+  "text_issue": null
+ },
+ "111_english_read_43": {
+  "explanation": "空格後說迴文可以用來學數學、創作音樂，重組字可以用來隱藏東西，歷史上還有人把重要研究藏在其中，都在說明它們有遊戲以外的用途，所以選 A more than just games（不只是遊戲）。後文沒有提到公開玩、流行程度下降或最初用途。",
+  "flag": null,
+  "text_issue": "question_text 把第 42 題空格直接填成 important（寫成 mean something important），但第 42 題正確答案是 strange，等於在文章中放進錯誤答案。"
+ }
+}

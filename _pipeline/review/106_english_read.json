@@ -1,0 +1,207 @@
+{
+ "106_english_read_1": {
+  "explanation": "看圖：狗坐在車子左邊，開車的女子坐中間，包包放在她右邊，所以狗是坐在女子旁邊，next to the woman（在…旁邊）正確。狗並沒有坐在包包上或包包裡；(D) between the woman and the bag 是「在女子和包包之間」，但站在中間的是女子而不是狗。",
+  "flag": null,
+  "text_issue": null
+ },
+ "106_english_read_2": {
+  "explanation": "前半句「想買車」、後半句「錢不夠」，兩句意思相反，要用表示轉折的 but（但是）。because 表原因、if 表條件、or 表選擇，都接不起這兩句。",
+  "flag": null,
+  "text_issue": null
+ },
+ "106_english_read_3": {
+  "explanation": "第一句說 Jim 總是忘記(forgets)我的生日，接著說他問過我很多次卻還是「記不住」，所以選 remember（記得）。answer（回答）、celebrate（慶祝）、understand（了解）都不符合「忘記」這個語意線索。",
+  "flag": null,
+  "text_issue": null
+ },
+ "106_english_read_4": {
+  "explanation": "小女孩「被卡車 ___ 」而且傷得很重(badly hurt)，合理的是 was hit by a truck（被卡車撞）。hit 的過去分詞仍是 hit；led（被帶領）、lost（遺失）、paid（被付錢）都和受傷無關。",
+  "flag": null,
+  "text_issue": null
+ },
+ "106_english_read_5": {
+  "explanation": "說話者「現在」急著要走，因為孩子「此刻正在」學校等他，要用現在進行式 are waiting。were waiting 和 waited 是過去的事，無法說明現在要離開的理由；wait 是現在簡單式，表習慣而非此刻正在發生。",
+  "flag": null,
+  "text_issue": null
+ },
+ "106_english_read_6": {
+  "explanation": "醫生已經無能為力，Amy 去廟裡為父親「祈禱」，pray for sb. 是「為某人祈禱」。care for 是照顧、look for 是尋找、count 是數數，都不符合去寺廟的情境。",
+  "flag": null,
+  "text_issue": null
+ },
+ "106_english_read_7": {
+  "explanation": "後一句說「不用煩惱要穿什麼衣服去上學」，可知學校要學生穿「制服」uniforms。belts（皮帶）、caps（帽子）、gloves（手套）都只是配件，無法解決穿什麼衣服的問題。",
+  "flag": null,
+  "text_issue": null
+ },
+ "106_english_read_8": {
+  "explanation": "兩人常吵架、在一起不快樂，卻決定結婚，所以大家不知道的是他們結婚的「原因」，用 why。where（地點）、when（時間）、how（方式）都和後文「吵架、不快樂」的線索無關。",
+  "flag": null,
+  "text_issue": null
+ },
+ "106_english_read_9": {
+  "explanation": "空格指的是前面「你挑給她的那些書」(the books)，是複數，所以代名詞用 they。it 只能指單數的一本書；one 或 some 只指其中幾本，但前句是說她一本都不會讀，表示所有書看起來都很無聊。",
+  "flag": null,
+  "text_issue": null
+ },
+ "106_english_read_10": {
+  "explanation": "包包很重，是因為「它(包包)裝滿了玩具車」，主詞要指回 Jenny's bag（單數），所以用 it is (filled with...)。they are 是複數，對不上 bag；there is/there are 表示「有…」，後面不能再接 filled with 來說明包包的狀態。",
+  "flag": null,
+  "text_issue": null
+ },
+ "106_english_read_11": {
+  "explanation": "這句沒有主詞，是對人提出建議的祈使句，要用原形動詞開頭：Take a map with you（要帶地圖）。Have taken、Taking、To take 都不能單獨當祈使句的動詞。",
+  "flag": null,
+  "text_issue": null
+ },
+ "106_english_read_12": {
+  "explanation": "in the last few days（過去這幾天）表示從過去一直持續到現在，要用現在完成式 has been。後句「希望太陽快點出來」也說明現在仍在下雨；had been 是過去完成式，will be/would be 則是未來或假設，都不對。",
+  "flag": null,
+  "text_issue": null
+ },
+ "106_english_read_13": {
+  "explanation": "Nick made 是省略關係代名詞的形容詞子句，用來修飾主詞 All the excuses，整句還缺主要動詞，所以填 say（主詞複數，用原形）。saying 和 to say 不能當主要動詞；which say 會變成另一個子句，句子仍然沒有主要動詞。",
+  "flag": null,
+  "text_issue": null
+ },
+ "106_english_read_14": {
+  "explanation": "她走過你都沒察覺，讓人懷疑她的腳有沒有碰到地板，表示她走路「很輕」，選 lightly。freely（自由地）、shyly（害羞地）、slowly（慢慢地）都無法解釋「腳像沒碰到地板」；走得慢不一定讓人察覺不到。",
+  "flag": null,
+  "text_issue": null
+ },
+ "106_english_read_15": {
+  "explanation": "句中用 but 對比：以前覺得寄電子郵件、上網看新聞是「新奇」的點子，現在已是日常生活的一部分，所以選 fresh（新鮮的、新穎的）。simple、popular、good 都無法和「現在已成日常」形成對比。",
+  "flag": null,
+  "text_issue": null
+ },
+ "106_english_read_16": {
+  "explanation": "海報說「帶一本書來圖書館，就能免費帶另一本回家」，還說「你的舊愛可能是別人的新歡」，目的是讓大家用書交換書，選 (C)。整個活動不收錢，所以不是賣二手書 (A)；也沒有教人挑書或調查哪類書最受歡迎。",
+  "flag": null,
+  "text_issue": null
+ },
+ "106_english_read_17": {
+  "explanation": "What books 寫明不收 school books（課本）、comic books（漫畫）和 dictionaries（字典），Notice 還規定書上不能有字跡。(A) 是字典、(C) 有她自己寫的筆記、(D) 是數學課用過的作業本（屬學校用書），都不符規定；只有 (B) 英文短篇故事書可以拿去。",
+  "flag": null,
+  "text_issue": null
+ },
+ "106_english_read_18": {
+  "explanation": "書展卡要在 March 16～March 31 才能用來換書，且圖書館星期一休館。(A) 3 日、(B) 14 日都還在「拿書換卡」的階段；看月曆，(D) 29 日是星期一休館；(C) 23 日是星期二，可以用卡換書。",
+  "flag": null,
+  "text_issue": null
+ },
+ "106_english_read_19": {
+  "explanation": "文章最後說媽媽從遠處大喊，那個男人就匆忙跑進黑暗裡，所以 (D) 正確。文中沒有提到警察抓到兇手 (A)，只是作者想起警方在找的通緝照片；也沒有邀陌生人吃晚餐，或弟弟跑去找父母求救。",
+  "flag": null,
+  "text_issue": null
+ },
+ "106_english_read_20": {
+  "explanation": "袋子裡的繩子、刀、女鞋等東西掉出來後，男子「很快把東西收回袋子，還生氣地瞪著我們」，可見他不想讓作者看到袋中物品，選 (D)。媽媽在男子靠近前就大喊，他並沒有攻擊作者 (A)；作者其實認出了他是通緝中的瘋狂殺人犯，所以 (C) 也錯。",
+  "flag": null,
+  "text_issue": null
+ },
+ "106_english_read_21": {
+  "explanation": "horrendous 用來形容作者那天的經歷，文中說他遇到疑似殺人犯時「怕到完全動不了」(so afraid that I could not move)，可推知 horrendous 是「可怕的」，經歷這種事會覺得害怕 Scared。文中沒有表現生氣、難過或疲累的情緒。",
+  "flag": null,
+  "text_issue": null
+ },
+ "106_english_read_22": {
+  "explanation": "Ruth 突然送 Nate 買不到的球賽門票和訂不到的餐廳位子，Nate 覺得不像她的作風，問 What's the catch?，接著 Ruth 才說出真正目的：要他照顧她的狗一整週。可見 the catch 指「藏在好處背後的麻煩條件」，選 (C)。",
+  "flag": null,
+  "text_issue": null
+ },
+ "106_english_read_23": {
+  "explanation": "Ruth 請求讓 Charlie（她的狗）在她去倫敦時住到 Nate 家，Nate 抱怨討厭那隻狗後說 I need to think about it，這裡的 it 就是指「照顧 Charlie」這件事，選 (A)。晚餐、球賽都是 Ruth 送的好處，去倫敦度假是 Ruth 自己的行程，都不是 Nate 需要考慮的事。",
+  "flag": null,
+  "text_issue": null
+ },
+ "106_english_read_24": {
+  "explanation": "Ruth 說有 Leeds 的雙人位子時，Nate 驚訝地說他昨天打電話問，店家說整年都訂滿了，可見他很意外 Ruth 能訂到，選 (D)。Ruth 是「這個星期五」出發，不是下週六 (A)；文中沒提訂旅館的事 (B)；Ruth 說 You're my last hope，表示 Nate 是她最後的希望而不是第一個想到的人 (C)。",
+  "flag": null,
+  "text_issue": null
+ },
+ "106_english_read_25": {
+  "explanation": "文章先說醫生工時過長、疲勞會增加醫療錯誤，最後寫「請你這個星期天和我們一起上街」，並附上時間地點，目的是號召民眾站出來替醫生發聲，選 (B)。文中沒有講就醫規則 (A) 或怎麼找好醫生 (C)，也不是請醫生分享救人經驗 (D)。",
+  "flag": null,
+  "text_issue": null
+ },
+ "106_english_read_26": {
+  "explanation": "this problem 前面一整段都在講醫生常連續工作 34 小時以上、一週工作 104 甚至 150 小時，太累會像酒駕一樣出錯，所以「這個問題」指醫生工時太長，選 (A)。文中沒提到和護理師的問題、看診人數或薪水。",
+  "flag": null,
+  "text_issue": null
+ },
+ "106_english_read_27": {
+  "explanation": "文中說長得醜的蔬果（seconds）因為超市認為顧客只喜歡好看的東西而不收購，常被直接丟進垃圾桶；Wonky Markt 就是想改變這件事，所以它在意的是 seconds 因外表而被丟掉，選 (C)。超市其實根本不賣 seconds (A)，文中也沒說農夫不知道怎麼少種 (B)。",
+  "flag": null,
+  "text_issue": null
+ },
+ "106_english_read_28": {
+  "explanation": "每箱 NT$250，另收每箱 NT$50 手續費；買三箱是 250×3＝750 元，未超過 1,000 元不能免手續費，所以再加 50×3＝150 元，共 900 元，選 (B)。20-40% 是農作物中長得不好看的比例，不是折扣 (A)；six 是每箱最多可選六種蔬果，不是贏得食譜要買六箱 (D)；文中也沒說能挑大小和形狀 (C)。",
+  "flag": null,
+  "text_issue": null
+ },
+ "106_english_read_29": {
+  "explanation": "第 3 點說 Dashing Shuttle 從 7 月 1 日起才「首度」開通 Apple City 到 Orange Island 的路線，表示改線前沒有公車到 Orange Island，選 (A)。改線前去 Mango Island 要在 Melon City 轉車而不是 Berry City (B)；去 Grape Town 的直達線停駛後要轉車，不會更省時 (C)；Peach City 是「增加三班」，表示原本就有車 (D)。",
+  "flag": null,
+  "text_issue": null
+ },
+ "106_english_read_30": {
+  "explanation": "依新聞推回 7 月 1 日前的路線：沒有 Orange Island 線；Lemon City 和 Berry City 不能直達（要轉車）；Apple City 有直達 Grape Town 的線；去 Mango Island 要在 Melon City 轉車；Peach City 原本就有線。(D) 圖中 Lemon City 經 Bean Town、Berry City 經 Papaya City、Mango Island 經 Melon City，且有直達 Grape Town、沒有 Orange Island，全部符合。(A) 可直達 Lemon 與 Berry，(B) 已有 Orange Island 線，(C) 可直達 Mango Island，都不對。",
+  "flag": null,
+  "text_issue": "JSON 對四張選項地圖的文字描述與原圖不符：原圖 (B)(C) 都有 Peach City 線；(C) 是 Lemon 經 Bean Town、Berry 經 Papaya City、Apple 直達 Mango Island；(D) 沒有 Orange Island 線，且 Lemon 經 Bean Town、Berry 經 Papaya City、Mango 經 Melon City（並非全部直達）。題幹括號內的地圖說明也有同樣錯誤，應以原圖為準。"
+ },
+ "106_english_read_31": {
+  "explanation": "報導說全球化後美國電影在各國市場越來越受歡迎，而各國本國電影在自己國內「表現不佳」(not doing well in their domestic market)，也就是全球化改變了各國國內的電影市場，選 (B)。文中沒談拍片方式 (A) 或各國電影人合作 (C)，也沒有比較美國電影在國外和國內賺多少錢 (D)。",
+  "flag": null,
+  "text_issue": null
+ },
+ "106_english_read_32": {
+  "explanation": "文中說人們熱烈歡迎美國電影時，其實也同時接受了美國人的思考方式 (say yes to the American way of thinking)，所以美國電影受歡迎可能代表美式思考方式受歡迎，選 (D)。文中擔心的是「各國自己」的思考方式流失，而不是美式思考被改變 (A)；也沒提到要求政府協助 (B) 或英語普及的原因 (C)。",
+  "flag": null,
+  "text_issue": null
+ },
+ "106_english_read_33": {
+  "explanation": "看 Chart 2，五國本國電影比例都下降：法國 45→42、義大利 34→19、西班牙 22→18、英國 17→5、德國 17→16，選 (B)。(A) 美國電影比例變化最小的是英國（81→74，差 7），西班牙差 9；(C) 本國電影降幅最小的是德國（只降 1），英國降了 12；(D) 英國本國電影下降，美國電影比例卻也下降（81→74），所以不成立。",
+  "flag": null,
+  "text_issue": null
+ },
+ "106_english_read_34": {
+  "explanation": "第一句說 Jerry 這幾個月不開心，後面又說對面餅乾店搶走他一半生意，可知「成功的刨冰店老闆」是以前的事、現在已不是，要用 used to be（過去曾經是）。is 和 has been 表示現在仍是，與生意變差矛盾；was going to be 是「過去原本打算成為」，也不合文意。",
+  "flag": null,
+  "text_issue": null
+ },
+ "106_english_read_35": {
+  "explanation": "生意已被搶走一半，接著外甥 Dan 來幫忙，但他常讓客人免費試吃太多、來的人多買的人少，所以情況「沒有變好」，選 things didn't get better。(C) 生意開始上升、(D) 餅乾店沒成功多久，都和後文業績沒成長矛盾；文中 Jerry 也沒有打算放棄 (B)，他後來還努力想救店。",
+  "flag": null,
+  "text_issue": null
+ },
+ "106_english_read_36": {
+  "explanation": "空格後說這件事來自對街，接著是餅乾店在找店員，對 Jerry 來說是讓 Dan 離開自己店、又不必送他回家的大好機會，所以是「好消息來了」good news arrived。(A)(C) 是壞事，與「大好機會」相反；(D) 苦日子過去了也太早，後文說他才剛能開始試著救店。",
+  "flag": null,
+  "text_issue": null
+ },
+ "106_english_read_37": {
+  "explanation": "故事用過去式敘述，「那時候」餅乾店正在找店員，Jerry 才能幫 Dan 爭取到這份工作，用過去進行式 was looking for。used to look for 表示以前常找、現在不找了；has looked for 是現在完成式，不合過去的敘事時間；had looked for 表示在更早之前就找過，也不合文意。",
+  "flag": null,
+  "text_issue": null
+ },
+ "106_english_read_38": {
+  "explanation": "文末說 Scott 的隊員一個接一個死去，他自己也是最後一個喪命的人，可知第二次南極之旅「讓他付出了生命」，選 cost him his life。和前句「第一次讓他成為明星」形成對比；他沒有搶到第一個抵達南極的夢想，所以 (D) 錯。",
+  "flag": null,
+  "text_issue": null
+ },
+ "106_english_read_39": {
+  "explanation": "空格前用 However 轉折，後面說他將和挪威的 Amundsen 展開競賽，表示想第一個站上南極點的不只他一人，選 (B) he wasn't the only one who had this dream。其他選項都沒有帶出「還有對手」這層意思，也和下一句的「競賽」接不上。",
+  "flag": null,
+  "text_issue": null
+ },
+ "106_english_read_40": {
+  "explanation": "空格後比較兩隊的交通方式：Amundsen 用狗、Scott 用馬，而馬不擅長在雪地行走，讓 Scott 花了 77 天才抵達、輸給對手，所以是「交通方式決定了哪一隊會贏」，選 (D)。文中沒說用馬是很流行、能走得快的方法 (A)；事實上 Amundsen 選狗比選馬更明智，(C) 說他不比 Scott 懂動物也不對。",
+  "flag": null,
+  "text_issue": null
+ },
+ "106_english_read_41": {
+  "explanation": "輸掉競賽已經讓 Scott 很難過，但他不知道的是之後在回程中遇到惡劣天氣與缺糧，全隊都喪命，也就是「最糟的事還沒發生」，選 the worst had not come yet。(A) 還有希望與結局相反；文中也沒提到沒人相信他 (B) 或 Amundsen 不誠實 (D)。",
+  "flag": null,
+  "text_issue": null
+ }
+}

@@ -1,2 +1,4 @@
 img/
 _pipeline/extracted/
+__pycache__/
+*.tmp

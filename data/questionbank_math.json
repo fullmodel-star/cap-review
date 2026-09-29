@@ -28,7 +28,10 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": "一次函數與坐標平面"
+      "concept_tag": "一次函數與坐標平面",
+      "page": "assets/page/105_math_p1.jpg",
+      "img": "assets/q/105_math_1.jpg",
+      "explanation": "把 x=-3、y=1 代入各式檢查左右是否相等。(A) -3+2×1=-1，等號成立，故選 (A)。其他選項：(B) -3-2=-5≠1，(C) -6+3=-3≠6，(D) -6-3=-9≠-6，都不成立。"
     },
     {
       "id": "105_math_2",
@@ -44,7 +47,10 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": "整數與分數的四則運算"
+      "concept_tag": "整數與分數的四則運算",
+      "page": "assets/page/105_math_p1.jpg",
+      "img": "assets/q/105_math_2.jpg",
+      "explanation": "先算中括號：-5-(-11)=-5+11=6；再算小括號：3/2×4=6。所以原式＝6÷6=1。常見錯誤是把 -(-11) 算成 -11，得到 -16 而誤選其他答案。"
     },
     {
       "id": "105_math_3",
@@ -60,7 +66,10 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": "多項式運算與乘法公式"
+      "concept_tag": "多項式運算與乘法公式",
+      "page": "assets/page/105_math_p1.jpg",
+      "img": "assets/q/105_math_3.jpg",
+      "explanation": "先展開 (2x+1)(x-1)=2x²-2x+x-1=2x²-x-1。再減去括號時每項都要變號：2x²-x-1-x²-x+2=x²-2x+1，故選 (A)。最容易出錯的是減號後面的 -2 沒有變成 +2。"
     },
     {
       "id": "105_math_4",
@@ -76,7 +85,10 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": "扇形面積與弧長"
+      "concept_tag": "扇形面積與弧長",
+      "page": "assets/page/105_math_p1.jpg",
+      "img": "assets/q/105_math_4.jpg",
+      "explanation": "扇形面積＝圓面積×圓心角/360°。圓面積＝π×10²=100π，所以扇形面積＝100π×54/360=100π×3/20=15π 平方公分。(A) 100π 是整個圓的面積，別忘了乘上比例。"
     },
     {
       "id": "105_math_5",
@@ -92,7 +104,10 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": "絕對值與數線"
+      "concept_tag": "絕對值與數線",
+      "page": "assets/page/105_math_p2.jpg",
+      "img": "assets/q/105_math_5.jpg",
+      "explanation": "由圖知 A、B、C 由左到右排列，且 AB=3、BC=5。若 O 在 A、B 之間，則 OA+OB 應等於 3，但 4+1=5，不合；若 O 在 A 左邊，OB 會大於 OA，也不合。所以 O 在 B 右邊 1 單位處（此時 OA=3+1=4 符合），而 BC=5>1，故 O 介於 B、C 之間。"
     },
     {
       "id": "105_math_6",
@@ -108,7 +123,10 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": "因式分解"
+      "concept_tag": "因式分解",
+      "page": "assets/page/105_math_p2.jpg",
+      "img": "assets/q/105_math_6.jpg",
+      "explanation": "用十字交乘：77x² 拆成 7x 與 11x，-30 拆成 -5 與 6，交叉相乘 7x×6+(-5)×11x=42x-55x=-13x，符合中間項。所以 77x²-13x-30=(7x-5)(11x+6)，得 a=-5、b=11、c=6，a+b+c=12。"
     },
     {
       "id": "105_math_7",
@@ -124,7 +142,10 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": "統計圖表判讀"
+      "concept_tag": "統計圖表判讀",
+      "page": "assets/page/105_math_p2.jpg",
+      "img": "assets/q/105_math_7.jpg",
+      "explanation": "甲班人數最多的是 8 球（20 人），眾數 a=8；乙班最多的是 6 球（25 人），眾數 b=6，所以 a>b。兩班都是 55 人，中位數是第 28 人：甲班 5+15=20 人在 7 球以下，第 21～40 人是 8 球，所以 c=8；乙班前 25 人是 6 球，第 26～30 人是 7 球，所以 d=7，c>d，選 (A)。"
     },
     {
       "id": "105_math_8",
@@ -140,7 +161,10 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": "四邊形與多邊形性質"
+      "concept_tag": "四邊形與多邊形性質",
+      "page": "assets/page/105_math_p3.jpg",
+      "img": "assets/q/105_math_8.jpg",
+      "explanation": "正方形的 ∠FEC=90°，E 在 AD 上，所以 ∠CED=180°-15°-90°=75°。在 △ECD 中，∠D=180°-35°-75°=70°。平行四邊形對角相等，∠B=∠D=70°。"
     },
     {
       "id": "105_math_9",
@@ -156,7 +180,10 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": "等差數列"
+      "concept_tag": "等差數列",
+      "page": "assets/page/105_math_p3.jpg",
+      "img": "assets/q/105_math_9.jpg",
+      "explanation": "小昱第 n 頁寫 1+2(n-1)，令其等於 101，得 n-1=50，即第 51 頁。阿帆第 51 頁寫的數＝1+7×(51-1)=1+350=351。誤選 (A) 350 是忘了加上第 1 頁的起始值 1。"
     },
     {
       "id": "105_math_10",
@@ -172,7 +199,10 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": "機率"
+      "concept_tag": "機率",
+      "page": "assets/page/105_math_p3.jpg",
+      "img": "assets/q/105_math_10.jpg",
+      "explanation": "兩箱各抽一球，共 4×3=12 種等可能結果。顏色相同只有「紅紅」「黃黃」2 種（綠、藍、黑只出現在其中一箱）。所以機率＝2/12=1/6。"
     },
     {
       "id": "105_math_11",
@@ -188,7 +218,10 @@
       },
       "answer": "D",
       "has_diagram": false,
-      "concept_tag": "一次函數與坐標平面"
+      "concept_tag": "一次函數與坐標平面",
+      "page": "assets/page/105_math_p4.jpg",
+      "img": "assets/q/105_math_11.jpg",
+      "explanation": "通過 (-3,0)、(0,-5) 的直線為 x/(-3)+y/(-5)=1，即 5x+3y=-15，它在第三象限的部分是 -3<x<0、-5<y<0。(D) 代 y=-4：5x=-15+12=-3，x=-3/5，交點 (-3/5,-4) 在第三象限。其他：(A) x=4 時 y<0 在第四象限；(B) x=-4 時 y=5/3 在第二象限；(C) y=4 時 x=-27/5 在第二象限。"
     },
     {
       "id": "105_math_12",
@@ -204,7 +237,10 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": "三角形角度計算"
+      "concept_tag": "三角形角度計算",
+      "page": "assets/page/105_math_p4.jpg",
+      "img": "assets/q/105_math_12.jpg",
+      "explanation": "DE 是 BC 的中垂線，所以 DB=DC，設 ∠DBC=∠C=x，則 ∠BDE=∠CDE=90°-x。BD 平分 ∠ADE，所以 ∠ADB=90°-x；又 ∠ADB 是 △DBC 的外角，等於 2x，解 2x=90°-x 得 x=30°。於是 ∠ABC=180°-58°-30°=92°，∠ABD=92°-30°=62°。"
     },
     {
       "id": "105_math_13",
@@ -220,7 +256,10 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": "根式化簡與運算"
+      "concept_tag": "根式化簡與運算",
+      "page": "assets/page/105_math_p4.jpg",
+      "img": "assets/q/105_math_13.jpg",
+      "explanation": "正方形邊長＝√20，周長 x=4√20=√320。因為 17²=289、18²=324，289<320<324，所以 17<x<18。"
     },
     {
       "id": "105_math_14",
@@ -236,7 +275,10 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": "圓的性質（圓心角、圓周角、弧）"
+      "concept_tag": "圓的性質（圓心角、圓周角、弧）",
+      "page": "assets/page/105_math_p4.jpg",
+      "img": "assets/q/105_math_14.jpg",
+      "explanation": "A、B、C、D 都在圓上，所以 OA=OB=OC=OD（半徑）。△OAB 等腰，∠OBA=∠A=65°，得 ∠AOB=180°-130°=50°，即弧 AB=50°；△OCD 等腰且 ∠D=60°，是正三角形，∠COD=60°，即弧 CD=60°。所以弧 BC=150°-50°-60°=40°。"
     },
     {
       "id": "105_math_15",
@@ -252,7 +294,10 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": "複合圖形的面積計算"
+      "concept_tag": "複合圖形的面積計算",
+      "page": "assets/page/105_math_p5.jpg",
+      "img": "assets/q/105_math_15.jpg",
+      "explanation": "丙的兩股為 2，面積＝2×2÷2=2；設丁的股長為 t，面積＝t²/2。由圖，甲、乙的長等於丙的股長 2、寬等於丁的股長 t，面積和＝2×2t=4t。列式 4t=2+t²/2，即 t²-8t+4=0，解得 t=4±2√3；丁比丙小需 t<2，故 t=4-2√3。"
     },
     {
       "id": "105_math_16",
@@ -268,7 +313,10 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": "相似三角形與比例線段"
+      "concept_tag": "相似三角形與比例線段",
+      "page": "assets/page/105_math_p5.jpg",
+      "img": "assets/q/105_math_16.jpg",
+      "explanation": "AP:PD=AQ:QE=4:1，所以 PQ // DE，也就是 PQ 平行 CD，因此 R 也滿足 AR:RC=4:1，而且 Q、R 在同一條平行 CD 的直線上，q=r。又 QE=AE/5、RC=AC/5，因為 AE<AC，所以 QE<RC，選 (D)。"
     },
     {
       "id": "105_math_17",
@@ -284,7 +332,10 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": "因數與倍數"
+      "concept_tag": "因數與倍數",
+      "page": "assets/page/105_math_p5.jpg",
+      "img": "assets/q/105_math_17.jpg",
+      "explanation": "12 和 18 都是 a 的因數，所以 a 是 [12,18]=36 的倍數，介於 50 與 100 之間只有 a=72，而 72=8×9，8 是 a 的因數。若 8 也是 b 的因數，則 a、b 的公因數會同時含 8 與 12，最大公因數至少是 24，與 12 矛盾，所以 8 不是 b 的因數，選 (B)。"
     },
     {
       "id": "105_math_18",
@@ -300,7 +351,10 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": "立體圖形（展開圖、表面積、體積、三視圖）"
+      "concept_tag": "立體圖形（展開圖、表面積、體積、三視圖）",
+      "page": "assets/page/105_math_p6.jpg",
+      "img": "assets/q/105_math_18.jpg",
+      "explanation": "設鐵柱半徑 r，水桶半徑 2r。水的體積＝(水桶底面積－鐵柱底面積)×12=(4πr²-πr²)×12=36πr²。鐵柱拿走後底面積變成 4πr²，水高＝36πr²÷4πr²=9 公分。鐵柱高 30 公分比水面高，所以原本水中那段整段都佔據體積。"
     },
     {
       "id": "105_math_19",
@@ -316,7 +370,10 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": "不等式應用"
+      "concept_tag": "不等式應用",
+      "page": "assets/page/105_math_p6.jpg",
+      "img": "assets/q/105_math_19.jpg",
+      "explanation": "x 在 400～600 之間：甲方案通話費 x 超過月租 400，每月收 x 元，兩年共 15000+24x；乙方案通話費不超過月租 600，每月收 600 元，兩年共 13000+600×24=27400。要乙較便宜：27400<15000+24x，24x>12400，x>516.67，x 為整數，所以至少 517。"
     },
     {
       "id": "105_math_20",
@@ -332,7 +389,10 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": "畢氏定理"
+      "concept_tag": "畢氏定理",
+      "page": "assets/page/105_math_p6.jpg",
+      "img": "assets/q/105_math_20.jpg",
+      "explanation": "AF=AD=5，而 AB=CD=17/3，所以 BF=17/3-5=2/3。CE=CD=17/3、BC=AD=5，在直角 △EBC 中 BE=√[(17/3)²-5²]=√(64/9)=8/3。所以 EF=BE-BF=8/3-2/3=2。"
     },
     {
       "id": "105_math_21",
@@ -348,7 +408,10 @@
       },
       "answer": "D",
       "has_diagram": false,
-      "concept_tag": "二次函數圖形"
+      "concept_tag": "二次函數圖形",
+      "page": "assets/page/105_math_p7.jpg",
+      "img": "assets/q/105_math_21.jpg",
+      "explanation": "頂點 (2,-1) 在 x 軸下方，又與 x 軸有兩個交點，所以開口向上；對稱軸 x=2，PQ=6，兩交點為 x=2±3，即 -1 與 5。開口向上時，只有 x<-1 或 x>5 的部分函數值為正。x=1、3 在兩根之間，a、b 為負；x=-1 是交點，c=0；只有 x=-3 在外側，d 為正。"
     },
     {
       "id": "105_math_22",
@@ -364,7 +427,10 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": "三角形內心外心重心的性質與計算"
+      "concept_tag": "三角形內心外心重心的性質與計算",
+      "page": "assets/page/105_math_p7.jpg",
+      "img": "assets/q/105_math_22.jpg",
+      "explanation": "甲：E 是 AB 中點，ED=EC，△DEC 等腰，∠DEC 的角平分線就是 CD 的中垂線，必過圓心；它與 DE 的中垂線的交點就是圓心，甲正確。乙：∠PDC=90°，圓周角 90° 所對的弦 PC 是直徑；同理 ∠QCD=90°，QD 也是直徑，兩直徑交點為圓心，乙也正確，選 (A)。"
     },
     {
       "id": "105_math_23",
@@ -380,7 +446,10 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": "三角形內心外心重心的性質與計算"
+      "concept_tag": "三角形內心外心重心的性質與計算",
+      "page": "assets/page/105_math_p7.jpg",
+      "img": "assets/q/105_math_23.jpg",
+      "explanation": "正六邊形邊長 2，AC=CE=2√3，CF=4，且 ∠CAF=∠CEF=90°，所以 △ACF 與 △CEF 是全等的直角三角形，並以 CF 為對稱軸互相對稱。直角三角形內切圓半徑 r=(兩股和－斜邊)/2=(2+2√3-4)/2=√3-1。P、Q 分別在 CF 兩側、各距 CF 為 r，且 PQ⊥CF，所以 PQ=2r=2√3-2。"
     },
     {
       "id": "105_math_24",
@@ -396,7 +465,10 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": "線對稱與摺疊幾何"
+      "concept_tag": "線對稱與摺疊幾何",
+      "page": "assets/page/105_math_p8.jpg",
+      "img": "assets/q/105_math_24.jpg",
+      "explanation": "設 OP=8，由 OA:AP=1:3 得 OA=2；由 OB:BP=3:5 得 OB=3。以 B 為摺點，O 側距 B 為 1 的 A 點會和 BP 上距 B 為 1 的點（距 O 為 4）重疊。所以剪在距 O 為 2 與 4 處，三段長為 2、2、4，比為 1:1:2。"
     },
     {
       "id": "105_math_25",
@@ -412,7 +484,10 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": "線對稱與摺疊幾何"
+      "concept_tag": "線對稱與摺疊幾何",
+      "page": "assets/page/105_math_p8.jpg",
+      "img": "assets/q/105_math_25.jpg",
+      "explanation": "A、C 的對稱軸就是 AC 的中垂線，必過中點 N，只要找出它與 AD 的交點 X，使 XA=XC。設 XD=t，則 XA=32-t，XC²=t²+24²，列式 (32-t)²=t²+576，得 1024-64t=576，t=7。所以交點在距 D 為 7 的 F 點，答案是直線 FN。"
     },
     {
       "id": "106_math_1",
@@ -428,7 +503,10 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": "整數與分數的四則運算"
+      "concept_tag": "整數與分數的四則運算",
+      "page": "assets/page/106_math_p1.jpg",
+      "img": "assets/q/106_math_1.jpg",
+      "explanation": "先算絕對值：|−5|=5、|−3|=3。依先乘後減，(−2)×5−3=−10−3=−13，故選(C)。注意是先乘法再減法，不要算成(−2)×(5−3)。"
     },
     {
       "id": "106_math_2",
@@ -444,7 +522,10 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": "根式化簡與運算"
+      "concept_tag": "根式化簡與運算",
+      "page": "assets/page/106_math_p1.jpg",
+      "img": "assets/q/106_math_2.jpg",
+      "explanation": "√(2²)=√4=2，等式成立。其他選項：√(3³)=√27=3√3、√(4⁴)=√256=16、√(5⁵)=25√5，都不等於右邊。一般而言√(a²)=a（a≥0），只有指數為2時才會剛好等於底數。"
     },
     {
       "id": "106_math_3",
@@ -460,7 +541,10 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": "多項式運算與乘法公式"
+      "concept_tag": "多項式運算與乘法公式",
+      "page": "assets/page/106_math_p1.jpg",
+      "img": "assets/q/106_math_3.jpg",
+      "explanation": "用分配律展開：6x·3−6x·2x=18x−12x²，即−12x²+18x，故選(A)。常見錯誤是把6x只乘到3而漏乘−2x，或把x·x當成2x。"
     },
     {
       "id": "106_math_4",
@@ -476,7 +560,10 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": "線對稱與摺疊幾何"
+      "concept_tag": "線對稱與摺疊幾何",
+      "page": "assets/page/106_math_p1.jpg",
+      "img": "assets/q/106_math_4.jpg",
+      "explanation": "正六邊形的對稱軸有6條（過相對頂點或相對邊中點）。(A)AC與DF可沿AF、CD中點連線對摺重合；(B)AC與BE可沿直線BE對摺（A、C互換）；(C)AC與CE可沿直線CF對摺（A、E互換）。(D)AC與AD只有AD這條軸可能，但對摺後AC會變成AE，圖中沒有，故(D)不是線對稱圖形。"
     },
     {
       "id": "106_math_5",
@@ -492,7 +579,10 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": "二元一次聯立方程式"
+      "concept_tag": "二元一次聯立方程式",
+      "page": "assets/page/106_math_p2.jpg",
+      "img": "assets/q/106_math_5.jpg",
+      "explanation": "交點(2,a)同時在兩直線上。代入2x+3y=7：4+3a=7，得a=1；再代入3x−2y=b：b=3×2−2×1=4。所以a+b=1+4=5，故選(C)。"
     },
     {
       "id": "106_math_6",
@@ -508,7 +598,10 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": "機率"
+      "concept_tag": "機率",
+      "page": "assets/page/106_math_p2.jpg",
+      "img": "assets/q/106_math_6.jpg",
+      "explanation": "兩人各有5種上車方式，共5×5=25種等可能情形。兩人在同一節車廂的情形有5種（同在第1節、第2節…第5節），機率為5/25=1/5，故選(B)。誤選1/25是只算了「同在某一特定車廂」。"
     },
     {
       "id": "106_math_7",
@@ -524,7 +617,10 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": "圓與切線"
+      "concept_tag": "圓與切線",
+      "page": "assets/page/106_math_p2.jpg",
+      "img": "assets/q/106_math_7.jpg",
+      "explanation": "兩圓半徑和為2+2=4。圓A與圓C：圓心距AC=5>4，故外離；圓B與圓C：圓心距BC=4=4，故外切。所以選(C)。"
     },
     {
       "id": "106_math_8",
@@ -540,7 +636,10 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": "因數與倍數"
+      "concept_tag": "因數與倍數",
+      "page": "assets/page/106_math_p2.jpg",
+      "img": "assets/q/106_math_8.jpg",
+      "explanation": "252=2²×3²×7，42=2×3×7。取共同質因數的最小次方：(A)與252的最大公因數為2×3×7=42；(B)為2×3²×7=126；(C)為2²×3×7=84；(D)為2²×3²×7=252。故選(A)。"
     },
     {
       "id": "106_math_9",
@@ -556,7 +655,10 @@
       },
       "answer": "D",
       "has_diagram": false,
-      "concept_tag": "一元一次方程式應用"
+      "concept_tag": "一元一次方程式應用",
+      "page": "assets/page/106_math_p3.jpg",
+      "img": "assets/q/106_math_9.jpg",
+      "explanation": "全隊11人總身高為11×178=1958公分；一、二年級8人總身高為(172+174+176+178)×2=1400公分。三年級3人總身高為1958−1400=558公分，平均558÷3=186公分，故選(D)。"
     },
     {
       "id": "106_math_10",
@@ -572,7 +674,10 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": "情境應用題（生活數學、表格判讀）"
+      "concept_tag": "情境應用題（生活數學、表格判讀）",
+      "page": "assets/page/106_math_p3.jpg",
+      "img": "assets/q/106_math_10.jpg",
+      "explanation": "要買得多就要讓總額超過190元以享八折，此時每根實付9×0.8=7.2元。7.2n≤200，得n≤27.7，最多27根；檢查27×9=243>190確實有打折，實付194.4元≤200元。若買28根需252×0.8=201.6元，超過200元，故選(C)。誤選22根是沒考慮打折。"
     },
     {
       "id": "106_math_11",
@@ -588,7 +693,10 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": "相似三角形與比例線段"
+      "concept_tag": "相似三角形與比例線段",
+      "page": "assets/page/106_math_p3.jpg",
+      "img": "assets/q/106_math_11.jpg",
+      "explanation": "設△ABC面積為S。因AD:DB=2:3（同高），△ADC=2/5 S，△DBC=3/5 S。又CE:EB=2:3，△DBE=3/5×△DBC=9/25 S。所以△DBE:△ADC=9/25:2/5=9:10，故選(C)。"
     },
     {
       "id": "106_math_12",
@@ -604,7 +712,10 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": "一元二次方程式"
+      "concept_tag": "一元二次方程式",
+      "page": "assets/page/106_math_p3.jpg",
+      "img": "assets/q/106_math_12.jpg",
+      "explanation": "配方法：x²−8x=48，兩邊同加(8÷2)²=16，得x²−8x+16=48+16，即(x−4)²=48+16。所以a=4、b=16，a+b=20，故選(A)。注意(x−a)中a取正的4，不是−4。"
     },
     {
       "id": "106_math_13",
@@ -620,7 +731,10 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": "圖形的旋轉與平移"
+      "concept_tag": "圖形的旋轉與平移",
+      "page": "assets/page/106_math_p4.jpg",
+      "img": "assets/q/106_math_13.jpg",
+      "explanation": "旋轉前BC=(0,1)方向朝上，旋轉後C'(3,0)使BC'=(1,0)朝右，可知是繞B順時針旋轉90°。旋轉前B到D的位移是(−2,+1)（向左2、向上1），順時針轉90°後變成(+1,+2)（向右1、向上2）。所以D'=(2+1,0+2)=(3,2)，故選(D)。"
     },
     {
       "id": "106_math_14",
@@ -636,7 +750,10 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": "三角形角度計算"
+      "concept_tag": "三角形角度計算",
+      "page": "assets/page/106_math_p4.jpg",
+      "img": "assets/q/106_math_14.jpg",
+      "explanation": "以L5為截線：L2與L5交角左上方為88°，其對頂角（右下方）也是88°；L3與L5交角右下方為88°，同位角相等，所以L2∥L3。以L4為截線：L1與L4交角右下方為92°，而L3與L4交角左下方為92°，推得L3右下方為180°−92°=88°，同位角92°≠88°，所以L1與L3不平行，故選(C)。"
     },
     {
       "id": "106_math_15",
@@ -652,7 +769,10 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": "比與比例應用"
+      "concept_tag": "比與比例應用",
+      "page": "assets/page/106_math_p4.jpg",
+      "img": "assets/q/106_math_15.jpg",
+      "explanation": "15粒蝦仁＝20粒韭菜，所以蝦仁與韭菜單價比為4:3。設總錢為60單位，則蝦仁每粒4單位、韭菜每粒3單位。買9粒蝦仁花36單位，剩24單位，可買24÷3=8粒韭菜水餃，故選(B)。"
     },
     {
       "id": "106_math_16",
@@ -668,7 +788,10 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": "線對稱與摺疊幾何"
+      "concept_tag": "線對稱與摺疊幾何",
+      "page": "assets/page/106_math_p5.jpg",
+      "img": "assets/q/106_math_16.jpg",
+      "explanation": "摺疊不改變角度，所以圖（五）中∠BAE仍為124°。A點落在CD上，C、A、D共線，得∠BAC+∠EAD=180°−124°=56°。圖（六）將C、D分別沿AB、AE往上摺，∠BAC、∠EAD翻進∠BAE內部，所以∠CAD=124°−56°=68°，故選(D)。"
     },
     {
       "id": "106_math_17",
@@ -684,7 +807,10 @@
       },
       "answer": "D",
       "has_diagram": false,
-      "concept_tag": "因數與倍數"
+      "concept_tag": "因數與倍數",
+      "page": "assets/page/106_math_p5.jpg",
+      "img": "assets/q/106_math_17.jpg",
+      "explanation": "設兩質數為a、a+2，則ab+1=a(a+2)+1=a²+2a+1=(a+1)²，所以ab+1是「夾在兩質數中間那個數」的平方。檢查選項：39夾38、40（非質數）；40夾39=3×13、41；41夾40、42（偶數）；42夾41、43皆為質數。故ab+1=41×43+1=42²，選(D)。"
     },
     {
       "id": "106_math_18",
@@ -700,7 +826,10 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": "三角形內心外心重心的性質與計算"
+      "concept_tag": "三角形內心外心重心的性質與計算",
+      "page": "assets/page/106_math_p5.jpg",
+      "img": "assets/q/106_math_18.jpg",
+      "explanation": "O是△ABC的外心，所以OA=OB=OC；OCDE是正方形，所以OE=OC。因此OA=OB=OE，O到A、E、B等距，O是△AEB的外心。但OD是正方形的對角線，OD=√2·OC≠OA，所以O不是△AED的外心，故選(B)。"
     },
     {
       "id": "106_math_19",
@@ -716,7 +845,10 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": "四邊形與多邊形性質"
+      "concept_tag": "四邊形與多邊形性質",
+      "page": "assets/page/106_math_p6.jpg",
+      "img": "assets/q/106_math_19.jpg",
+      "explanation": "兩直線互相垂直，交點處四個角都是90°，把四邊形分成四個小四邊形，各自內角和360°。含C的區域：∠C=90°、交點90°，∠1的補角＋∠2=180°，得∠1=∠2。含D的區域：85°+90°+∠3+(180°−∠2)=360°，得∠3=∠2+5°。所以∠3>∠1=∠2，故選(D)。"
     },
     {
       "id": "106_math_20",
@@ -732,7 +864,10 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": "科學記號與指數律"
+      "concept_tag": "科學記號與指數律",
+      "page": "assets/page/106_math_p6.jpg",
+      "img": "assets/q/106_math_20.jpg",
+      "explanation": "在圖上量長度：OB的長度約為OA的20倍（OA很短，OB幾乎橫跨整條數線）。OA代表10⁶，所以B約為20×10⁶=2×10⁷，故選(C)。誤選(A)、(B)是只看成2倍、4倍；(D)則大了約20倍。"
     },
     {
       "id": "106_math_21",
@@ -748,7 +883,10 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": "畢氏定理"
+      "concept_tag": "畢氏定理",
+      "page": "assets/page/106_math_p6.jpg",
+      "img": "assets/q/106_math_21.jpg",
+      "explanation": "30°-60°-90°三角形邊長比為1:√3:2。△ABC中AC=1、∠B=30°，得AB=√3；同理△ADE中AE=1，得AD=√3。所以BE=√3−1、CD=√3−1。△BEF中∠B=30°、∠BEF=180°−∠AED=180°−60°=120°，得∠BFE=30°，是等腰三角形，EF=BE=√3−1；同理FC=CD=√3−1。周長=1+1+2(√3−1)=2√3，故選(B)。"
     },
     {
       "id": "106_math_22",
@@ -764,7 +902,10 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": "二次函數圖形"
+      "concept_tag": "二次函數圖形",
+      "page": "assets/page/106_math_p7.jpg",
+      "img": "assets/q/106_math_22.jpg",
+      "explanation": "二次函數y=a(x−p)(x−q)的對稱軸是兩根的中點x=(p+q)/2。第一個圖形對稱軸為x=(−1+7)/2=3，第二個為x=(−1+15)/2=7。要讓x=7移到x=3，需將第二個圖形向左平移4單位，故選(A)。"
     },
     {
       "id": "106_math_23",
@@ -780,7 +921,11 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": "一元一次方程式應用"
+      "concept_tag": "一元一次方程式應用",
+      "page": "assets/page/106_math_p7.jpg",
+      "img": "assets/q/106_math_23.jpg",
+      "explanation": "兩人各付了1000元。小薰說她比阿輝多買6杯、要還阿輝120元，表示小薰應付1000+120=1120元，阿輝應付1000−120=880元。兩人相差240元＝6杯，每杯40元，所以阿輝買了880÷40=22杯，故選(A)。常見錯誤是把「還你120元」當成6杯的差價（差價其實是120×2=240元）。",
+      "text_issue": "第三格對話的說話者是小薰（對阿輝說「阿輝，我買的飲料比你買的多6杯，還你120元」），JSON誤寫成「阿輝說」，會讓人誤判誰買得多。"
     },
     {
       "id": "106_math_24",
@@ -796,7 +941,11 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": "立體圖形（展開圖、表面積、體積、三視圖）"
+      "concept_tag": "立體圖形（展開圖、表面積、體積、三視圖）",
+      "page": "assets/page/106_math_p7.jpg",
+      "img": "assets/q/106_math_24.jpg",
+      "explanation": "由圖可知箱子全長130+70=200公分，隔板是斜放的：後側把長度分成130與70，前側右邊為90、左邊為200−90=110。設箱子寬度為d，底面被分成兩個梯形：左側面積(110+130)÷2×d=120d，右側(90+70)÷2×d=80d。水量=120d×40+80d×50=8800d，抽出隔板後水高=8800d÷200d=44公分，故選(B)。",
+      "text_issue": "題目關鍵在圖中隔板為斜放（前側左右為110/90、後側為130/70），JSON只列出數字未說明，純看文字無法作答。"
     },
     {
       "id": "106_math_25",
@@ -812,7 +961,10 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": "科學記號與指數律"
+      "concept_tag": "科學記號與指數律",
+      "page": "assets/page/106_math_p8.jpg",
+      "img": "assets/q/106_math_25.jpg",
+      "explanation": "依序計算：100→√得10→1/x得0.1→x²得0.01→√得0.1→1/x得10→x²得100，每按6下回到100，形成循環。100÷6=16餘4，所以第100下的結果與第4下相同，為0.1，故選(B)。"
     },
     {
       "id": "106_math_26",
@@ -828,7 +980,10 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": "相似三角形與比例線段"
+      "concept_tag": "相似三角形與比例線段",
+      "page": "assets/page/106_math_p8.jpg",
+      "img": "assets/q/106_math_26.jpg",
+      "explanation": "正方形ABCD邊長4、BPQR邊長5。直角△ABR中AB=4、BR=5，得AR=3，所以RD=4−3=1。因∠BRS=90°，∠DRS=∠ABR，故△DRS∼△ABR，DS:DR=AR:AB=3:4，DS=3/4。四邊形RBCS面積=16−△ABR−△RDS=16−(4×3÷2)−(1×3/4÷2)=16−6−3/8=77/8，故選(D)。"
     },
     {
       "id": "107_math_1",
@@ -844,7 +999,10 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": "線對稱與摺疊幾何"
+      "concept_tag": "線對稱與摺疊幾何",
+      "page": "assets/page/107_math_p1.jpg",
+      "img": "assets/q/107_math_1.jpg",
+      "explanation": "線對稱圖形是指能找到一條直線，沿著這條線對摺後左右兩半完全重合。(D) 的圖形左右兩個弧形互為鏡像、中間橫線被垂直中線平分，沿中間的鉛直線對摺即可重合。(A) 的兩條波浪線、(B) 的「69」形狀、(C) 的草寫字形都找不到任何一條對稱軸（(B) 只是旋轉 180° 後相同，屬於點對稱，不是線對稱）。"
     },
     {
       "id": "107_math_2",
@@ -860,7 +1018,10 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": "整數與分數的四則運算"
+      "concept_tag": "整數與分數的四則運算",
+      "page": "assets/page/107_math_p1.jpg",
+      "img": "assets/q/107_math_2.jpg",
+      "explanation": "減法沒有結合律，但「連續減」由左往右算，所以 c = 3/14 − 2/15 − 1/16 = (3/14 − 2/15) − 1/16 = a。而 b = 3/14 − (2/15 − 1/16) = 3/14 − 2/15 + 1/16，括號前是減號，去括號後 1/16 要變號成加，所以 b 比 c 多了 2×(1/16)，b ≠ c。故 a = c，b ≠ c。"
     },
     {
       "id": "107_math_3",
@@ -876,7 +1037,10 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": "一次函數與坐標平面"
+      "concept_tag": "一次函數與坐標平面",
+      "page": "assets/page/107_math_p1.jpg",
+      "img": "assets/q/107_math_3.jpg",
+      "explanation": "把點 (0, −4) 代入 y = 3x + a：−4 = 3×0 + a，得 a = −4。也可以直接看出 (0, −4) 在 y 軸上，代表 y 截距就是 −4，而 y = 3x + a 的 y 截距正是 a。"
     },
     {
       "id": "107_math_4",
@@ -892,7 +1056,10 @@
       },
       "answer": "D",
       "has_diagram": false,
-      "concept_tag": "因數與倍數"
+      "concept_tag": "因數與倍數",
+      "page": "assets/page/107_math_p1.jpg",
+      "img": "assets/q/107_math_4.jpg",
+      "explanation": "每本售價相同，小錦花 36 元，所以售價必須是 36 的因數，且超過 10 元，只可能是 12、18 或 36 元。小勳的花費必須是售價的整數倍：48 = 12×4 符合；16、27、30 都不是 12、18、36 任何一個的倍數。所以答案是 48 元。"
     },
     {
       "id": "107_math_5",
@@ -908,7 +1075,10 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": "二元一次聯立方程式"
+      "concept_tag": "二元一次聯立方程式",
+      "page": "assets/page/107_math_p2.jpg",
+      "img": "assets/q/107_math_5.jpg",
+      "explanation": "由第二式得 y = 3x − 8，代入第一式：7x − 3(3x − 8) = 8 → 7x − 9x + 24 = 8 → −2x = −16，x = 8。再代回 y = 3×8 − 8 = 16。所以 a + b = 8 + 16 = 24。"
     },
     {
       "id": "107_math_6",
@@ -924,7 +1094,10 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": "機率"
+      "concept_tag": "機率",
+      "page": "assets/page/107_math_p2.jpg",
+      "img": "assets/q/107_math_6.jpg",
+      "explanation": "阿馮從甲袋抽：紅球機率 2/5、黃球機率 2/5；小潘從乙袋抽：紅球機率 4/10 = 2/5、黃球機率 2/10 = 1/5。紅球兩人機率相等，所以 (A)(B) 都錯；黃球 2/5 > 1/5，阿馮抽出黃球的機率比較大，選 (C)。注意不能只比顆數（兩袋黃球都是 2 顆），要除以各袋總數。"
     },
     {
       "id": "107_math_7",
@@ -940,7 +1113,10 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": "根式化簡與運算"
+      "concept_tag": "根式化簡與運算",
+      "page": "assets/page/107_math_p2.jpg",
+      "img": "assets/q/107_math_7.jpg",
+      "explanation": "用分配律展開：√6 × (1/√3) − √6 × 1 = √6/√3 − √6 = √(6÷3) − √6 = √2 − √6。容易誤選 (B)，是把後面的 √6×1 誤算成 1。"
     },
     {
       "id": "107_math_8",
@@ -956,7 +1132,10 @@
       },
       "answer": "D",
       "has_diagram": false,
-      "concept_tag": "一元二次方程式"
+      "concept_tag": "一元二次方程式",
+      "page": "assets/page/107_math_p2.jpg",
+      "img": "assets/q/107_math_8.jpg",
+      "explanation": "x² − 8x − 33 = 0 可以十字交乘：(x − 11)(x + 3) = 0，兩根為 11 與 −3。因為 a > b，所以 a = 11、b = −3，a − 2b = 11 − 2×(−3) = 11 + 6 = 17。常見錯誤是把 a、b 對調或漏掉負號。"
     },
     {
       "id": "107_math_9",
@@ -972,7 +1151,10 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": "扇形面積與弧長"
+      "concept_tag": "扇形面積與弧長",
+      "page": "assets/page/107_math_p3.jpg",
+      "img": "assets/q/107_math_9.jpg",
+      "explanation": "∠C = 180° − 60° − 100° = 20°。D 是 BC 中點，半徑 DB = DC = DE = 2，所以 △DEC 是等腰三角形，∠DEC = ∠C = 20°，得 ∠EDC = 140°，扇形圓心角 ∠BDE = 180° − 140° = 40°。扇形面積 = 2² × π × 40/360 = 4π/9。"
     },
     {
       "id": "107_math_10",
@@ -988,7 +1170,10 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": "情境應用題（生活數學、表格判讀）"
+      "concept_tag": "情境應用題（生活數學、表格判讀）",
+      "page": "assets/page/107_math_p3.jpg",
+      "img": "assets/q/107_math_10.jpg",
+      "explanation": "第一天賣 10 台都屬於「前 20 台」，每台 61000 ÷ 10 = 6100 元，這是特價再折 800 元後的價格，所以特價 = 6100 + 800 = 6900 元。總共 50 台：前 20 台 20×6100 = 122000 元，後 30 台 30×6900 = 207000 元，合計 329000 元。注意原價 7800 元已被劃掉，不能拿來算。"
     },
     {
       "id": "107_math_11",
@@ -1004,7 +1189,10 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": "四邊形與多邊形性質"
+      "concept_tag": "四邊形與多邊形性質",
+      "page": "assets/page/107_math_p3.jpg",
+      "img": "assets/q/107_math_11.jpg",
+      "explanation": "△ACD 是正三角形，所以 AC = AD，且 ∠CAD = 60°。又 AB = DE、BC = EA，由 SSS 得 △ABC ≅ △DEA，所以 ∠BAC = ∠EDA。∠BAE = ∠BAC + ∠CAD + ∠DAE = (∠EDA + ∠DAE) + 60° = (180° − 115°) + 60° = 125°。"
     },
     {
       "id": "107_math_12",
@@ -1020,7 +1208,10 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": "絕對值與數線"
+      "concept_tag": "絕對值與數線",
+      "page": "assets/page/107_math_p4.jpg",
+      "img": "assets/q/107_math_12.jpg",
+      "explanation": "由圖知 A 在 C 的左邊且 AC = 1，所以 A 表示的數是 x − 1。O 是原點且 OA = OB，B 在原點另一側，所以 B 是 A 的相反數：−(x − 1)。容易誤選 (A)，是把 A 誤當成 x + 1（A 在 C 左邊，要減 1）。"
     },
     {
       "id": "107_math_13",
@@ -1036,7 +1227,10 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": "不等式應用"
+      "concept_tag": "不等式應用",
+      "page": "assets/page/107_math_p4.jpg",
+      "img": "assets/q/107_math_13.jpg",
+      "explanation": "設印 n 張，成本 = 1000 + 5n，收入 = 15n，利潤 = 15n − (1000 + 5n) = 10n − 1000。要求利潤 > 成本的 2 成：10n − 1000 > 0.2(1000 + 5n) = 200 + n，整理得 9n > 1200，n > 133.3…，所以至少印 134 張。"
     },
     {
       "id": "107_math_14",
@@ -1052,7 +1246,10 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": "三角形內心外心重心的性質與計算"
+      "concept_tag": "三角形內心外心重心的性質與計算",
+      "page": "assets/page/107_math_p4.jpg",
+      "img": "assets/q/107_math_14.jpg",
+      "explanation": "內心是三個內角平分線的交點，∠A = 180° − 44° − 56° = 80°。內心性質：∠AIC = 90° + ∠B/2 = 90° + 22° = 112°；在直角 △IDC 中，∠ICD = 28°，所以 ∠CID = 90° − 28° = 62°。∠AID = ∠AIC + ∠CID = 112° + 62° = 174°。"
     },
     {
       "id": "107_math_15",
@@ -1068,7 +1265,10 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": "立體圖形（展開圖、表面積、體積、三視圖）"
+      "concept_tag": "立體圖形（展開圖、表面積、體積、三視圖）",
+      "page": "assets/page/107_math_p5.jpg",
+      "img": "assets/q/107_math_15.jpg",
+      "explanation": "底面直角三角形中，5 與 12 兩股的夾角是直角，5 與 13 相交於另一頂點。展開圖中三個矩形寬依序 12、5、13，兩個三角形的 5 那一邊必須從對應的接縫出發：接在 12 邊上的三角形，直角要在 12 與 5 的接縫處；接在 13 邊上的三角形，5 邊要從 5 與 13 的接縫處出發。(D) 兩個三角形都符合。(A) 下方三角形把 12 當成斜邊（直角不在邊上）；(B)(C) 接在 13 邊上的三角形，5 邊放在 13 的最右端（那是 13 與 12 的交點），都不對。"
     },
     {
       "id": "107_math_16",
@@ -1084,7 +1284,10 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": "等差數列"
+      "concept_tag": "等差數列",
+      "page": "assets/page/107_math_p5.jpg",
+      "img": "assets/q/107_math_16.jpg",
+      "explanation": "設公差 d，四數為 7、7+d、7+2d、7+3d，最大數 7 + 3d ≤ 50，所以 d ≤ 14（d 為正整數）。某數要出現，(該數 − 7) 必須等於 d、2d 或 3d。20 − 7 = 13 = d ✓；25 − 7 = 18 = 2×9 ✓；35 − 7 = 28 = 2×14 ✓；30 − 7 = 23 是質數，只能 d = 23 > 14，不可能。故選 30。"
     },
     {
       "id": "107_math_17",
@@ -1100,7 +1303,10 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": "科學記號與指數律"
+      "concept_tag": "科學記號與指數律",
+      "page": "assets/page/107_math_p5.jpg",
+      "img": "assets/q/107_math_17.jpg",
+      "explanation": "a = 3.1×10⁻⁴ = 0.00031，b = 5.2×10⁻⁸ = 0.000000052，b 比 a 小得多。所以 a − b 是正數，而且比 a 還小，一定介於 0 與 1 之間。常見錯誤是看到 5.2 > 3.1 就以為 b > a，其實要先比 10 的次方：10⁻⁴ 遠大於 10⁻⁸。"
     },
     {
       "id": "107_math_18",
@@ -1116,7 +1322,10 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": "三角形內心外心重心的性質與計算"
+      "concept_tag": "三角形內心外心重心的性質與計算",
+      "page": "assets/page/107_math_p6.jpg",
+      "img": "assets/q/107_math_18.jpg",
+      "explanation": "甲：AP = AC，△APC 是等腰三角形，∠APC = (180° − ∠A)/2，所以 ∠BPC = 180° − ∠APC = 90° + ∠A/2，一般不等於 180° − ∠A（只有 ∠A = 60° 時才剛好成立），甲錯。乙：四邊形 ABPC 中 ∠ABP = ∠ACP = 90°，內角和 360°，所以 ∠BPC = 360° − 90° − 90° − ∠A = 180° − ∠A，與 ∠A 互補，乙正確。"
     },
     {
       "id": "107_math_19",
@@ -1132,7 +1341,10 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": "統計圖表判讀"
+      "concept_tag": "統計圖表判讀",
+      "page": "assets/page/107_math_p6.jpg",
+      "img": "assets/q/107_math_19.jpg",
+      "explanation": "盒狀圖中盒子內的線是中位數：甲班約 82 分、乙班約 62 分，所以 a > b。甲班中位數超過 80，表示超過 80 分的人超過全班一半；乙班盒子右端（第三四分位數）不到 80 分，超過 80 分的人不到全班 1/4。兩班人數相同，所以 c > d。"
     },
     {
       "id": "107_math_20",
@@ -1148,7 +1360,10 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": "線對稱與摺疊幾何"
+      "concept_tag": "線對稱與摺疊幾何",
+      "page": "assets/page/107_math_p6.jpg",
+      "img": "assets/q/107_math_20.jpg",
+      "explanation": "直角 △ABE 中 ∠BEA = 60°，AE = AB ÷ √3 = 6√3 ÷ √3 = 6，∠ABE = 30°。摺過去後 BA 與 BE 夾角仍是 30°，所以摺後的 BA 與 BC 夾角 = 90° − 30° − 30° = 30°。摺後 A 點到 AB 邊（左邊）的水平距離 = 6√3 × cos30° = 6√3 × (√3/2) = 9，所以 AF = BC − 9 = 13 − 9 = 4。"
     },
     {
       "id": "107_math_21",
@@ -1164,7 +1379,10 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": "二次函數圖形"
+      "concept_tag": "二次函數圖形",
+      "page": "assets/page/107_math_p7.jpg",
+      "img": "assets/q/107_math_21.jpg",
+      "explanation": "L 是 y = −2。兩個拋物線都對稱於 y 軸，AB = 2 表示交點是 x = ±1，CD = 4 表示交點是 x = ±2。把 (1, −2) 代入 y = 3x² + a：−2 = 3 + a，a = −5；把 (2, −2) 代入 y = −2x² + b：−2 = −8 + b，b = 6。所以 a + b = 1。"
     },
     {
       "id": "107_math_22",
@@ -1180,7 +1398,10 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": "圓與切線"
+      "concept_tag": "圓與切線",
+      "page": "assets/page/107_math_p7.jpg",
+      "img": "assets/q/107_math_22.jpg",
+      "explanation": "由弦切角性質，∠PAC 與 ∠PBD 都等於各自的弦與公切線 L 的夾角，而這兩個夾角是對頂角，所以 ∠PAC = ∠PBD，(A)(B) 都錯。又 ∠APC = ∠BPD（對頂角），得 △PAC ~ △PBD（A 對 B、C 對 D），PB : PD = PA : PC = 10 : 9，所以 PB > PD。三角形中大邊對大角：PB 對 ∠PDB、PD 對 ∠PBD，故 ∠PBD < ∠PDB。"
     },
     {
       "id": "107_math_23",
@@ -1196,7 +1417,10 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": "比與比例應用"
+      "concept_tag": "比與比例應用",
+      "page": "assets/page/107_math_p7.jpg",
+      "img": "assets/q/107_math_23.jpg",
+      "explanation": "柳丁沒用，數量不變，所以把兩個比的柳丁項化成相同：9 : 7 : 6 = 18 : 14 : 12，6 : 3 : 4 = 18 : 9 : 12。比較前後：蘋果 18 → 18 沒變，芭樂 14 → 9 減少了。所以小柔只使用了芭樂。"
     },
     {
       "id": "107_math_24",
@@ -1212,7 +1436,10 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": "相似三角形與比例線段"
+      "concept_tag": "相似三角形與比例線段",
+      "page": "assets/page/107_math_p8.jpg",
+      "img": "assets/q/107_math_24.jpg",
+      "explanation": "設 BG = 4、GH = 6、HC = 5。DF // BG 且 DB // FG，所以 DBGF 是平行四邊形，DF = BG = 4；同理 FHCE 是平行四邊形，FE = HC = 5，所以 DE = 9。△ADE 與 △FGH 的三邊分別平行於 △ABC 的三邊，兩者都與 △ABC 相似，因此彼此相似，對應邊比 DE : GH = 9 : 6 = 3 : 2，面積比 = 3² : 2² = 9 : 4。"
     },
     {
       "id": "107_math_25",
@@ -1228,7 +1455,10 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": "二元一次聯立方程式"
+      "concept_tag": "二元一次聯立方程式",
+      "page": "assets/page/107_math_p8.jpg",
+      "img": "assets/q/107_math_25.jpg",
+      "explanation": "設方形每盒 x 元、圓形每盒 y 元，身上有 M 元：3x + 7y = M + 240，7x + 3y = M − 240。兩式相減得 4y − 4x = 480，y = x + 120；兩式相加得 10x + 10y = 2M，M = 5x + 5y = 10x + 600。買 10 盒方形花 10x 元，剩下 M − 10x = 600 元。"
     },
     {
       "id": "107_math_26",
@@ -1244,7 +1474,10 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": "畢氏定理"
+      "concept_tag": "畢氏定理",
+      "page": "assets/page/107_math_p8.jpg",
+      "img": "assets/q/107_math_26.jpg",
+      "explanation": "AB 是圓 P 的弦，過圓心 P 且垂直 AB 的直線 L 就是 AB 的中垂線，所以 L 上的 C 點到 A、B 等距：CA = CB = 4 − (−5) = 9。由畢氏定理 CA² = a² + 5² = 81，得 a² = 56，a = −√56 = −2√14（a < 0）。"
     },
     {
       "id": "108_math_1",
@@ -1260,7 +1493,10 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": "整數與分數的四則運算"
+      "concept_tag": "整數與分數的四則運算",
+      "page": "assets/page/108_math_p1.jpg",
+      "img": "assets/q/108_math_1.jpg",
+      "explanation": "減去負數等於加上正數：-5/3 - (-1/6) = -5/3 + 1/6。通分成分母 6：-10/6 + 1/6 = -9/6 = -3/2，故選(A)。常見錯誤是把 -(-1/6) 當成 -1/6，算成 -11/6 而誤選(C)。"
     },
     {
       "id": "108_math_2",
@@ -1276,7 +1512,10 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": "統計圖表判讀"
+      "concept_tag": "統計圖表判讀",
+      "page": "assets/page/108_math_p1.jpg",
+      "img": "assets/q/108_math_2.jpg",
+      "explanation": "把每年南、北兩區人數相加：105 年約 1200 + 1000 = 2200 人；106 年約 2400 + 2000 = 4400 人；107 年約 2000 + 3200 = 5200 人。總人口 2200 → 4400 → 5200，逐年增加，選(A)。只看南區（106 年高、107 年降）會誤選(C)，題目問的是兩區合計。"
     },
     {
       "id": "108_math_3",
@@ -1292,7 +1531,10 @@
       },
       "answer": "D",
       "has_diagram": false,
-      "concept_tag": "多項式運算與乘法公式"
+      "concept_tag": "多項式運算與乘法公式",
+      "page": "assets/page/108_math_p1.jpg",
+      "img": "assets/q/108_math_3.jpg",
+      "explanation": "用分配律展開：(2x-3)(3x+4) = 6x² + 8x - 9x - 12 = 6x² - x - 12，選(D)。(C) 漏掉了中間的交叉項 8x - 9x = -x。"
     },
     {
       "id": "108_math_4",
@@ -1308,7 +1550,10 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": "立體圖形（展開圖、表面積、體積、三視圖）"
+      "concept_tag": "立體圖形（展開圖、表面積、體積、三視圖）",
+      "page": "assets/page/108_math_p2.jpg",
+      "img": "assets/q/108_math_4.jpg",
+      "explanation": "圖(三)的直角柱底面是邊長變 2 倍的正三角形，由 4 個小正三角形組成，面積為 4a，上下兩個底面共 8a。側面三個矩形的長不變、寬變 2 倍，每個面積為 2b，三個共 6b。表面積 = 8a + 6b，選(C)。注意堆疊時內部互相貼合的面不算表面積，所以不是 4 倍的 (2a+3b)。"
     },
     {
       "id": "108_math_5",
@@ -1324,7 +1569,10 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": "根式化簡與運算"
+      "concept_tag": "根式化簡與運算",
+      "page": "assets/page/108_math_p2.jpg",
+      "img": "assets/q/108_math_5.jpg",
+      "explanation": "√44 = √(4×11) = 2√11，所以 a = 11；√54 = √(9×6) = 3√6，所以 b = 6。a + b = 11 + 6 = 17，選(B)。"
     },
     {
       "id": "108_math_6",
@@ -1340,7 +1588,10 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": "科學記號與指數律"
+      "concept_tag": "科學記號與指數律",
+      "page": "assets/page/108_math_p2.jpg",
+      "img": "assets/q/108_math_6.jpg",
+      "explanation": "430 萬 = 430 × 10⁴ = 4.3 × 10⁶，所以 430 萬瓩 = 4.3 × 10⁶ 瓩。1 瓩 = 1 千瓦 = 10³ 瓦，因此 4.3 × 10⁶ × 10³ = 4.3 × 10⁹ 瓦，選(C)。漏乘 10³ 會誤選 10⁶ 附近的答案，要記得單位換算。"
     },
     {
       "id": "108_math_7",
@@ -1356,7 +1607,10 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": "一次函數與坐標平面"
+      "concept_tag": "一次函數與坐標平面",
+      "page": "assets/page/108_math_p2.jpg",
+      "img": "assets/q/108_math_7.jpg",
+      "explanation": "與 y 軸垂直的直線是水平線，通過 (-3,4) 就表示直線上每一點的 y 坐標都是 4，即 L：y = 4。由圖(四)看，D 點在 y 軸上 y = 4 的位置，所以 L 通過 D，選(D)。容易把「與 y 軸垂直」誤當成「與 y 軸平行」（x = -3 的鉛直線）。"
     },
     {
       "id": "108_math_8",
@@ -1372,7 +1626,10 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": "因式分解"
+      "concept_tag": "因式分解",
+      "page": "assets/page/108_math_p3.jpg",
+      "img": "assets/q/108_math_8.jpg",
+      "explanation": "用十字交乘：5x² + 17x - 12 = (x + 4)(5x - 3)，檢查中間項 -3x + 20x = 17x 正確。對照 (x+a)(bx+c) 得 a = 4、b = 5、c = -3，所以 a + c = 4 + (-3) = 1，選(A)。"
     },
     {
       "id": "108_math_9",
@@ -1388,7 +1645,10 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": "等差數列"
+      "concept_tag": "等差數列",
+      "page": "assets/page/108_math_p3.jpg",
+      "img": "assets/q/108_math_9.jpg",
+      "explanation": "正方形轉 45° 連成一排，白色三角形分成三類：上排是相鄰兩正方形之間的空隙 39 個，加上左右兩端角落各 1 個，共 41 個；下排同理也是 41 個；左右兩端邊上各還有 1 個直立的三角形，共 2 個。總數 = 41 + 41 + 2 = 84，選(A)。也可以看成兩端各 3 個、中間 39 個空隙上下各 1 個：3×2 + 39×2 = 84。"
     },
     {
       "id": "108_math_10",
@@ -1404,7 +1664,10 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": "絕對值與數線"
+      "concept_tag": "絕對值與數線",
+      "page": "assets/page/108_math_p3.jpg",
+      "img": "assets/q/108_math_10.jpg",
+      "explanation": "|d-5| = |d-c| 表示 D 到 5 的距離等於 D 到 c 的距離，所以 D 是 c 與 5 的中點，d = (c+5)/2。由圖知 -5 < c < 0，因此 0 < (c+5)/2 < 5/2，D 在 O 與 B 之間，選(D)。"
     },
     {
       "id": "108_math_11",
@@ -1420,7 +1683,10 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": "畢氏定理"
+      "concept_tag": "畢氏定理",
+      "page": "assets/page/108_math_p4.jpg",
+      "img": "assets/q/108_math_11.jpg",
+      "explanation": "剪線與底邊夾 45°，而長方形寬為 8，所以剪線在水平方向上也跨了 8（等腰直角三角形兩股相等）。兩個全等梯形的長底 + 短底 = 20，長底 - 短底 = 8，解得短底 = (20-8)/2 = 6，選(C)。"
     },
     {
       "id": "108_math_12",
@@ -1436,7 +1702,10 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": "不等式應用"
+      "concept_tag": "不等式應用",
+      "page": "assets/page/108_math_p4.jpg",
+      "img": "assets/q/108_math_12.jpg",
+      "explanation": "設買桂圓蛋糕 x 盒、金棗蛋糕 (10-x) 盒。蛋糕數：12x + 6(10-x) = 6x + 60 ≥ 75，得 x ≥ 2.5；花費：350x + 200(10-x) = 150x + 2000 ≤ 2500，得 x ≤ 10/3。x 為整數只能是 3，花費 = 150×3 + 2000 = 2450 元，選(D)。"
     },
     {
       "id": "108_math_13",
@@ -1452,7 +1721,10 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": "線對稱與摺疊幾何"
+      "concept_tag": "線對稱與摺疊幾何",
+      "page": "assets/page/108_math_p4.jpg",
+      "img": "assets/q/108_math_13.jpg",
+      "explanation": "△ABC 中 ∠BAC = 180° - 62° - 51° = 67°。因為 E 是 D 對 AB 的對稱點，∠EAB = ∠BAD；F 是 D 對 AC 的對稱點，∠FAC = ∠CAD。所以 ∠EAF = 2(∠BAD + ∠CAD) = 2 × 67° = 134°，選(D)。"
     },
     {
       "id": "108_math_14",
@@ -1468,7 +1740,10 @@
       },
       "answer": "D",
       "has_diagram": false,
-      "concept_tag": "機率"
+      "concept_tag": "機率",
+      "page": "assets/page/108_math_p5.jpg",
+      "img": "assets/q/108_math_14.jpg",
+      "explanation": "每次抽完都把球放回，所以每一次抽球都是獨立的，前 52 次抽到什麼不影響第 53 次。第 53 次抽到紅球的機率仍是 紅球數 / 總球數 = 2/(53+2) = 2/55，選(D)。誤選(C)是把分母當成白球數 53。"
     },
     {
       "id": "108_math_15",
@@ -1484,7 +1759,10 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": "三角形角度計算"
+      "concept_tag": "三角形角度計算",
+      "page": "assets/page/108_math_p5.jpg",
+      "img": "assets/q/108_math_15.jpg",
+      "explanation": "AC = BC，所以 ∠A = ∠B（等邊對等角）；AB 最長，所以它對的 ∠C 最大，∠A = ∠B < ∠C。∠1 = 180° - ∠B、∠2 = 180° - ∠C，因 ∠B < ∠C 得 ∠1 > ∠2，(A)(B)皆錯。∠A + ∠2 = 180° - (∠C - ∠A) < 180°，選(C)；而 ∠A + ∠1 = 180° - ∠B + ∠A = 180°，(D)錯。"
     },
     {
       "id": "108_math_16",
@@ -1500,7 +1778,10 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": "一次函數與坐標平面"
+      "concept_tag": "一次函數與坐標平面",
+      "page": "assets/page/108_math_p5.jpg",
+      "img": "assets/q/108_math_16.jpg",
+      "explanation": "小涵自備容器付 295 元，表示 250 公克咖啡豆原價為 295 + 5 = 300 元，每公克 300/250 元。阿嘉沒有自備容器，不打折也不加價，所以 y = (300/250)x，選(B)。(D) 多加了 5 元，但「減 5 元」只適用於自備容器的人，沒帶容器是按原價計算。"
     },
     {
       "id": "108_math_17",
@@ -1516,7 +1797,10 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": "相似三角形與比例線段"
+      "concept_tag": "相似三角形與比例線段",
+      "page": "assets/page/108_math_p6.jpg",
+      "img": "assets/q/108_math_17.jpg",
+      "explanation": "大三角形底 7，上方小三角形與大三角形相似，相似比 3 : 7，所以小三角形的高是大三角形高 h 的 3/7，平行四邊形的高就是 4h/7。由大三角形面積 7h/2 = 14 得 h = 4。平行四邊形底 3、高 4×4/7 = 16/7，面積 = 3 × 16/7 = 48/7，選(D)。"
     },
     {
       "id": "108_math_18",
@@ -1532,7 +1816,10 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": "比與比例應用"
+      "concept_tag": "比與比例應用",
+      "page": "assets/page/108_math_p6.jpg",
+      "img": "assets/q/108_math_18.jpg",
+      "explanation": "由圖(十三)，21 號在最高點、22 號在其右側，摩天輪逆時針轉時最高點右邊的車廂會依序轉上來，所以接著到最高點的是 22、23、…、36、1、…、9 號。從 21 號到 9 號共要轉過 (36 - 21) + 9 = 24 個間隔，每個間隔花 30/36 = 5/6 分鐘，共 24 × 5/6 = 20 分鐘，選(B)。若轉向判斷錯，會算成 12 個間隔得 10 分鐘而誤選(A)。"
     },
     {
       "id": "108_math_19",
@@ -1548,7 +1835,10 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": "畢氏定理"
+      "concept_tag": "畢氏定理",
+      "page": "assets/page/108_math_p7.jpg",
+      "img": "assets/q/108_math_19.jpg",
+      "explanation": "由圓外一點到圓的兩切線段等長：BD = BE = 1，C 到切點的長 = CE = 4；設 AD = x，則 A 到 AC 上切點的長也是 x。所以 AB = x + 1，BC = 5，AC = x + 4。∠B 為直角，由畢氏定理 (x+1)² + 5² = (x+4)²，展開得 2x + 26 = 8x + 16，x = 5/3，選(D)。"
     },
     {
       "id": "108_math_20",
@@ -1564,7 +1854,10 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": "二元一次聯立方程式"
+      "concept_tag": "二元一次聯立方程式",
+      "page": "assets/page/108_math_p7.jpg",
+      "img": "assets/q/108_math_20.jpg",
+      "explanation": "設來回都搭纜車的有 x 人、單程搭纜車的有 y 人。費用：300x + 200y = 4100，即 3x + 2y = 41；搭纜車的人次：去程 15 + 回程 10 = 25，而來回的人各算 2 次，得 2x + y = 25。解聯立得 x = 9、y = 7，總人數 = 9 + 7 = 16，選(A)。常見錯誤是把 15 + 10 = 25 直接當成總人數而誤選(D)。"
     },
     {
       "id": "108_math_21",
@@ -1580,7 +1873,10 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": "一元一次方程式應用"
+      "concept_tag": "一元一次方程式應用",
+      "page": "assets/page/108_math_p7.jpg",
+      "img": "assets/q/108_math_21.jpg",
+      "explanation": "三種餐都有一份義大利麵，所以 10 份義大利麵代表共點了 10 份餐。只有 B 餐和 C 餐附飲料，且各附一杯，所以 B 餐 + C 餐 = x 份。A 餐 = 10 - x 份，選(A)。沙拉只出現在 C 餐，與 A 餐份數無關，(C)(D) 多扣或多加了 y。"
     },
     {
       "id": "108_math_22",
@@ -1596,7 +1892,10 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": "因數與倍數"
+      "concept_tag": "因數與倍數",
+      "page": "assets/page/108_math_p8.jpg",
+      "img": "assets/q/108_math_22.jpg",
+      "explanation": "420 = 2² × 3 × 5 × 7，而 (a, 420) = 35 = 5 × 7。若 a 是偶數，最大公因數就會含因數 2，所以 a 不可能是偶數，20 不可能是 a 的因數。420 只含一個 5，a 可以含 5²，例如 a = 175 = 5² × 7 時 (175, 420) = 35，所以 25 可能是 a 的因數，選(C)。"
     },
     {
       "id": "108_math_23",
@@ -1612,7 +1911,10 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": "三角形內心外心重心的性質與計算"
+      "concept_tag": "三角形內心外心重心的性質與計算",
+      "page": "assets/page/108_math_p8.jpg",
+      "img": "assets/q/108_math_23.jpg",
+      "explanation": "IC 平分 ∠C，與 L 的夾角是 ∠C/2；I'A' 平分 ∠A'（= ∠A），與 L 的夾角是 ∠A/2。兩線都從 L 往左上方延伸，因 ∠A < ∠C，夾角不同，所以 IC 和 I'A' 不平行。而內心到三邊距離都等於內切圓半徑 r，I 到 BC、I' 到 A'C 的距離都是同一個 r，且都在 L 同側，所以 II' 和 L 平行，選(C)。"
     },
     {
       "id": "108_math_24",
@@ -1628,7 +1930,10 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": "圓的性質（圓心角、圓周角、弧）"
+      "concept_tag": "圓的性質（圓心角、圓周角、弧）",
+      "page": "assets/page/108_math_p8.jpg",
+      "img": "assets/q/108_math_24.jpg",
+      "explanation": "AD 為直徑，AB = BD = 90°，BC = CD = 45°。∠APQ 是圓周角，所對的弧是不含 P 的弧 AQ，也就是從 A 經過下半圓到 D、再往上到 Q：180° + DQ。由 ∠APQ = 130° 得此弧 = 260°，所以 DQ = 80°，則 BQ = 90° - 80° = 10°。10° < 45° 表示 Q 在 BC 上，且 BQ = 10° < QC = 35°，選(B)。"
     },
     {
       "id": "108_math_25",
@@ -1644,7 +1949,10 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": "三角形全等"
+      "concept_tag": "三角形全等",
+      "page": "assets/page/108_math_p9.jpg",
+      "img": "assets/q/108_math_25.jpg",
+      "explanation": "甲：P、Q 都在 AD 的中垂線上，所以 PA = PD、QA = QD，再加上共用邊 PQ，由 SSS 得 △APQ ≅ △DPQ，正確。乙：DP ∥ AC、DQ ∥ AB，四邊形 APDQ 是平行四邊形，對邊相等 AP = DQ、AQ = DP，加上共用邊 PQ，由 SSS 得 △APQ ≅ △DQP，也正確。兩人皆正確，選(A)。"
     },
     {
       "id": "108_math_26",
@@ -1660,7 +1968,10 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": "二次函數圖形"
+      "concept_tag": "二次函數圖形",
+      "page": "assets/page/108_math_p9.jpg",
+      "img": "assets/q/108_math_26.jpg",
+      "explanation": "頂點 A(-3,0)，設拋物線 y = a(x+3)²。△ABC 為正三角形且高為 2（A 到 y = 2 的距離），邊長 = 2 × 2/√3 = 4/√3，所以 C 的 x 坐標比 A 多一半邊長 2/√3，C(-3 + 2/√3, 2)。代入得 2 = a × (2/√3)² = 4a/3，a = 3/2。令 x = 0：y = (3/2) × 9 = 27/2，交點 (0, 27/2)，選(B)。"
     },
     {
       "id": "109_math_1",
@@ -1676,7 +1987,10 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": "整數與分數的四則運算"
+      "concept_tag": "整數與分數的四則運算",
+      "page": "assets/page/109_math_p1.jpg",
+      "img": "assets/q/109_math_1.jpg",
+      "explanation": "判斷乘積正負只要數負因數的個數：a 有 4 個負數相乘，偶數個負號，所以 a 為正數；b 有 3 個負數相乘，奇數個負號，所以 b 為負數。不必真的算出乘積，故選 (C)。"
     },
     {
       "id": "109_math_2",
@@ -1692,7 +2006,10 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": "科學記號與指數律"
+      "concept_tag": "科學記號與指數律",
+      "page": "assets/page/109_math_p1.jpg",
+      "img": "assets/q/109_math_2.jpg",
+      "explanation": "指數相同時可以先把底數相乘：2³×5³＝(2×5)³＝10³＝1000。容易誤選 (A) 的人是把它當成 2×3×5 來算，指數不能這樣處理。"
     },
     {
       "id": "109_math_3",
@@ -1708,7 +2025,10 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": "機率"
+      "concept_tag": "機率",
+      "page": "assets/page/109_math_p1.jpg",
+      "img": "assets/q/109_math_3.jpg",
+      "explanation": "每顆湯圓被撈到的機會相等，所以機率＝花生湯圓數÷總數＝10/25＝2/5。注意分母要用全部 25 顆，不是芝麻湯圓的 15 顆（10/15＝2/3 是 (B) 的陷阱）。"
     },
     {
       "id": "109_math_4",
@@ -1724,7 +2044,10 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": "根式化簡與運算"
+      "concept_tag": "根式化簡與運算",
+      "page": "assets/page/109_math_p1.jpg",
+      "img": "assets/q/109_math_4.jpg",
+      "explanation": "先化簡括號：√48＝4√3，√12＝2√3，所以 √48－√12＝2√3。再乘上 √2：√2×2√3＝2√6，故選 (B)。"
     },
     {
       "id": "109_math_5",
@@ -1740,7 +2063,10 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": "四邊形與多邊形性質"
+      "concept_tag": "四邊形與多邊形性質",
+      "page": "assets/page/109_math_p2.jpg",
+      "img": "assets/q/109_math_5.jpg",
+      "explanation": "平行四邊形相鄰兩角互補，所以 ∠ABC＝180°－100°＝80°。∠ABD：∠DBC＝3：2，因此 ∠DBC＝80°×2/5＝32°。"
     },
     {
       "id": "109_math_6",
@@ -1756,7 +2082,10 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": "絕對值與數線"
+      "concept_tag": "絕對值與數線",
+      "page": "assets/page/109_math_p2.jpg",
+      "img": "assets/q/109_math_6.jpg",
+      "explanation": "由圖知 b＜c＜0＜a。|a|＋|b|＝a－b 就是 A、B 兩點的距離，也就是整段最長的距離；|a|＋|c|＝|a－c|＝a－c 是 A、C 距離，比 A、B 短；|b－c| 更短。所以 |a|＋|b| 最大。"
     },
     {
       "id": "109_math_7",
@@ -1772,7 +2101,10 @@
       },
       "answer": "D",
       "has_diagram": false,
-      "concept_tag": "多項式運算與乘法公式"
+      "concept_tag": "多項式運算與乘法公式",
+      "page": "assets/page/109_math_p2.jpg",
+      "img": "assets/q/109_math_7.jpg",
+      "explanation": "用長除法：2x² 除以 x 得 2x，2x(x＋1)＝2x²＋2x，相減得 －2x－3；再商 －2，－2(x＋1)＝－2x－2，相減得餘式 －1。所以商式 2x－2、餘式 －1。可用驗算 (x＋1)(2x－2)－1＝2x²－3 確認。"
     },
     {
       "id": "109_math_8",
@@ -1788,7 +2120,10 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": "因數與倍數"
+      "concept_tag": "因數與倍數",
+      "page": "assets/page/109_math_p2.jpg",
+      "img": "assets/q/109_math_8.jpg",
+      "explanation": "逐一分解：81＝3⁴ 是四個質數相乘；82＝2×41，2 與 41 都是質數，符合；83 本身是質數；84＝2²×3×7 有四個質因數。故選 (B)。"
     },
     {
       "id": "109_math_9",
@@ -1804,7 +2139,10 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": "一次函數與坐標平面"
+      "concept_tag": "一次函數與坐標平面",
+      "page": "assets/page/109_math_p3.jpg",
+      "img": "assets/q/109_math_9.jpg",
+      "explanation": "住家 (2,0) 在車站 (0,0) 東方 100 公尺，所以坐標 1 單位＝50 公尺；學校在住家北方 200 公尺，對應 4 單位，(2,4) 吻合。從學校往東 100 公尺＝右移 2 單位到 (4,4)，再往南 400 公尺＝下移 8 單位，得公園 (4,－4)。容易錯在忘了換算比例，直接把公尺數當單位。"
     },
     {
       "id": "109_math_10",
@@ -1820,7 +2158,10 @@
       },
       "answer": "D",
       "has_diagram": false,
-      "concept_tag": "一元二次方程式"
+      "concept_tag": "一元二次方程式",
+      "page": "assets/page/109_math_p3.jpg",
+      "img": "assets/q/109_math_10.jpg",
+      "explanation": "兩邊同除以 5：(x－4)²＝25，所以 x－4＝±5，得 x＝9 或 x＝－1。因 a＞b，a＝9、b＝－1，2a＋b＝18－1＝17。"
     },
     {
       "id": "109_math_11",
@@ -1836,7 +2177,10 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": "一次函數與坐標平面"
+      "concept_tag": "一次函數與坐標平面",
+      "page": "assets/page/109_math_p3.jpg",
+      "img": "assets/q/109_math_11.jpg",
+      "explanation": "y＝px＋q 的圖形是一條直線，所以要找哪三點排成一直線。由圖看 A、C、D 三點由左上往右下排成一直線，B 點明顯偏離這條線（位置在線的右上方），因此不在圖形上的是 B。"
     },
     {
       "id": "109_math_12",
@@ -1852,7 +2196,10 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": "圓的性質（圓心角、圓周角、弧）"
+      "concept_tag": "圓的性質（圓心角、圓周角、弧）",
+      "page": "assets/page/109_math_p4.jpg",
+      "img": "assets/q/109_math_12.jpg",
+      "explanation": "P 與 B 點的距離保持不變，距離就一直等於一開始的 AB 長。平面上到定點 B 距離固定的點形成以 B 為圓心、半徑 AB 的圓，這個圓通過 A 點，故選 (C)。直線 L 在此題只是干擾條件。"
     },
     {
       "id": "109_math_13",
@@ -1868,7 +2215,10 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": "統計圖表判讀"
+      "concept_tag": "統計圖表判讀",
+      "page": "assets/page/109_math_p4.jpg",
+      "img": "assets/q/109_math_13.jpg",
+      "explanation": "36 人的中位數是第 18、19 人的平均。由長條圖累加：0 球 2 人、1 球累計 5 人、2 球累計 10 人、3 球累計 14 人、4 球累計 20 人，所以第 18、19 人都投進 4 球，中位數為 4。投進球數小於 4 的有 2＋3＋5＋4＝14 人。"
     },
     {
       "id": "109_math_14",
@@ -1884,7 +2234,10 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": "情境應用題（生活數學、表格判讀）"
+      "concept_tag": "情境應用題（生活數學、表格判讀）",
+      "page": "assets/page/109_math_p4.jpg",
+      "img": "assets/q/109_math_14.jpg",
+      "explanation": "公告前會員花費：x×0.85＝0.85x；公告後售價變 1.1x，再打九折：1.1x×0.9＝0.99x。相差 0.99x－0.85x＝0.14x。不能只看「漲 10%、折扣少 5%」就直接相加成 0.15x。"
     },
     {
       "id": "109_math_15",
@@ -1900,7 +2253,10 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": "相似三角形與比例線段"
+      "concept_tag": "相似三角形與比例線段",
+      "page": "assets/page/109_math_p5.jpg",
+      "img": "assets/q/109_math_15.jpg",
+      "explanation": "P、Q 都在 AD 上，AD∥BC，所以 △PBE 與 △QBE 同底 BE、高相等，面積相等。又 △PRE＝△PBE－△RBE、△QSE＝△QBE－△SBE；由圖 BP 比 BQ 更靠近 BA，R 比 S 更靠近 A，所以 RE＞SE，△RBE＞△SBE（同高），因此 △PRE＜△QSE，選 (D)。"
     },
     {
       "id": "109_math_16",
@@ -1916,7 +2272,10 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": "比與比例應用"
+      "concept_tag": "比與比例應用",
+      "page": "assets/page/109_math_p5.jpg",
+      "img": "assets/q/109_math_16.jpg",
+      "explanation": "設廣式月餅、蛋黃酥、鳳梨酥分別為 2k、k、3k 個。鹹蛋黃總數：2k×2＋k×1＝5k＝120，得 k＝24。鳳梨酥有 3k＝72 個。"
     },
     {
       "id": "109_math_17",
@@ -1932,7 +2291,10 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": "畢氏定理"
+      "concept_tag": "畢氏定理",
+      "page": "assets/page/109_math_p5.jpg",
+      "img": "assets/q/109_math_17.jpg",
+      "explanation": "P 是矩形中心，到 AD 的距離是 AB 的一半＝1，所以對稱點 Q 在 AD 中點正上方 1 單位處。QA＝QD＝√(2²＋1²)＝√5，同理 RB＝RC＝√5。周長＝4√5＋AB＋CD＝4＋4√5。注意 AD、BC 在六邊形內部，不算周長。"
     },
     {
       "id": "109_math_18",
@@ -1948,7 +2310,10 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": "不等式應用"
+      "concept_tag": "不等式應用",
+      "page": "assets/page/109_math_p6.jpg",
+      "img": "assets/q/109_math_18.jpg",
+      "explanation": "由圖：小麗進去後警示音沒響，所以 x＋50≦300，得 x≦250；小歐再進去後響了，所以 x＋50＋70＞300，得 x＞180。合併得 180＜x≦250。"
     },
     {
       "id": "109_math_19",
@@ -1964,7 +2329,10 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": "圓的性質（圓心角、圓周角、弧）"
+      "concept_tag": "圓的性質（圓心角、圓周角、弧）",
+      "page": "assets/page/109_math_p6.jpg",
+      "img": "assets/q/109_math_19.jpg",
+      "explanation": "圓周角是所對弧的一半：弧 AD＝88°、弧 DC＝84°，又 AB＝BC 使弧 AB＝弧 BC＝(360°－172°)÷2＝94°，所以 ∠BAC＝∠BCA＝∠ADB＝47°、∠CAD＝42°。△ABE 中 ∠BAE＝47°＞∠ABE＝44°，得 BE＞AE；△BCE 中 ∠BCE＝47°＞∠EBC＝42°，得 BE＞CE；△ADE 中 ∠ADE＝47°＞∠DAE＝42°，得 AE＞DE。故 BE 最長（大角對大邊）。"
     },
     {
       "id": "109_math_20",
@@ -1980,7 +2348,10 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": "畢氏定理"
+      "concept_tag": "畢氏定理",
+      "page": "assets/page/109_math_p7.jpg",
+      "img": "assets/q/109_math_20.jpg",
+      "explanation": "點到直線的最短距離是垂直距離，所以 FP⊥CA 時最短。∠ACB＝60°、∠FCD＝90°，B、C、D 共線，得 ∠ACF＝180°－60°－90°＝30°。在直角三角形中 FP＝CF×sin30°＝8×1/2＝4（30°所對的邊是斜邊一半）。"
     },
     {
       "id": "109_math_21",
@@ -1996,7 +2367,10 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": "二次函數圖形"
+      "concept_tag": "二次函數圖形",
+      "page": "assets/page/109_math_p7.jpg",
+      "img": "assets/q/109_math_21.jpg",
+      "explanation": "拋物線 y＝a(x＋7)²－10 的對稱軸是 x＝－7，水平線與它的兩個交點 A、C 對稱於 x＝－7。B 在 y 軸（x＝0），設 BC＝k，則 C 的 x 坐標為 k、A 為 －5k。A、C 中點 (－5k＋k)/2＝－2k＝－7，得 k＝3.5，所以 AC＝6k＝21。"
     },
     {
       "id": "109_math_22",
@@ -2012,7 +2386,10 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": "四邊形與多邊形性質"
+      "concept_tag": "四邊形與多邊形性質",
+      "page": "assets/page/109_math_p7.jpg",
+      "img": "assets/q/109_math_22.jpg",
+      "explanation": "A、P、B 共線，∠APQ 的外角就是 ∠BPQ＝75°。正九邊形每個內角＝(9－2)×180°÷9＝140°。六邊形 PBCDEQ 內角和 720°，其中 ∠B、∠C、∠D、∠E 各 140°，所以 ∠PQE＝720°－4×140°－75°＝85°。"
     },
     {
       "id": "109_math_23",
@@ -2028,7 +2405,10 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": "等差數列"
+      "concept_tag": "等差數列",
+      "page": "assets/page/109_math_p8.jpg",
+      "img": "assets/q/109_math_23.jpg",
+      "explanation": "拼圖凸出的部分會嵌進下一片，所以每多一片，總長只增加固定的 d 公分。設一片長度為 L，則 L＋3d＝23、L＋9d＝56，相減得 6d＝33，d＝5.5，代回得 L＝23－16.5＝6.5。誤選 (A) 是把每片增加量 5.5 當成拼圖長度。"
     },
     {
       "id": "109_math_24",
@@ -2044,7 +2424,10 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": "相似三角形與比例線段"
+      "concept_tag": "相似三角形與比例線段",
+      "page": "assets/page/109_math_p8.jpg",
+      "img": "assets/q/109_math_24.jpg",
+      "explanation": "沿平行 BC 的方向剪下的小三角形與 △ABC 相似（以 A 為頂點），面積比 1/3 表示邊長比為 1/√3≈0.577，也就是 AP≈0.577 AB。D、F、E 分別位於 AB 的 1/3、1/2、2/3 處，0.5＜0.577＜0.667，所以 P 在 FE 上且不與端點重合。常見錯誤是把面積比 1/3 當成邊長比而誤選 D 點。"
     },
     {
       "id": "109_math_25",
@@ -2060,7 +2443,10 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": "情境應用題（生活數學、表格判讀）"
+      "concept_tag": "情境應用題（生活數學、表格判讀）",
+      "page": "assets/page/109_math_p9.jpg",
+      "img": "assets/q/109_math_25.jpg",
+      "explanation": "多買一個 55 元黑櫻桃蛋糕後，5 個中最便宜的免費，所以 y＝x＋55－(5 個中最低價)。原本 4 個的最低價若是 40、45 元，y＝x＋15 或 x＋10；若都在 55 元以上，免費的是 55 元那個，y＝x。價目表沒有 50 元的蛋糕，不可能多付 5 元，故 y＝x＋5 不可能。"
     },
     {
       "id": "109_math_26",
@@ -2076,7 +2462,10 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": "三角形內心外心重心的性質與計算"
+      "concept_tag": "三角形內心外心重心的性質與計算",
+      "page": "assets/page/109_math_p9.jpg",
+      "img": "assets/q/109_math_26.jpg",
+      "explanation": "甲：BP⊥AC 使 ∠APB＝90°，直角三角形的外心是斜邊中點，AB 中點正是 O，所以正確。乙：以 O 為圓心、OA 為半徑的圓也通過 B，交 AC 於 P 時 OA＝OB＝OP，O 到三頂點等距即為外心，也正確。兩人皆正確，選 (A)（其實兩人找到的是同一點，因為以 AB 為直徑的圓上 ∠APB＝90°）。"
     },
     {
       "id": "110_math_1",
@@ -2092,7 +2481,10 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": "一次函數與坐標平面"
+      "concept_tag": "一次函數與坐標平面",
+      "page": "assets/page/110_math_p1.jpg",
+      "img": "assets/q/110_math_1.jpg",
+      "explanation": "第二象限的點是 x 坐標為負、y 坐標為正，也就是在 y 軸左邊、x 軸上方。圖中只有 A 點位於 y 軸左側且在 x 軸上方，故選 A。B 在第三象限、D 在第四象限，C 在 y 軸上不屬於任何象限。"
     },
     {
       "id": "110_math_2",
@@ -2108,7 +2500,10 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": "整數與分數的四則運算"
+      "concept_tag": "整數與分數的四則運算",
+      "page": "assets/page/110_math_p1.jpg",
+      "img": "assets/q/110_math_2.jpg",
+      "explanation": "先乘除後加減：(-2)×(-3)=6，再算 (-8)+6=-2。若先把 (-8)+(-2)=-10 再乘 (-3) 會得到 30，這是忽略運算順序的常見錯誤。"
     },
     {
       "id": "110_math_3",
@@ -2124,7 +2519,10 @@
       },
       "answer": "D",
       "has_diagram": false,
-      "concept_tag": "二元一次聯立方程式"
+      "concept_tag": "二元一次聯立方程式",
+      "page": "assets/page/110_math_p1.jpg",
+      "img": "assets/q/110_math_3.jpg",
+      "explanation": "把 x=4y 代入 6y-x=10，得 6y-4y=10，2y=10，y=5，再得 x=4×5=20。所以 a+b=20+5=25。"
     },
     {
       "id": "110_math_4",
@@ -2140,7 +2538,10 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": "複合圖形的面積計算"
+      "concept_tag": "複合圖形的面積計算",
+      "page": "assets/page/110_math_p1.jpg",
+      "img": "assets/q/110_math_4.jpg",
+      "explanation": "矩形的對角線 BD 把矩形平分，所以 △ABD 面積 = 20÷2 = 10。因為 A 在 BE 上，△BDE 可拆成 △ABD 與 △ADE，故 △ADE 面積 = 24-10 = 14。"
     },
     {
       "id": "110_math_5",
@@ -2156,7 +2557,10 @@
       },
       "answer": "D",
       "has_diagram": false,
-      "concept_tag": "科學記號與指數律"
+      "concept_tag": "科學記號與指數律",
+      "page": "assets/page/110_math_p2.jpg",
+      "img": "assets/q/110_math_5.jpg",
+      "explanation": "5^6 ÷ 5^3 = 5^(6-3) = 5^3 = 125，所以是 125 倍。同底數相除是指數相減，不是指數相除（6÷3=2 會誤選 A 或 C）。"
     },
     {
       "id": "110_math_6",
@@ -2172,7 +2576,10 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": "根式化簡與運算"
+      "concept_tag": "根式化簡與運算",
+      "page": "assets/page/110_math_p2.jpg",
+      "img": "assets/q/110_math_6.jpg",
+      "explanation": "根式相乘要係數乘係數、根號乘根號：4√3×2√3 = 8×(√3)^2 = 8×3 = 24，不是 8√3，所以 (C) 不成立。(A)(B) 是同類方根的加減，(D) 為 (4÷2)×(√3÷√3)=2，都成立。"
     },
     {
       "id": "110_math_7",
@@ -2188,7 +2595,10 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": "統計圖表判讀"
+      "concept_tag": "統計圖表判讀",
+      "page": "assets/page/110_math_p2.jpg",
+      "img": "assets/q/110_math_7.jpg",
+      "explanation": "由圖讀出起點（0 分）海拔 50 公尺、終點（8 分）海拔 350 公尺，所以終點比起點高 350-50=300 公尺，不是 350。圖形在 2～4 分鐘是往下降的，但 4～8 分鐘一路往上，所以「末 4 分鐘都在上升」正確，選 B。"
     },
     {
       "id": "110_math_8",
@@ -2204,7 +2614,10 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": "多項式運算與乘法公式"
+      "concept_tag": "多項式運算與乘法公式",
+      "page": "assets/page/110_math_p3.jpg",
+      "img": "assets/q/110_math_8.jpg",
+      "explanation": "和的平方公式：(a+b)^2 = a^2+2ab+b^2。取 a=248、b=52，得 248^2+2×248×52+52^2=(248+52)^2=300^2，故 (C) 成立。(A) 中間項少了 2 倍；(D) 若要湊差的平方 (248-48)^2，最後一項應為 +48^2 而非 -48^2。"
     },
     {
       "id": "110_math_9",
@@ -2220,7 +2633,10 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": "統計圖表判讀"
+      "concept_tag": "統計圖表判讀",
+      "page": "assets/page/110_math_p3.jpg",
+      "img": "assets/q/110_math_9.jpg",
+      "explanation": "要找「美國是三國中人數最少」的月份，逐月比較三條折線：6 月英國最少，7 月日本最少，9 月英國最少。只有 8 月美國（約 2 千人）低於英國（約 2.4 千人）與日本（3 千人），故選 8 月。"
     },
     {
       "id": "110_math_10",
@@ -2236,7 +2652,10 @@
       },
       "answer": "D",
       "has_diagram": false,
-      "concept_tag": "扇形面積與弧長"
+      "concept_tag": "扇形面積與弧長",
+      "page": "assets/page/110_math_p3.jpg",
+      "img": "assets/q/110_math_10.jpg",
+      "explanation": "設弧長 5π 的扇形圓心角為 θ，則 2π×6×θ/360 = 5π，得 θ = 150°。兩個扇形合起來是整個圓 360°，所以另一個扇形的圓心角為 360-150 = 210°。注意是整圓 360° 扣掉，不是用 180° 扣（會誤得 30）。"
     },
     {
       "id": "110_math_11",
@@ -2252,7 +2671,10 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": "機率"
+      "concept_tag": "機率",
+      "page": "assets/page/110_math_p4.jpg",
+      "img": "assets/q/110_math_11.jpg",
+      "explanation": "玩偶只有北極熊玩偶 1 個與獅子玩偶 1 個，共 2 張可刮中玩偶，總共 100 張刮刮樂，所以機率為 2/100 = 1/50。(C) 8/25=32/100 是刮中任何獎品的機率，不是玩偶。"
     },
     {
       "id": "110_math_12",
@@ -2268,7 +2690,10 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": "不等式應用"
+      "concept_tag": "不等式應用",
+      "page": "assets/page/110_math_p4.jpg",
+      "img": "assets/q/110_math_12.jpg",
+      "explanation": "美美拿 3 張券：300 ≤ 5x < 400，得 60 ≤ x < 80。小儀拿 4 張券：400 ≤ 5x+150 < 500，得 50 ≤ x < 70。兩條件同時成立，取交集得 60 ≤ x < 70。"
     },
     {
       "id": "110_math_13",
@@ -2284,7 +2709,10 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": "等差數列"
+      "concept_tag": "等差數列",
+      "page": "assets/page/110_math_p4.jpg",
+      "img": "assets/q/110_math_13.jpg",
+      "explanation": "等差數列中 a20 與 a22 的平均是中間項 a21，所以 a20+a22 = 2a21 = 0，得 a21 = 0。又 a1 為正數而 a21 = 0，表示公差為負，故 a22 < 0。因此 a21+a22 = a22 < 0，選 B；而 a21×a22 = 0，(C)(D) 都不對。"
     },
     {
       "id": "110_math_14",
@@ -2300,7 +2728,10 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": "絕對值與數線"
+      "concept_tag": "絕對值與數線",
+      "page": "assets/page/110_math_p5.jpg",
+      "img": "assets/q/110_math_14.jpg",
+      "explanation": "a、c 為負，b 為正。在 a-b+c 中，a、-b、c 三項全是負數，同號相加不會互相抵消，所以 |a-b+c| = |a|+|b|+|c| 為最大值。其他三式都有正負相消的情形，絕對值必定較小。"
     },
     {
       "id": "110_math_15",
@@ -2316,7 +2747,10 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": "三角形全等"
+      "concept_tag": "三角形全等",
+      "page": "assets/page/110_math_p5.jpg",
+      "img": "assets/q/110_math_15.jpg",
+      "explanation": "由全等得 ∠D=∠A=40°，△ECD 中 ∠ECD=180°-40°-35°=105°，所以 ∠ECF=75°；又 ∠EFC=∠DFE=∠ACB=75°，△EFC 兩底角相等，故 EF=EC。另外 AE=AC-EC=DF-EC，FC=DF-CD，而 △ECD 中 ∠D=40°≠∠CED=35°，所以 EC≠CD，得 AE≠FC，選 B。"
     },
     {
       "id": "110_math_16",
@@ -2332,7 +2766,10 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": "一元一次方程式應用"
+      "concept_tag": "一元一次方程式應用",
+      "page": "assets/page/110_math_p5.jpg",
+      "img": "assets/q/110_math_16.jpg",
+      "explanation": "設兩個飯糰為 x 元與 x+4 元，兩組優惠價 78 元比兩個飯糰多 30 元：78 = x+(x+4)+30，得 x=22，兩飯糰為 22 元與 26 元。只多買 1 瓶飲料時，最便宜是把較貴的 26 元飯糰和飲料組成 39 元優惠組，另付 22 元，共 61 元，比原本 48 元多 13 元。若和 22 元飯糰配組則多付 17 元，不划算。"
     },
     {
       "id": "110_math_17",
@@ -2348,7 +2785,10 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": "圓與切線"
+      "concept_tag": "圓與切線",
+      "page": "assets/page/110_math_p6.jpg",
+      "img": "assets/q/110_math_17.jpg",
+      "explanation": "AD 切圓於 A，所以半徑 OA ⊥ AD；又 AD//BC，故 OA ⊥ BC，OA 所在直線是 BC 的中垂線，得 AB=AC。於是 ∠C=∠B=58°，∠BAC=180°-116°=64°。圓周角 ∠BAC 所對的 BC 弧度數為其 2 倍 = 128°。"
     },
     {
       "id": "110_math_18",
@@ -2364,7 +2804,10 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": "二次函數圖形"
+      "concept_tag": "二次函數圖形",
+      "page": "assets/page/110_math_p6.jpg",
+      "img": "assets/q/110_math_18.jpg",
+      "explanation": "平移只會改變圖形位置（頂點），不會改變開口方向與大小，所以 a 必須和 y=(x+3)^2 的領導係數相同，即 a=1。b、c 可以是任意值，只有 (A) 的 a=1，故選 A。(C)(D) 開口向下、(B) 開口較窄，都無法疊合。"
     },
     {
       "id": "110_math_19",
@@ -2380,7 +2823,10 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": "線對稱與摺疊幾何"
+      "concept_tag": "線對稱與摺疊幾何",
+      "page": "assets/page/110_math_p6.jpg",
+      "img": "assets/q/110_math_19.jpg",
+      "explanation": "CFDE 以 FE 為對稱軸，C 與 D 對稱，所以 ∠FDE=∠C=40°，且 ∠DEF=∠CEF。BEFD 以 DE 為對稱軸，所以 ∠BED=∠DEF。B、E、C 共線，三角相等得 ∠DEF=180°÷3=60°。在 △DEF 中，∠DFE=180°-40°-60°=80°。"
     },
     {
       "id": "110_math_20",
@@ -2396,7 +2842,10 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": "一元一次方程式應用"
+      "concept_tag": "一元一次方程式應用",
+      "page": "assets/page/110_math_p7.jpg",
+      "img": "assets/q/110_math_20.jpg",
+      "explanation": "設甲租出乙還 x 輛、乙租出甲還 y 輛。甲歸還 = 15+y，甲租出 = 15+x，依題意 15+y = 15+x+4，得 y = x+4。乙租出 = 13+y = 17+x，比甲租出的 15+x 多 2 輛，也就是甲比乙少 2 輛。"
     },
     {
       "id": "110_math_21",
@@ -2412,7 +2861,10 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": "四邊形與多邊形性質"
+      "concept_tag": "四邊形與多邊形性質",
+      "page": "assets/page/110_math_p7.jpg",
+      "img": "assets/q/110_math_21.jpg",
+      "explanation": "外角 ∠1=180°-∠A、∠3=180°-∠C，所以 ∠1+∠3 = 360°-∠A-∠C；四邊形內角和 360°，故 360°-∠A-∠C = ∠ABC+∠D，(A) 正確。另外 ∠1+∠2+∠3 = 540°-(∠A+∠B+∠C) = 180°+∠D，因 ∠D<180°，所以小於 360°，(C)(D) 都錯。"
     },
     {
       "id": "110_math_22",
@@ -2428,7 +2880,10 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": "因數與倍數"
+      "concept_tag": "因數與倍數",
+      "page": "assets/page/110_math_p7.jpg",
+      "img": "assets/q/110_math_22.jpg",
+      "explanation": "若最大公因數為 g，則 a、b 都是 g 的倍數，a×b 必為 g^2 的倍數。8^2 = 2^6，但 a×b 只含 2^5，不可能被 2^6 整除，所以 8 不可能是最大公因數。其餘如 12^2=2^4×3^2、6^2=2^2×3^2 都能整除 a×b，1 也可以（例如 a=2^5×3^2、b=5）。"
     },
     {
       "id": "110_math_23",
@@ -2444,7 +2899,10 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": "相似三角形與比例線段"
+      "concept_tag": "相似三角形與比例線段",
+      "page": "assets/page/110_math_p8.jpg",
+      "img": "assets/q/110_math_23.jpg",
+      "explanation": "菱形邊長 = AD = 8+5+4 = 17。AE//HC 且 AH//EC，AECH 為平行四邊形，所以 EC = AH = 8，BE = 17-8 = 9。△DHC 中 GF//HC，DF/DC = DG/DH = 4/9，得 DF = 68/9 ≈ 7.6，CF = 17-68/9 = 85/9 ≈ 9.4，四者中 CF 最長。"
     },
     {
       "id": "110_math_24",
@@ -2460,7 +2918,10 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": "比與比例應用"
+      "concept_tag": "比與比例應用",
+      "page": "assets/page/110_math_p8.jpg",
+      "img": "assets/q/110_math_24.jpg",
+      "explanation": "設甲每分鐘印 a 張、乙印 b 張。到 10:15 時甲印了 15 分鐘、乙印了 10 分鐘且張數相同：15a=10b，b=1.5a。到 10:45 時 45a+40b=2100，即 45a+60a=105a=2100，a=20、b=30。原計畫兩臺一起印每分鐘 50 張，需 2100÷50 = 42 分鐘，於 10:42 達到。"
     },
     {
       "id": "110_math_25",
@@ -2476,7 +2937,10 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": "三角形內心外心重心的性質與計算"
+      "concept_tag": "三角形內心外心重心的性質與計算",
+      "page": "assets/page/110_math_p9.jpg",
+      "img": "assets/q/110_math_25.jpg",
+      "explanation": "設 ∠B=∠BAD=∠CAD=θ，則 ∠ADB=180°-2θ，∠ADC=2θ。甲：P 在 AC 中垂線上，PA=PC，∠PCA=∠PAC=θ，所以 ∠APC=180°-2θ=∠ADB，正確。乙：CP=CD，∠CPD=∠CDP=2θ，所以 ∠APC=180°-2θ=∠ADB，也正確，選 A。"
     },
     {
       "id": "110_math_26",
@@ -2492,7 +2956,10 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": "三角形內心外心重心的性質與計算"
+      "concept_tag": "三角形內心外心重心的性質與計算",
+      "page": "assets/page/110_math_p9.jpg",
+      "img": "assets/q/110_math_26.jpg",
+      "explanation": "I 是內心，到 AB、AC、BC 的距離都等於內切圓半徑 r。I 在 DE 上，所以 △ADE 面積 = △ADI + △AEI = (1/2)×r×5 + (1/2)×r×6 = 11r/2。△ADE 是 5、5、6 的等腰三角形，底 AE=6 上的高為 √(5^2-3^2)=4，面積 12，得 11r/2=12，r=24/11。"
     },
     {
       "id": "111_math_1",
@@ -2508,7 +2975,10 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": "絕對值與數線"
+      "concept_tag": "絕對值與數線",
+      "page": "assets/page/111_math_p1.jpg",
+      "img": "assets/q/111_math_1.jpg",
+      "explanation": "絕對值代表該點到原點O的距離。由圖可知A點緊貼在原點右側，是四點中離O最近的，所以|a|最小。B點雖然在右邊但離原點最遠，不要被「a、b同號」干擾。"
     },
     {
       "id": "111_math_2",
@@ -2524,7 +2994,10 @@
       },
       "answer": "D",
       "has_diagram": false,
-      "concept_tag": "多項式運算與乘法公式"
+      "concept_tag": "多項式運算與乘法公式",
+      "page": "assets/page/111_math_p1.jpg",
+      "img": "assets/q/111_math_2.jpg",
+      "explanation": "6x²÷2x²得商3，3×2x²=6x²，相減後剩下4x。4x的次數(1次)已低於除式2x²的次數(2次)，不能再除，所以餘式是4x。常見錯誤是把4x再除以2x²誤寫成2x。"
     },
     {
       "id": "111_math_3",
@@ -2540,7 +3013,10 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": "因數與倍數"
+      "concept_tag": "因數與倍數",
+      "page": "assets/page/111_math_p1.jpg",
+      "img": "assets/q/111_math_3.jpg",
+      "explanation": "156=2×78=2×2×39=2²×3×13，質因數為2、3、13，選13。12=2²×3、14=2×7雖然可能整除或看似相關，但不是質數；11則不能整除156。"
     },
     {
       "id": "111_math_4",
@@ -2556,7 +3032,11 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": "立體圖形（展開圖、表面積、體積、三視圖）"
+      "concept_tag": "立體圖形（展開圖、表面積、體積、三視圖）",
+      "page": "assets/page/111_math_p1.jpg",
+      "img": "assets/q/111_math_4.jpg",
+      "explanation": "設底面正方形邊長為s、高為h。標示12的那段橫跨三個側面，寬度都是s，所以3s=12，s=4；標示22的那段是上下兩個正方形邊長加上一個高，2s+h=22，h=14。體積=4×4×14=224。",
+      "text_issue": "括號內對圖的描述有誤：圖中22是左側整條直線長(上下兩個正方形邊長加一個側面高)、12是右側三個側面的總寬，並非「正方形邊長對應處22、長方形長邊12」。"
     },
     {
       "id": "111_math_5",
@@ -2572,7 +3052,10 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": "整數與分數的四則運算"
+      "concept_tag": "整數與分數的四則運算",
+      "page": "assets/page/111_math_p2.jpg",
+      "img": "assets/q/111_math_5.jpg",
+      "explanation": "先去括號並把同分母的放一起：(9/22−23/22)+(11/18+7/18)=(−14/22)+(18/18)=−7/11+1=4/11。注意括號前是減號，去括號後−7/18要變成+7/18。"
     },
     {
       "id": "111_math_6",
@@ -2588,7 +3071,10 @@
       },
       "answer": "D",
       "has_diagram": false,
-      "concept_tag": "根式化簡與運算"
+      "concept_tag": "根式化簡與運算",
+      "page": "assets/page/111_math_p2.jpg",
+      "img": "assets/q/111_math_6.jpg",
+      "explanation": "找平方接近2022的整數：44²=1936，45²=2025，因為1936<2022<2025，所以44<√2022<45，落在40與45之間。"
     },
     {
       "id": "111_math_7",
@@ -2604,7 +3090,10 @@
       },
       "answer": "D",
       "has_diagram": false,
-      "concept_tag": "一次函數與坐標平面"
+      "concept_tag": "一次函數與坐標平面",
+      "page": "assets/page/111_math_p2.jpg",
+      "img": "assets/q/111_math_7.jpg",
+      "explanation": "直線x=−2是一條鉛直線，點到鉛直線的距離就是x坐標之差的絕對值：|6−(−2)|=8。y坐標5與距離無關，別誤算成|5−(−2)|=7。"
     },
     {
       "id": "111_math_8",
@@ -2620,7 +3109,10 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": "因式分解"
+      "concept_tag": "因式分解",
+      "page": "assets/page/111_math_p2.jpg",
+      "img": "assets/q/111_math_8.jpg",
+      "explanation": "比較x²係數：3b=39，得b=13。展開(3x+a)(13x+c)，常數項ac=−14、一次項係數3c+13a=5，試得a=2、c=−7(3×(−7)+13×2=5)。所以a+2c=2+2×(−7)=−12。"
     },
     {
       "id": "111_math_9",
@@ -2636,7 +3128,10 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": "機率"
+      "concept_tag": "機率",
+      "page": "assets/page/111_math_p3.jpg",
+      "img": "assets/q/111_math_9.jpg",
+      "explanation": "原本每個號碼2顆，抽走1、2、2、3、5後，剩下7顆：1、3、4、4、5、6、6。其中號碼與小茹抽出的號碼(1、2、3、5)相同的有1、3、5共3顆，機率=3/7。分母要用剩下的7顆，不是6種號碼。"
     },
     {
       "id": "111_math_10",
@@ -2652,7 +3147,10 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": "一元二次方程式"
+      "concept_tag": "一元二次方程式",
+      "page": "assets/page/111_math_p3.jpg",
+      "img": "assets/q/111_math_10.jpg",
+      "explanation": "(x−2)²=3 ⇒ x−2=±√3 ⇒ x=2±√3。因a>b，a=2+√3、b=2−√3，所以2a+b=2(2+√3)+(2−√3)=6+√3。"
     },
     {
       "id": "111_math_11",
@@ -2668,7 +3166,11 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": "一元一次方程式應用"
+      "concept_tag": "一元一次方程式應用",
+      "page": "assets/page/111_math_p3.jpg",
+      "img": "assets/q/111_math_11.jpg",
+      "explanation": "設哥哥的預算為x元，則售價為x+1200元；打8折後比預算少200元，得0.8(x+1200)=x−200。展開0.8x+960=x−200，0.2x=1160，x=5800元。",
+      "text_issue": "對話角色寫反：圖中是弟弟問「遊戲機買了沒」、哥哥回答售價比「我的預算」多1200元並說打折後少200元；JSON寫成哥哥問、弟弟回覆，會讓預算變成弟弟的。"
     },
     {
       "id": "111_math_12",
@@ -2684,7 +3186,10 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": "科學記號與指數律"
+      "concept_tag": "科學記號與指數律",
+      "page": "assets/page/111_math_p4.jpg",
+      "img": "assets/q/111_math_12.jpg",
+      "explanation": "7.52×10⁻⁶=0.00000752，是正數且小於1，所以介於0與1之間；它離0只差0.00000752，遠比離1近，所以比較接近0。"
     },
     {
       "id": "111_math_13",
@@ -2700,7 +3205,10 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": "畢氏定理"
+      "concept_tag": "畢氏定理",
+      "page": "assets/page/111_math_p4.jpg",
+      "img": "assets/q/111_math_13.jpg",
+      "explanation": "從O作AB的垂線，垂足M是AB中點。AB=6+2=8，AM=4，所以CM=AC−AM=6−4=2；弦心距OM=3。直角三角形OMC中，OC=√(3²+2²)=√13。"
     },
     {
       "id": "111_math_14",
@@ -2716,7 +3224,10 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": "統計圖表判讀"
+      "concept_tag": "統計圖表判讀",
+      "page": "assets/page/111_math_p4.jpg",
+      "img": "assets/q/111_math_14.jpg",
+      "explanation": "直方圖每組寬6萬元，平均數60萬元剛好在組界上，把60萬元以下各組人數加起來：5+5+10+40+80+100+80+80+65+45=510(萬人)。510÷750=0.68，即68%。"
     },
     {
       "id": "111_math_15",
@@ -2732,7 +3243,10 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": "三角形角度計算"
+      "concept_tag": "三角形角度計算",
+      "page": "assets/page/111_math_p5.jpg",
+      "img": "assets/q/111_math_15.jpg",
+      "explanation": "DE是AB的中垂線，所以EA=EB，△EAB是等腰三角形，中垂線平分頂角，得∠1=∠2。∠3是△ABE的外角，∠3=∠B+∠BAE=2∠B；又∠1=90°−∠B。在△AEC中∠EAC=180°−∠3−∠C=180°−3∠B>90°，得∠B<30°，所以∠3<60°<∠1，即∠1>∠3。"
     },
     {
       "id": "111_math_16",
@@ -2748,7 +3262,11 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": "一元一次方程式應用"
+      "concept_tag": "一元一次方程式應用",
+      "page": "assets/page/111_math_p5.jpg",
+      "img": "assets/q/111_math_16.jpg",
+      "explanation": "由圖(七)，繩子上端在安裝樓層地板上方1.6−0.4=1.2公尺處，下端離一樓地面0.5公尺。八樓地板離一樓地面有7層樓高，7×3=21公尺，所以繩長=21+1.2−0.5=21.7公尺。(可用三樓驗證：6+1.2−0.5=6.7公尺。)",
+      "text_issue": "括號內標示說明不精確：圖中1.6是三樓地板到落地架頂端的高度(非矮牆高)，0.4是落地架橫桿到緩降機主體下方的垂直距離。"
     },
     {
       "id": "111_math_17",
@@ -2764,7 +3282,10 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": "三角形角度計算"
+      "concept_tag": "三角形角度計算",
+      "page": "assets/page/111_math_p6.jpg",
+      "img": "assets/q/111_math_17.jpg",
+      "explanation": "L∥BC，120°與∠C是同側內角，∠C=180°−120°=60°；M∥AB，115°與∠A是同側內角，∠A=180°−115°=65°。所以∠B=180°−60°−65°=55°。"
     },
     {
       "id": "111_math_18",
@@ -2780,7 +3301,10 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": "一元一次方程式應用"
+      "concept_tag": "一元一次方程式應用",
+      "page": "assets/page/111_math_p6.jpg",
+      "img": "assets/q/111_math_18.jpg",
+      "explanation": "設較貴的鞋定價x元、較便宜的y元。用折價券花0.8(x+y)，參加活動花x+0.6y，兩者相減：(x+0.6y)−0.8(x+y)=0.2(x−y)>0，所以用折價券較省。0.2(x−y)=50，得x−y=250元。"
     },
     {
       "id": "111_math_19",
@@ -2796,7 +3320,10 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": "三角形內心外心重心的性質與計算"
+      "concept_tag": "三角形內心外心重心的性質與計算",
+      "page": "assets/page/111_math_p7.jpg",
+      "img": "assets/q/111_math_19.jpg",
+      "explanation": "重心把中線分成2:1，所以AG=2GD=2r(r為半徑)。直角三角形AEG中，GE=r、AG=2r，斜邊是對邊的2倍，∠GAE=30°，同理∠GAF=30°，∠EAF=60°。∠BAC=180°−40°−45°=95°，所以∠1+∠2=95°−60°=35°。"
     },
     {
       "id": "111_math_20",
@@ -2812,7 +3339,10 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": "線對稱與摺疊幾何"
+      "concept_tag": "線對稱與摺疊幾何",
+      "page": "assets/page/111_math_p7.jpg",
+      "img": "assets/q/111_math_20.jpg",
+      "explanation": "摺疊後DB長不變：DB=DF+FB=14+8=22，所以正三角形邊長AB=10+22=32。△ADF與△BGF中，∠A=∠B=60°、∠AFD=∠BFG(對頂角)，兩三角形相似，對應比AF:BF=16:8=2:1，得FG=DF÷2=7。CG=AC−AF−FG=32−16−7=9。"
     },
     {
       "id": "111_math_21",
@@ -2828,7 +3358,10 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": "圓的性質（圓心角、圓周角、弧）"
+      "concept_tag": "圓的性質（圓心角、圓周角、弧）",
+      "page": "assets/page/111_math_p7.jpg",
+      "img": "assets/q/111_math_21.jpg",
+      "explanation": "AB是直徑，∠ACB、∠ADB都是直角：BC=√(10²−6²)=8，BD=√(10²−8²)=6=AC。等弦對等弧，弧BD=弧AC，所以弧AC+弧AD=弧BD+弧AD=弧AB成立。同理BE=√75、BF=√19，但AE=5≠BF，弧AE≠弧BF，所以弧AE+弧AF≠弧AB。"
     },
     {
       "id": "111_math_22",
@@ -2844,7 +3377,10 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": "二次函數圖形"
+      "concept_tag": "二次函數圖形",
+      "page": "assets/page/111_math_p8.jpg",
+      "img": "assets/q/111_math_22.jpg",
+      "explanation": "圖形上下平移不改變對稱軸x=−6，兩交點對稱於對稱軸，所以a+b=c+d=−12。往上平移k後，y=−(x+6)²+5+k，交點x=−6±√(5+k)，兩點距離2√(5+k)比原本的2√5大，所以(b−a)<(d−c)。"
     },
     {
       "id": "111_math_23",
@@ -2860,7 +3396,10 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": "相似三角形與比例線段"
+      "concept_tag": "相似三角形與比例線段",
+      "page": "assets/page/111_math_p8.jpg",
+      "img": "assets/q/111_math_23.jpg",
+      "explanation": "∠B=∠FAC、∠C共用，△CAF~△CBA，得CA²=CF×CB=5×16=80，面積比△CAF:△CBA=(CA/CB)²=80/256=5/16。∠B共用、∠BDE=∠C，△BDE~△BCA，且BD=AC，面積比同樣是(BD/BC)²=5/16。所以ADEF=1−5/16−5/16=6/16=3/8，面積比3:8。"
     },
     {
       "id": "111_math_24",
@@ -2876,7 +3415,15 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": "比與比例應用"
+      "concept_tag": "比與比例應用",
+      "page": "assets/page/111_math_p9.jpg",
+      "img": "assets/q/111_math_24.jpg",
+      "group_img": "assets/g/111_math_24.jpg",
+      "group": [
+        24,
+        25
+      ],
+      "explanation": "發光效率=光通量÷功率。甲：PA-20為1440÷20=72，PB-14為1200÷14≈85.7，PA-20較低，甲錯誤。乙：PA-20、PA-30、PA-40依序為72、78、84，功率越大效率越高，乙正確。"
     },
     {
       "id": "111_math_25",
@@ -2892,7 +3439,15 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": "不等式應用"
+      "concept_tag": "不等式應用",
+      "page": "assets/page/111_math_p9.jpg",
+      "img": "assets/q/111_math_25.jpg",
+      "group_img": "assets/g/111_math_24.jpg",
+      "group": [
+        24,
+        25
+      ],
+      "explanation": "施工費差60000−45000=15000元。每小時耗電：基本方案90×40/1000=3.6度，省電方案120×28/1000=3.36度，每小時省0.24度，即0.24×5=1.2元。要1.2t>15000，t>12500小時。"
     },
     {
       "id": "112_math_1",
@@ -2908,7 +3463,10 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": "整數與分數的四則運算"
+      "concept_tag": "整數與分數的四則運算",
+      "page": "assets/page/112_math_p1.jpg",
+      "img": "assets/q/112_math_1.jpg",
+      "explanation": "(-3)^3 = (-3)×(-3)×(-3)，負數連乘奇數次結果為負，3^3 = 27，所以答案是 -27。常見錯誤是把次方當成乘法算成 -9，或忘了負號得到 27。"
     },
     {
       "id": "112_math_2",
@@ -2924,7 +3482,10 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": "因式分解"
+      "concept_tag": "因式分解",
+      "page": "assets/page/112_math_p1.jpg",
+      "img": "assets/q/112_math_2.jpg",
+      "explanation": "x^2 - 36 = x^2 - 6^2，用平方差公式 a^2 - b^2 = (a+b)(a-b) 可分解成 (x+6)(x-6)，所以 x-6 是它的因式。其他選項代入檢查：例如 x=3 時 9-36≠0，故 x-3 不是因式。"
     },
     {
       "id": "112_math_3",
@@ -2940,7 +3501,10 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": "立體圖形（展開圖、表面積、體積、三視圖）"
+      "concept_tag": "立體圖形（展開圖、表面積、體積、三視圖）",
+      "page": "assets/page/112_math_p1.jpg",
+      "img": "assets/q/112_math_3.jpg",
+      "explanation": "前視圖是沿著箭頭方向看過去，每一個左右位置只看得到最高的那一層，同一條視線上前後的積木會互相遮住。丁的後方同一視線上還有積木、甲所在的 3 層積木柱與左邊另一疊 3 層積木在同一條視線上、丙所在位置也還有其他積木擋著，拿走都不影響前視圖；只有乙是它那一行唯一的第 2 層積木，拿走後前視圖會少一格，所以選乙。"
     },
     {
       "id": "112_math_4",
@@ -2956,7 +3520,10 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": "根式化簡與運算"
+      "concept_tag": "根式化簡與運算",
+      "page": "assets/page/112_math_p1.jpg",
+      "img": "assets/q/112_math_4.jpg",
+      "explanation": "把 135 做質因數分解：135 = 9 × 15 = 3^2 × 15，所以 √135 = √(3^2 × 15) = 3√15。注意 15 = 3×5 已無平方因數，不能再化簡；選 (A) 3√5 是把 135 誤當成 45。"
     },
     {
       "id": "112_math_5",
@@ -2972,7 +3539,10 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": "一次函數與坐標平面"
+      "concept_tag": "一次函數與坐標平面",
+      "page": "assets/page/112_math_p2.jpg",
+      "img": "assets/q/112_math_5.jpg",
+      "explanation": "四個選項的 x 都是 -4，把 x = -4 代入 y = -2x - 6，得 y = -2×(-4) - 6 = 8 - 6 = 2，所以圖形通過 (-4, 2)。要特別注意負負得正，-2×(-4) = +8。"
     },
     {
       "id": "112_math_6",
@@ -2988,7 +3558,10 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": "整數與分數的四則運算"
+      "concept_tag": "整數與分數的四則運算",
+      "page": "assets/page/112_math_p2.jpg",
+      "img": "assets/q/112_math_6.jpg",
+      "explanation": "三數都是負數，絕對值越大的數越小。比較絕對值：1 < 1又5/8 < 1又6/8（= 1又3/4），即 |a| < |c| < |b|，所以 a > c > b。常見錯誤是直接用絕對值比大小，選到相反的順序。"
     },
     {
       "id": "112_math_7",
@@ -3004,7 +3577,10 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": "一次函數與坐標平面"
+      "concept_tag": "一次函數與坐標平面",
+      "page": "assets/page/112_math_p2.jpg",
+      "img": "assets/q/112_math_7.jpg",
+      "explanation": "直線 L：x = -5 是鉛直線，P 在 L 的左邊，表示 P 的 x 坐標比 -5 小，即 a < -5。直線 M：y = -3 是水平線，P 在 M 的上方，表示 b > -3，故選 (A)。"
     },
     {
       "id": "112_math_8",
@@ -3020,7 +3596,10 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": "四邊形與多邊形性質"
+      "concept_tag": "四邊形與多邊形性質",
+      "page": "assets/page/112_math_p2.jpg",
+      "img": "assets/q/112_math_8.jpg",
+      "explanation": "因為 AD // BC，同側內角互補，∠ADC + ∠C = 180°，所以 ∠C = 180° - 140° = 40°。在直角三角形 BDC 中，∠BDC = 90°，所以 ∠DBC = 90° - 40° = 50°。"
     },
     {
       "id": "112_math_9",
@@ -3036,7 +3615,10 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": "因數與倍數"
+      "concept_tag": "因數與倍數",
+      "page": "assets/page/112_math_p3.jpg",
+      "img": "assets/q/112_math_9.jpg",
+      "explanation": "216 = 2^3 × 3^3，18 = 2 × 3^2。所求的數是 18 的倍數又是 216 的因數，可寫成 18k 且 18k 整除 216，即 k 是 216 ÷ 18 = 12 的因數。12 的因數有 1、2、3、4、6、12 共 6 個，對應 18、36、54、72、108、216，所以有 6 個。"
     },
     {
       "id": "112_math_10",
@@ -3052,7 +3634,10 @@
       },
       "answer": "D",
       "has_diagram": false,
-      "concept_tag": "一元二次方程式"
+      "concept_tag": "一元二次方程式",
+      "page": "assets/page/112_math_p3.jpg",
+      "img": "assets/q/112_math_10.jpg",
+      "explanation": "公式解 x = [-b ± √(b^2 - 4ac)] / 2a，這裡 a=3、b=-11、c=-1。判別式 b^2 - 4ac = 121 - 4×3×(-1) = 121 + 12 = 133，所以 x = (11 ± √133)/6，較大的解 a = (11 + √133)/6。常見錯誤：把 -b 寫成 -11（選 B），或把 -4ac 算成 -12 得到 109（選 C）。"
     },
     {
       "id": "112_math_11",
@@ -3068,7 +3653,10 @@
       },
       "answer": "D",
       "has_diagram": false,
-      "concept_tag": "情境應用題（生活數學、表格判讀）"
+      "concept_tag": "情境應用題（生活數學、表格判讀）",
+      "page": "assets/page/112_math_p3.jpg",
+      "img": "assets/q/112_math_11.jpg",
+      "explanation": "每毫升含量相同，設中杯含 m 毫克。中杯是黃色：100 < m ≤ 200；大杯是中杯的 480/360 = 4/3 倍且為紅色，所以 (4/3)m > 200，得 m > 150。因此 150 < m ≤ 200，兩杯為 300 < 2m ≤ 400：超過我國 300 毫克的建議，但不超過歐盟的 400 毫克，選 (D)。只看中杯黃色會以為可能不超過 300，關鍵是用大杯紅色把下限提高到 150。"
     },
     {
       "id": "112_math_12",
@@ -3084,7 +3672,10 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": "機率"
+      "concept_tag": "機率",
+      "page": "assets/page/112_math_p4.jpg",
+      "img": "assets/q/112_math_12.jpg",
+      "explanation": "動物系列共 6 款，小友喜歡 A、C 兩款，買到喜歡的機率為 2/6 = 1/3；汽車系列共 5 款，喜歡 B 款，機率為 1/5。兩盒是分開購買、互不影響，所以兩盒都是喜歡款式的機率 = 1/3 × 1/5 = 1/15。不要把兩系列合併成 11 款來算（那是 (C)(D) 分母 11 的由來）。"
     },
     {
       "id": "112_math_13",
@@ -3100,7 +3691,10 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": "三角形角度計算"
+      "concept_tag": "三角形角度計算",
+      "page": "assets/page/112_math_p4.jpg",
+      "img": "assets/q/112_math_13.jpg",
+      "explanation": "直角柱上下底全等，△DEF ≅ △ABC，所以 ∠FDE = ∠CAB。在直角△ABC 中 BC > AB，大邊對大角，∠CAB > ∠ACB，即 ∠ACB < ∠FDE。另外 △ABE 與 △ABC 都是以 B 為直角、共用股 AB 的直角三角形，BE < BC，所以 AE 較「陡」，∠AEB > ∠ACB，故選 (A)。"
     },
     {
       "id": "112_math_14",
@@ -3116,7 +3710,10 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": "二次函數圖形"
+      "concept_tag": "二次函數圖形",
+      "page": "assets/page/112_math_p5.jpg",
+      "img": "assets/q/112_math_14.jpg",
+      "explanation": "由圖看，A、C 在頂點為 P 的拋物線上，B、D 在頂點為 Q 的拋物線上。拋物線對稱軸通過頂點，所以 P 的 x 坐標是 A、C 的中點，Q 是 B、D 的中點。以 A 為起點：AC = 10 + 5 = 15，P 在 A 右方 7.5；BD = 5 + 6 = 11，Q 在 A 右方 10 + 5.5 = 15.5，所以 PQ = 15.5 - 7.5 = 8。"
     },
     {
       "id": "112_math_15",
@@ -3132,7 +3729,10 @@
       },
       "answer": "D",
       "has_diagram": false,
-      "concept_tag": "等差數列"
+      "concept_tag": "等差數列",
+      "page": "assets/page/112_math_p5.jpg",
+      "img": "assets/q/112_math_15.jpg",
+      "explanation": "原數列公差為 1，插入數後 2、3、4 仍要在新數列中，所以新公差 d 必須能把 1 等分，即 d = 1/k（k 為正整數）。從 1 到 5 共跨 4，項數 = 4 ÷ d + 1 = 4k + 1。選項中只有 33 = 4×8 + 1 符合（k = 8，d = 1/8），11、15、30 都不能寫成 4k + 1。"
     },
     {
       "id": "112_math_16",
@@ -3148,7 +3748,10 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": "二元一次聯立方程式"
+      "concept_tag": "二元一次聯立方程式",
+      "page": "assets/page/112_math_p5.jpg",
+      "img": "assets/q/112_math_16.jpg",
+      "explanation": "設雞排 x 元、可樂 y 元，則一份套餐 = x + y - 40。促銷時單點一片雞排送一片，所以買一片雞排加兩杯可樂就有兩片雞排、兩杯可樂：x + 2y = 2(x + y - 40) - 10 = 2x + 2y - 90，整理得 x = 90。y 無法決定，所以套餐價不確定，只能確定雞排必為 90 元。"
     },
     {
       "id": "112_math_17",
@@ -3164,7 +3767,10 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": "三角形內心外心重心的性質與計算"
+      "concept_tag": "三角形內心外心重心的性質與計算",
+      "page": "assets/page/112_math_p6.jpg",
+      "img": "assets/q/112_math_17.jpg",
+      "explanation": "以 O 為原點，由圖可知 A 在 O 右 1 格、上 3 格，所以外接圓半徑 OA = √(1^2 + 3^2) = √10。B、C 也要在格線交點上且與 O 距離 √10，只能是相對 O 為 (±1, ±3) 或 (±3, ±1) 的點；扣掉 A 本身與超出方格紙的點，只剩 (-1, 3) 與 (3, 1)。所以 BC = √((3-(-1))^2 + (1-3)^2) = √(16 + 4) = √20。"
     },
     {
       "id": "112_math_18",
@@ -3180,7 +3786,10 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": "一元一次方程式應用"
+      "concept_tag": "一元一次方程式應用",
+      "page": "assets/page/112_math_p6.jpg",
+      "img": "assets/q/112_math_18.jpg",
+      "explanation": "10:00 到 20:00 共 10 小時，依 20 元/小時要 200 元，但該時段最多收 100 元，所以收 100 元。20:00 之後停了 (x - 10) 小時，最多到 24:00 只有 4 小時，5×4 = 20 元，不會超過 30 元上限，收 5(x - 10) 元。總費用 = 100 + 5(x - 10) = 5x + 50。忘了 100 元上限就會誤選 (D)。"
     },
     {
       "id": "112_math_19",
@@ -3196,7 +3805,10 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": "圓的性質（圓心角、圓周角、弧）"
+      "concept_tag": "圓的性質（圓心角、圓周角、弧）",
+      "page": "assets/page/112_math_p6.jpg",
+      "img": "assets/q/112_math_19.jpg",
+      "explanation": "AC 為直徑，半圓 ABC 為 180°，所以左側弧 AB = 180° - 35° =145°。對摺後，弧 AB 翻成弧 ADB，度數仍是 145°，且它所在的圓與原圓等大。D 在 AC 上，∠BAD = ∠BAC = 弧 BC 的一半 = 17.5°，在摺過去的圓中它是對弧 BD 的圓周角，所以弧 BD = 35°，弧 AD = 145° - 35° = 110°。"
     },
     {
       "id": "112_math_20",
@@ -3212,7 +3824,10 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": "三角形內心外心重心的性質與計算"
+      "concept_tag": "三角形內心外心重心的性質與計算",
+      "page": "assets/page/112_math_p7.jpg",
+      "img": "assets/q/112_math_20.jpg",
+      "explanation": "E 在 BD 的中垂線上，所以 EB = ED，∠EDB = ∠B，外角 ∠1 = ∠B + ∠EDB = 2∠B；同理 FD = FC，∠3 = 2∠C。因為三內角皆不相等，∠B ≠ ∠C，所以 ∠1 ≠ ∠3。又 ∠2 = 180° - ∠EDB - ∠FDC = 180° - ∠B - ∠C = ∠4（即 ∠A），故選 (C)。"
     },
     {
       "id": "112_math_21",
@@ -3228,7 +3843,10 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": "比與比例應用"
+      "concept_tag": "比與比例應用",
+      "page": "assets/page/112_math_p7.jpg",
+      "img": "assets/q/112_math_21.jpg",
+      "explanation": "阿良走 60 步到交會點、再走 70 步到西橋頭，所以整座橋 = 阿良 130 步；交會點到東橋頭占全長的 60/130，到西橋頭占 70/130。小維走 84 步完成了 70/130 的路，剩下 60/130 的路需要 84 × 60/70 = 72 步。重點是比較兩段路程的比例 70 : 60，而不是直接用步數相減。"
     },
     {
       "id": "112_math_22",
@@ -3244,7 +3862,10 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": "相似三角形與比例線段"
+      "concept_tag": "相似三角形與比例線段",
+      "page": "assets/page/112_math_p8.jpg",
+      "img": "assets/q/112_math_22.jpg",
+      "explanation": "正方形面積 16，邊長 4。△GBC 的底 BC = 4、高 = 4，面積 8，所以 △EBC = △EBG + △GBC = 6 + 8 = 14。△EBG 與 △EBC 同高（從 B 到直線 EC），面積比 = EG : EC = 6 : 14 = 3 : 7。因為 FG // BC，△EFG ~ △EBC，所以 FG : BC = EG : EC = 3 : 7。"
     },
     {
       "id": "112_math_23",
@@ -3260,7 +3881,10 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": "畢氏定理"
+      "concept_tag": "畢氏定理",
+      "page": "assets/page/112_math_p8.jpg",
+      "img": "assets/q/112_math_23.jpg",
+      "explanation": "四邊形 AEPF 有三個直角，是矩形，而矩形兩對角線等長，所以 EF = AP。EF 最小就是 AP 最小，也就是 A 到 BD 的垂直距離。BD = √(6^2 + 8^2) = 10，用面積 AB × AD = BD × 高，得高 = 6×8÷10 = 24/5。"
     },
     {
       "id": "112_math_24",
@@ -3276,7 +3900,15 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": "統計圖表判讀"
+      "concept_tag": "統計圖表判讀",
+      "page": "assets/page/112_math_p9.jpg",
+      "img": "assets/q/112_math_24.jpg",
+      "group_img": "assets/g/112_math_24.jpg",
+      "group": [
+        24,
+        25
+      ],
+      "explanation": "看各國折線在 14% 與 20% 兩條虛線的穿越年份：韓國約在 2018 年前後超過 14%，約 2025 年就超過 20%，只花約 7～8 年；法國、義大利、美國從 14% 到 20% 都要十幾年以上。韓國折線在這一段最陡，所以所花時間最短。"
     },
     {
       "id": "112_math_25",
@@ -3292,7 +3924,15 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": "情境應用題（生活數學、表格判讀）"
+      "concept_tag": "情境應用題（生活數學、表格判讀）",
+      "page": "assets/page/112_math_p9.jpg",
+      "img": "assets/q/112_math_25.jpg",
+      "group_img": "assets/g/112_math_24.jpg",
+      "group": [
+        24,
+        25
+      ],
+      "explanation": "2019 年恰達「高齡社會」最低標準 14%，65 歲以上人口 = 2300 × 14% = 322 萬人。2025 年進入「超高齡社會」，至少要 20%，即 2300 × 20% = 460 萬人。至少增加 460 - 322 = 138 萬人，也可直接算 2300 × 6% = 138。選 (C)(D) 是把 2019 或 2025 的人數誤當成增加量。"
     },
     {
       "id": "113_math_1",
@@ -3308,7 +3948,10 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": "整數與分數的四則運算"
+      "concept_tag": "整數與分數的四則運算",
+      "page": "assets/page/113_math_p1.jpg",
+      "img": "assets/q/113_math_1.jpg",
+      "explanation": "減去一個負數等於加上它的相反數：3/7 − (−1/4) = 3/7 + 1/4。通分成分母 28：12/28 + 7/28 = 19/28，故選 (A)。常見錯誤是把減負號看成減法而算成 12/28 − 7/28 = 5/28（選項 B）。"
     },
     {
       "id": "113_math_2",
@@ -3324,7 +3967,10 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": "立體圖形（展開圖、表面積、體積、三視圖）"
+      "concept_tag": "立體圖形（展開圖、表面積、體積、三視圖）",
+      "page": "assets/page/113_math_p1.jpg",
+      "img": "assets/q/113_math_2.jpg",
+      "explanation": "展開圖中甲、乙兩個三角形是直三角柱的上下兩個底面，摺起來後互相平行。丙是長方形側面，直三角柱的側面都與底面垂直，所以甲與丙垂直，故選 (A)。"
     },
     {
       "id": "113_math_3",
@@ -3340,7 +3986,10 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": "二元一次聯立方程式"
+      "concept_tag": "二元一次聯立方程式",
+      "page": "assets/page/113_math_p1.jpg",
+      "img": "assets/q/113_math_3.jpg",
+      "explanation": "用代入消去法：把 y = −3x 代入 5x − 3y = 28，得 5x + 9x = 28，14x = 28，x = 2。再代回 y = −3×2 = −6，所以 a = 2、b = −6，a + b = −4，故選 (C)。"
     },
     {
       "id": "113_math_4",
@@ -3356,7 +4005,10 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": "一次函數與坐標平面"
+      "concept_tag": "一次函數與坐標平面",
+      "page": "assets/page/113_math_p2.jpg",
+      "img": "assets/q/113_math_4.jpg",
+      "explanation": "四點的 x 坐標從 −4 到 5，y 坐標從 −5 到 4，所以 y 軸左邊至少要有 4 格、右邊至少 5 格；x 軸上方至少 4 格、下方至少 5 格。只有 (D) 的原點偏左上，左方與上方約 4 格多、右方與下方約 5 格多，四點都畫得下，故選 (D)。(A) 原點下方不足 5 格，畫不出 (3,−5)；(B)(C) 原點右方不足 5 格，畫不出 (5,3)。"
     },
     {
       "id": "113_math_5",
@@ -3372,7 +4024,10 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": "等差數列"
+      "concept_tag": "等差數列",
+      "page": "assets/page/113_math_p2.jpg",
+      "img": "assets/q/113_math_5.jpg",
+      "explanation": "第 n 層第一列有 (2n−1) 張，同層三列依序為 2n−1、2n+1、2n+3，一層共 6n+3 張（第 1、2、3 層為 9、15、21 張，符合圖形）。10 層總數＝6×(1+2+…+10) + 3×10 = 6×55 + 30 = 360 張，故選 (B)。"
     },
     {
       "id": "113_math_6",
@@ -3388,7 +4043,10 @@
       },
       "answer": "D",
       "has_diagram": false,
-      "concept_tag": "機率"
+      "concept_tag": "機率",
+      "page": "assets/page/113_math_p3.jpg",
+      "img": "assets/q/113_math_6.jpg",
+      "explanation": "白球抽出後會放回，所以白球一直是 50 顆；紅球抽出不放回，前 30 次抽出 4 顆紅球，箱內剩 10 − 4 = 6 顆紅球。第 31 次抽球時箱內共 50 + 6 = 56 顆球，抽出紅球機率為 6/56 = 3/28，故選 (D)。"
     },
     {
       "id": "113_math_7",
@@ -3404,7 +4062,10 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": "線對稱與摺疊幾何"
+      "concept_tag": "線對稱與摺疊幾何",
+      "page": "assets/page/113_math_p3.jpg",
+      "img": "assets/q/113_math_7.jpg",
+      "explanation": "A 圖是風車（旋轉）造型，只有旋轉對稱沒有對稱軸，四個 A 同方向排成圖（五）仍是風車排列，找不到對稱軸，所以圖（五）不是線對稱圖形。圖（六）上排是兩個 A、下排是兩個 B，而 B 正是 A 上下翻轉的結果，因此圖（六）以水平中線為對稱軸上下對稱，是線對稱圖形，故選 (D)。"
     },
     {
       "id": "113_math_8",
@@ -3420,7 +4081,10 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": "科學記號與指數律"
+      "concept_tag": "科學記號與指數律",
+      "page": "assets/page/113_math_p3.jpg",
+      "img": "assets/q/113_math_8.jpg",
+      "explanation": "把三數化成同樣的 10 的次方比較：c = 6.3×10⁻⁶ = 0.63×10⁻⁵。0.63 < 3.2 < 7.5，所以 c < a < b，故選 (C)。易錯處是只看 6.3 較大就以為 c 最大，忽略 10⁻⁶ 比 10⁻⁵ 小 10 倍。"
     },
     {
       "id": "113_math_9",
@@ -3436,7 +4100,10 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": "統計圖表判讀"
+      "concept_tag": "統計圖表判讀",
+      "page": "assets/page/113_math_p4.jpg",
+      "img": "assets/q/113_math_9.jpg",
+      "explanation": "（甲）乳癌一到四期的 3 年存活率約為 99%、97%、88%、53%，都高於 50%，正確。（乙）三期與四期的差距：胃癌約 56−13＝43，肝癌約 22−15＝7，大腸癌約 83−29＝54，乳癌約 88−53＝35，相差最多的是大腸癌而不是胃癌，錯誤。故選 (C)。"
     },
     {
       "id": "113_math_10",
@@ -3452,7 +4119,10 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": "因式分解"
+      "concept_tag": "因式分解",
+      "page": "assets/page/113_math_p4.jpg",
+      "img": "assets/q/113_math_10.jpg",
+      "explanation": "提出公因式 (5x−2)：原式 = (5x−2)[5x − 4(5x−2)] = (5x−2)(5x − 20x + 8) = (5x−2)(−15x + 8)，故選 (C)。易錯處是括號內 −4(5x−2) 展開時漏變號，寫成 −8 而得到錯誤結果。"
     },
     {
       "id": "113_math_11",
@@ -3468,7 +4138,10 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": "根式化簡與運算"
+      "concept_tag": "根式化簡與運算",
+      "page": "assets/page/113_math_p4.jpg",
+      "img": "assets/q/113_math_11.jpg",
+      "explanation": "分母有理化：分子分母同乘 (4+√7)，得 9(4+√7) / (16−7) = 9(4+√7)/9 = 4 + √7。所以 a = 4、b = 1，a + b = 5，故選 (A)。"
     },
     {
       "id": "113_math_12",
@@ -3484,7 +4157,10 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": "二次函數圖形"
+      "concept_tag": "二次函數圖形",
+      "page": "assets/page/113_math_p5.jpg",
+      "img": "assets/q/113_math_12.jpg",
+      "explanation": "甲 y=(x+20)²+60 的平方項係數為正，開口向上，有最小值 60，發生在 x = −20（不是 x = 20），所以 (A)(B) 都錯。乙 y=−(x−30)²+60 開口向下，頂點 (30, 60)，有最大值 60，就是 x = 30 時的 y 值，故選 (C)。"
     },
     {
       "id": "113_math_13",
@@ -3500,7 +4176,10 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": "比與比例應用"
+      "concept_tag": "比與比例應用",
+      "page": "assets/page/113_math_p5.jpg",
+      "img": "assets/q/113_math_13.jpg",
+      "explanation": "比例不變才不會出現黑邊。1920:1080 約分為 16:9；各選項中 1600:900 = 16:9 相同，故選 (B)。其餘 1680:1050 = 16:10、1440:900 = 16:10、1280:1024 = 5:4，比例都不同。"
     },
     {
       "id": "113_math_14",
@@ -3516,7 +4195,10 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": "不等式應用"
+      "concept_tag": "不等式應用",
+      "page": "assets/page/113_math_p5.jpg",
+      "img": "assets/q/113_math_14.jpg",
+      "explanation": "每天改搭公車可減少碳排 (0.17 − 0.04) × 20 = 2.6 公斤。要超過 800 公斤：2.6n > 800，n > 307.69…，所以至少 308 天，故選 (C)。驗算：307 天只減少 798.2 公斤，還不到 800 公斤。"
     },
     {
       "id": "113_math_15",
@@ -3532,7 +4214,10 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": "因數與倍數"
+      "concept_tag": "因數與倍數",
+      "page": "assets/page/113_math_p6.jpg",
+      "img": "assets/q/113_math_15.jpg",
+      "explanation": "設通分後的公分母為 L：10/a = 50/L 得 L = 5a；18/b = 54/L 得 L = 3b，所以 5a = 3b，因 3 與 5 互質，a 必為 3 的倍數。又 10/a 是最簡分數，a 與 10 互質，所以 a 不能是 5 的倍數。故 a 是 3 的倍數但不是 5 的倍數，選 (B)。"
     },
     {
       "id": "113_math_16",
@@ -3548,7 +4233,10 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": "一次函數與坐標平面"
+      "concept_tag": "一次函數與坐標平面",
+      "page": "assets/page/113_math_p6.jpg",
+      "img": "assets/q/113_math_16.jpg",
+      "explanation": "每十年上升 0.08℃，每年上升的度數相同，所以每年上升 0.08 ÷ 10 = 0.008℃。以 2020 年的 14.88℃ 為起點，之後第 x 年的氣溫為 14.88 + 0.008x，故選 (B)。(A) 誤把每十年的上升量當成每年；(C)(D) 多加了 1880～2020 這段已經發生的時間。"
     },
     {
       "id": "113_math_17",
@@ -3564,7 +4252,10 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": "三角形角度計算"
+      "concept_tag": "三角形角度計算",
+      "page": "assets/page/113_math_p6.jpg",
+      "img": "assets/q/113_math_17.jpg",
+      "explanation": "∠A = 180° − 55° − 65° = 60°，三角形中大角對大邊：∠C(65°) > ∠A(60°) > ∠B(55°)，所以 AB > BC > AC。A 到圓 B 圓心的距離 AB 大於半徑 BC，A 在圓 B 外部；A 到圓 C 圓心的距離 AC 小於半徑 BC，A 在圓 C 內部，故選 (A)。"
     },
     {
       "id": "113_math_18",
@@ -3580,7 +4271,10 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": "三角形全等"
+      "concept_tag": "三角形全等",
+      "page": "assets/page/113_math_p7.jpg",
+      "img": "assets/q/113_math_18.jpg",
+      "explanation": "由全等對應：HE = AB = 7，EF = BC = 5，FG = CD = 7，GH = DA = 5，所以 CG = FG − FC = 7 − 3 = 4。又 ∠EFC 對應 ∠BCD，而 ∠ECF 就是 ∠BCD，所以 △EFC 兩底角相等，EC = EF = 5。周長 = EC + CG + GH + HE = 5 + 4 + 5 + 7 = 21，故選 (A)。"
     },
     {
       "id": "113_math_19",
@@ -3596,7 +4290,10 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": "絕對值與數線"
+      "concept_tag": "絕對值與數線",
+      "page": "assets/page/113_math_p7.jpg",
+      "img": "assets/q/113_math_19.jpg",
+      "explanation": "P 在 A 的左側，表示 p < −2；q = 1/p 也是負數，且 −1/2 < q < 0。所以 Q 在 AO 上，而且很靠近 O：QO < 1/2，AQ > 3/2，得 AQ > QO，故選 (B)。易錯處是以為倒數的正負號會改變而選在 OB 上。"
     },
     {
       "id": "113_math_20",
@@ -3612,7 +4309,10 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": "四邊形與多邊形性質"
+      "concept_tag": "四邊形與多邊形性質",
+      "page": "assets/page/113_math_p7.jpg",
+      "img": "assets/q/113_math_20.jpg",
+      "explanation": "四邊形 ABEG 內角和 360°：100° + 85° + ∠3 + (180° − ∠1) = 360°，得 ∠1 = ∠3 + 5°。四邊形 GFCD：105° + 70° + ∠4 + (180° − ∠2) = 360°，得 ∠2 = ∠4 − 5°。因此 ∠1 + ∠2 = ∠3 + ∠4（(A)(B) 皆錯），而 ∠1 + ∠4 = ∠2 + ∠3 + 10°，故 ∠1 + ∠4 > ∠2 + ∠3，選 (D)。"
     },
     {
       "id": "113_math_21",
@@ -3628,7 +4328,10 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": "圓的性質（圓心角、圓周角、弧）"
+      "concept_tag": "圓的性質（圓心角、圓周角、弧）",
+      "page": "assets/page/113_math_p8.jpg",
+      "img": "assets/q/113_math_21.jpg",
+      "explanation": "B 是 AC 的中點，也就是半圓 AC 的圓心，所以弧 CE = 58° 表示圓心角 ∠EBC = 58°。BD 是另一個半圓的直徑，E 在其上，所以 ∠BED = 90°（半圓的圓周角）。在直角 △BED 中 ∠BDE = 90° − 58° = 32°，它是弧 BE 所對的圓周角，所以弧 BE = 2 × 32° = 64°，故選 (D)。"
     },
     {
       "id": "113_math_22",
@@ -3644,7 +4347,10 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": "面積比與重心"
+      "concept_tag": "面積比與重心",
+      "page": "assets/page/113_math_p8.jpg",
+      "img": "assets/q/113_math_22.jpg",
+      "explanation": "△ABC 面積 = 5 + 4 + 3 = 12，重心 G 把三角形分成面積相等的三塊，所以 △GAB = △GBC = △GCA = 4。△DBC = 4 = △GBC，兩者同底 BC 且面積相同，表示 D、G 到 BC 的距離相等，又在 BC 同側，所以 DG ∥ BC，故選 (A)。△DCA = 3 ≠ △GCA = 4，所以 (C)(D) 錯。"
     },
     {
       "id": "113_math_23",
@@ -3660,7 +4366,10 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": "線對稱與摺疊幾何"
+      "concept_tag": "線對稱與摺疊幾何",
+      "page": "assets/page/113_math_p8.jpg",
+      "img": "assets/q/113_math_23.jpg",
+      "explanation": "AD ∥ BE 且 DE ∥ AB，ABED 是平行四邊形，AB = DE = 4；等腰梯形 DC = AB = 4。△DEC 中 DE = DC = 4，兩底角都等於 ∠B。設摺過去後 C 落在 AB 上的點為 C'，則 EC' = EC = 2、∠DEC' = ∠B，所以 ∠BEC' = (180° − ∠B) − ∠B = 180° − 2∠B，推得 ∠BC'E = ∠B，△EBC' 是以 E 為頂點的等腰三角形且與 △DEC 相似。由相似比 BC' : EC' = EC : DE = 2 : 4，得 BC' = 1，AC' = 4 − 1 = 3，所以 BC : AC = 1 : 3，選 (B)。"
     },
     {
       "id": "113_math_24",
@@ -3676,7 +4385,15 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": "情境應用題（生活數學、表格判讀）"
+      "concept_tag": "情境應用題（生活數學、表格判讀）",
+      "page": "assets/page/113_math_p9.jpg",
+      "img": "assets/q/113_math_24.jpg",
+      "group_img": "assets/g/113_math_24.jpg",
+      "group": [
+        24,
+        25
+      ],
+      "explanation": "設身高 h 公尺。（甲）令算法①＝算法②：22h² = 0.6(100h − 70) = 60h − 42，整理成 11h² − 30h + 21 = 0，判別式 30² − 4×11×21 = −24 < 0，無解，所以甲錯。（乙）令算法②＝算法③：60h − 42 = 0.5(100h − 158) + 52 = 50h − 27，得 h = 1.5 公尺，確實有這樣的女性，乙正確。故選 (D)。"
     },
     {
       "id": "113_math_25",
@@ -3692,7 +4409,15 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": "不等式應用"
+      "concept_tag": "不等式應用",
+      "page": "assets/page/113_math_p9.jpg",
+      "img": "assets/q/113_math_25.jpg",
+      "group_img": "assets/g/113_math_24.jpg",
+      "group": [
+        24,
+        25
+      ],
+      "explanation": "身高 1.8 公尺男性：算法② 理想體重 (180 − 80)×0.7 = 70，被歸為正常表示實際體重在 63～77 公斤。算法③ 理想體重 (180 − 170)×0.6 + 62 = 68，正常範圍為 68×90%～68×110% = 61.2～74.8，過重範圍為 74.8～81.6。實際體重 63～74.8 公斤仍屬正常，74.8～77 公斤變成過重，且 63 > 61.2 不會過輕，故選 (B)。"
     },
     {
       "id": "114_math_1",
@@ -3708,7 +4433,10 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": "科學記號與指數律"
+      "concept_tag": "科學記號與指數律",
+      "page": "assets/page/114_math_p1.jpg",
+      "img": "assets/q/114_math_1.jpg",
+      "explanation": "同底數相乘指數相加、相除指數相減：7^10 × 7^2 ÷ 7^4 = 7^(10+2−4) = 7^8，所以選 (C)。常見錯誤是把指數相乘或忘記減掉除數的指數，例如算成 7^16（10+2+4）就是把除法也當成加法。"
     },
     {
       "id": "114_math_2",
@@ -3724,7 +4452,10 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": "多項式運算與乘法公式"
+      "concept_tag": "多項式運算與乘法公式",
+      "page": "assets/page/114_math_p1.jpg",
+      "img": "assets/q/114_math_2.jpg",
+      "explanation": "去括號時，減號後面的括號每一項都要變號：(5x^2 − 2x) − (4 − 3x) = 5x^2 − 2x − 4 + 3x。合併同類項得 5x^2 + x − 4，所以選 (B)。選 (D) 的同學通常是忘了把 −3x 變號成 +3x。"
     },
     {
       "id": "114_math_3",
@@ -3740,7 +4471,10 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": "線對稱與摺疊幾何"
+      "concept_tag": "線對稱與摺疊幾何",
+      "page": "assets/page/114_math_p1.jpg",
+      "img": "assets/q/114_math_3.jpg",
+      "explanation": "原圖形的對稱軸是通過兩正方形交點、方向為左上到右下的斜線，①與②互為對稱、③與④互為對稱。擦去①②或③④仍對稱；擦去①③後，以鉛垂線為對稱軸（②與④對稱）仍對稱；擦去②④後，以水平線為對稱軸（①與③對稱）仍對稱。只有擦去②和③，剩下的①、④找不到能互相對應的對稱軸，所以選 (C)。"
     },
     {
       "id": "114_math_4",
@@ -3756,7 +4490,10 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": "二元一次聯立方程式"
+      "concept_tag": "二元一次聯立方程式",
+      "page": "assets/page/114_math_p2.jpg",
+      "img": "assets/q/114_math_4.jpg",
+      "explanation": "兩式相加消去 y：60x = 120，得 x = 2，代回 37×2 + 2y = 81，得 2y = 7。所以 a + 2b = 2 + 7 = 9，選 (B)。其實不必把 b 算成 3.5，直接求 2y 的值更快。"
     },
     {
       "id": "114_math_5",
@@ -3772,7 +4509,10 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": "三角形角度計算"
+      "concept_tag": "三角形角度計算",
+      "page": "assets/page/114_math_p2.jpg",
+      "img": "assets/q/114_math_5.jpg",
+      "explanation": "在 △ADC 中，r = 180 − 30 − 70 = 80。而 r 是 △ABD 在 D 點的外角，所以 p + q = r = 80（外角等於兩內對角和）。因此 p + q + r = 80 + 80 = 160，選 (C)。"
     },
     {
       "id": "114_math_6",
@@ -3788,7 +4528,10 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": "一次函數與坐標平面"
+      "concept_tag": "一次函數與坐標平面",
+      "page": "assets/page/114_math_p2.jpg",
+      "img": "assets/q/114_math_6.jpg",
+      "explanation": "向下移動會讓 y 坐標變小，向右移動會讓 x 坐標變大。從 (−1, 2) 出發，終點必須 x > −1 且 y < 2，只有 (4, 1) 符合，選 (A)。(B) 的 y 變大是往上，(C)(D) 的 x 變小是往左。"
     },
     {
       "id": "114_math_7",
@@ -3804,7 +4547,10 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": "統計圖表判讀"
+      "concept_tag": "統計圖表判讀",
+      "page": "assets/page/114_math_p3.jpg",
+      "img": "assets/q/114_math_7.jpg",
+      "explanation": "60 歲以上包含 60～70、70～80、80 以上三組，變動數分別為 −109、+112、+204 萬人。合計 −109 + 112 + 204 = 207，正數表示增加 207 萬人，選 (A)。誤選 (B) 是漏掉了 60～70 這組的 −109。"
     },
     {
       "id": "114_math_8",
@@ -3820,7 +4566,10 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": "根式化簡與運算"
+      "concept_tag": "根式化簡與運算",
+      "page": "assets/page/114_math_p3.jpg",
+      "img": "assets/q/114_math_8.jpg",
+      "explanation": "用分配律：(2√3 + √6) × √2 = 2√6 + √12。而 √12 = 2√3，所以結果是 2√3 + 2√6，選 (C)。注意 2√3 和 2√6 不是同類方根，不能再合併成 (A) 或 (B)。"
     },
     {
       "id": "114_math_9",
@@ -3836,7 +4585,10 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": "情境應用題（生活數學、表格判讀）"
+      "concept_tag": "情境應用題（生活數學、表格判讀）",
+      "page": "assets/page/114_math_p4.jpg",
+      "img": "assets/q/114_math_9.jpg",
+      "explanation": "20 個停車位排成一排，相鄰兩個之間各有一個共用的下車區，共 20 − 1 = 19 個下車區（最左、最右沒有）。總寬度 = 20 × 200 + 19 × 150 = 4000 + 2850 = 6850 公分，選 (A)。若誤以為有 20 個下車區就會算成 7000。"
     },
     {
       "id": "114_math_10",
@@ -3852,7 +4604,10 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": "多項式運算與乘法公式"
+      "concept_tag": "多項式運算與乘法公式",
+      "page": "assets/page/114_math_p4.jpg",
+      "img": "assets/q/114_math_10.jpg",
+      "explanation": "用平方差公式 a^2 − b^2 = (a − b)(a + b) 拆開：(A) = 102×110×106×110；(B) = 104×110×106×108；(C) = 106×110×104×108；(D) = 108×110×104×106。(B)(C)(D) 都是 104×106×108×110，只有 (A) 不同，選 (A)。"
     },
     {
       "id": "114_math_11",
@@ -3868,7 +4623,11 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": "機率"
+      "concept_tag": "機率",
+      "page": "assets/page/114_math_p4.jpg",
+      "img": "assets/q/114_math_11.jpg",
+      "explanation": "阿嘉翻開的牌是 1、3 以外的 2、4、5，小楊翻開的牌是 5、2 以外的 1、3、4，共 3 × 3 = 9 種等可能組合。阿嘉較大的情形：2>1；4>1、4>3；5>1、5>3、5>4，共 6 種。機率 = 6/9 = 2/3，選 (B)。",
+      "text_issue": "括號內牌面描述有誤：原圖兩人各有5張牌，阿嘉為「蓋、1、蓋、3、蓋」，小楊為「5、蓋、蓋、2、蓋」；JSON 只列4張且位置不符（露出的數字1、3與5、2本身正確）。"
     },
     {
       "id": "114_math_12",
@@ -3884,7 +4643,10 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": "立體圖形（展開圖、表面積、體積、三視圖）"
+      "concept_tag": "立體圖形（展開圖、表面積、體積、三視圖）",
+      "page": "assets/page/114_math_p5.jpg",
+      "img": "assets/q/114_math_12.jpg",
+      "explanation": "正三角錐的底面是正三角形，三個側面是全等的等腰三角形，且每條側稜同時屬於兩個側面，長度必須一致。丙（4、4、3）以邊長 3 貼合底面，三條側稜都是 4，可以組成；乙（3、3、2）若以 3 貼底，另外兩邊是 3 和 2，三個側面繞一圈時側稜長度無法互相吻合，所以不能。答案是阿林不能、小博能，選 (D)。"
     },
     {
       "id": "114_math_13",
@@ -3900,7 +4662,10 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": "一元二次方程式"
+      "concept_tag": "一元二次方程式",
+      "page": "assets/page/114_math_p5.jpg",
+      "img": "assets/q/114_math_13.jpg",
+      "explanation": "甲：(x − 4)^2 = 9 ⇒ x − 4 = ±3，得 x = 7 或 1，是兩個相異的解。乙：任何數的平方都不會是負數，(x + 9)^2 = −4 無解。所以選 (A)。"
     },
     {
       "id": "114_math_14",
@@ -3916,7 +4681,10 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": "不等式應用"
+      "concept_tag": "不等式應用",
+      "page": "assets/page/114_math_p5.jpg",
+      "img": "assets/q/114_math_14.jpg",
+      "explanation": "設早餐組合賣出 k 組，則單點咖啡 120 − k 杯、單點三明治 100 − k 個。收入 50(120 − k) + 40(100 − k) + 70k = 10000 − 20k = 8700，得 k = 65。早餐組合收入 = 70 × 65 = 4550 元，落在 4500～4599 元，選 (C)。"
     },
     {
       "id": "114_math_15",
@@ -3932,7 +4700,10 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": "絕對值與數線"
+      "concept_tag": "絕對值與數線",
+      "page": "assets/page/114_math_p6.jpg",
+      "img": "assets/q/114_math_15.jpg",
+      "explanation": "設相鄰兩點距離為 k，a = x，則 b = x + k，e = x + 4k。若原點在 BC 上，a、b 為負：−x − (x + k) = x + 4k，得 x = −5k/3，此時 b = −2k/3 < 0、c = k/3 > 0，確實在 BC 上，且離 C 只有 k/3，較接近 C，選 (B)。可再檢查：若原點在 AB 或 CD 上都會得出矛盾。"
     },
     {
       "id": "114_math_16",
@@ -3948,7 +4719,10 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": "相似三角形與比例線段"
+      "concept_tag": "相似三角形與比例線段",
+      "page": "assets/page/114_math_p6.jpg",
+      "img": "assets/q/114_math_16.jpg",
+      "explanation": "EF // BC，所以 AE : EB = AF : FC = 7 : 3。設 AB = 10，則 AE = 7、EB = 3，而 D 是中點 AD = 5，DE = 7 − 5 = 2 < EB。若 DF // EC，需 AD : AE = AF : AC，但 5 : 7 ≠ 7 : 10，所以不平行，選 (D)。"
     },
     {
       "id": "114_math_17",
@@ -3964,7 +4738,10 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": "畢氏定理"
+      "concept_tag": "畢氏定理",
+      "page": "assets/page/114_math_p6.jpg",
+      "img": "assets/q/114_math_17.jpg",
+      "explanation": "螺紋深度 = H − H/8 − H/4 = 5H/8。大三角形頂角 60°，兩腰與鉛垂線各夾 30°，所以它是高為 H 的正三角形，底邊就是螺紋間距 P，由 (√3/2)P = H 得 P = 2H/√3。深度 ÷ 間距 = (5H/8) ÷ (2H/√3) = 5√3/16，選 (D)。"
     },
     {
       "id": "114_math_18",
@@ -3980,7 +4757,10 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": "因數與倍數"
+      "concept_tag": "因數與倍數",
+      "page": "assets/page/114_math_p7.jpg",
+      "img": "assets/q/114_math_18.jpg",
+      "explanation": "a、b、c 三數的公因數一定也是 a、b 的公因數，所以三數的最大公因數必是 11 的因數，只可能是 1 或 11，不可能比 11 大，甲錯。三數的公倍數一定也是 a、b 的公倍數，所以三數的最小公倍數必是 88 的倍數，不可能比 88 小，乙錯。故選 (B)。"
     },
     {
       "id": "114_math_19",
@@ -3996,7 +4776,10 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": "一元一次方程式應用"
+      "concept_tag": "一元一次方程式應用",
+      "page": "assets/page/114_math_p7.jpg",
+      "img": "assets/q/114_math_19.jpg",
+      "explanation": "16 張電影票共 320 × 16 = 5120 元，每張票可用一種優惠，飲料最便宜是優惠一 35 元或優惠二（爆米花＋飲料）90 元。設 n 人用優惠二，其餘用優惠一：5120 + 90n + 35(16 − n) = 5680 + 55n ≤ 6000，得 n ≤ 5.8，最多 n = 5（花 5955 元）。若改用原價 80 元加買爆米花，每盒比優惠二多花 25 元以上，也買不到 6 盒，所以最多 5 盒，選 (C)。"
     },
     {
       "id": "114_math_20",
@@ -4012,7 +4795,10 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": "線對稱與摺疊幾何"
+      "concept_tag": "線對稱與摺疊幾何",
+      "page": "assets/page/114_math_p7.jpg",
+      "img": "assets/q/114_math_20.jpg",
+      "explanation": "摺疊前後對應角相等：C 摺到 P 使 ∠CFB = ∠PFB，D 摺到 P 使 ∠DFE = ∠PFE，而 ∠CFD 是平角，所以 2(∠3 + ∠4) = 180°，∠3 + ∠4 = 90°。同理 ∠1 + ∠2 = ∠EBF、∠5 + ∠6 = ∠BEF。在 △BEF 中大邊對大角，FE > BF，所以 FE 的對角 ∠EBF 大於 BF 的對角 ∠BEF，即 ∠1 + ∠2 > ∠5 + ∠6，選 (A)。"
     },
     {
       "id": "114_math_21",
@@ -4028,7 +4814,10 @@
       },
       "answer": "D",
       "has_diagram": false,
-      "concept_tag": "二次函數圖形"
+      "concept_tag": "二次函數圖形",
+      "page": "assets/page/114_math_p8.jpg",
+      "img": "assets/q/114_math_21.jpg",
+      "explanation": "向右平移 h 單位（0 ≤ h ≤ 10）後函數為 y = −(x + 7 − h)^2 + 12，與 y 軸交點的 y 坐標為 −(7 − h)^2 + 12。h 從 0 增到 7 時 (7 − h)^2 變小、P 往上；h = 7 時頂點 (0, 12) 剛好在 y 軸上，P 最高；h 從 7 到 10 時 P 往下。所以先向上再向下，選 (D)。"
     },
     {
       "id": "114_math_22",
@@ -4044,7 +4833,10 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": "面積比與重心"
+      "concept_tag": "面積比與重心",
+      "page": "assets/page/114_math_p8.jpg",
+      "img": "assets/q/114_math_22.jpg",
+      "explanation": "G 是重心，所以 △ABG = 1/3 △ABC。AE : EB = 3 : 4，得 △AEG = 3/7 △ABG = 1/7 △ABC。DE : EG = 3 : 2，△ADG 與 △AEG 同高、底 DG : EG = 5 : 2，所以 △ADG = 5/2 × 1/7 △ABC = 5/14 △ABC，選 (B)。"
     },
     {
       "id": "114_math_23",
@@ -4060,7 +4852,10 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": "圓的性質（圓心角、圓周角、弧）"
+      "concept_tag": "圓的性質（圓心角、圓周角、弧）",
+      "page": "assets/page/114_math_p8.jpg",
+      "img": "assets/q/114_math_23.jpg",
+      "explanation": "弧 BC = 54° 得 ∠BAC = 27°，弧 CA = 62°，所以含 C 的弧 AB = 116°。旋轉後 AB' = AB，等弦對等弧，所以弧 AB' 也是 116°，剩下的弧 BB' = 360° − 116° − 116° = 128°，旋轉角 ∠BAB' = 64°。又 ∠B'AC' = ∠BAC = 27°，所以 x = 64 − 27 = 37，選 (D)。"
     },
     {
       "id": "114_math_24",
@@ -4076,7 +4871,15 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": "比與比例應用"
+      "concept_tag": "比與比例應用",
+      "page": "assets/page/114_math_p9.jpg",
+      "img": "assets/q/114_math_24.jpg",
+      "group_img": "assets/g/114_math_24.jpg",
+      "group": [
+        24,
+        25
+      ],
+      "explanation": "齒輪比越大越費力。原本 33/21；(A) 33/18 ≈ 1.83、(B) 33/24 ≈ 1.38、(C) 22/21 ≈ 1.05、(D) 44/21 ≈ 2.10。(D) 齒輪比最大，最費力，選 (D)。可用規律判斷：前齒輪越多、後齒輪越少，比值越大。"
     },
     {
       "id": "114_math_25",
@@ -4092,7 +4895,15 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": "比與比例應用"
+      "concept_tag": "比與比例應用",
+      "page": "assets/page/114_math_p9.jpg",
+      "img": "assets/q/114_math_25.jpg",
+      "group_img": "assets/g/114_math_24.jpg",
+      "group": [
+        24,
+        25
+      ],
+      "explanation": "把各選項寫成「前/後」的形式並找出可用的齒數：11/7 = 22/14 = 33/21 = 44/28，共 3 種組合；11/6 = 33/18 = 44/24，2 種；11/8 = 22/16 = 33/24，2 種；11/9 = 22/18，只有 1 種。所以 11/7 的組合最多，選 (B)。"
     }
   ]
 }

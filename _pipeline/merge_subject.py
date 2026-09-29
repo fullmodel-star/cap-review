@@ -16,14 +16,14 @@ def merge(subject_key):
         print(f"[ERROR] no extracted files found for {subject_key}")
         return
 
-    # 保留既有觀念標籤：重新合併（例如修正答案後）不該把已標好的 concept_tag 洗掉
+    # 重新合併（例如修正答案後）只重建抽題欄位，後續步驟加上的欄位要原樣保留
+    KEEP = ('concept_tag', 'explanation', 'flag', 'text_issue', 'img', 'page', 'group_img', 'group')
     out_path = os.path.join(DATA_DIR, f'questionbank_{subject_key}.json')
-    old_tags = {}
+    old_extra = {}
     if os.path.exists(out_path):
         with open(out_path, encoding='utf-8') as f:
             for q in json.load(f).get('questions', []):
-                if q.get('concept_tag'):
-                    old_tags[q['id']] = q['concept_tag']
+                old_extra[q['id']] = {k: q[k] for k in KEEP if q.get(k) is not None}
 
     all_q = []
     by_year = {}
@@ -53,7 +53,8 @@ def merge(subject_key):
                 'options': q.get('options', {}),
                 'answer': answer,
                 'has_diagram': bool(q.get('has_diagram')),
-                'concept_tag': old_tags.get(qid),
+                'concept_tag': None,
+                **old_extra.get(qid, {}),
             })
             year_count += 1
         by_year[year] = year_count

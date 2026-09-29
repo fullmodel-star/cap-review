@@ -1,0 +1,222 @@
+[
+  {
+    "concept": "細節理解",
+    "summary": "依文章明確敘述的細節作答，包含事實查核、數字計算、行程比對與「非...」的消去題。",
+    "frequency": 83,
+    "example_question_ids": [
+      "105_english_read_17",
+      "105_english_read_19",
+      "105_english_read_21"
+    ],
+    "tip": "答案通常可在文中直接找到對應句子，作答前先回文章定位關鍵字再核對選項。"
+  },
+  {
+    "concept": "字彙語意辨析",
+    "summary": "單句情境中的字彙語意與慣用語辨析，考生需依上下文選出語意最貼切的單字或片語。",
+    "frequency": 66,
+    "example_question_ids": [
+      "105_english_read_2",
+      "105_english_read_4",
+      "105_english_read_5"
+    ],
+    "tip": "平時多累積同類情境字彙（情緒、動作、物品），做題時先理解句意再刪除語意不合的選項。"
+  },
+  {
+    "concept": "時態與動貌",
+    "summary": "動詞時態與動貌（現在式/過去式/未來式/現在完成式/過去完成式/進行式）的正確選用，常考時間線索字與敘事語境的呼應。",
+    "frequency": 45,
+    "example_question_ids": [
+      "105_english_read_35",
+      "105_english_read_36",
+      "105_english_read_37"
+    ],
+    "tip": "看到 for/since/last week/yesterday/now/by the time 等時間線索，先判斷動作發生的時間點與是否延續到現在。"
+  },
+  {
+    "concept": "克漏字語意連貫",
+    "summary": "克漏字（篇章式）中依上下文語意流暢度選出最合適的單字、片語或句子。",
+    "frequency": 43,
+    "example_question_ids": [
+      "105_english_read_39",
+      "105_english_read_40",
+      "105_english_read_41"
+    ],
+    "tip": "克漏字要看前後兩三句的邏輯關係，選項若是完整句子則要確認語氣與代名詞指涉都通順。"
+  },
+  {
+    "concept": "上下文詞義與指代推測",
+    "summary": "依上下文推測特定字詞、片語或代名詞(it/this/that/the catch...)在文中的真正指涉或意涵。",
+    "frequency": 34,
+    "example_question_ids": [
+      "105_english_read_20",
+      "105_english_read_25",
+      "105_english_read_28"
+    ],
+    "tip": "先找出代名詞或詞語前後最近的名詞/概念，代入句子確認語意是否通順。"
+  },
+  {
+    "concept": "主旨大意與寫作目的",
+    "summary": "辨識文章／廣告／公告的主旨、目的或整體大意（What is this reading for / mainly about）。",
+    "frequency": 30,
+    "example_question_ids": [
+      "105_english_read_16",
+      "105_english_read_18",
+      "105_english_read_32"
+    ],
+    "tip": "先讀標題與首尾句，掌握全文想達成的目的，再從選項中找出涵蓋全文重點的答案。"
+  },
+  {
+    "concept": "推論理解",
+    "summary": "需綜合文章線索進行推論，包括人物態度、最可能發生的情況、對應真實情境的應用。",
+    "frequency": 24,
+    "example_question_ids": [
+      "105_english_read_22",
+      "105_english_read_23",
+      "105_english_read_27"
+    ],
+    "tip": "文章沒有明講的答案要靠上下文線索推理，注意「most likely」「would probably」等提示語。"
+  },
+  {
+    "concept": "圖表資訊判讀",
+    "summary": "讀懂圖表、地圖、圖片或統計數據，並將其與文字說明或情境正確對應。",
+    "frequency": 15,
+    "example_question_ids": [
+      "105_english_read_33",
+      "105_english_read_34",
+      "106_english_read_30"
+    ],
+    "tip": "先掃過圖表的座標軸、圖例或數字單位，再回到題目文字找出對應的比較條件。"
+  },
+  {
+    "concept": "代名詞用法",
+    "summary": "代名詞（人稱、反身、所有格、不定代名詞如one/another/the other）的正確指涉與用法。",
+    "frequency": 13,
+    "example_question_ids": [
+      "105_english_read_10",
+      "105_english_read_11",
+      "106_english_read_9"
+    ],
+    "tip": "先找出代名詞指的是誰/什麼，再確認單複數、人稱與格位（主格/受格/所有格）是否一致。"
+  },
+  {
+    "concept": "看圖選詞",
+    "summary": "依圖片場景線索選出最符合畫面內容的單字、動作或方位詞。",
+    "frequency": 10,
+    "example_question_ids": [
+      "105_english_read_1",
+      "106_english_read_1",
+      "107_english_read_1"
+    ],
+    "tip": "仔細觀察圖片中人物的動作與物品相對位置，再刪除與畫面明顯不符的選項。"
+  },
+  {
+    "concept": "數量詞與主詞動詞一致",
+    "summary": "主詞動詞一致與數量詞（some/any/many/few/most/all/both, there is/are）的正確搭配。",
+    "frequency": 10,
+    "example_question_ids": [
+      "105_english_read_8",
+      "105_english_read_9",
+      "106_english_read_10"
+    ],
+    "tip": "先找出真正的主詞（尤其是動名詞片語或 there be 句型），再決定動詞單複數形式。"
+  },
+  {
+    "concept": "連接詞與子句銜接",
+    "summary": "連接詞（because/but/if/or/so/although/since/until等）判斷前後句邏輯關係（因果、對比、條件、讓步）。",
+    "frequency": 8,
+    "example_question_ids": [
+      "106_english_read_2",
+      "107_english_read_15",
+      "108_english_read_2"
+    ],
+    "tip": "先分析前後兩句是因果、轉折還是條件關係，再選對應的連接詞。"
+  },
+  {
+    "concept": "比較級與最高級",
+    "summary": "比較級、最高級與 as...as 同級比較的正確形式與邏輯應用。",
+    "frequency": 7,
+    "example_question_ids": [
+      "105_english_read_12",
+      "109_english_read_15",
+      "111_english_read_10"
+    ],
+    "tip": "先看句中是「兩者比較」還是「三者以上比較」，決定用比較級還是最高級。"
+  },
+  {
+    "concept": "動名詞與不定詞",
+    "summary": "動名詞(V-ing)與不定詞(to V)作受詞或補語時的正確選用，常搭配特定動詞或介系詞。",
+    "frequency": 7,
+    "example_question_ids": [
+      "105_english_read_15",
+      "107_english_read_10",
+      "109_english_read_11"
+    ],
+    "tip": "動詞後接 V-ing 或 to V 常是固定搭配，遇到 enjoy/love/finish 等常考動詞要熟記其後接形式。"
+  },
+  {
+    "concept": "分詞構句與感官使役動詞",
+    "summary": "感官動詞(see/watch/hear)、使役動詞或對等連接下的分詞/原形動詞構句。",
+    "frequency": 4,
+    "example_question_ids": [
+      "105_english_read_3",
+      "111_english_read_16",
+      "112_english_read_4"
+    ],
+    "tip": "看到 see/watch/hear + 受詞後面接動作，要判斷是用原形動詞還是現在分詞(V-ing)。"
+  },
+  {
+    "concept": "間接問句與疑問詞",
+    "summary": "間接問句與疑問詞（why/where/when/whether/how）在句中做受詞子句時的用法。",
+    "frequency": 4,
+    "example_question_ids": [
+      "106_english_read_8",
+      "107_english_read_9",
+      "109_english_read_10"
+    ],
+    "tip": "間接問句中疑問詞後面要接「主詞+動詞」的直述句語序，且疑問詞選擇要對應句意。"
+  },
+  {
+    "concept": "關係子句",
+    "summary": "關係子句（先行詞+who/which/that）及其省略(reduced relative clause)的辨識與正確用法。",
+    "frequency": 4,
+    "example_question_ids": [
+      "106_english_read_13",
+      "110_english_read_12",
+      "112_english_read_19"
+    ],
+    "tip": "看到名詞後面接一個「動作曾發生在它身上」的片語，先想是否省略了 that/which/who。"
+  },
+  {
+    "concept": "被動語態",
+    "summary": "被動語態(be+p.p.)的判斷，常考主詞是動作的承受者而非執行者的情境。",
+    "frequency": 4,
+    "example_question_ids": [
+      "107_english_read_11",
+      "111_english_read_17",
+      "112_english_read_13"
+    ],
+    "tip": "先問「主詞是做動作的人，還是被影響的對象？」被動就用 be + 過去分詞。"
+  },
+  {
+    "concept": "段落結構順序",
+    "summary": "辨識文章／段落的組織順序，理解作者安排論點或敘事的先後邏輯。",
+    "frequency": 4,
+    "example_question_ids": [
+      "107_english_read_35",
+      "110_english_read_32",
+      "111_english_read_30"
+    ],
+    "tip": "先概括每個選項句子的主題，再依「先提出問題、再解釋、最後總結」等常見寫作順序排列。"
+  },
+  {
+    "concept": "介系詞用法",
+    "summary": "介系詞（表時間、地點、方位、對象等）的固定用法與搭配。",
+    "frequency": 3,
+    "example_question_ids": [
+      "108_english_read_12",
+      "110_english_read_13",
+      "113_english_read_13"
+    ],
+    "tip": "介系詞多半是固定搭配，平時要把常見片語（above sea level, between meals...）整組背起來。"
+  }
+]
