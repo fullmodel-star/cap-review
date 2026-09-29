@@ -28,7 +28,7 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "一次函數與坐標平面"
     },
     {
       "id": "105_math_2",
@@ -44,7 +44,7 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "整數與分數的四則運算"
     },
     {
       "id": "105_math_3",
@@ -60,7 +60,7 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "多項式運算與乘法公式"
     },
     {
       "id": "105_math_4",
@@ -76,7 +76,7 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "扇形面積與弧長"
     },
     {
       "id": "105_math_5",
@@ -92,7 +92,7 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "絕對值與數線"
     },
     {
       "id": "105_math_6",
@@ -108,7 +108,7 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "因式分解"
     },
     {
       "id": "105_math_7",
@@ -124,7 +124,7 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "統計圖表判讀"
     },
     {
       "id": "105_math_8",
@@ -140,7 +140,7 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "四邊形與多邊形性質"
     },
     {
       "id": "105_math_9",
@@ -156,7 +156,7 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "等差數列"
     },
     {
       "id": "105_math_10",
@@ -172,7 +172,7 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "機率"
     },
     {
       "id": "105_math_11",
@@ -188,7 +188,7 @@
       },
       "answer": "D",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "一次函數與坐標平面"
     },
     {
       "id": "105_math_12",
@@ -204,7 +204,7 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "三角形角度計算"
     },
     {
       "id": "105_math_13",
@@ -220,7 +220,7 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "根式化簡與運算"
     },
     {
       "id": "105_math_14",
@@ -236,7 +236,7 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "圓的性質（圓心角、圓周角、弧）"
     },
     {
       "id": "105_math_15",
@@ -252,7 +252,7 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "複合圖形的面積計算"
     },
     {
       "id": "105_math_16",
@@ -268,7 +268,7 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "相似三角形與比例線段"
     },
     {
       "id": "105_math_17",
@@ -284,7 +284,7 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "因數與倍數"
     },
     {
       "id": "105_math_18",
@@ -300,7 +300,7 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "立體圖形（展開圖、表面積、體積、三視圖）"
     },
     {
       "id": "105_math_19",
@@ -316,7 +316,7 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "不等式應用"
     },
     {
       "id": "105_math_20",
@@ -332,7 +332,7 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "畢氏定理"
     },
     {
       "id": "105_math_21",
@@ -348,7 +348,7 @@
       },
       "answer": "D",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "二次函數圖形"
     },
     {
       "id": "105_math_22",
@@ -364,7 +364,7 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "三角形內心外心重心的性質與計算"
     },
     {
       "id": "105_math_23",
@@ -380,7 +380,7 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "三角形內心外心重心的性質與計算"
     },
     {
       "id": "105_math_24",
@@ -396,7 +396,7 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "線對稱與摺疊幾何"
     },
     {
       "id": "105_math_25",
@@ -412,7 +412,7 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "線對稱與摺疊幾何"
     },
     {
       "id": "106_math_1",
@@ -428,7 +428,7 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "整數與分數的四則運算"
     },
     {
       "id": "106_math_2",
@@ -444,7 +444,7 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "根式化簡與運算"
     },
     {
       "id": "106_math_3",
@@ -460,7 +460,7 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "多項式運算與乘法公式"
     },
     {
       "id": "106_math_4",
@@ -476,7 +476,7 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "線對稱與摺疊幾何"
     },
     {
       "id": "106_math_5",
@@ -492,7 +492,7 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "二元一次聯立方程式"
     },
     {
       "id": "106_math_6",
@@ -508,7 +508,7 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "機率"
     },
     {
       "id": "106_math_7",
@@ -524,7 +524,7 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "圓與切線"
     },
     {
       "id": "106_math_8",
@@ -540,7 +540,7 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "因數與倍數"
     },
     {
       "id": "106_math_9",
@@ -556,7 +556,7 @@
       },
       "answer": "D",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "一元一次方程式應用"
     },
     {
       "id": "106_math_10",
@@ -572,7 +572,7 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "情境應用題（生活數學、表格判讀）"
     },
     {
       "id": "106_math_11",
@@ -588,7 +588,7 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "相似三角形與比例線段"
     },
     {
       "id": "106_math_12",
@@ -604,7 +604,7 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "一元二次方程式"
     },
     {
       "id": "106_math_13",
@@ -620,7 +620,7 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "圖形的旋轉與平移"
     },
     {
       "id": "106_math_14",
@@ -636,7 +636,7 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "三角形角度計算"
     },
     {
       "id": "106_math_15",
@@ -652,7 +652,7 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "比與比例應用"
     },
     {
       "id": "106_math_16",
@@ -668,7 +668,7 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "線對稱與摺疊幾何"
     },
     {
       "id": "106_math_17",
@@ -684,7 +684,7 @@
       },
       "answer": "D",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "因數與倍數"
     },
     {
       "id": "106_math_18",
@@ -700,7 +700,7 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "三角形內心外心重心的性質與計算"
     },
     {
       "id": "106_math_19",
@@ -716,7 +716,7 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "四邊形與多邊形性質"
     },
     {
       "id": "106_math_20",
@@ -732,7 +732,7 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "科學記號與指數律"
     },
     {
       "id": "106_math_21",
@@ -748,7 +748,7 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "畢氏定理"
     },
     {
       "id": "106_math_22",
@@ -764,7 +764,7 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "二次函數圖形"
     },
     {
       "id": "106_math_23",
@@ -780,7 +780,7 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "一元一次方程式應用"
     },
     {
       "id": "106_math_24",
@@ -796,7 +796,7 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "立體圖形（展開圖、表面積、體積、三視圖）"
     },
     {
       "id": "106_math_25",
@@ -812,7 +812,7 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "科學記號與指數律"
     },
     {
       "id": "106_math_26",
@@ -828,7 +828,7 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "相似三角形與比例線段"
     },
     {
       "id": "107_math_1",
@@ -844,7 +844,7 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "線對稱與摺疊幾何"
     },
     {
       "id": "107_math_2",
@@ -860,7 +860,7 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "整數與分數的四則運算"
     },
     {
       "id": "107_math_3",
@@ -876,7 +876,7 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "一次函數與坐標平面"
     },
     {
       "id": "107_math_4",
@@ -892,7 +892,7 @@
       },
       "answer": "D",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "因數與倍數"
     },
     {
       "id": "107_math_5",
@@ -908,7 +908,7 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "二元一次聯立方程式"
     },
     {
       "id": "107_math_6",
@@ -924,7 +924,7 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "機率"
     },
     {
       "id": "107_math_7",
@@ -940,7 +940,7 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "根式化簡與運算"
     },
     {
       "id": "107_math_8",
@@ -956,7 +956,7 @@
       },
       "answer": "D",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "一元二次方程式"
     },
     {
       "id": "107_math_9",
@@ -972,7 +972,7 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "扇形面積與弧長"
     },
     {
       "id": "107_math_10",
@@ -988,7 +988,7 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "情境應用題（生活數學、表格判讀）"
     },
     {
       "id": "107_math_11",
@@ -1004,7 +1004,7 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "四邊形與多邊形性質"
     },
     {
       "id": "107_math_12",
@@ -1020,7 +1020,7 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "絕對值與數線"
     },
     {
       "id": "107_math_13",
@@ -1036,7 +1036,7 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "不等式應用"
     },
     {
       "id": "107_math_14",
@@ -1052,7 +1052,7 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "三角形內心外心重心的性質與計算"
     },
     {
       "id": "107_math_15",
@@ -1068,7 +1068,7 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "立體圖形（展開圖、表面積、體積、三視圖）"
     },
     {
       "id": "107_math_16",
@@ -1084,7 +1084,7 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "等差數列"
     },
     {
       "id": "107_math_17",
@@ -1100,7 +1100,7 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "科學記號與指數律"
     },
     {
       "id": "107_math_18",
@@ -1116,7 +1116,7 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "三角形內心外心重心的性質與計算"
     },
     {
       "id": "107_math_19",
@@ -1132,7 +1132,7 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "統計圖表判讀"
     },
     {
       "id": "107_math_20",
@@ -1148,7 +1148,7 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "線對稱與摺疊幾何"
     },
     {
       "id": "107_math_21",
@@ -1164,7 +1164,7 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "二次函數圖形"
     },
     {
       "id": "107_math_22",
@@ -1180,7 +1180,7 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "圓與切線"
     },
     {
       "id": "107_math_23",
@@ -1196,7 +1196,7 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "比與比例應用"
     },
     {
       "id": "107_math_24",
@@ -1212,7 +1212,7 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "相似三角形與比例線段"
     },
     {
       "id": "107_math_25",
@@ -1228,7 +1228,7 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "二元一次聯立方程式"
     },
     {
       "id": "107_math_26",
@@ -1244,7 +1244,7 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "畢氏定理"
     },
     {
       "id": "108_math_1",
@@ -1260,7 +1260,7 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "整數與分數的四則運算"
     },
     {
       "id": "108_math_2",
@@ -1276,7 +1276,7 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "統計圖表判讀"
     },
     {
       "id": "108_math_3",
@@ -1292,7 +1292,7 @@
       },
       "answer": "D",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "多項式運算與乘法公式"
     },
     {
       "id": "108_math_4",
@@ -1308,7 +1308,7 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "立體圖形（展開圖、表面積、體積、三視圖）"
     },
     {
       "id": "108_math_5",
@@ -1324,7 +1324,7 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "根式化簡與運算"
     },
     {
       "id": "108_math_6",
@@ -1340,7 +1340,7 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "科學記號與指數律"
     },
     {
       "id": "108_math_7",
@@ -1356,7 +1356,7 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "一次函數與坐標平面"
     },
     {
       "id": "108_math_8",
@@ -1372,7 +1372,7 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "因式分解"
     },
     {
       "id": "108_math_9",
@@ -1388,7 +1388,7 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "等差數列"
     },
     {
       "id": "108_math_10",
@@ -1404,7 +1404,7 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "絕對值與數線"
     },
     {
       "id": "108_math_11",
@@ -1420,7 +1420,7 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "畢氏定理"
     },
     {
       "id": "108_math_12",
@@ -1436,7 +1436,7 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "不等式應用"
     },
     {
       "id": "108_math_13",
@@ -1452,7 +1452,7 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "線對稱與摺疊幾何"
     },
     {
       "id": "108_math_14",
@@ -1468,7 +1468,7 @@
       },
       "answer": "D",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "機率"
     },
     {
       "id": "108_math_15",
@@ -1484,7 +1484,7 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "三角形角度計算"
     },
     {
       "id": "108_math_16",
@@ -1500,7 +1500,7 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "一次函數與坐標平面"
     },
     {
       "id": "108_math_17",
@@ -1516,7 +1516,7 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "相似三角形與比例線段"
     },
     {
       "id": "108_math_18",
@@ -1532,7 +1532,7 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "比與比例應用"
     },
     {
       "id": "108_math_19",
@@ -1548,7 +1548,7 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "畢氏定理"
     },
     {
       "id": "108_math_20",
@@ -1564,7 +1564,7 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "二元一次聯立方程式"
     },
     {
       "id": "108_math_21",
@@ -1580,7 +1580,7 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "一元一次方程式應用"
     },
     {
       "id": "108_math_22",
@@ -1596,7 +1596,7 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "因數與倍數"
     },
     {
       "id": "108_math_23",
@@ -1612,7 +1612,7 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "三角形內心外心重心的性質與計算"
     },
     {
       "id": "108_math_24",
@@ -1628,7 +1628,7 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "圓的性質（圓心角、圓周角、弧）"
     },
     {
       "id": "108_math_25",
@@ -1644,7 +1644,7 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "三角形全等"
     },
     {
       "id": "108_math_26",
@@ -1660,7 +1660,7 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "二次函數圖形"
     },
     {
       "id": "109_math_1",
@@ -1676,7 +1676,7 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "整數與分數的四則運算"
     },
     {
       "id": "109_math_2",
@@ -1692,7 +1692,7 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "科學記號與指數律"
     },
     {
       "id": "109_math_3",
@@ -1708,7 +1708,7 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "機率"
     },
     {
       "id": "109_math_4",
@@ -1724,7 +1724,7 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "根式化簡與運算"
     },
     {
       "id": "109_math_5",
@@ -1740,7 +1740,7 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "四邊形與多邊形性質"
     },
     {
       "id": "109_math_6",
@@ -1756,7 +1756,7 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "絕對值與數線"
     },
     {
       "id": "109_math_7",
@@ -1772,7 +1772,7 @@
       },
       "answer": "D",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "多項式運算與乘法公式"
     },
     {
       "id": "109_math_8",
@@ -1788,7 +1788,7 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "因數與倍數"
     },
     {
       "id": "109_math_9",
@@ -1804,7 +1804,7 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "一次函數與坐標平面"
     },
     {
       "id": "109_math_10",
@@ -1820,7 +1820,7 @@
       },
       "answer": "D",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "一元二次方程式"
     },
     {
       "id": "109_math_11",
@@ -1836,7 +1836,7 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "一次函數與坐標平面"
     },
     {
       "id": "109_math_12",
@@ -1852,7 +1852,7 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "圓的性質（圓心角、圓周角、弧）"
     },
     {
       "id": "109_math_13",
@@ -1868,7 +1868,7 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "統計圖表判讀"
     },
     {
       "id": "109_math_14",
@@ -1884,7 +1884,7 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "情境應用題（生活數學、表格判讀）"
     },
     {
       "id": "109_math_15",
@@ -1900,7 +1900,7 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "相似三角形與比例線段"
     },
     {
       "id": "109_math_16",
@@ -1916,7 +1916,7 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "比與比例應用"
     },
     {
       "id": "109_math_17",
@@ -1932,7 +1932,7 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "畢氏定理"
     },
     {
       "id": "109_math_18",
@@ -1948,7 +1948,7 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "不等式應用"
     },
     {
       "id": "109_math_19",
@@ -1964,7 +1964,7 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "圓的性質（圓心角、圓周角、弧）"
     },
     {
       "id": "109_math_20",
@@ -1980,7 +1980,7 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "畢氏定理"
     },
     {
       "id": "109_math_21",
@@ -1996,7 +1996,7 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "二次函數圖形"
     },
     {
       "id": "109_math_22",
@@ -2012,7 +2012,7 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "四邊形與多邊形性質"
     },
     {
       "id": "109_math_23",
@@ -2028,7 +2028,7 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "等差數列"
     },
     {
       "id": "109_math_24",
@@ -2044,7 +2044,7 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "相似三角形與比例線段"
     },
     {
       "id": "109_math_25",
@@ -2060,7 +2060,7 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "情境應用題（生活數學、表格判讀）"
     },
     {
       "id": "109_math_26",
@@ -2076,7 +2076,7 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "三角形內心外心重心的性質與計算"
     },
     {
       "id": "110_math_1",
@@ -2092,7 +2092,7 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "一次函數與坐標平面"
     },
     {
       "id": "110_math_2",
@@ -2108,7 +2108,7 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "整數與分數的四則運算"
     },
     {
       "id": "110_math_3",
@@ -2124,7 +2124,7 @@
       },
       "answer": "D",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "二元一次聯立方程式"
     },
     {
       "id": "110_math_4",
@@ -2140,7 +2140,7 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "複合圖形的面積計算"
     },
     {
       "id": "110_math_5",
@@ -2156,7 +2156,7 @@
       },
       "answer": "D",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "科學記號與指數律"
     },
     {
       "id": "110_math_6",
@@ -2172,7 +2172,7 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "根式化簡與運算"
     },
     {
       "id": "110_math_7",
@@ -2188,7 +2188,7 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "統計圖表判讀"
     },
     {
       "id": "110_math_8",
@@ -2204,7 +2204,7 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "多項式運算與乘法公式"
     },
     {
       "id": "110_math_9",
@@ -2220,7 +2220,7 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "統計圖表判讀"
     },
     {
       "id": "110_math_10",
@@ -2236,7 +2236,7 @@
       },
       "answer": "D",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "扇形面積與弧長"
     },
     {
       "id": "110_math_11",
@@ -2252,7 +2252,7 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "機率"
     },
     {
       "id": "110_math_12",
@@ -2268,7 +2268,7 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "不等式應用"
     },
     {
       "id": "110_math_13",
@@ -2284,7 +2284,7 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "等差數列"
     },
     {
       "id": "110_math_14",
@@ -2300,7 +2300,7 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "絕對值與數線"
     },
     {
       "id": "110_math_15",
@@ -2316,7 +2316,7 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "三角形全等"
     },
     {
       "id": "110_math_16",
@@ -2332,7 +2332,7 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "一元一次方程式應用"
     },
     {
       "id": "110_math_17",
@@ -2348,7 +2348,7 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "圓與切線"
     },
     {
       "id": "110_math_18",
@@ -2364,7 +2364,7 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "二次函數圖形"
     },
     {
       "id": "110_math_19",
@@ -2380,7 +2380,7 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "線對稱與摺疊幾何"
     },
     {
       "id": "110_math_20",
@@ -2396,7 +2396,7 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "一元一次方程式應用"
     },
     {
       "id": "110_math_21",
@@ -2412,7 +2412,7 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "四邊形與多邊形性質"
     },
     {
       "id": "110_math_22",
@@ -2428,7 +2428,7 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "因數與倍數"
     },
     {
       "id": "110_math_23",
@@ -2444,7 +2444,7 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "相似三角形與比例線段"
     },
     {
       "id": "110_math_24",
@@ -2460,7 +2460,7 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "比與比例應用"
     },
     {
       "id": "110_math_25",
@@ -2476,7 +2476,7 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "三角形內心外心重心的性質與計算"
     },
     {
       "id": "110_math_26",
@@ -2492,7 +2492,7 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "三角形內心外心重心的性質與計算"
     },
     {
       "id": "111_math_1",
@@ -2508,7 +2508,7 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "絕對值與數線"
     },
     {
       "id": "111_math_2",
@@ -2524,7 +2524,7 @@
       },
       "answer": "D",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "多項式運算與乘法公式"
     },
     {
       "id": "111_math_3",
@@ -2540,7 +2540,7 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "因數與倍數"
     },
     {
       "id": "111_math_4",
@@ -2556,7 +2556,7 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "立體圖形（展開圖、表面積、體積、三視圖）"
     },
     {
       "id": "111_math_5",
@@ -2572,7 +2572,7 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "整數與分數的四則運算"
     },
     {
       "id": "111_math_6",
@@ -2588,7 +2588,7 @@
       },
       "answer": "D",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "根式化簡與運算"
     },
     {
       "id": "111_math_7",
@@ -2604,7 +2604,7 @@
       },
       "answer": "D",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "一次函數與坐標平面"
     },
     {
       "id": "111_math_8",
@@ -2620,7 +2620,7 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "因式分解"
     },
     {
       "id": "111_math_9",
@@ -2636,7 +2636,7 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "機率"
     },
     {
       "id": "111_math_10",
@@ -2652,7 +2652,7 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "一元二次方程式"
     },
     {
       "id": "111_math_11",
@@ -2668,7 +2668,7 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "一元一次方程式應用"
     },
     {
       "id": "111_math_12",
@@ -2684,7 +2684,7 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "科學記號與指數律"
     },
     {
       "id": "111_math_13",
@@ -2700,7 +2700,7 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "畢氏定理"
     },
     {
       "id": "111_math_14",
@@ -2716,7 +2716,7 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "統計圖表判讀"
     },
     {
       "id": "111_math_15",
@@ -2732,7 +2732,7 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "三角形角度計算"
     },
     {
       "id": "111_math_16",
@@ -2748,7 +2748,7 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "一元一次方程式應用"
     },
     {
       "id": "111_math_17",
@@ -2764,7 +2764,7 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "三角形角度計算"
     },
     {
       "id": "111_math_18",
@@ -2780,7 +2780,7 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "一元一次方程式應用"
     },
     {
       "id": "111_math_19",
@@ -2796,7 +2796,7 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "三角形內心外心重心的性質與計算"
     },
     {
       "id": "111_math_20",
@@ -2812,7 +2812,7 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "線對稱與摺疊幾何"
     },
     {
       "id": "111_math_21",
@@ -2828,7 +2828,7 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "圓的性質（圓心角、圓周角、弧）"
     },
     {
       "id": "111_math_22",
@@ -2844,7 +2844,7 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "二次函數圖形"
     },
     {
       "id": "111_math_23",
@@ -2860,7 +2860,7 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "相似三角形與比例線段"
     },
     {
       "id": "111_math_24",
@@ -2876,7 +2876,7 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "比與比例應用"
     },
     {
       "id": "111_math_25",
@@ -2892,7 +2892,7 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "不等式應用"
     },
     {
       "id": "112_math_1",
@@ -2908,7 +2908,7 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "整數與分數的四則運算"
     },
     {
       "id": "112_math_2",
@@ -2924,7 +2924,7 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "因式分解"
     },
     {
       "id": "112_math_3",
@@ -2940,7 +2940,7 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "立體圖形（展開圖、表面積、體積、三視圖）"
     },
     {
       "id": "112_math_4",
@@ -2956,7 +2956,7 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "根式化簡與運算"
     },
     {
       "id": "112_math_5",
@@ -2972,7 +2972,7 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "一次函數與坐標平面"
     },
     {
       "id": "112_math_6",
@@ -2988,7 +2988,7 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "整數與分數的四則運算"
     },
     {
       "id": "112_math_7",
@@ -3004,7 +3004,7 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "一次函數與坐標平面"
     },
     {
       "id": "112_math_8",
@@ -3020,7 +3020,7 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "四邊形與多邊形性質"
     },
     {
       "id": "112_math_9",
@@ -3036,7 +3036,7 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "因數與倍數"
     },
     {
       "id": "112_math_10",
@@ -3052,7 +3052,7 @@
       },
       "answer": "D",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "一元二次方程式"
     },
     {
       "id": "112_math_11",
@@ -3068,7 +3068,7 @@
       },
       "answer": "D",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "情境應用題（生活數學、表格判讀）"
     },
     {
       "id": "112_math_12",
@@ -3084,7 +3084,7 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "機率"
     },
     {
       "id": "112_math_13",
@@ -3100,7 +3100,7 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "三角形角度計算"
     },
     {
       "id": "112_math_14",
@@ -3116,7 +3116,7 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "二次函數圖形"
     },
     {
       "id": "112_math_15",
@@ -3132,7 +3132,7 @@
       },
       "answer": "D",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "等差數列"
     },
     {
       "id": "112_math_16",
@@ -3148,7 +3148,7 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "二元一次聯立方程式"
     },
     {
       "id": "112_math_17",
@@ -3164,7 +3164,7 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "三角形內心外心重心的性質與計算"
     },
     {
       "id": "112_math_18",
@@ -3180,7 +3180,7 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "一元一次方程式應用"
     },
     {
       "id": "112_math_19",
@@ -3196,7 +3196,7 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "圓的性質（圓心角、圓周角、弧）"
     },
     {
       "id": "112_math_20",
@@ -3212,7 +3212,7 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "三角形內心外心重心的性質與計算"
     },
     {
       "id": "112_math_21",
@@ -3228,7 +3228,7 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "比與比例應用"
     },
     {
       "id": "112_math_22",
@@ -3244,7 +3244,7 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "相似三角形與比例線段"
     },
     {
       "id": "112_math_23",
@@ -3260,7 +3260,7 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "畢氏定理"
     },
     {
       "id": "112_math_24",
@@ -3276,7 +3276,7 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "統計圖表判讀"
     },
     {
       "id": "112_math_25",
@@ -3292,7 +3292,7 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "情境應用題（生活數學、表格判讀）"
     },
     {
       "id": "113_math_1",
@@ -3308,7 +3308,7 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "整數與分數的四則運算"
     },
     {
       "id": "113_math_2",
@@ -3324,7 +3324,7 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "立體圖形（展開圖、表面積、體積、三視圖）"
     },
     {
       "id": "113_math_3",
@@ -3340,7 +3340,7 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "二元一次聯立方程式"
     },
     {
       "id": "113_math_4",
@@ -3356,7 +3356,7 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "一次函數與坐標平面"
     },
     {
       "id": "113_math_5",
@@ -3372,7 +3372,7 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "等差數列"
     },
     {
       "id": "113_math_6",
@@ -3388,7 +3388,7 @@
       },
       "answer": "D",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "機率"
     },
     {
       "id": "113_math_7",
@@ -3404,7 +3404,7 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "線對稱與摺疊幾何"
     },
     {
       "id": "113_math_8",
@@ -3420,7 +3420,7 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "科學記號與指數律"
     },
     {
       "id": "113_math_9",
@@ -3436,7 +3436,7 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "統計圖表判讀"
     },
     {
       "id": "113_math_10",
@@ -3452,7 +3452,7 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "因式分解"
     },
     {
       "id": "113_math_11",
@@ -3468,7 +3468,7 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "根式化簡與運算"
     },
     {
       "id": "113_math_12",
@@ -3484,7 +3484,7 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "二次函數圖形"
     },
     {
       "id": "113_math_13",
@@ -3500,7 +3500,7 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "比與比例應用"
     },
     {
       "id": "113_math_14",
@@ -3516,7 +3516,7 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "不等式應用"
     },
     {
       "id": "113_math_15",
@@ -3532,7 +3532,7 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "因數與倍數"
     },
     {
       "id": "113_math_16",
@@ -3548,7 +3548,7 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "一次函數與坐標平面"
     },
     {
       "id": "113_math_17",
@@ -3564,7 +3564,7 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "三角形角度計算"
     },
     {
       "id": "113_math_18",
@@ -3580,7 +3580,7 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "三角形全等"
     },
     {
       "id": "113_math_19",
@@ -3596,7 +3596,7 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "絕對值與數線"
     },
     {
       "id": "113_math_20",
@@ -3612,7 +3612,7 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "四邊形與多邊形性質"
     },
     {
       "id": "113_math_21",
@@ -3628,7 +3628,7 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "圓的性質（圓心角、圓周角、弧）"
     },
     {
       "id": "113_math_22",
@@ -3644,7 +3644,7 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "面積比與重心"
     },
     {
       "id": "113_math_23",
@@ -3660,7 +3660,7 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "線對稱與摺疊幾何"
     },
     {
       "id": "113_math_24",
@@ -3676,7 +3676,7 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "情境應用題（生活數學、表格判讀）"
     },
     {
       "id": "113_math_25",
@@ -3692,7 +3692,7 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "不等式應用"
     },
     {
       "id": "114_math_1",
@@ -3708,7 +3708,7 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "科學記號與指數律"
     },
     {
       "id": "114_math_2",
@@ -3724,7 +3724,7 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "多項式運算與乘法公式"
     },
     {
       "id": "114_math_3",
@@ -3740,7 +3740,7 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "線對稱與摺疊幾何"
     },
     {
       "id": "114_math_4",
@@ -3756,7 +3756,7 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "二元一次聯立方程式"
     },
     {
       "id": "114_math_5",
@@ -3772,7 +3772,7 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "三角形角度計算"
     },
     {
       "id": "114_math_6",
@@ -3788,7 +3788,7 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "一次函數與坐標平面"
     },
     {
       "id": "114_math_7",
@@ -3804,7 +3804,7 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "統計圖表判讀"
     },
     {
       "id": "114_math_8",
@@ -3820,7 +3820,7 @@
       },
       "answer": "C",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "根式化簡與運算"
     },
     {
       "id": "114_math_9",
@@ -3836,7 +3836,7 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "情境應用題（生活數學、表格判讀）"
     },
     {
       "id": "114_math_10",
@@ -3852,7 +3852,7 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "多項式運算與乘法公式"
     },
     {
       "id": "114_math_11",
@@ -3868,7 +3868,7 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "機率"
     },
     {
       "id": "114_math_12",
@@ -3884,7 +3884,7 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "立體圖形（展開圖、表面積、體積、三視圖）"
     },
     {
       "id": "114_math_13",
@@ -3900,7 +3900,7 @@
       },
       "answer": "A",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "一元二次方程式"
     },
     {
       "id": "114_math_14",
@@ -3916,7 +3916,7 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "不等式應用"
     },
     {
       "id": "114_math_15",
@@ -3932,7 +3932,7 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "絕對值與數線"
     },
     {
       "id": "114_math_16",
@@ -3948,7 +3948,7 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "相似三角形與比例線段"
     },
     {
       "id": "114_math_17",
@@ -3964,7 +3964,7 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "畢氏定理"
     },
     {
       "id": "114_math_18",
@@ -3980,7 +3980,7 @@
       },
       "answer": "B",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "因數與倍數"
     },
     {
       "id": "114_math_19",
@@ -3996,7 +3996,7 @@
       },
       "answer": "C",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "一元一次方程式應用"
     },
     {
       "id": "114_math_20",
@@ -4012,7 +4012,7 @@
       },
       "answer": "A",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "線對稱與摺疊幾何"
     },
     {
       "id": "114_math_21",
@@ -4028,7 +4028,7 @@
       },
       "answer": "D",
       "has_diagram": false,
-      "concept_tag": null
+      "concept_tag": "二次函數圖形"
     },
     {
       "id": "114_math_22",
@@ -4044,7 +4044,7 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "面積比與重心"
     },
     {
       "id": "114_math_23",
@@ -4060,7 +4060,7 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "圓的性質（圓心角、圓周角、弧）"
     },
     {
       "id": "114_math_24",
@@ -4076,7 +4076,7 @@
       },
       "answer": "D",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "比與比例應用"
     },
     {
       "id": "114_math_25",
@@ -4092,7 +4092,7 @@
       },
       "answer": "B",
       "has_diagram": true,
-      "concept_tag": null
+      "concept_tag": "比與比例應用"
     }
   ]
 }
