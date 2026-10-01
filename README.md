@@ -28,7 +28,7 @@
 ## 目錄
 
 ```
-index.html  sw.js  manifest.webmanifest     ← 前端（單檔，無 build）
+index.html  sw.js  manifest.json            ← 前端（單檔，無 build）
 data/questionbank_<科>.json                  ← 題庫（題目、官方答案、觀念、圖路徑、解析）
 data/concept_notes_<科>.json                 ← 觀念筆記
 data/answers_<年>.json                       ← 官方答案（105–110 為讀圖重抽，見下方）

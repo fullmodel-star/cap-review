@@ -3,9 +3,10 @@
 你要替國中教育會考某一科、某一年的每一道選擇題寫「解析」，給準備明年會考的國三學生自學用。
 
 ## 輸入
-- 題庫：`C:\Users\c0787\Desktop\App專案\02_其他App\704_會考複習\data\questionbank_{SUBJECT}.json`，只處理 `year == "{YEAR}"` 的題目。每題有 `id`、`q_no`、`question_text`（轉寫文字，可能有誤或為改寫）、`options`、`answer`（官方答案，已對過官方答案卷）。
-- 原題圖（權威來源，以圖為準）：`C:\Users\c0787\Desktop\App專案\02_其他App\704_會考複習\assets\q\{id}.jpg`
-- 題組文章圖：查 `C:\Users\c0787\Desktop\App專案\02_其他App\704_會考複習\data\images_{SUBJECT}.json`，若該題有 `group_img`，先看那張文章圖（同一組只需看一次）。沒有 `img` 的題目改看 `page` 整頁圖。
+（`{APP_DIR}` ＝本 App 資料夾的絕對路徑，派工時代入；`{SUBJECT}`、`{YEAR}` 同。）
+- 題庫：`{APP_DIR}\data\questionbank_{SUBJECT}.json`，只處理 `year == "{YEAR}"` 的題目。每題有 `id`、`q_no`、`question_text`（轉寫文字，可能有誤或為改寫）、`options`、`answer`（官方答案，已對過官方答案卷）。
+- 原題圖（權威來源，以圖為準）：`{APP_DIR}\assets\q\{id}.jpg`
+- 題組文章圖：查 `{APP_DIR}\data\images_{SUBJECT}.json`，若該題有 `group_img`，先看那張文章圖（同一組只需看一次）。沒有 `img` 的題目改看 `page` 整頁圖。
 
 用 Read 工具直接看圖。
 
@@ -15,7 +16,7 @@
 - `text_issue`：平常為 null。若 JSON 的 `question_text` 或 `options` 跟原題圖有實質差異（數字、選項內容錯、缺關鍵條件），簡短寫出差在哪；純排版或改寫措辭不算。
 
 ## 輸出
-寫到 `C:\Users\c0787\Desktop\App專案\02_其他App\704_會考複習\_pipeline\review\{YEAR}_{SUBJECT}.json`，格式：
+寫到 `{APP_DIR}\_pipeline\review\{YEAR}_{SUBJECT}.json`，格式：
 ```
 { "<id>": {"explanation": "...", "flag": null, "text_issue": null}, ... }
 ```

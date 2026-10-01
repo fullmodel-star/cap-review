@@ -309,7 +309,7 @@ function renderCard(){
         <div class="row" style="margin-top:10px">
           ${q.page ? `<button class="btn ghost sm" onclick="openZoom('${q.page}')">📄 看原頁</button>` : ''}
         </div>
-        ${q.img && !q.text_issue ? `<details class="passage" style="margin-top:8px"><summary>文字版</summary><div class="muted small">自動轉寫，可能有誤，以原題圖為準</div><div class="explain small">${esc(q.question_text)}</div><div class="opts-text small">${letters.map(l=>`<div class="o">(${l}) ${esc(q.options[l])}</div>`).join('')}</div></details>` : ''}
+        ${q.img && !q.text_issue ? `<details class="passage" style="margin-top:8px"><summary>文字版</summary><div class="muted small">轉寫文字（部分科目為改寫），可能與原題有出入，以原題圖為準</div><div class="explain small">${esc(q.question_text)}</div><div class="opts-text small">${letters.map(l=>`<div class="o">(${l}) ${esc(q.options[l])}</div>`).join('')}</div></details>` : ''}
       </div>
       <button class="btn full" onclick="nextCard()">下一題 →</button>` : ''}
   `;
