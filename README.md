@@ -72,3 +72,8 @@ img/  _pipeline/extracted/                   ← 管線中間檔（gitignore）
 - 線上：https://fullmodel-star.github.io/cap-review/（repo `fullmodel-star/cap-review`，GitHub Pages 從 `main` 根目錄）
 - 流程：改完 → 升 `sw.js` 的 `CACHE` → `python 04_管理工具/品牌檢核.py 02_其他App/704_會考複習 --slug cap-review`（0 FAIL 才推）→ `git push`
 - 驗收：線上檔案要跟本機比內容（本機是 CRLF、線上是 LF，比對前先把換行正規化），並用真瀏覽器跑一輪
+
+## 自動化測試（2026-10-03 建立）
+
+- `node _tools/ui_tests.mjs`：headless Chrome 瀏覽器走查 49 項（約 10 秒），不連外網、不動 App 檔；`--dir=<路徑>` 可對副本或部署包跑。
+- 正解一律讀官方答案檔 `data/answers_<年>.json`（開頭先驗 2247 題與題庫逐題一致）；涵蓋篩選、作答判分、原題圖、IndexedDB 錯題複習、版面、首訪不自己重整；反向測試 6 條。
