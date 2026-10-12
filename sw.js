@@ -1,4 +1,4 @@
-const CACHE = 'cap704-v8';
+const CACHE = 'cap704-v9';
 const CORE = ['./', './index.html', './manifest.json', './ridgeline-ui.css', './rl-mark-denali-white.png', './icon-192.png'];
 
 self.addEventListener('install', e => {

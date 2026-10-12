@@ -178,7 +178,9 @@ const IDB_ALL = `new Promise(r=>{const o=indexedDB.open('capReviewDB');o.onerror
 const hdr = () => c.eval(`(()=>{const m=(document.getElementById('hdrSub').textContent||'').match(/已練\\s*(\\d+)\\s*\\/\\s*(\\d+)/); return m?[+m[1],+m[2]]:null})()`);
 const poolText = () => c.eval(`(()=>{const m=(document.getElementById('practiceArea').textContent||'').match(/符合\\s*(\\d+)\\s*題，已練過\\s*(\\d+)\\s*題/); return m?[+m[1],+m[2]]:null})()`);
 const clickText = (sel, text) => c.eval(`(()=>{const e=[...document.querySelectorAll(${JSON.stringify(sel)})].find(x=>x.textContent.trim().includes(${JSON.stringify(text)})); if(!e) return false; e.click(); return true})()`);
-const tab = async (name) => { await c.eval(`document.querySelector('nav.tabs button[data-tab="${name}"]').click()`); await c.until(`document.getElementById('page-${name}').classList.contains('on')`, 3000); };
+const tab = async (name) => { await c.eval(`document.querySelector('nav.tabs button[data-tab="${name}"]').click()`); await c.until(`document.getElementById('page-${name}').classList.contains('on')`, 3000);
+  // 2026-10-12：題庫改成進練習／複習才載入，等「題庫載入中…」消失才算分頁就緒
+  await c.until(`!/題庫載入中/.test(document.getElementById('page-${name}').textContent)`, 15000); };
 /** 練習首頁：選科目＋年份（'all' 表示全部） */
 async function setPractice(subjKey, year) {
   await tab('practice');
@@ -200,6 +202,9 @@ try {
 
   c = await CDP.connect(DEBUG_PORT);
   await c.width(390);
+
+  const meta = readJSON('data/meta.json');
+  ok(`0.2 data/meta.json 各科題數＝題庫實際題數（${JSON.stringify(meta.total)}）`, SUBJ.every(([k]) => meta.total[k] === BANK[k].length), meta);
 
   console.log('\n[1 載入與筆記]');
   c.navs = 0;
