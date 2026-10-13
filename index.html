@@ -98,6 +98,10 @@ details.passage .qimg{margin-top:8px}
 .bar > i{display:block;height:100%;background:var(--warn)}
 .empty{text-align:center;padding:36px 16px;color:var(--dim)}
 .empty .big{font-size:40px;margin-bottom:6px}
+/* 2026-10-13：作答後「下一題」浮在底部導覽上方，不用每題往下捲 */
+.nextbar{position:sticky;bottom:calc(78px + env(safe-area-inset-bottom,0));z-index:40;margin-top:12px;padding:8px 0;background:linear-gradient(to bottom,transparent,var(--bg) 35%)}
+.nextbar .btn{box-shadow:0 4px 14px rgba(0,0,0,.22)}
+.nextbar .btn.full{width:100%;min-width:0;max-width:none}
 .zoom{position:fixed;inset:0;z-index:100;background:rgba(0,0,0,.85);overflow:auto;display:none}
 .zoom.on{display:block}
 .zoom img{display:block;width:180%;max-width:none;margin:0 auto;background:#fff}
@@ -237,7 +241,26 @@ async function grade(qid, correct){
 }
 
 /* ===== 分頁 ===== */
-function go(tab){
+/* 返回鍵（2026-10-13）：分頁與「作答中」寫入瀏覽紀錄；作答中按返回回到選範圍頁（中途會先確認），在首頁才離開 App */
+let curTab='notes', navSkip=0, navQ=[], navClosing=false;
+function navPush(st){ if(navSkip){ navQ.push(st); return; } try{ history.pushState(st,''); }catch(_){} }
+try{ if(!history.state || !history.state.tab) history.replaceState({tab:'notes'},''); }catch(_){}
+window.addEventListener('popstate', e=>{
+  if (navSkip){ navSkip--; if(!navSkip){ const q=navQ; navQ=[]; q.forEach(s=>{ try{ history.pushState(s,''); }catch(_){} }); } return; }
+  if (document.getElementById('zoom').classList.contains('on')){ navClosing=true; closeZoom(); navClosing=false; return; }
+  const st = e.state || {tab:'notes'};
+  if (curTab==='practice' && session && session.mode==='practice' && !st.s){
+    const s = session, inProg = s.idx < s.queue.length && (s.idx>0 || s.picked!==null);
+    if (inProg && !confirm(`要離開這一輪練習嗎？\n已作答的 ${s.idx + (s.picked!==null?1:0)} 題都已存好（答錯的已進錯題複習），之後可用「只練沒做過的」接著練。`)){ navPush({tab:'practice', s:1}); return; }
+  }
+  navClosing=true;
+  if (st.tab!==curTab) go(st.tab||'notes', true);
+  else if (st.tab==='practice' && session){ renderPracticeHome(); window.scrollTo(0,0); }
+  navClosing=false;
+});
+function go(tab, fromPop){
+  if (!fromPop && tab!==curTab) navPush({tab});
+  curTab = tab;
   document.querySelectorAll('section.page').forEach(s=>s.classList.toggle('on', s.id==='page-'+tab));
   document.querySelectorAll('nav.tabs button').forEach(b=>{ const on = b.dataset.tab===tab; b.classList.toggle('on', on); if (on) b.setAttribute('aria-current','page'); else b.removeAttribute('aria-current'); });
   window.scrollTo(0,0);
@@ -313,6 +336,7 @@ function renderWriting(){
 let session = null;   // {mode, title, queue, idx, picked}
 function startSession(mode, title, queue){
   session = {mode, title, queue, idx:0, picked:null};
+  if (mode==='practice' && !(history.state && history.state.s)) navPush({tab:'practice', s:1});
   renderCard();
 }
 function areaElReview(){ return document.getElementById('reviewArea'); }
@@ -321,10 +345,18 @@ function renderCard(){
   const el = areaEl();
   const s = session;
   if (s.idx >= s.queue.length){
-    el.innerHTML = (s.mode==='review' ? reviewHeader() : '') +
-      emptyState(s.queue.length ? '這一輪完成了 🎉' : (s.mode==='review' ? '目前沒有到期的錯題 🎉' : '沒有符合條件的題目'),
-                 s.mode==='review' ? '答錯的題目會依間隔自動回來' : '') +
-      (s.mode==='practice' ? `<button class="btn full" onclick="renderPracticeHome()">回練習首頁</button>` : '');
+    if (s.mode==='review'){
+      const L = reviewLists(), nWrong = L.wrong.length;
+      let t, sub, act = '';
+      if (s.queue.length){ t = '這一輪完成了 🎉'; sub = '答錯的題目會依間隔自動回來'; }
+      else if (rv.scope==='wrong' || rv.scope==='leech'){ t = rv.scope==='leech' ? '目前沒有頑固題' : '目前沒有錯題'; sub = '練習時答錯的題目會自動收進這裡；連對 3 次就畢業。'; act = `<button class="btn full" onclick="go('practice')">去練習</button>`; }
+      else if (nWrong){ t = '目前沒有到期的錯題'; sub = `你有 ${nWrong} 題錯題還在排程中（答錯的題目隔天開始回來）。想現在就複習，可以先練「所有錯題」。`; act = `<button class="btn full" onclick="startReview('wrong')">現在就練所有錯題（${nWrong} 題）</button>`; }
+      else { t = '還沒有錯題'; sub = '練習時答錯的題目會自動收進這裡，依間隔回來複習。'; act = `<button class="btn full" onclick="go('practice')">去練習</button>`; }
+      el.innerHTML = reviewHeader() + emptyState(t, sub) + act;
+      return;
+    }
+    el.innerHTML = emptyState(s.queue.length ? '這一輪完成了 🎉' : '沒有符合條件的題目', '') +
+      `<button class="btn full" onclick="renderPracticeHome()">回練習首頁</button>`;
     return;
   }
   const q = s.queue[s.idx];
@@ -361,7 +393,7 @@ function renderCard(){
         </div>
         ${q.img && !q.text_issue ? `<details class="passage" style="margin-top:8px"><summary>文字版</summary><div class="muted small">轉寫文字（部分科目為改寫），可能與原題有出入，以原題圖為準</div><div class="explain small">${esc(q.question_text)}</div><div class="opts-text small">${letters.map(l=>`<div class="o">(${l}) ${esc(q.options[l])}</div>`).join('')}</div></details>` : ''}
       </div>
-      <button class="btn full" onclick="nextCard()">下一題 →</button>` : ''}
+      <div class="nextbar"><button class="btn full" id="nextBtn" onclick="nextCard()">${s.idx+1 < s.queue.length ? '下一題 →' : '完成這一輪 →'}</button></div>` : ''}
   `;
 }
 function progressLine(p){
@@ -384,6 +416,7 @@ function nextCard(){ session.idx++; session.picked = null; renderCard(); window.
 let pf = {subject:'all', year:'all', concept:'all'};
 async function renderPracticeHome(){
   session = null;
+  if (!navClosing && history.state && history.state.s){ navSkip++; history.back(); }
   const el = document.getElementById('practiceArea');
   if (!AVAILABLE.length){ el.innerHTML = emptyState('題庫載入失敗','請檢查網路後重新整理'); return; }
   const need = pf.subject==='all' ? AVAILABLE : [pf.subject];
@@ -495,8 +528,8 @@ function updateHeader(){
   const due = recs.filter(dueForReview).length;
   document.getElementById('hdrSub').textContent = `已練 ${done} / ${totalAll()} 題${due?`　今日待複習 ${due} 題`:''}`;
 }
-function openZoom(src){ document.getElementById('zoomImg').src = src; document.getElementById('zoom').classList.add('on'); }
-function closeZoom(){ document.getElementById('zoom').classList.remove('on'); }
+function openZoom(src){ const z=document.getElementById('zoom'), was=z.classList.contains('on'); document.getElementById('zoomImg').src = src; z.classList.add('on'); if(!was) navPush(Object.assign({}, history.state||{}, {z:1})); }
+function closeZoom(){ const z=document.getElementById('zoom'), was=z.classList.contains('on'); z.classList.remove('on'); if (was && !navClosing && history.state && history.state.z){ navSkip++; history.back(); } }
 // 解析裡的 7^10、x^(n+1) 顯示成上標
 function fmt(s){ return esc(s).replace(/\^(\([^)]{1,12}\)|-?[0-9a-zA-Z]{1,4})/g, (m,p)=>'<sup>'+p.replace(/^\((.*)\)$/,'$1')+'</sup>'); }
 function esc(s){ return String(s==null?'':s).replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
