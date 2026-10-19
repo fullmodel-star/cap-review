@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<meta name="theme-color" content="#4E6A7C">
+<meta name="theme-color" content="#16295A">
 <title>會考複習</title>
 <meta name="description" content="國中教育會考 105–114 年五科歷屆試題：原題練習、常考觀念筆記、錯題間隔複習。">
 <link rel="canonical" href="https://fullmodel-star.github.io/cap-review/">
@@ -28,105 +28,196 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="會考複習">
 <style>
+/* 2026-10-19 版面美化「闖關考場」：深藍＋陽光黃、粉圓圓體（子集 vendor/round-ui）、Fluent 3D 插圖（vendor/fluent-3d） */
+@font-face{font-family:CapRound;src:url(vendor/round-ui/cap-round.woff2) format("woff2");font-display:swap}
 :root{
-  --bg:#F7F3EC; --bg2:#ECEBE4; --card:#FFFFFF; --card2:#F3E7DD;
-  --line:#E4DDCE; --txt:#141E2B; --dim:#4A5F70;
-  --primary:#4E6A7C; --primary2:#456079; --ptxt:#456079;
-  --ok:#3F6B4F; --warn:#DE9A45; --bad:#9E2A18;
-  --radius:16px;
-  --s-chinese:#9E2A18; --s-english_read:#3F6C85; --s-math:#6E6480; --s-science:#4D7C5E; --s-social:#DE9A45;
+  --bg:#EDF2FA; --bg2:#E2E9F5; --card:#FFFFFF; --card2:#E8EEF8;
+  --line:#D3DCEC; --txt:#12203A; --dim:#475878;
+  --primary:#1C3570; --primary2:#2A4A92; --ptxt:#1C3570;
+  --ok:#2F7A4F; --warn:#D99A00; --bad:#B3261E;
+  --sun:#FFC83D; --sun-d:#C68A00; --sun-ink:#2A1C00; --press:#0E1C45;
+  --glow:#DCE7FA; --shadow:0 1px 0 rgba(16,32,70,.04),0 8px 20px -14px rgba(16,32,70,.35);
+  --radius:18px;
+  --round:CapRound,-apple-system,"Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;
   --img-filter:none;
 }
 @media (prefers-color-scheme:dark){:root{
-  --bg:#141E2B; --bg2:#1B2838; --card:#1B2838; --card2:#2C4459;
-  --line:#2A3A4E; --txt:#EEF3F6; --dim:#92A9BA;
-  --primary:#4E6A7C; --primary2:#92A9BA; --ptxt:#B9CCDA;
-  --ok:#3EA47E; --warn:#DE9A45; --bad:#C77E4E;
-  --img-filter:invert(.88) hue-rotate(180deg);
+  --bg:#0A1328; --bg2:#111E3A; --card:#13213F; --card2:#1B2C52;
+  --line:#2A3C66; --txt:#EEF3FB; --dim:#A3B4D4;
+  --primary:#3D62C4; --primary2:#A3B4D4; --ptxt:#FFD45E;
+  --ok:#4CC08A; --warn:#E0A82E; --bad:#F08A7E;
+  --press:#1A2D63; --glow:#16285A; --shadow:0 1px 0 rgba(0,0,0,.2),0 10px 24px -14px rgba(0,0,0,.7);
+  --img-filter:invert(.88) hue-rotate(180deg); --tile-on:10%;
 }}
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 html,body{margin:0;padding:0}
-body{font-family:-apple-system,"Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;background:var(--bg);color:var(--txt);min-height:100vh;padding-bottom:84px;font-size:16px;line-height:1.6}
+body{font-family:-apple-system,"Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;background:var(--bg) radial-gradient(130% 420px at 50% 0%,var(--glow) 0%,var(--bg) 100%) no-repeat;color:var(--txt);min-height:100vh;padding-bottom:84px;font-size:16px;line-height:1.6}
 .wrap{max-width:820px;margin:0 auto;padding:0 14px}
-body.theme-denali{--hdr:#4E6A7C;--on:#EEF3F6;--ink:var(--txt);--muted:var(--dim)}
-header.rl-appbar{position:sticky;top:0;z-index:40;padding:calc(12px + env(safe-area-inset-top,0)) 16px 12px;gap:12px}
+body.theme-denali{--hdr:#16295A;--on:#EEF3F6;--ink:var(--txt);--muted:var(--dim)}
+@media (prefers-color-scheme:dark){body.theme-denali{--hdr:#0E1A3A}}
+header.rl-appbar{position:sticky;top:0;z-index:40;padding:calc(12px + env(safe-area-inset-top,0)) 16px 12px;gap:12px;box-shadow:0 6px 18px -12px rgba(8,18,48,.8)}
 header.rl-appbar .rl-glyph{width:30px;height:30px;object-fit:contain}
-header.rl-appbar .rl-title{font-size:20px}
+header.rl-appbar .rl-title{font-family:var(--round);font-weight:400;font-size:21px;letter-spacing:1px}
 header.rl-appbar .rl-sub{font-size:13px;letter-spacing:0;color:var(--on)}
-nav.tabs{position:fixed;bottom:0;left:0;right:0;z-index:50;background:var(--card);border-top:1px solid var(--line);display:flex;padding:6px 4px calc(6px + env(safe-area-inset-bottom,0)) 4px}
-nav.tabs button{flex:1;background:none;border:none;border-top:3px solid transparent;border-radius:0;color:var(--dim);font-size:13px;font-weight:600;display:flex;flex-direction:column;align-items:center;gap:2px;padding:6px 2px;min-height:56px;cursor:pointer}
-nav.tabs button .i{font-size:22px}
-nav.tabs button.on{color:var(--ptxt);font-weight:800;border-top-color:var(--ptxt);background:color-mix(in srgb,var(--ptxt) 16%,transparent)}
+.ti{width:1.15em;height:1.15em;flex:none;vertical-align:-.2em}
+/* 底部分頁：3D 圖＋圓體 */
+nav.tabs{position:fixed;bottom:0;left:0;right:0;z-index:50;background:var(--card);border-top:1px solid var(--line);display:flex;padding:6px 4px calc(6px + env(safe-area-inset-bottom,0)) 4px;box-shadow:0 -6px 18px -14px rgba(16,32,70,.5)}
+nav.tabs button{flex:1;background:none;border:none;border-top:3px solid transparent;border-radius:0;color:var(--dim);font-family:var(--round);font-size:13px;display:flex;flex-direction:column;align-items:center;gap:2px;padding:6px 2px;min-height:56px;cursor:pointer}
+nav.tabs button .i{width:26px;height:26px;display:block}
+nav.tabs button.on{color:var(--ptxt);border-top-color:var(--sun);background:color-mix(in srgb,var(--sun) 16%,transparent)}
 section.page{display:none;padding:14px 0 20px}
 section.page.on{display:block}
-.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:14px;margin-bottom:12px}
-h2{font-size:17px;margin:0 0 8px}
-.btn{background:var(--primary);color:#fff;border:none;border-radius:12px;padding:12px 16px;font-size:16px;font-weight:700;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:6px}
-.btn:active{transform:scale(.97)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:14px;margin-bottom:12px;box-shadow:var(--shadow)}
+h2{font-family:var(--round);font-weight:400;font-size:18px;margin:0 0 8px}
+.btn{background:var(--primary);color:#fff;border:none;border-radius:14px;padding:12px 16px;min-height:48px;font-family:var(--round);font-size:16px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:6px;box-shadow:0 4px 0 var(--press);transition:transform .08s,box-shadow .08s}
+.btn:active{transform:translateY(3px);box-shadow:0 1px 0 var(--press)}
 .btn.full{width:100%}
-.btn.big{min-height:52px;font-size:17px}
-.hero .btn.big{background:var(--warn);color:#141E2B}
-.btn.ghost{background:var(--card2);color:var(--txt);border:1px solid var(--line)}
-.btn.sm{padding:10px 14px;font-size:15px;border-radius:10px;min-height:44px}
+.btn.big{min-height:54px;font-size:18px}
+.btn.ghost{background:var(--card2);color:var(--ptxt);border:1px solid var(--line);box-shadow:0 3px 0 var(--line)}
+.btn.ghost:active{box-shadow:0 0 0 var(--line)}
+.btn.sm{padding:10px 14px;font-size:15px;border-radius:12px;min-height:44px}
+/* 金色立體主鈕（家族共用語言：下緣實色陰影、按下會沉） */
+.btn.go{background:linear-gradient(180deg,#FFD45E,var(--sun));color:var(--sun-ink);box-shadow:0 5px 0 var(--sun-d),0 10px 20px -8px rgba(198,138,0,.7)}
+.btn.go:active{transform:translateY(4px);box-shadow:0 1px 0 var(--sun-d)}
+.btn.go img{width:28px;height:28px}
 .row{display:flex;gap:8px;flex-wrap:wrap}
 .chips{display:flex;gap:6px;flex-wrap:wrap}
-.chip{padding:10px 14px;min-height:44px;border-radius:22px;background:var(--card2);border:1px solid var(--line);font-size:15px;cursor:pointer;display:inline-flex;align-items:center;gap:6px;color:var(--txt)}
+.chip{padding:10px 14px;min-height:44px;border-radius:22px;background:var(--card2);border:1px solid var(--line);font-family:var(--round);font-size:15px;cursor:pointer;display:inline-flex;align-items:center;gap:6px;color:var(--txt)}
 .chip.on{background:var(--primary);color:#fff;border-color:var(--primary)}
 .dot{width:9px;height:9px;border-radius:50%;display:inline-block}
 .muted{color:var(--dim)}
 .small{font-size:15px}
 .tag{display:inline-block;font-size:13px;padding:2px 8px;border-radius:8px;background:var(--card2);color:var(--dim);margin-right:4px;border:1px solid var(--line)}
-label.fld{display:block;font-size:15px;color:var(--dim);margin:10px 0 4px}
-select{width:100%;min-height:44px;padding:10px 12px;font-size:16px;border-radius:10px;border:1px solid var(--line);background:var(--bg2);color:var(--txt)}
+label.fld{display:block;font-family:var(--round);font-size:15px;color:var(--dim);margin:12px 0 6px}
+select{width:100%;min-height:44px;padding:10px 12px;font-size:16px;border-radius:12px;border:1px solid var(--line);background:var(--bg2);color:var(--txt)}
 .qimg{display:block;width:100%;height:auto;border-radius:8px;background:#fff;filter:var(--img-filter);cursor:zoom-in}
 details.passage{margin-bottom:12px}
-details.passage summary{cursor:pointer;font-weight:700;padding:10px 0;min-height:44px;color:var(--ptxt)}
+details.passage summary{cursor:pointer;font-family:var(--round);padding:10px 0;min-height:44px;color:var(--ptxt);display:flex;align-items:center;gap:6px}
 details.passage .qimg{margin-top:8px}
-.ansgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:4px 0 12px}
-.ans{font-size:22px;font-weight:800;padding:14px 0;border-radius:12px;border:2px solid var(--line);background:var(--card);color:var(--txt);cursor:pointer}
-.ans:active{transform:scale(.96)}
-.ans.correct{border-color:var(--ok);background:color-mix(in srgb,var(--ok) 18%,var(--card));color:var(--ok)}
-.ans.wrong{border-color:var(--bad);background:color-mix(in srgb,var(--bad) 18%,var(--card));color:var(--bad)}
+.ansgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:4px 0 14px}
+.ans{font-family:var(--round);font-size:24px;padding:14px 0;border-radius:14px;border:2px solid var(--line);background:var(--card);color:var(--txt);cursor:pointer;box-shadow:0 4px 0 var(--line);transition:transform .08s,box-shadow .08s}
+.ans:active{transform:translateY(3px);box-shadow:0 1px 0 var(--line)}
+.ans.correct{border-color:var(--ok);background:color-mix(in srgb,var(--ok) 18%,var(--card));color:var(--ok);box-shadow:0 4px 0 var(--ok)}
+.ans.wrong{border-color:var(--bad);background:color-mix(in srgb,var(--bad) 18%,var(--card));color:var(--bad);box-shadow:0 4px 0 var(--bad)}
 .ans:disabled{cursor:default}
 .opts-text .o{padding:6px 0;border-bottom:1px dashed var(--line)}
-.result{border-radius:12px;padding:10px 14px;margin-bottom:10px;font-weight:700}
+.result{border-radius:14px;padding:10px 14px;margin-bottom:10px;font-family:var(--round);font-size:17px}
+.result .ti{vertical-align:-.18em}
 .result.ok{background:color-mix(in srgb,var(--ok) 15%,var(--card));color:var(--ok)}
 .result.bad{background:color-mix(in srgb,var(--bad) 15%,var(--card));color:var(--bad)}
+.result .small{font-family:-apple-system,"Noto Sans TC","Microsoft JhengHei",sans-serif}
 .explain{white-space:pre-wrap}
 .warnbox{background:color-mix(in srgb,var(--warn) 14%,var(--card));border-radius:10px;padding:8px 12px;font-size:15px;margin-top:8px}
-.bar{height:6px;border-radius:3px;background:var(--card2);overflow:hidden;margin:6px 0}
-.bar > i{display:block;height:100%;background:var(--warn)}
-.empty{text-align:center;padding:36px 16px;color:var(--dim)}
-.empty .big{font-size:40px;margin-bottom:6px}
+.bar{height:8px;border-radius:99px;background:var(--card2);overflow:hidden;margin:8px 0}
+.bar > i{display:block;height:100%;border-radius:99px;background:linear-gradient(90deg,var(--sun),#FF9F2E)}
+.empty{text-align:center;padding:30px 16px;color:var(--dim)}
+.empty .art{width:84px;height:84px;display:block;margin:0 auto 8px}
+.empty .ttl{font-family:var(--round);font-size:19px;color:var(--txt)}
 /* 2026-10-13：作答後「下一題」浮在底部導覽上方，不用每題往下捲 */
 .nextbar{position:sticky;bottom:calc(78px + env(safe-area-inset-bottom,0));z-index:40;margin-top:12px;padding:8px 0;background:linear-gradient(to bottom,transparent,var(--bg) 35%)}
-.nextbar .btn{box-shadow:0 4px 14px rgba(0,0,0,.22)}
 .nextbar .btn.full{width:100%;min-width:0;max-width:none}
 .zoom{position:fixed;inset:0;z-index:100;background:rgba(0,0,0,.85);overflow:auto;display:none}
 .zoom.on{display:block}
 .zoom img{display:block;width:180%;max-width:none;margin:0 auto;background:#fff}
 .zoom .close{position:fixed;top:calc(10px + env(safe-area-inset-top,0));right:12px;z-index:101}
 footer.foot{text-align:center;padding:24px 16px 8px;color:var(--dim);font-size:13px;max-width:560px;margin:0 auto}
-.hero{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--warn);border-radius:var(--radius);padding:14px;margin-bottom:14px}
-.hero h2{margin:0 0 6px}
-.hero ol{margin:0 0 12px;padding-left:1.4em;color:var(--dim)}
-.hero details summary{cursor:pointer;color:var(--ptxt);font-weight:700;padding:10px 0;min-height:44px}
-.hero .btn.full{max-width:100%}
-h3.sec{font-size:17px;margin:18px 0 10px;padding-left:10px;border-left:4px solid var(--primary)}
+/* 狀態列（HUD）：用 App 現有的作答紀錄 */
+.hud{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:0 0 12px}
+.hud > div{display:flex;align-items:center;gap:7px;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:8px 10px;box-shadow:var(--shadow);min-width:0}
+.hud img{width:30px;height:30px;flex:none}
+.hud span{display:block;font-size:12px;color:var(--dim);line-height:1.2;white-space:nowrap}
+.hud b{display:block;font-family:var(--round);font-weight:400;font-size:20px;line-height:1.15;color:var(--txt)}
+/* 首屏主視覺 */
+.hero{position:relative;overflow:hidden;border-radius:26px;padding:18px 18px 16px;margin-bottom:14px;color:#F4F7FF;
+  background:linear-gradient(150deg,#2A52B8 0%,#1D3C8F 52%,#12245E 100%);
+  box-shadow:0 0 0 1px rgba(255,200,61,.4) inset,0 20px 34px -20px rgba(29,60,143,.95)}
+.hero::before{content:"";position:absolute;right:-60px;top:-70px;width:230px;height:230px;border-radius:50%;
+  background:radial-gradient(circle,rgba(255,212,94,.55) 0%,rgba(255,200,61,.18) 45%,transparent 70%);pointer-events:none}
+.hero > *{position:relative}
+.hero .k{font-family:var(--round);font-size:13px;color:#FFD978;letter-spacing:2px}
+.hero .hero-h{font-family:var(--round);font-weight:400;font-size:clamp(22px,6.5vw,27px);line-height:1.28;margin:6px 0 12px;padding-right:100px}
+.hero .hero-art{position:absolute;right:6px;top:14px;width:100px;height:100px;filter:drop-shadow(0 10px 14px rgba(0,0,0,.45))}
+.hero .hero-art2{display:none}
+.hero .xp{height:12px;border-radius:99px;background:rgba(0,0,0,.32);overflow:hidden;margin:0 0 6px}
+.hero .xp i{display:block;height:100%;min-width:12px;border-radius:99px;background:linear-gradient(90deg,var(--sun),#FF9F2E)}
+.hero .xpl{font-family:var(--round);font-size:14px;color:#DCE6FF;margin-bottom:14px;display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap}
+.hero .xpl b{font-weight:400;color:#fff}
+.hero .btn.go{font-size:18px}
+.hero details.howto{margin-top:10px;color:#DCE6FF;font-size:15px}
+.hero details.howto summary{cursor:pointer;font-family:var(--round);padding:8px 0;min-height:44px;display:flex;align-items:center;gap:6px;color:#FFE08A;list-style:none}
+.hero details.howto summary::-webkit-details-marker{display:none}
+.hero details.howto[open] summary .ti:last-child{transform:rotate(180deg)}
+.hero details.howto ol{margin:0 0 4px;padding-left:1.4em}
+/* 科目圖格（3D 圖＋觀念數） */
+.sec-t{display:flex;align-items:baseline;gap:8px;margin:2px 2px 10px}
+.sec-t h3{margin:0;font-family:var(--round);font-weight:400;font-size:19px}
+.sec-t span{font-size:13px;color:var(--dim)}
+.tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:14px}
+.chip.tile{flex-direction:column;justify-content:center;gap:2px;border-radius:18px;padding:10px 4px 8px;min-height:104px;background:var(--card);border:1px solid var(--line);box-shadow:var(--shadow);text-align:center;font-size:16px}
+.chip.tile img{width:44px;height:44px;display:block;margin-bottom:2px}
+.chip.tile small{font-family:-apple-system,"Noto Sans TC","Microsoft JhengHei",sans-serif;font-size:12px;color:var(--dim)}
+.chip.tile.on{background:color-mix(in srgb,var(--sun) var(--tile-on,20%),var(--card));border:2px solid var(--sun);color:var(--txt);box-shadow:0 4px 0 var(--sun-d)}
+h3.sec{font-family:var(--round);font-weight:400;font-size:19px;margin:18px 0 10px;padding-left:10px;border-left:5px solid var(--sun);border-radius:2px}
+.ccard h2{display:flex;align-items:center;gap:8px}
+.lv{flex:none;font-family:var(--round);font-size:13px;line-height:1;background:var(--sun);color:var(--sun-ink);border-radius:999px;padding:6px 10px;box-shadow:0 2px 0 var(--sun-d)}
+.tip{display:flex;gap:6px;align-items:flex-start;margin-top:6px}
+.tip .ti{margin-top:.25em;color:var(--warn)}
 .lead{max-width:34em}
 .grid{display:block}
+/* 練習首頁：各科進度 */
+.sp-row{display:grid;grid-template-columns:34px 1fr auto;gap:4px 10px;align-items:center;padding:6px 0}
+.sp-row img{width:34px;height:34px;grid-row:span 2}
+.sp-row .nm{font-family:var(--round);font-size:16px}
+.sp-row .ct{font-size:13px;color:var(--dim);text-align:right}
+.sp-row .bar{grid-column:2 / 4;margin:0}
+.ph-head{display:flex;align-items:center;gap:10px;margin-bottom:4px}
+.ph-head img{width:40px;height:40px}
+.ph-head h2{margin:0}
 @media(min-width:900px){
   .wrap{max-width:1080px}
   #page-practice,#page-review{max-width:760px;margin:0 auto}
   .grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;align-items:start}
   .grid .card{margin:0}
   .btn.full{width:auto;min-width:300px}
-  .hero{max-width:760px}
   footer.rdg-foot .rdg-lic,footer.rdg-foot .rdg-l3{max-width:540px}
+}
+@media(min-width:1000px){
+  body{padding-bottom:24px}
+  .wrap{max-width:1180px;padding:0 24px}
+  /* 桌機：分頁收進頁首右側（靜態分段鈕，不浮在內容上） */
+  nav.tabs{top:calc(11px + env(safe-area-inset-top,0));bottom:auto;left:auto;right:24px;background:transparent;border:0;box-shadow:none;padding:0;gap:6px}
+  nav.tabs button{flex-direction:row;gap:8px;min-height:44px;padding:6px 16px;border:0;border-radius:14px;color:#DCE6FF;font-size:16px;white-space:nowrap}
+  nav.tabs button .i{width:28px;height:28px}
+  nav.tabs button.on{color:var(--sun-ink);background:var(--sun);box-shadow:0 3px 0 var(--sun-d)}
+  nav.tabs button:not(.on):hover{background:rgba(255,255,255,.1)}
+  .notes-top{display:grid;grid-template-columns:1.25fr 1fr;gap:18px;align-items:stretch;margin-bottom:22px}
+  .notes-top .hero{margin:0;padding:30px 32px;min-height:300px;display:flex;flex-direction:column;justify-content:center}
+  .hero .hero-h{font-size:38px;padding-right:220px}
+  .hero .hero-art{width:180px;height:180px;right:28px;top:34px}
+  .hero .hero-art2{display:block;position:absolute;right:170px;bottom:22px;width:70px;height:70px;filter:drop-shadow(0 8px 12px rgba(0,0,0,.4))}
+  .hero .xp,.hero .xpl{max-width:calc(100% - 230px)}
+  .hero .btn.go{align-self:flex-start;min-width:340px}
+  .hero details.howto{max-width:calc(100% - 230px)}
+  .notes-side{display:flex;flex-direction:column}
+  .notes-side .tiles{flex:1;margin:0}
+  .chip.tile{min-height:120px}
+  .chip.tile img{width:52px;height:52px}
+  .hud{gap:12px;margin-bottom:16px}
+  .hud > div{padding:10px 16px;gap:12px}
+  .hud img{width:40px;height:40px}
+  .hud span{font-size:14px}
+  .hud b{font-size:26px}
+  #page-practice:has(.ph-grid){max-width:none}
+  .ph-grid{display:grid;grid-template-columns:1.3fr 1fr;gap:18px;align-items:start}
+  .ph-grid .card{margin:0}
+  .nextbar{bottom:12px}
 }
 </style>
 </head>
 <body class="theme-denali">
+<!-- TABLER_SPRITE_START：Tabler Icons 3.49.0（MIT，授權見 vendor/tabler-icons/LICENSE.txt）；由 _tools/build_icon_sprite.py 產生，勿手改 -->
+<svg xmlns="http://www.w3.org/2000/svg" style="position:absolute;width:0;height:0;overflow:hidden" aria-hidden="true" focusable="false"><symbol id="ti-file" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3v4a1 1 0 0 0 1 1h4"/><path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2"/><path d="M9 9l1 0"/><path d="M9 13l6 0"/><path d="M9 17l6 0"/></symbol><symbol id="ti-calendar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2l0 -12"/><path d="M16 3v4"/><path d="M8 3v4"/><path d="M4 11h16"/><path d="M11 16a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"/></symbol><symbol id="ti-circle-x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"/><path d="M10 10l4 4m0 -4l-4 4"/></symbol><symbol id="ti-flame" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 10.941c2.333 -3.308 .167 -7.823 -1 -8.941c0 3.395 -2.235 5.299 -3.667 6.706c-1.43 1.408 -2.333 3.294 -2.333 5.588c0 3.704 3.134 6.706 7 6.706c3.866 0 7 -3.002 7 -6.706c0 -1.712 -1.232 -4.403 -2.333 -5.588c-2.084 3.353 -3.257 3.353 -4.667 2.235"/></symbol><symbol id="ti-x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6l-12 12"/><path d="M6 6l12 12"/></symbol><symbol id="ti-refresh" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 11a8.1 8.1 0 0 0 -15.5 -2m-.5 -4v4h4"/><path d="M4 13a8.1 8.1 0 0 0 15.5 2m.5 4v-4h-4"/></symbol><symbol id="ti-bulb" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h1m8 -9v1m8 8h1m-15.4 -6.4l.7 .7m12.1 -.7l-.7 .7"/><path d="M9 16a5 5 0 1 1 6 0a3.5 3.5 0 0 0 -1 3a2 2 0 0 1 -4 0a3.5 3.5 0 0 0 -1 -3"/><path d="M9.7 17l4.6 0"/></symbol><symbol id="ti-school" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 9l-10 -4l-10 4l10 4l10 -4v6"/><path d="M6 10.6v5.4a6 3 0 0 0 12 0v-5.4"/></symbol><symbol id="ti-trophy" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21l8 0"/><path d="M12 17l0 4"/><path d="M7 4l10 0"/><path d="M17 4v8a5 5 0 0 1 -10 0v-8"/><path d="M3 9a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"/><path d="M17 9a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"/></symbol><symbol id="ti-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6l6 -6"/></symbol><symbol id="ti-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5l10 -10"/></symbol><symbol id="ti-alert" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 9v4"/><path d="M10.363 3.591l-8.106 13.534a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636 -2.87l-8.106 -13.536a1.914 1.914 0 0 0 -3.274 0"/><path d="M12 16h.01"/></symbol><symbol id="ti-help" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0"/><path d="M12 16v.01"/><path d="M12 13a2 2 0 0 0 .914 -3.782a1.98 1.98 0 0 0 -2.414 .483"/></symbol></svg>
+<!-- TABLER_SPRITE_END -->
 <header class="rl-appbar">
   <span class="rl-mark"><img class="rl-glyph" src="rl-mark-denali-white.png" width="30" height="30" alt=""></span>
   <div>
@@ -143,13 +234,13 @@ h3.sec{font-size:17px;margin:18px 0 10px;padding-left:10px;border-left:4px solid
 </div>
 
 <nav class="tabs">
-  <button data-tab="notes" class="on" aria-current="page"><span class="i">📖</span>筆記</button>
-  <button data-tab="practice"><span class="i">✏️</span>練習</button>
-  <button data-tab="review"><span class="i">🔁</span>錯題複習</button>
+  <button data-tab="notes" class="on" aria-current="page"><img class="i" src="vendor/fluent-3d/openbook.png" alt="">筆記</button>
+  <button data-tab="practice"><img class="i" src="vendor/fluent-3d/pencil.png" alt="">練習</button>
+  <button data-tab="review"><img class="i" src="vendor/fluent-3d/calendar.png" alt="">錯題複習</button>
 </nav>
 
 <div class="zoom" id="zoom" onclick="closeZoom()">
-  <button class="btn sm close" onclick="closeZoom()">✕ 關閉</button>
+  <button class="btn sm close" onclick="closeZoom()"><svg class="ti" aria-hidden="true"><use href="#ti-x"/></svg>關閉</button>
   <img id="zoomImg" alt="">
 </div>
 
@@ -191,7 +282,22 @@ function allQuestions(){ return AVAILABLE.filter(k=>BANKS[k]).flatMap(k => BANKS
 function subjName(key){ return (SUBJECTS.find(s=>s.key===key)||{}).name || key; }
 function byId(id){ const s = AVAILABLE.find(k => id.includes('_'+k+'_')); return s && BANKS[s] && BANKS[s].questions.find(q=>q.id===id); }
 function subjOfId(id){ return AVAILABLE.find(k => id.includes('_'+k+'_')); }
-function loadingState(){ return `<div class="empty"><div style="font-size:17px;font-weight:700;color:var(--txt)">題庫載入中…</div><div style="margin-top:6px">第一次進來會多等一下</div></div>`; }
+/* 2026-10-19 闖關考場：3D 圖與線條圖示 */
+const F3D = 'vendor/fluent-3d/';
+const SUBJ_IMG = {chinese:'scroll', english_read:'speech', math:'ruler', social:'worldmap', science:'testtube', writing:'memo'};
+function f3d(key, cls){ return `<img class="${cls||''}" src="${F3D}${key}.png" alt="" width="128" height="128">`; }
+function ti(id){ return `<svg class="ti" aria-hidden="true"><use href="#ti-${id}"/></svg>`; }
+/* 作答紀錄統計（狀態列、頁首共用；只算目前有的科目） */
+function stats(){
+  const recs = Object.values(PROGRESS).filter(p=>subjOfId(p.id));
+  return {
+    done: recs.filter(attempted).length,
+    wrong: recs.filter(p=>attempted(p) && !p.mastered && (p.wrongCount||0)>0).length,
+    due: recs.filter(dueForReview).length,
+  };
+}
+function doneOf(k){ return Object.values(PROGRESS).filter(p=>subjOfId(p.id)===k && attempted(p)).length; }
+function loadingState(){ return `<div class="empty">${f3d('books','art')}<div class="ttl">題庫載入中…</div><div style="margin-top:6px">第一次進來會多等一下</div></div>`; }
 
 /* ===== IndexedDB 作答進度 ===== */
 let db, PROGRESS = {};
@@ -276,18 +382,32 @@ function renderNotes(){
   const el = document.getElementById('notesArea');
   if (!AVAILABLE.length){ el.innerHTML = emptyState('題庫載入失敗','請檢查網路後重新整理'); return; }
   if (!notesSubj) notesSubj = AVAILABLE[0];
-  const firstVisit = !Object.values(PROGRESS).some(attempted);
   const isW = notesSubj==='writing';
+  const st = stats(), total = totalAll();
+  const pct = total ? Math.round(st.done/total*100) : 0;
   const steps = `<ol><li>先看下面的常考觀念筆記（依 10 年出現次數排序）</li><li>按「練這個觀念」，用歷屆原題練習</li><li>答錯的題目會自動排進「錯題複習」</li></ol>`;
-  const hero = `<div class="hero">
-      <h2>會考歷屆題，從最常考的開始</h2>
-      ${firstVisit ? steps : `<details><summary>怎麼用？</summary>${steps}</details>`}
-      <button class="btn full big" onclick="${isW?`go('practice')`:`practiceConcept('${notesSubj}',0)`}">▶ 開始練習${isW?'':'：'+subjName(notesSubj)+'最常考觀念'}</button>
+  // 狀態列：已練／錯題／今日複習（都是 IndexedDB 作答紀錄算出來的）
+  const hud = `<div class="hud" aria-label="作答狀態">
+      <div>${f3d('pencil')}<div><span>已練題數</span><b>${st.done}</b></div></div>
+      <div>${f3d('crossmark')}<div><span>錯題</span><b>${st.wrong}</b></div></div>
+      <div>${f3d('calendar')}<div><span>今日複習</span><b>${st.due}</b></div></div>
     </div>`;
-  el.innerHTML = hero + `<div class="chips" style="margin-bottom:12px">`+
-    AVAILABLE.map(k=>`<div class="chip${notesSubj===k?' on':''}" onclick="setNotesSubj('${k}')">${subjName(k)}</div>`).join('')+
-    (WRITING.length?`<div class="chip${notesSubj==='writing'?' on':''}" onclick="setNotesSubj('writing')">作文題目</div>`:'')+
-    `</div><div id="notesDetail"></div>`;
+  // 首屏主視覺：一句大標＋進度條＋唯一主行動；說明收進「怎麼玩？」
+  const hero = `<div class="hero">
+      <div class="k">105–114 年・五科 ${total} 題</div>
+      <h2 class="hero-h">會考十年題，<br>從最常考的開始闖</h2>
+      ${f3d('gradcap','hero-art')}${f3d('books','hero-art2')}
+      <div class="xp" role="progressbar" aria-label="已練題數" aria-valuemin="0" aria-valuemax="${total}" aria-valuenow="${st.done}"><i style="width:${pct}%"></i></div>
+      <div class="xpl"><span>已練 <b>${st.done}</b> / ${total} 題</span><span>${pct}%</span></div>
+      <button class="btn go full big" id="heroGo" onclick="${isW?`go('practice')`:`practiceConcept('${notesSubj}',0)`}">${f3d('bullseye')}<span class="lbl">${isW?'去練習歷屆題':'開始練習：'+subjName(notesSubj)+'最常考觀念'}</span></button>
+      <details class="howto"><summary>${ti('help')}怎麼玩？${ti('chevron')}</summary>${steps}</details>
+    </div>`;
+  const tile = (k, name, sub) => `<div class="chip tile${notesSubj===k?' on':''}" role="button" tabindex="0" onclick="setNotesSubj('${k}')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();setNotesSubj('${k}')}">${f3d(SUBJ_IMG[k])}${name}<small>${sub}</small></div>`;
+  const tiles = `<div class="notes-side"><div class="sec-t"><h3>選科目</h3><span>看各科最常考的觀念</span></div><div class="tiles">`+
+    AVAILABLE.map(k=>tile(k, subjName(k), `${(NOTES[k]||[]).length} 個觀念`)).join('')+
+    (WRITING.length ? tile('writing', '作文題目', `${WRITING.length} 年題目`) : '')+
+    `</div></div>`;
+  el.innerHTML = hud + `<div class="notes-top">${hero}${tiles}</div><div id="notesDetail"></div>`;
   notesSubj==='writing' ? renderWriting() : renderConcepts(notesSubj);
 }
 function setNotesSubj(k){ notesSubj = k; renderNotes(); }
@@ -302,14 +422,14 @@ function renderConcepts(key){
     science: '課綱本身只標「國中階段」；年級依國中自然分科編排：生物七年級、理化八九年級、地科九年級，理化部分細分到八或九年級是依常見教材順序。',
   }[key];
   const card = (n,i)=>`
-    <div class="card">
-      <h2>${i+1}. ${esc(n.concept)}</h2>
+    <div class="card ccard">
+      <h2><span class="lv">第 ${i+1} 關</span>${esc(n.concept)}</h2>
       <div class="row small muted" style="align-items:center">
         <span>出現 ${n.frequency||0} 次</span>${n.grade?`<span class="tag">${esc(n.grade)}</span>`:''}${n.curriculum?`<span class="tag">課綱 ${esc(n.curriculum)}</span>`:''}
       </div>
       <div class="bar"><i style="width:${Math.round((n.frequency||0)/max*100)}%"></i></div>
       <div>${esc(n.summary||'')}</div>
-      ${n.tip?`<div class="muted small" style="margin-top:6px">💡 ${esc(n.tip)}</div>`:''}
+      ${n.tip?`<div class="muted small tip">${ti('bulb')}<span>${esc(n.tip)}</span></div>`:''}
       <button class="btn ghost sm" style="margin-top:10px" onclick="practiceConcept('${key}',${i})">練這個觀念（${n.frequency||0} 題）</button>
     </div>`;
   const TOP = 5;
@@ -348,14 +468,15 @@ function renderCard(){
     if (s.mode==='review'){
       const L = reviewLists(), nWrong = L.wrong.length;
       let t, sub, act = '';
-      if (s.queue.length){ t = '這一輪完成了 🎉'; sub = '答錯的題目會依間隔自動回來'; }
+      let art = 'mailbox';
+      if (s.queue.length){ t = '這一輪完成了'; sub = '答錯的題目會依間隔自動回來'; art = 'party'; }
       else if (rv.scope==='wrong' || rv.scope==='leech'){ t = rv.scope==='leech' ? '目前沒有頑固題' : '目前沒有錯題'; sub = '練習時答錯的題目會自動收進這裡；連對 3 次就畢業。'; act = `<button class="btn full" onclick="go('practice')">去練習</button>`; }
       else if (nWrong){ t = '目前沒有到期的錯題'; sub = `你有 ${nWrong} 題錯題還在排程中（答錯的題目隔天開始回來）。想現在就複習，可以先練「所有錯題」。`; act = `<button class="btn full" onclick="startReview('wrong')">現在就練所有錯題（${nWrong} 題）</button>`; }
       else { t = '還沒有錯題'; sub = '練習時答錯的題目會自動收進這裡，依間隔回來複習。'; act = `<button class="btn full" onclick="go('practice')">去練習</button>`; }
-      el.innerHTML = reviewHeader() + emptyState(t, sub) + act;
+      el.innerHTML = reviewHeader() + emptyState(t, sub, art) + act;
       return;
     }
-    el.innerHTML = emptyState(s.queue.length ? '這一輪完成了 🎉' : '沒有符合條件的題目', '') +
+    el.innerHTML = emptyState(s.queue.length ? '這一輪完成了' : '沒有符合條件的題目', '', s.queue.length ? 'party' : 'mailbox') +
       `<button class="btn full" onclick="renderPracticeHome()">回練習首頁</button>`;
     return;
   }
@@ -364,14 +485,14 @@ function renderCard(){
   const revealed = s.picked !== null;
   const correct = revealed && s.picked === q.answer;
   const letters = ['A','B','C','D'].filter(l => q.options && l in q.options);
-  const group = q.group_img ? `<details class="passage" ${revealed?'':'open'}><summary>📄 題組文章（第 ${q.group[0]}–${q.group[1]} 題共用）</summary><img class="qimg" loading="lazy" src="${q.group_img}" alt="題組文章" onclick="event.preventDefault();openZoom(this.src)"></details>` : '';
+  const group = q.group_img ? `<details class="passage" ${revealed?'':'open'}><summary>${ti('file')}題組文章（第 ${q.group[0]}–${q.group[1]} 題共用）</summary><img class="qimg" loading="lazy" src="${q.group_img}" alt="題組文章" onclick="event.preventDefault();openZoom(this.src)"></details>` : '';
   const body = q.img
     ? `<img class="qimg" src="${q.img}" alt="${q.year}年${subjName(q.subject)}第${q.q_no}題" onclick="openZoom(this.src)">`
     : `<div class="explain">${esc(q.question_text)}</div><div class="opts-text" style="margin-top:8px">${letters.map(l=>`<div class="o">(${l}) ${esc(q.options[l])}</div>`).join('')}</div>`;
   el.innerHTML = (s.mode==='review' ? reviewHeader() : '') + `
     <div class="row small muted" style="justify-content:space-between;margin-bottom:8px">
       <span>${esc(s.title)}　${s.idx+1} / ${s.queue.length}</span>
-      <span>${q.year}年 ${subjName(q.subject)} 第${q.q_no}題${p.leech?' · 🔴頑固':''}${p.mastered?' · 🎓':''}</span>
+      <span>${q.year}年 ${subjName(q.subject)} 第${q.q_no}題${p.leech?` · ${ti('flame')}頑固`:''}${p.mastered?` · ${ti('school')}已畢業`:''}</span>
     </div>
     ${group}
     <div class="card">${body}</div>
@@ -381,15 +502,15 @@ function renderCard(){
       return `<button class="${cls}" ${revealed?'disabled':''} onclick="pick('${l}')">${l}</button>`;
     }).join('')}</div>
     ${revealed ? `
-      <div class="result ${correct?'ok':'bad'}">${correct?'✓ 答對了':`✗ 你選 ${s.picked}，正解是 ${q.answer}`}
+      <div class="result ${correct?'ok':'bad'}">${correct?`${ti('check')} 答對了`:`${ti('x')} 你選 ${s.picked}，正解是 ${q.answer}`}
         <div class="small" style="font-weight:400;margin-top:2px">${progressLine(prog(q.id))}</div></div>
       <div class="card">
-        <h2>💡 解析</h2>
+        <h2>${ti('bulb')} 解析</h2>
         <div class="explain">${q.explanation ? fmt(q.explanation) : '<span class="muted">這題的解析還在整理中</span>'}</div>
-        ${q.flag ? `<div class="warnbox">⚠️ 這題的官方答案有待確認：${esc(q.flag)}</div>` : ''}
+        ${q.flag ? `<div class="warnbox">${ti('alert')} 這題的官方答案有待確認：${esc(q.flag)}</div>` : ''}
         ${q.concept_tag ? `<div class="muted small" style="margin-top:8px">觀念：${esc(q.concept_tag)}</div>` : ''}
         <div class="row" style="margin-top:10px">
-          ${q.page ? `<button class="btn ghost sm" onclick="openZoom('${q.page}')">📄 看原頁</button>` : ''}
+          ${q.page ? `<button class="btn ghost sm" onclick="openZoom('${q.page}')">${ti('file')}看原頁</button>` : ''}
         </div>
         ${q.img && !q.text_issue ? `<details class="passage" style="margin-top:8px"><summary>文字版</summary><div class="muted small">轉寫文字（部分科目為改寫），可能與原題有出入，以原題圖為準</div><div class="explain small">${esc(q.question_text)}</div><div class="opts-text small">${letters.map(l=>`<div class="o">(${l}) ${esc(q.options[l])}</div>`).join('')}</div></details>` : ''}
       </div>
@@ -397,8 +518,8 @@ function renderCard(){
   `;
 }
 function progressLine(p){
-  if (p.retired) return '🏆 已徹底精熟';
-  if (p.mastered) return `🎓 已畢業，${MAINT.length-(p.maint||0)} 次回訪後徹底精熟`;
+  if (p.retired) return `${ti('trophy')} 已徹底精熟`;
+  if (p.mastered) return `${ti('school')} 已畢業，${MAINT.length-(p.maint||0)} 次回訪後徹底精熟`;
   if (p.streak>0) return `連對 ${p.streak} / ${GRAD_STREAK} 次，再答對 ${GRAD_STREAK-p.streak} 次畢業`;
   return '已加入錯題複習，明天會再出現';
 }
@@ -429,9 +550,14 @@ async function renderPracticeHome(){
   const concepts = pf.subject==='all' ? [] : (NOTES[pf.subject]||[]);
   const pool = practicePool();
   const done = pool.filter(q=>attempted(prog(q.id))).length;
-  el.innerHTML = `
+  // 右欄（手機在下方）：各科已練進度，全部從作答紀錄與 meta.json 題數算出
+  const side = `<div class="card">
+      <div class="ph-head">${f3d('gradcap')}<h2>各科闖關進度</h2></div>
+      ${AVAILABLE.map(k=>{ const d = doneOf(k), t = totalOf(k); return `<div class="sp-row">${f3d(SUBJ_IMG[k])}<span class="nm">${subjName(k)}</span><span class="ct">${d} / ${t} 題</span><div class="bar"><i style="width:${t?Math.round(d/t*100):0}%"></i></div></div>`; }).join('')}
+    </div>`;
+  el.innerHTML = `<div class="ph-grid">
     <div class="card">
-      <h2>選範圍開始練習</h2>
+      <div class="ph-head">${f3d('pencil')}<h2>選範圍開始練習</h2></div>
       <label class="fld">科目</label>
       <div class="chips">
         <div class="chip${pf.subject==='all'?' on':''}" onclick="setPf('subject','all')">全科</div>
@@ -449,10 +575,12 @@ async function renderPracticeHome(){
       </select>` : ''}
       <div class="muted small" style="margin:12px 0 8px">符合 ${pool.length} 題，已練過 ${done} 題</div>
       <div class="row">
-        <button class="btn" style="flex:2" onclick="startPractice(false)">開始練習</button>
-        <button class="btn ghost" style="flex:1" onclick="startPractice(true)">只練沒做過的</button>
+        <button class="btn go big" style="flex:1 1 170px" onclick="startPractice(false)">${f3d('bullseye')}<span class="lbl">開始練習</span></button>
+        <button class="btn ghost" style="flex:1 1 auto;white-space:nowrap" onclick="startPractice(true)">只練沒做過的</button>
       </div>
-    </div>`;
+    </div>
+    ${side}
+  </div>`;
 }
 function setPf(k,v){ pf[k]=v; if (k==='subject') pf.concept='all'; renderPracticeHome(); }
 function practicePool(){
@@ -495,9 +623,9 @@ function reviewHeader(){
   const subs = AVAILABLE.filter(k=>allQuestions().some(q=>q.subject===k && attempted(prog(q.id))));
   return `<div class="card" style="padding:10px 12px">
     <div class="row">
-      <button class="${sc(null)}" style="flex:1" onclick="startReview(null)">📅 今日到期 ${L.due.length}</button>
-      <button class="${sc('wrong')}" style="flex:1" onclick="startReview('wrong')">❌ 所有錯題 ${L.wrong.length}</button>
-      ${L.leech.length?`<button class="${sc('leech')}" style="flex:1" onclick="startReview('leech')">🔴 頑固 ${L.leech.length}</button>`:''}
+      <button class="${sc(null)}" style="flex:1" onclick="startReview(null)">${ti('calendar')}今日到期 ${L.due.length}</button>
+      <button class="${sc('wrong')}" style="flex:1" onclick="startReview('wrong')">${ti('circle-x')}所有錯題 ${L.wrong.length}</button>
+      ${L.leech.length?`<button class="${sc('leech')}" style="flex:1" onclick="startReview('leech')">${ti('flame')}頑固 ${L.leech.length}</button>`:''}
     </div>
     ${subs.length>1?`<div class="chips" style="margin-top:8px"><div class="chip${rv.subj?'':' on'}" onclick="setRvSubj('')">全部</div>${subs.map(k=>`<div class="chip${rv.subj===k?' on':''}" onclick="setRvSubj('${k}')">${subjName(k)}</div>`).join('')}</div>`:''}
   </div>`;
@@ -523,9 +651,7 @@ async function startReview(scope){
 
 /* ===== 工具 ===== */
 function updateHeader(){
-  const recs = Object.values(PROGRESS).filter(p=>subjOfId(p.id));
-  const done = recs.filter(attempted).length;
-  const due = recs.filter(dueForReview).length;
+  const {done, due} = stats();
   document.getElementById('hdrSub').textContent = `已練 ${done} / ${totalAll()} 題${due?`　今日待複習 ${due} 題`:''}`;
 }
 function openZoom(src){ const z=document.getElementById('zoom'), was=z.classList.contains('on'); document.getElementById('zoomImg').src = src; z.classList.add('on'); if(!was) navPush(Object.assign({}, history.state||{}, {z:1})); }
@@ -534,7 +660,7 @@ function closeZoom(){ const z=document.getElementById('zoom'), was=z.classList.c
 function fmt(s){ return esc(s).replace(/\^(\([^)]{1,12}\)|-?[0-9a-zA-Z]{1,4})/g, (m,p)=>'<sup>'+p.replace(/^\((.*)\)$/,'$1')+'</sup>'); }
 function esc(s){ return String(s==null?'':s).replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
 function shuffle(a){ for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
-function emptyState(title,sub){ return `<div class="empty"><div class="big">📭</div><div style="font-size:17px;font-weight:700;color:var(--txt)">${esc(title)}</div><div style="margin-top:6px">${esc(sub||'')}</div></div>`; }
+function emptyState(title,sub,art){ return `<div class="empty">${f3d(art||'mailbox','art')}<div class="ttl">${esc(title)}</div><div style="margin-top:6px">${esc(sub||'')}</div></div>`; }
 
 (async function boot(){
   await openDB();
@@ -554,7 +680,7 @@ function emptyState(title,sub){ return `<div class="empty"><div class="big">📭
     const b = document.createElement('div');
     b.id = 'updBanner';
     b.style.cssText = 'position:fixed;left:12px;right:12px;bottom:calc(86px + env(safe-area-inset-bottom,0px));z-index:200;max-width:520px;margin:0 auto;background:var(--card);color:var(--txt);border:1px solid var(--line);border-radius:14px;padding:12px 14px;display:flex;align-items:center;gap:10px;box-shadow:0 4px 16px rgba(0,0,0,.15)';
-    b.innerHTML = '<div style="flex:1"><b>🔄 有新版本</b><div class="muted small">題目或解析有更新</div></div><button class="btn sm" id="updGo">立即更新</button><button class="btn ghost sm" id="updX" aria-label="關閉">✕</button>';
+    b.innerHTML = '<div style="flex:1"><b style="display:flex;align-items:center;gap:6px"><svg class="ti" aria-hidden="true"><use href="#ti-refresh"/></svg>有新版本</b><div class="muted small">題目或解析有更新</div></div><button class="btn sm" id="updGo">立即更新</button><button class="btn ghost sm" id="updX" aria-label="關閉"><svg class="ti" aria-hidden="true"><use href="#ti-x"/></svg></button>';
     document.body.appendChild(b);
     document.getElementById('updX').onclick = () => b.remove();
     document.getElementById('updGo').onclick = () => {

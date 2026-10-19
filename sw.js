@@ -1,5 +1,7 @@
-const CACHE = 'cap704-v11';
-const CORE = ['./', './index.html', './manifest.json', './ridgeline-ui.css', './rl-mark-denali-white.png', './icon-192.png'];
+const CACHE = 'cap704-v12';
+// 2026-10-19 闖關考場：圓體子集與 3D 圖一起預先快取（清單要與 _tools/build_fluent3d.py 的 ICONS 一致）
+const F3D = ['gradcap', 'books', 'bullseye', 'pencil', 'crossmark', 'calendar', 'openbook', 'scroll', 'speech', 'ruler', 'worldmap', 'testtube', 'memo', 'party', 'mailbox'].map(k => `./vendor/fluent-3d/${k}.png`);
+const CORE = ['./', './index.html', './manifest.json', './ridgeline-ui.css', './rl-mark-denali-white.png', './icon-192.png', './vendor/round-ui/cap-round.woff2', ...F3D];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(CORE)));

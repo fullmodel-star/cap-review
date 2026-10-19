@@ -15,6 +15,10 @@
  * 對答案的「標準答案」不拿 App 自己的題庫欄位，而是讀 data/answers_<年>.json（官方答案 PDF 抽出的獨立檔），
  * 測試開頭先確認兩邊 2247 題完全一致；畫面上標成正解的選項必須等於官方答案。
  * 進度存在 IndexedDB（capReviewDB / progress），每次執行用全新的 Chrome profile，所以一開始一定是空的。
+ *
+ * 2026-10-19 版面美化「闖關考場」新增第 8 節（照 605 第 13、14 節）：主視覺與唯一主鈕、粉圓字型載入且有用到、
+ * 每種 3D 圖實際載入（不用 img.complete，lazy 圖會假失敗）、狀態列數字＝IndexedDB、操作元件沒有 emoji、
+ * 深色模式、桌機兩欄＋分頁收進頁首不蓋卡片、無水平捲動。第 7 節的「只連本機」放在最後，涵蓋第 8 節。
  */
 import { createServer } from 'node:http';
 import { readFile, mkdtemp, rm } from 'node:fs/promises';
@@ -423,6 +427,82 @@ try {
     const ans = sizes.filter((x) => /^[A-D]$/.test(x.t));
     ok(`6.${w}c ${w}px A–D 四顆一排且寬度 ≥ 60px（${ans.map((x) => x.w).join(',')}）`, ans.length === 4 && ans.every((x) => x.w >= 60), ans);
   }
+  await c.width(390);
+
+  console.log('\n[8 版面美化「闖關考場」（2026-10-19）]');
+  // 3D 圖清單以 sw.js 的 F3D 為準（與 _tools/build_fluent3d.py 的 ICONS 一致，8.3 會交叉檢查）
+  const swSrc = readFileSync(path.join(ROOT, 'sw.js'), 'utf8');
+  const f3dKeys = ((swSrc.match(/const F3D = \[([^\]]*)\]/) || [])[1] || '').match(/'([a-z0-9_-]+)'/g)?.map((s) => s.slice(1, -1)) || [];
+  let buildKeys = [];
+  try { buildKeys = [...readFileSync(path.join(HERE, 'build_fluent3d.py'), 'utf8').matchAll(/"([a-z0-9]+)":\s*"[^"]+"/g)].map((m) => m[1]); } catch { /* 部署包沒有 _tools */ }
+  await c.width(390);
+  await c.open(BASE);
+  const hero = await c.eval(`(()=>{const h=document.querySelector('#notesArea .hero'); if(!h) return null; const r=h.getBoundingClientRect();
+    const go=[...h.querySelectorAll('button')]; const g=document.querySelector('#notesArea .hero .btn.go'); const gr=g?g.getBoundingClientRect():null;
+    const nav=document.querySelector('nav.tabs').getBoundingClientRect();
+    return {top:Math.round(r.top), btns:go.length, goText:g?g.textContent.trim():'', goBottom:gr?Math.round(gr.bottom):null, goW:gr?Math.round(gr.width):0, heroW:Math.round(r.width), navTop:Math.round(nav.top),
+      howtoOpen:!!h.querySelector('details.howto[open]'), ol:!!h.querySelector('details.howto ol'), inHeader:!!h.closest('header')}})()`);
+  ok(`8.1 手機首屏：主視覺在內容區（不在黏住的頁首），裡面只有一顆主鈕「${hero && hero.goText}」、全寬（${hero && hero.goW}/${hero && hero.heroW}px），不用捲就看得到（下緣 ${hero && hero.goBottom} < 分頁上緣 ${hero && hero.navTop}），說明收在「怎麼玩？」`,
+    !!hero && !hero.inHeader && hero.btns === 1 && /開始練習/.test(hero.goText) && hero.goBottom < hero.navTop && hero.goW >= hero.heroW - 60 && !hero.howtoOpen && hero.ol, hero);
+  const font = await c.eval(`document.fonts.ready.then(()=>{const f=[...document.fonts].filter(x=>x.family.replace(/["']/g,'')==='CapRound');
+    const use=['header .rl-title','#notesArea .hero-h','#notesArea .btn.go','nav.tabs button','#notesArea .chip.tile','#notesDetail .card h2','#notesArea .hud b'].map(s=>{const e=document.querySelector(s); return [s, e?getComputedStyle(e).fontFamily.split(',')[0].replace(/["']/g,'').trim():'(無)']});
+    return {loaded:f.map(x=>x.status), use}})`);
+  ok(`8.2 粉圓子集字型 CapRound 已載入（${JSON.stringify(font.loaded)}），App 名／主視覺標題／主鈕／分頁／科目圖格／觀念卡標題／狀態列都用它（${font.use.filter((u) => u[1] === 'CapRound').length}/${font.use.length}）`,
+    font.loaded.includes('loaded') && font.use.every((u) => u[1] === 'CapRound'), font);
+  const imgs = await c.eval(`Promise.all(${JSON.stringify(f3dKeys)}.map(k=>new Promise(r=>{const i=new Image(); i.onload=()=>r([k,i.naturalWidth]); i.onerror=()=>r([k,0]); i.src='vendor/fluent-3d/'+k+'.png?t='+Date.now();})))`);
+  const domSrc = await c.eval(`[...new Set([...document.querySelectorAll('img[src*="fluent-3d/"]')].map(i=>i.getAttribute('src').replace(/^.*fluent-3d\\//,'').replace(/\\.png.*$/,'')))]`);
+  const coreOk = /cap-round\.woff2/.test(swSrc) && /\.\.\.F3D/.test(swSrc);
+  ok(`8.3 每種 3D 圖都真的載得出來（${imgs.filter((x) => x[1] > 0).length}/${f3dKeys.length} 種，用 new Image() 實際載入）；畫面用到的 ${domSrc.length} 種都在清單內；sw 預先快取含字型與 3D 圖；清單＝build_fluent3d.py（${buildKeys.length || '部署包略過'}）`,
+    f3dKeys.length >= 10 && imgs.every((x) => x[1] > 0) && domSrc.length >= 8 && domSrc.every((k) => f3dKeys.includes(k)) && coreOk
+    && (!buildKeys.length || (buildKeys.length === f3dKeys.length && buildKeys.every((k) => f3dKeys.includes(k)))), { bad: imgs.filter((x) => !x[1]), domSrc, buildKeys });
+  // 8.4 狀態列數字＝IndexedDB 作答紀錄（第 3–5 節已作答過，這裡一定不是 0）
+  const recs8 = await c.eval(IDB_ALL);
+  const att = (recs8 || []).filter((r) => (r.reviewCount || 0) > 0);
+  const want = { done: att.length, wrong: att.filter((r) => !r.mastered && (r.wrongCount || 0) > 0).length };
+  const hud = await c.eval(`(()=>{const b=[...document.querySelectorAll('#notesArea .hud b')].map(e=>+e.textContent.trim()); const l=[...document.querySelectorAll('#notesArea .hud span')].map(e=>e.textContent.trim()); return {b,l, xp:(document.querySelector('#notesArea .hero .xpl')||{}).textContent||''}})()`);
+  ok(`8.4 狀態列「已練 ${hud.b[0]}／錯題 ${hud.b[1]}／今日複習 ${hud.b[2]}」＝IndexedDB（已練 ${want.done}、錯題 ${want.wrong}）；主視覺進度條文字「${hud.xp.replace(/\s+/g, ' ').trim()}」`,
+    want.done > 0 && want.wrong > 0 && hud.b.length === 3 && hud.b[0] === want.done && hud.b[1] === want.wrong && hud.b[2] >= 1 && new RegExp(`已練\\s*${want.done}\\s*/\\s*${TOTAL}`).test(hud.xp), { hud, want });
+  // 8.5 操作元件（按鈕、分頁、科目、展開列、狀態列、作答結果）文字沒有 emoji；家族注入的頁尾不算
+  const EMO = `(()=>{const re=/\\p{Extended_Pictographic}/u; return [...document.querySelectorAll('button, nav.tabs, .chip, summary, .hud, .hero, .result, .empty, .row.small.muted')].filter(e=>!e.closest('#rdgFoot') && e.offsetParent!==null && re.test(e.textContent)).map(e=>e.textContent.trim().slice(0,20))})()`;
+  const emo = [];
+  emo.push(...await c.eval(EMO));
+  await setPractice('math', '113');
+  emo.push(...await c.eval(EMO));
+  await clickText('#practiceArea button', '開始練習');
+  await c.until(`!!document.querySelector('#practiceArea .ansgrid button:not([disabled])')`, 4000);
+  await c.eval(`document.querySelector('#practiceArea .ansgrid button').click()`);
+  await c.until(`!!document.querySelector('#practiceArea .result')`, 4000);
+  const scanned = await c.eval(`document.querySelectorAll('#practiceArea button, #practiceArea summary, #practiceArea .result').length`);
+  emo.push(...await c.eval(EMO));
+  await tab('review');
+  emo.push(...await c.eval(EMO));
+  ok(`8.5 筆記／練習首頁／作答後／錯題複習的操作元件沒有 emoji（作答頁掃 ${scanned} 個元件）`, scanned >= 6 && emo.length === 0, emo.slice(0, 6));
+  // 8.6 深色模式：深底淺字、主視覺與主鈕還在
+  await c.send('Emulation.setEmulatedMedia', { features: [{ name: 'prefers-color-scheme', value: 'dark' }] });
+  await tab('notes');
+  const dark = await c.eval(`(()=>{const L=c=>{const m=c.match(/\\d+(\\.\\d+)?/g).map(Number); return (0.2126*m[0]+0.7152*m[1]+0.0722*m[2])/255};
+    const bg=getComputedStyle(document.body).backgroundColor, card=document.querySelector('#notesDetail .card'); const cs=getComputedStyle(card);
+    return {bg:L(bg), card:L(cs.backgroundColor), txt:L(cs.color), go:!!document.querySelector('#notesArea .hero .btn.go')}})()`);
+  ok(`8.6 深色模式：頁面底 ${dark.bg.toFixed(2)}、卡片底 ${dark.card.toFixed(2)} 都是深色，卡片字 ${dark.txt.toFixed(2)} 是淺色，主鈕還在`, dark.bg < 0.2 && dark.card < 0.25 && dark.txt > 0.75 && dark.go, dark);
+  await c.send('Emulation.setEmulatedMedia', { features: [{ name: 'prefers-color-scheme', value: 'light' }] });
+  // 8.7 桌機 1440：主視覺｜科目圖格兩欄、觀念卡兩欄、分頁收進頁首且不蓋任何卡片、練習首頁兩欄、沒有水平捲動
+  await c.width(1440, 900);
+  await c.open(BASE);
+  const desk = await c.eval(`(()=>{const R=e=>e.getBoundingClientRect(); if(!document.querySelector('#notesArea .hero') || !document.querySelector('#notesArea .notes-side')) return {sw:[document.documentElement.scrollWidth, innerWidth]}; const h=R(document.querySelector('#notesArea .hero')), s=R(document.querySelector('#notesArea .notes-side'));
+    const cards=[...document.querySelectorAll('#notesDetail .grid')][0]; const cc=[...cards.children].slice(0,2).map(R);
+    const nav=R(document.querySelector('nav.tabs')), hdr=R(document.querySelector('header.rl-appbar'));
+    const all=[...document.querySelectorAll('.card, .hero, .hud > div, .chip.tile')].map(R);
+    const hit=all.filter(r=>!(r.right<=nav.left||r.left>=nav.right||r.bottom<=nav.top||r.top>=nav.bottom)).length;
+    return {heroR:Math.round(h.right), sideL:Math.round(s.left), sameRow:Math.abs(h.top-s.top)<40, cardsSide: cc.length===2 && Math.abs(cc[0].top-cc[1].top)<4 && cc[0].right<=cc[1].left,
+      navInHdr: nav.top>=hdr.top-1 && nav.bottom<=hdr.bottom+1, hit, sw:[document.documentElement.scrollWidth, innerWidth], usedW:Math.round(s.right-h.left)}})()`);
+  await tab('practice');
+  const deskP = await c.eval(`(()=>{const g=document.querySelector('#practiceArea .ph-grid'); if(!g) return null; const k=[...g.children].map(e=>e.getBoundingClientRect()); return {two:k.length===2 && Math.abs(k[0].top-k[1].top)<4 && k[0].right<=k[1].left, sw:[document.documentElement.scrollWidth, innerWidth]}})()`);
+  ok(`8.7 桌機 1440：主視覺｜科目圖格同列兩欄（寬 ${desk.usedW}px）、觀念卡兩欄、分頁在頁首內且不蓋任何卡片（重疊 ${desk.hit}）、練習首頁兩欄、無水平捲動（${JSON.stringify(desk.sw)}）`,
+    desk.sameRow && desk.heroR <= desk.sideL && desk.usedW >= 1000 && desk.cardsSide && desk.navInHdr && desk.hit === 0 && desk.sw[0] <= desk.sw[1] && !!deskP && deskP.two && deskP.sw[0] <= deskP.sw[1], { desk, deskP });
+  await c.width(1000, 800);
+  await tab('notes');
+  const sw1000 = await c.eval(`[document.documentElement.scrollWidth, innerWidth, (()=>{const n=document.querySelector('nav.tabs').getBoundingClientRect(), t=document.querySelector('header .rl-title').getBoundingClientRect(); return n.left>=t.right})()]`);
+  ok(`8.8 1000px：無水平捲動（${sw1000[0]}/${sw1000[1]}）、頁首分頁不壓到 App 名`, sw1000[0] <= sw1000[1] && sw1000[2], sw1000);
   await c.width(390);
 
   console.log('\n[7 沒有錯誤、沒有意外的對外連線]');

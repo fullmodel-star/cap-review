@@ -36,6 +36,7 @@ data/images_<科>.json  data/writing.json     ← 圖片對應、作文題目
 assets/q  assets/g  assets/page  assets/writing   ← 原題圖、題組文章圖、整頁圖、作文頁
 _pipeline/                                   ← 資料管線（不部署）
 img/  _pipeline/extracted/                   ← 管線中間檔（gitignore）
+vendor/round-ui  vendor/fluent-3d  vendor/tabler-icons   ← 圓體子集、3D 圖、圖示授權（2026-10-19）
 ```
 
 ## 資料管線（順序）
@@ -75,5 +76,9 @@ img/  _pipeline/extracted/                   ← 管線中間檔（gitignore）
 
 ## 自動化測試（2026-10-03 建立）
 
-- `node _tools/ui_tests.mjs`：headless Chrome 瀏覽器走查 49 項（約 10 秒），不連外網、不動 App 檔；`--dir=<路徑>` 可對副本或部署包跑。
+- `node _tools/ui_tests.mjs`：headless Chrome 瀏覽器走查 58 項（2026-10-19 加第 8 節版面美化 8 項）（約 10 秒），不連外網、不動 App 檔；`--dir=<路徑>` 可對副本或部署包跑。
 - 正解一律讀官方答案檔 `data/answers_<年>.json`（開頭先驗 2247 題與題庫逐題一致）；涵蓋篩選、作答判分、原題圖、IndexedDB 錯題複習、版面、首訪不自己重整；反向測試 6 條。
+
+## 2026-10-19 版面美化「闖關考場」（未部署）
+
+深藍＋陽光黃、粉圓圓體子集（`vendor/round-ui/`，OFL）、Fluent 3D 插圖（`vendor/fluent-3d/`，MIT）、Tabler 線條圖示 sprite（MIT）。首屏主視覺＋唯一金色主鈕、狀態列（已練／錯題／今日複習）、科目 3D 圖格、桌機分頁收進頁首。重產：`_tools/build_round_font.py`（改介面文字或觀念名稱後要重跑）、`_tools/build_fluent3d.py`（新增圖要同步 `sw.js` 的 `F3D`）、`_tools/build_icon_sprite.py`。詳見 `更新記錄.md`。
