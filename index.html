@@ -190,6 +190,13 @@ h3.sec{font-family:var(--round);font-weight:400;font-size:19px;margin:18px 0 10p
   .btn.full{width:auto;min-width:300px}
   footer.rdg-foot .rdg-lic,footer.rdg-foot .rdg-l3{max-width:540px}
 }
+/* 2026-10-20 頁尾山形深色版：品牌注入區塊內嵌的是 navy 版（brand_inject.py 不支援深淺版），
+   這裡放在 RIDGELINE_BRAND 區塊外，重跑注入器不會被洗掉。深色時藏 navy 圖、以 ::before 顯示白色版（240×97 → 54×22） */
+@media (prefers-color-scheme:dark){
+  footer.rdg-foot .rdg-lock>.rdg-mk{display:none}
+  footer.rdg-foot .rdg-lock::before{content:"";flex-shrink:0;display:block;width:54px;height:22px;
+    background:url(rl-mark-denali-white.png) center/contain no-repeat}
+}
 @media(min-width:1000px){
   body{padding-bottom:24px}
   .wrap{max-width:1180px;padding:0 24px}
